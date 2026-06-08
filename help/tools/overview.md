@@ -2,10 +2,10 @@
 title: エージェント型ツール
 description: MCP サーバー、エージェントスキル、ビルダー用APIを比較し、Adobe CX Enterprise ワークフローに適したエージェント型ツールを選択します。
 index: false
-source-git-commit: 63f5958eaa227ea21fa5b193a2ac76a69fd349cb
+source-git-commit: 3c29bfeeef3d2cb523724db02448aaa77cdf8900
 workflow-type: tm+mt
-source-wordcount: '603'
-ht-degree: 2%
+source-wordcount: '671'
+ht-degree: 1%
 
 ---
 
@@ -38,6 +38,80 @@ CARDS
   {image = ../assets/apis-card.png}
 
 -->
+<!-- START CARDS HTML - DO NOT MODIFY BY HAND -->
+<div class="columns">
+    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="MCP Servers">
+        <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
+            <div class="card-image">
+                <figure class="image x-is-16by9">
+                    <a href="mcp-servers.md" title="MCP サーバー" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="../assets/mcp-servers-card.png" alt="MCP サーバー"
+                             style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
+                    </a>
+                </figure>
+            </div>
+            <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
+                <div class="top-card-content">
+                    <p class="headline is-size-6 has-text-weight-bold">
+                        <a href="mcp-servers.md" target="_blank" rel="referrer" title="MCP サーバー">MCP サーバー</a>
+                    </p>
+                    <p class="is-size-6">互換性のあるあらゆるAI クライアントを、Adobe CX Enterpriseのデータおよびワークフローに接続できます。 コーディングは必要ありません。</p>
+                </div>
+                <a href="mcp-servers.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">MCP サーバーの探索</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Agent Skills">
+        <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
+            <div class="card-image">
+                <figure class="image x-is-16by9">
+                    <a href="agent-skills.md" title="エージェントスキル" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="../assets/agent-skills-card.png" alt="エージェントスキル"
+                             style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
+                    </a>
+                </figure>
+            </div>
+            <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
+                <div class="top-card-content">
+                    <p class="headline is-size-6 has-text-weight-bold">
+                        <a href="agent-skills.md" target="_blank" rel="referrer" title="エージェントスキル"> エージェントのスキル </a>
+                    </p>
+                    <p class="is-size-6">Adobeが監修したワークフロー手順により、一貫してCX エンタープライズのタスクをガイドします。</p>
+                </div>
+                <a href="agent-skills.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold"> エージェントのスキルを探る</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="APIs for Builders">
+        <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
+            <div class="card-image">
+                <figure class="image x-is-16by9">
+                    <a href="apis.md" title="ビルダー用API" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="../assets/apis-card.png" alt="ビルダー用API"
+                             style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
+                    </a>
+                </figure>
+            </div>
+            <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
+                <div class="top-card-content">
+                    <p class="headline is-size-6 has-text-weight-bold">
+                        ビルダー</a>の<a href="apis.md" target="_blank" rel="referrer" title="ビルダー用API">API
+                    </p>
+                    <p class="is-size-6">Adobeと同じAPIを使用して、カスタムアプリケーションや統合機能を構築できます。</p>
+                </div>
+                <a href="apis.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold"> ビルダー用APIの探索</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- END CARDS HTML - DO NOT MODIFY BY HAND -->
+
 
 ## エージェント型ツールの比較
 
@@ -52,8 +126,8 @@ CARDS
 ## どこから始めてよいかわからないものは、
 
 - AIを使用してAdobe CX Enterprise アプリケーションと対話する（アクションを実行し、データを照会し、AIが自然な会話を通じて次に何をすべきかを発見できるようにする）には、[MCP サーバー](mcp-servers.md)が最も柔軟な出発点となります。
-- エージェントがAdobe ネイティブのワークフローに即時に従えるように、[&#x200B; エージェントスキル &#x200B;](agent-skills.md)はそのドメインの専門知識を再利用可能な手順にエンコードします。
-- Adobeの特定のワークフローを合理化または自動化する専用アプリケーションを構築するには、[&#x200B; ビルダー用API](apis.md)を使用すると、何が起こるかを正確に制御できます。
+- エージェントがAdobe ネイティブのワークフローに即時に従えるように、[ エージェントスキル ](agent-skills.md)はそのドメインの専門知識を再利用可能な手順にエンコードします。
+- Adobeの特定のワークフローを合理化または自動化する専用アプリケーションを構築するには、[ ビルダー用API](apis.md)を使用すると、何が起こるかを正確に制御できます。
 
 >[!BEGINTABS]
 
@@ -85,7 +159,7 @@ MCP サーバーは、AI ツールとAdobeの間を接続するライブワイ�
 
 [エージェントのスキルを見る](agent-skills.md)
 
->[!TAB ビルダーの API]
+>ビルダー]の[!TAB API
 
 APIは構成要素です。 開発者は、Adobeの自社製品と同じAPIを使用して、Adobeのデータとオペレーションに直接プログラムでアクセスできます。 スケジュール、条件、スタックを実行するものを構築するために使用します。
 
