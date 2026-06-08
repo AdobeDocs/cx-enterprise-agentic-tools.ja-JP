@@ -2,9 +2,9 @@
 title: エージェント型ツールの活用例
 description: 実際のビジネスワークフローに適用されたAdobe CX Enterprise Agentic Toolsを示すステップバイステップのウォークスルー。
 index: false
-source-git-commit: 63f5958eaa227ea21fa5b193a2ac76a69fd349cb
+source-git-commit: d6c236f5405fac4b9813280d9fac2d4a60968924
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '468'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 <!-- last-modified: 2026-05-20 -->
 
-![&#x200B; エージェント ツールの動作](assets/hero-agentic-tools-in-action.png)
+![ エージェント ツールの動作](assets/hero-agentic-tools-in-action.png)
 
 Adobe CX Enterpriseの実際のワークフローをステップバイステップで解説します。 各ウォークスルーは、設定が終わる場所から始まり、ツールをつなぎ合わせ、実際のワークフローが完了します。
 
@@ -55,8 +55,173 @@ CARDS
   {title = Manage AEM environments with Cloud Manager}
   {description = Check environment health, review pipeline runs, and manage deployments from your AI client. Uses the AEM Cloud Manager MCP Server.}
   {cta = Start walkthrough}
-  {image = https://video.tv.adobe.com/v/3480343?captions=jpn&format=jpeg}
+  {image = https://video.tv.adobe.com/v/3480340?format=jpeg}
 -->
+<!-- START CARDS HTML - DO NOT MODIFY BY HAND -->
+<div class="columns">
+    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Analyze campaign performance">
+        <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
+            <div class="card-image">
+                <figure class="image x-is-16by9">
+                    <a href="use-cases/analyze-campaign-performance.md" title="キャンペーンのパフォーマンスを分析" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="https://placehold.co/1600x900?text=Analyze+Campaign+Performance" alt="キャンペーンのパフォーマンスを分析"
+                             style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
+                    </a>
+                </figure>
+            </div>
+            <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
+                <div class="top-card-content">
+                    <p class="headline is-size-6 has-text-weight-bold">
+                        <a href="use-cases/analyze-campaign-performance.md" target="_blank" rel="referrer" title="キャンペーンのパフォーマンスを分析"> キャンペーンパフォーマンスの分析</a>
+                    </p>
+                    <p class="is-size-6">平易な言葉で質問し、Customer Journey Analyticsの比較とコンバージョンの傾向を把握できます。 CX Enterprise MCP Gatewayを使用します。</p>
+                </div>
+                <a href="use-cases/analyze-campaign-performance.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold"> チュートリアルを開始</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Query audiences">
+        <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
+            <div class="card-image">
+                <figure class="image x-is-16by9">
+                    <a href="use-cases/query-audiences.md" title="オーディエンスの照会" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="https://placehold.co/1600x900?text=Query+Audiences" alt="オーディエンスの照会"
+                             style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
+                    </a>
+                </figure>
+            </div>
+            <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
+                <div class="top-card-content">
+                    <p class="headline is-size-6 has-text-weight-bold">
+                        <a href="use-cases/query-audiences.md" target="_blank" rel="referrer" title="オーディエンスの照会"> オーディエンスのクエリ </a>
+                    </p>
+                    <p class="is-size-6">プラットフォーム UIを移動することなく、Real-Time CDPオーディエンスのアクティベーションステータスと宛先の正常性を確認できます。 CX Enterprise MCP Gatewayを使用します。</p>
+                </div>
+                <a href="use-cases/query-audiences.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold"> チュートリアルを開始</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Review AJO journeys">
+        <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
+            <div class="card-image">
+                <figure class="image x-is-16by9">
+                    <a href="use-cases/manage-ajo-journeys.md" title="AJO ジャーニーのレビュー" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="https://placehold.co/1600x900?text=Review+AJO+Journeys" alt="AJO ジャーニーのレビュー"
+                             style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
+                    </a>
+                </figure>
+            </div>
+            <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
+                <div class="top-card-content">
+                    <p class="headline is-size-6 has-text-weight-bold">
+                        <a href="use-cases/manage-ajo-journeys.md" target="_blank" rel="referrer" title="AJO ジャーニーのレビュー">AJO ジャーニーのレビュー</a>
+                    </p>
+                    <p class="is-size-6">AJOを開くことなく、アクティブなAJOジャーニーとキャンペーン設定を完全に可視化できます。 CX Enterprise MCP Gatewayを使用します。</p>
+                </div>
+                <a href="use-cases/manage-ajo-journeys.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold"> チュートリアルを開始</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Manage AEM content with AI">
+        <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
+            <div class="card-image">
+                <figure class="image x-is-16by9">
+                    <a href="use-cases/manage-aem-content.md" title="AIを活用したAEMコンテンツの管理" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="https://placehold.co/1600x900?text=Manage+AEM+Content+with+AI" alt="AIを活用したAEMコンテンツの管理"
+                             style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
+                    </a>
+                </figure>
+            </div>
+            <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
+                <div class="top-card-content">
+                    <p class="headline is-size-6 has-text-weight-bold">
+                        <a href="use-cases/manage-aem-content.md" target="_blank" rel="referrer" title="AIを活用したAEMコンテンツの管理">AIを使用したAEM コンテンツの管理</a>
+                    </p>
+                    <p class="is-size-6">自然言語を使用して、ページとコンテンツフラグメントを検索、更新、公開できます。 AEM Content MCP Serverを使用します。</p>
+                </div>
+                <a href="use-cases/manage-aem-content.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold"> チュートリアルを開始</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Optimize content based on performance data">
+        <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
+            <div class="card-image">
+                <figure class="image x-is-16by9">
+                    <a href="use-cases/optimize-content-with-performance-data.md" title="パフォーマンスデータに基づくコンテンツの最適化" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="https://placehold.co/1600x900?text=Optimize+Content+Based+on+Performance+Data" alt="パフォーマンスデータに基づくコンテンツの最適化"
+                             style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
+                    </a>
+                </figure>
+            </div>
+            <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
+                <div class="top-card-content">
+                    <p class="headline is-size-6 has-text-weight-bold">
+                        <a href="use-cases/optimize-content-with-performance-data.md" target="_blank" rel="referrer" title="パフォーマンスデータに基づくコンテンツの最適化"> パフォーマンスデータに基づいてコンテンツを最適化</a>
+                    </p>
+                    <p class="is-size-6">ツールを切り替えることなく、Adobe Analyticsのinsightから公開されたアップデートに、ひとつのセッションで移行できます。 CX Enterprise MCP GatewayとAEM Content MCP Serverを使用します。</p>
+                </div>
+                <a href="use-cases/optimize-content-with-performance-data.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold"> チュートリアルを開始</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Run a cross-channel campaign review">
+        <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
+            <div class="card-image">
+                <figure class="image x-is-16by9">
+                    <a href="use-cases/cross-channel-campaign-review.md" title="クロスチャネルキャンペーンのレビューの実施" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="https://placehold.co/1600x900?text=Cross-Channel+Campaign+Review" alt="クロスチャネルキャンペーンのレビューの実施"
+                             style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
+                    </a>
+                </figure>
+            </div>
+            <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
+                <div class="top-card-content">
+                    <p class="headline is-size-6 has-text-weight-bold">
+                        <a href="use-cases/cross-channel-campaign-review.md" target="_blank" rel="referrer" title="クロスチャネルキャンペーンのレビューの実施"> クロスチャネルキャンペーンレビューの実行</a>
+                    </p>
+                    <p class="is-size-6">AJOジャーニーのステータス、Real-Time CDPオーディエンスのアクティベーション、CJAのパフォーマンスデータを1つのAI セッションで確認できます。 CX Enterprise MCP Gatewayを使用します。</p>
+                </div>
+                <a href="use-cases/cross-channel-campaign-review.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold"> チュートリアルを開始</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Manage AEM environments with Cloud Manager">
+        <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
+            <div class="card-image">
+                <figure class="image x-is-16by9">
+                    <a href="use-cases/aem-cloud-manager-mcp.md" title="Cloud ManagerによるAEM環境の管理" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3480340?format=jpeg" alt="Cloud ManagerによるAEM環境の管理"
+                             style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
+                    </a>
+                </figure>
+            </div>
+            <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
+                <div class="top-card-content">
+                    <p class="headline is-size-6 has-text-weight-bold">
+                        <a href="use-cases/aem-cloud-manager-mcp.md" target="_blank" rel="referrer" title="Cloud ManagerによるAEM環境の管理">Cloud Managerを使用したAEM環境の管理</a>
+                    </p>
+                    <p class="is-size-6">AI クライアントから、環境の状態をチェックし、パイプラインの実行をレビューし、デプロイメントを管理します。 AEM Cloud Manager MCP Serverを使用します。</p>
+                </div>
+                <a href="use-cases/aem-cloud-manager-mcp.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold"> チュートリアルを開始</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- END CARDS HTML - DO NOT MODIFY BY HAND -->
 
 ## よくある質問
 
@@ -72,7 +237,7 @@ MCP サーバーを使用します。 AI クライアントを関連するAdobe 
 
 単一のAI セッションで複数のMCP サーバーに接続するか、Adobe APIを使用してカスタムマルチアプリケーションオーケストレーションを実行できます。
 
-ビルダー[&#128279;](tools/apis.md)および[MCP サーバー](tools/mcp-servers.md)のAPIを参照してください。
+ビルダー](tools/apis.md)および[MCP サーバー](tools/mcp-servers.md)の[APIを参照してください。
 
 +++
 
@@ -80,7 +245,7 @@ MCP サーバーを使用します。 AI クライアントを関連するAdobe 
 
 エージェントのスキルの使用： エージェントが一貫性のあるタスクを完了できるように、Adobeドメインの専門知識をスキルにコード化します。
 
-[&#x200B; エージェントスキル &#x200B;](tools/agent-skills.md)を参照してください。
+[ エージェントスキル ](tools/agent-skills.md)を参照してください。
 
 +++
 
