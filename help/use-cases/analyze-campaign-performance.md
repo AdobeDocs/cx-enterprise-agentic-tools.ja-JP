@@ -1,0 +1,272 @@
+---
+title: レポートを作成することなくキャンペーンのインサイトを可視化
+description: CX Enterprise MCP Gatewayを使用して、Customer Journey Analyticsのパフォーマンスに関する質問をわかりやすい言語で行い、レポートビルダーを操作することなく回答を得ることができます。
+index: false
+source-git-commit: 63f5958eaa227ea21fa5b193a2ac76a69fd349cb
+workflow-type: tm+mt
+source-wordcount: '1031'
+ht-degree: 1%
+
+---
+
+
+# レポートを作成することなくキャンペーンのインサイトを可視化
+
+<!-- last-modified: 2026-06-02 -->
+
+![ キャンペーンパフォーマンスの分析](https://placehold.co/1600x900?text=Analyze+Campaign+Performance)
+
+以前は別のツールでレポートを作成する必要があったキャンペーン分析も、今では会話になっています。 このチュートリアルでは、AI クライアントをCustomer Journey Analytics（CJA）に接続し、パフォーマンスに関する質問を平易な言葉で行う方法を説明します。 これにより、insightへの移行が迅速化され、手作業によるレポート作成は不要になります。
+
+| | |
+| --- | --- |
+| CX エンタープライズアプリケーション | Customer Journey Analytics（CJA） |
+| エージェント型ツール | CX Enterprise MCP Gateway |
+| オーディエンス | アナリスト、キャンペーンマネージャー |
+| 前提条件 | MCP対応AI クライアント、CJAアクセス |
+
+各ステップは、代表的なプロンプトとAI応答の例を示しています。 同じセッションで追加の探索を行うために、**さらに達成できる**&#x200B;のセクションを次に示します。
+
+## 始める前に
+
+>[!BEGINTABS]
+
+>[!TAB  クロード.ai]
+
+CX Enterprise MCP Gatewayをカスタムコネクタとして接続して、Customer Journey Analytics ツールにアクセスします。
+
+1. Claude.aiの&#x200B;**設定/統合**&#x200B;に移動します。
+2. **カスタムコネクタを追加**&#x200B;を選択し、サーバーURLを入力します：`https://cx-enterprise.adobe.io/mcp`
+3. **Connect**&#x200B;を選択し、Adobe IDでログインします。
+
+完全なセットアップ：[Claude.ai カスタムコネクタのドキュメント ](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp)
+
+>[!TAB ChatGPT]
+
+ChatGPT デベロッパーモードを使用してCX エンタープライズ MCP ゲートウェイを接続します（Pro、Plus、Business、Enterprise、またはEducation プランが必要）。
+
+1. **ChatGPT設定**&#x200B;で&#x200B;**開発者モード**&#x200B;を有効にします。
+2. **設定/統合**&#x200B;に移動し、**カスタムコネクタを追加/リモート MCP サーバー**&#x200B;を選択します。
+3. サーバーURLを入力してください：`https://cx-enterprise.adobe.io/mcp`
+4. **Connect**&#x200B;を選択し、Adobe IDでログインします。
+
+完全なセットアップ：[ChatGPT MCP ドキュメント ](https://developers.openai.com/api/docs/guides/tools-connectors-mcp)
+
+>[!TAB その他のAI クライアント ]
+
+Gemini、Microsoft Copilot、Cursor、Claude CodeなどのMCP互換アプリケーションを使用している場合、 次のエンドポイントを使用して、CX Enterprise MCP Gatewayに接続します。
+
+```
+https://cx-enterprise.adobe.io/mcp
+```
+
+サポートされているすべてのクライアントの完全なセットアップ手順：[AI クライアントに接続](../tools/mcp-servers.md)
+
+>[!ENDTABS]
+
+>[!NOTE]
+>
+>プロンプトが表示されたらAdobe IDでログインし、CJA データビューにリンクされているIMS組織を選択します。 間違った組織を選択することは、認証エラーの最も一般的な原因です。
+>
+>最初の接続時に、AI クライアントからIMS組織の選択またはサンドボックスの指定を求められる場合があります。 そのコンテキストが設定されると、MCP サーバーは残りのセッションにコンテキストを使用します。
+>
+>一部のツールは、実行前に承認を求めます。 リクエストを確認し、承認または辞退します。確認がなければアクションは実行されません。
+
+## 手順1：利用可能なデータビューの確認
+
+まず、AI クライアントに、CJAアカウントで利用可能なデータビューのリストを依頼します。 レポートを実行する前にクエリできるデータセットを示します。
+
+```
+What data views are available in my CJA account?
+```
+
++++回答の例を見る
+
+![使用可能なCJA データビューのAI クライアントリスト ](../assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step1-data-views.png)
+
++++
+
+## ステップ 2：施策のパフォーマンスデータの取得
+
+データビューを特定し、収益とコンバージョン率ごとにキャンペーンのパフォーマンスを確認します。 AIは、技術的なIDを必要とせずに、データビューから指標とディメンションの名前を解決します。
+
+```
+For '[data view name]', show me the top campaigns by revenue and conversion rate for the last 30 days.
+```
+
++++回答の例を見る
+
+オムニチャネルのマルチインダストリーデータビューから収益とコンバージョン率で上位キャンペーンを表示する![AI クライアント ](../assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step2.gif)
+
++++
+
+>[!NOTE]
+>
+>`[data view name]`を手順1のデータビューの名前に置き換えます。 関係者と共有する前に、同じデータビューと日付範囲を使用して、Analysis Workspaceで結果をクロスチェックします。
+
+## ステップ 3：パフォーマンスを促進する要因を特定する
+
+AI クライアントに、キャンペーングループ間のパフォーマンスの違いを何が促しているのかを説明してもらいます。 見出し番号から下の変数に移動します。
+
+```
+What factors are driving the results for these campaign groups?
+```
+
++++回答の例を見る
+
+![ キャンペーングループのパフォーマンスを促進する要因を説明するAI クライアント ](../assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step3.gif)
+
++++
+
+## ステップ 4：特定のキャンペーンタイプをドリルダウンする
+
+セグメントレベルの内訳を尋ねることで、特定の結果をフォローアップできます。 これにより、キャンペーンタイプ内でどの顧客タイプがパフォーマンスを促進しているのかを把握できます。
+
+```
+Break down Promotional Email Campaigns by Customer Segment and explain what's driving the high conversion rate.
+```
+
++++回答の例を見る
+
+![AI クライアントが顧客セグメント別のプロモーションメールキャンペーンのパフォーマンスを分析](../assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step4-segment-breakdown.png)
+
++++
+
+## ステップ 5：発見したことに対して行動する
+
+セッションで表示されたあらゆる情報にもとづいて、優先順位付けされたレコメンデーションを要求できます。 ビジネス価値の見積もりを依頼することは、最初にどこで行動すべきかを決定するのに役立ちます。
+
+```
+Based on these findings, recommend the highest-impact actions to increase revenue and conversion rates. Prioritize recommendations by expected business value and estimate the potential uplift.
+```
+
++++回答の例を見る
+
+![ ビジネス価値の見積もりで優先順位付けされたアクションを推奨するAI クライアント ](../assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step5.gif)
+
++++
+
+>[!NOTE]
+>
+>CX Enterprise MCP Gatewayを介してアクセスされるCJA ツールは、同じセッションでCJA内でセグメント、計算指標、Workspace プロジェクトを作成できます。 他のアプリケーションのキャンペーン、ジャーニー、コンテンツを更新するには、関連するMCP サーバーを接続するか、アプリケーションに直接移動します。
+
+## 達成したこと
+
+AI クライアントとCustomer Journey Analyticsを接続し、5つのプロンプトでデータビューの発見からビジネスのレコメンデーションの優先順位付けへと移行しました。 収益とコンバージョン率によって上位のキャンペーンを特定し、キャンペーングループ間のパフォーマンスを促進する要因を明らかにして、特定のキャンペーンタイプに関するセグメントレベルの詳細をドリルダウンし、予想上昇率のランク付きレコメンデーションを受け取りました。 このアプローチにより、レポート作成は、直接的な会話に置き換わり、ビジネス上の質問とデータにもとづいた行動計画との間の時間を短縮できます。
+
+## より多くのことを達成
+
+CX Enterprise MCP Gatewayでは、チュートリアルで紹介するよりもはるかに多くのCustomer Journey Analytics インサイトを獲得できます。 以下のシナリオを展開すると、同じセッションで試すことができるプロンプトが表示されます。
+
++++効果的なものと効果的でないものを見つける
+
+どの施策が成果を上げているのか、どの施策が成果を上げていないのかを容易に把握できるため、詳細なレポートを作成する前に、労力を集中させることができます。 これらのプロンプトを使用すると、1つのセッションでその画像が表示されます。
+
+**プロンプト**
+
+```
+Which campaigns are driving the most revenue and conversions?
+```
+
+```
+Show me the campaigns that need attention this month.
+```
+
+```
+What channels are outperforming expectations?
+```
+
+```
+Identify the biggest performance changes compared to last month.
+```
+
+```
+Show me conversion performance by traffic source.
+```
+
++++
+
++++成果を上げている要素の把握
+
+見出し指標は、何が起こったのかを教えてくれます。 これらのプロンプトは、数字に劣っているセグメント、チャネル、顧客接点を把握するのに役立ちます。
+
+**プロンプト**
+
+```
+What factors are driving revenue growth?
+```
+
+```
+Explain why conversion rates changed this quarter.
+```
+
+```
+Break down campaign performance by customer segment.
+```
+
+```
+Which customer segments are growing fastest?
+```
+
+```
+Which touchpoints contribute most to conversions?
+```
+
++++
+
++++成長の機会を特定
+
+パフォーマンスが優れている理由を把握できても、その範囲は広くありません。 これらのプロンプトは、より多く投資できる場所、ヘッドルームのあるオーディエンス、拡張できるキャンペーンを特定するのに役立ちます。
+
+**プロンプト**
+
+```
+Where should we invest more marketing budget?
+```
+
+```
+Which audiences have the greatest growth potential?
+```
+
+```
+Which campaigns should we scale?
+```
+
+```
+What would have the biggest impact on revenue?
+```
+
++++
+
++++「
+
+CX Enterprise MCP GatewayからアクセスできるCJAツールを利用すれば、AI セッションから離れることなく、CJAで直接、セグメント、オーディエンス、計算指標、Workspaceプロジェクトを構築できます。 これらのプロンプトを使用して、発見したことに基づいて行動します。
+
+**プロンプト**
+
+```
+Create a segment for high-value customers.
+```
+
+```
+Build an audience from recent purchasers.
+```
+
+```
+Create a calculated metric for conversion efficiency.
+```
+
+```
+Save this analysis as a Workspace project for executive reporting.
+```
+
++++
+
+## 詳細情報
+
+| リソース | 見つかる内容 |
+| --- | --- |
+| [CJA MCP Server ドキュメント ](https://developer.adobe.com/analytics-mcp/docs/cja/) | 完全なツールリファレンスとセットアップガイド |
+| [CJA MCP使用ガイド ](https://developer.adobe.com/analytics-mcp/docs/guides/) | 詳細な利用方法ガイド |
+| [AI レジストリのCJA MCP Server](https://developer.adobe.com/ai-registry/#/mcp/cja-mcp) | CJA MCP Serverのツールと機能 |
+| [Customer Journey Analytics ドキュメント ](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-landing) | Adobe CJAのドキュメント |
