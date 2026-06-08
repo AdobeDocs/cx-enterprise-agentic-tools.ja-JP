@@ -334,4 +334,4 @@ CARDS
 | [Adobe API カタログ &#x200B;](https://developer.adobe.com/apis) | Adobe CX Enterprise API リファレンスの完全版 |
 | [Adobe Developer Console](https://developer.adobe.com/developer-console/docs/guides/) | API プロジェクトの設定と認証 |
 | [Adobe Admin Console](https://adminconsole.adobe.com) | ユーザーと製品のアクセス管理 |
-| [Experience League](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/home) | Adobeのアプリケーションに関するドキュメントとチュートリアル |
+| [Experience League](https://experienceleague.adobe.com/ja/docs/experience-cloud-ai/experience-cloud-ai/home) | Adobeのアプリケーションに関するドキュメントとチュートリアル |
