@@ -286,7 +286,7 @@ Which channel has the highest conversion rate across all active campaigns?
 | --- | --- |
 | [AJO ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/ajo-home) | Adobe AJOのドキュメント |
 | [Analytics MCP ドキュメント &#x200B;](https://developer.adobe.com/analytics-mcp/docs/) | CJA MCPの設定とツールリファレンス |
-| [Real-Time CDP MCP ドキュメント &#x200B;](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/mcp/rtcdp-mcp) | RTCDP MCP セットアップガイド |
+| [Real-Time CDP MCP ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-cloud-ai/experience-cloud-ai/mcp/rtcdp-mcp) | RTCDP MCP セットアップガイド |
 | [AI レジストリのAJO MCP Server](https://developer.adobe.com/ai-registry/#/mcp/ajo-mcp-server) | AJO MCP Serverのツールと機能 |
 | [AI レジストリのCJA MCP Server](https://developer.adobe.com/ai-registry/#/mcp/cja-mcp) | CJA MCP Serverのツールと機能 |
 | [MCP サーバー](../tools/mcp-servers.md) | AI クライアントをAdobe MCP サーバーに接続する |

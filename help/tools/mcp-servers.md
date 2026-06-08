@@ -38,7 +38,7 @@ CX エンタープライズゲートウェイは、AI クライアントを、�
 | --- | --- |
 | Adobe Journey Optimizer | [&#x200B; ジャーニー、キャンペーン、チャネル設定の確認](https://developer.adobe.com/ai-registry/#/mcp/ajo-mcp-server) |
 | Customer Journey Analytics | [&#x200B; レポートのクエリ、データビューの検索、ワークスペースの作成](https://developer.adobe.com/ai-registry/#/mcp/cja-mcp) |
-| Real-Time CDP | [宛先、アクティベーションステータス、データフローの正常性を確認](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/mcp/rtcdp-mcp) （クローズド ベータ版） |
+| Real-Time CDP | [宛先、アクティベーションステータス、データフローの正常性を確認](https://experienceleague.adobe.com/ja/docs/experience-cloud-ai/experience-cloud-ai/mcp/rtcdp-mcp) （クローズド ベータ版） |
 
 >[!TAB Connect]
 
@@ -77,21 +77,21 @@ CARDS
   {target = _blank}
   {image = ../assets/mcp-analytics-card.png}
 
-* https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service
+* https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service
   {title = AEM Content}
   {description = Tools for managing pages, content fragments, assets, and launches in Adobe Experience Manager as a Cloud Service using natural language.}
   {cta = View documentation}
   {target = _blank}
   {image = ../assets/mcp-aem-card.png}
 
-* https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service
+* https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service
   {title = AEM Content (Read-Only)}
   {description = Tools for discovering and querying pages, content fragments, and launches in AEM as a Cloud Service. No write access.}
   {cta = View documentation}
   {target = _blank}
   {image = ../assets/mcp-aem-card.png}
 
-* https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/ai/mcp-servers/cloud-manager
+* https://experienceleague.adobe.com/ja/docs/experience-manager-learn/cloud-service/ai/mcp-servers/cloud-manager
   {title = AEM Cloud Manager}
   {description = Tools for managing Cloud Manager programs, environments, pipelines, and repositories from your IDE using natural language.}
   {cta = View documentation}
@@ -104,11 +104,11 @@ CARDS
 
 | サーバー | エンドポイント | ツール |
 | --- | --- | --- |
-| [CX Enterprise MCP Gateway](#cx-enterprise-mcp-gateway) | `https://cx-enterprise.adobe.io/mcp` | ・ [Adobe Journey Optimizer tools](https://developer.adobe.com/ai-registry/#/mcp/ajo-mcp-server)<br>・[Customer Journey Analytics tools](https://developer.adobe.com/ai-registry/#/mcp/cja-mcp)<br>・[Real-Time CDP tools](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/mcp/rtcdp-mcp) |
+| [CX Enterprise MCP Gateway](#cx-enterprise-mcp-gateway) | `https://cx-enterprise.adobe.io/mcp` | ・ [Adobe Journey Optimizer tools](https://developer.adobe.com/ai-registry/#/mcp/ajo-mcp-server)<br>・[Customer Journey Analytics tools](https://developer.adobe.com/ai-registry/#/mcp/cja-mcp)<br>・[Real-Time CDP tools](https://experienceleague.adobe.com/ja/docs/experience-cloud-ai/experience-cloud-ai/mcp/rtcdp-mcp) |
 | [Adobe Analytics](https://developer.adobe.com/analytics-mcp/docs/aa/) | `https://aa-mcp.adobe.io/mcp` | [&#x200B; ツールの表示](https://developer.adobe.com/ai-registry/#/mcp/adobe-analytics-mcp) |
 | [AEM Cloud Manager](https://experienceleague.adobe.com/ja/docs/experience-manager-learn/cloud-service/ai/mcp-servers/cloud-manager) | `https://mcp.adobeaemcloud.com/adobe/mcp/cloudmanager` | [&#x200B; ツールの表示](https://developer.adobe.com/ai-registry/#/mcp/aem-cloud-manager-mcp) |
-| [AEM コンテンツ &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | `https://mcp.adobeaemcloud.com/adobe/mcp/content` | [&#x200B; ツールの表示](https://developer.adobe.com/ai-registry/#/mcp/aem-content-mcp) |
-| [AEM コンテンツ （読み取り専用） &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | `https://mcp.adobeaemcloud.com/adobe/mcp/content-readonly` | [&#x200B; ツールの表示](https://developer.adobe.com/ai-registry/#/mcp/aem-content-mcp-readonly) |
+| [AEM コンテンツ &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | `https://mcp.adobeaemcloud.com/adobe/mcp/content` | [&#x200B; ツールの表示](https://developer.adobe.com/ai-registry/#/mcp/aem-content-mcp) |
+| [AEM コンテンツ （読み取り専用） &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | `https://mcp.adobeaemcloud.com/adobe/mcp/content-readonly` | [&#x200B; ツールの表示](https://developer.adobe.com/ai-registry/#/mcp/aem-content-mcp-readonly) |
 
 ## AI クライアントに接続します
 

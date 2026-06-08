@@ -265,7 +265,7 @@ Promote everything in the current launch to production.
 | リソース | 見つかる内容 |
 | --- | --- |
 | [Analytics MCP ドキュメント &#x200B;](https://developer.adobe.com/analytics-mcp/docs/) | CJA MCPの設定とツールリファレンス |
-| [AEM as a Cloud Service のドキュメント](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service) | Adobe AEMのドキュメント |
+| [AEM as a Cloud Service のドキュメント](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service) | Adobe AEMのドキュメント |
 | [AI レジストリのCJA MCP Server](https://developer.adobe.com/ai-registry/#/mcp/cja-mcp) | CJA MCP Serverのツールと機能 |
 | [AI レジストリのAEM Content MCP Server](https://developer.adobe.com/ai-registry/#/mcp/aem-content-mcp) | AEM Content MCP Serverのツールと可用性 |
 | [MCP サーバー](../tools/mcp-servers.md) | AI クライアントをAdobe MCP サーバーに接続する |

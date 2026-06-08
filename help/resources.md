@@ -32,7 +32,7 @@ Adobe CX Enterprise Agentic Toolsを使用するための主要なAdobeリソー
 |---|---|
 | [Analytics MCP ドキュメント &#x200B;](https://developer.adobe.com/analytics-mcp/docs/) | CJA MCP サーバー設定ガイドとツールリファレンス |
 | [Analytics MCP ガイド &#x200B;](https://developer.adobe.com/analytics-mcp/docs/guides/) | CJA MCP サーバーの詳細な使用ガイド |
-| [Real-Time CDP MCP ドキュメント &#x200B;](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/mcp/rtcdp-mcp) | RTCDP MCP サーバー設定ガイド |
+| [Real-Time CDP MCP ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-cloud-ai/experience-cloud-ai/mcp/rtcdp-mcp) | RTCDP MCP サーバー設定ガイド |
 
 ## エージェントスキル
 
@@ -73,7 +73,7 @@ Adobe CX Enterprise Agentic Toolsを使用するための主要なAdobeリソー
 
 | リソース | 見つかる内容 |
 |---|---|
-| [Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/landing/home) | Adobe AEPのドキュメント |
+| [Adobe Experience Platform](https://experienceleague.adobe.com/ja/docs/experience-platform/landing/home) | Adobe AEPのドキュメント |
 | [Adobe Journey Optimizer](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/ajo-home) | Adobe AJOのドキュメント |
 | [Real-Time CDP](https://experienceleague.adobe.com/ja/docs/experience-platform/rtcdp/home) | Adobe Real-Time CDPのドキュメント |
 | [Customer Journey Analytics](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-landing) | Adobe CJAのドキュメント |
