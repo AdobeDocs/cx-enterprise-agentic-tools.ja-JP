@@ -2,7 +2,7 @@
 title: オーディエンスとアクティベートされた場所を把握
 description: CX Enterprise MCP Gatewayを使用して、オーディエンスのアクティベーション状況を監視し、宛先の健全性をチェックし、キャンペーンに影響を与える前に問題を特定します。
 index: false
-source-git-commit: 63f5958eaa227ea21fa5b193a2ac76a69fd349cb
+source-git-commit: 14488b494c454ce6d1207e2d21024749d93db669
 workflow-type: tm+mt
 source-wordcount: '899'
 ht-degree: 2%
@@ -82,6 +82,7 @@ What audiences are currently available and what customer behaviors do they repre
 
 +++
 
+
 ## ステップ 2：最も価値のあるセグメントの特定
 
 オーディエンスの状況を把握したら、どのセグメントが最も大きく、何が戦略的に価値があるのかを確認します。
@@ -95,6 +96,7 @@ Which audiences are the largest and what makes them valuable?
 ![最大のオーディエンスを特定し、その価値を説明するAI クライアント &#x200B;](../assets/use-cases/query-audiences/query-audiences-step2.gif)
 
 +++
+
 
 ## 手順3：アクティベーションと宛先の確認
 
@@ -110,6 +112,7 @@ Where are our audiences currently being activated and to which destinations?
 
 +++
 
+
 ## ステップ 4：戦略的な推奨事項を提案する
 
 CX Enterprise MCP GatewayのRTCDP ツールは読み取り専用で、アクティベーションステータス、宛先の健全性、データフローのデータは表示されますが、設定は変更されません。 問題を特定すると、アプリケーションで修正が行われます。
@@ -123,6 +126,7 @@ If you were our audience strategist, what would you prioritize next and why?
 ![AI クライアントが優先的なオーディエンス戦略の推奨事項を提示](../assets/use-cases/query-audiences/query-audiences-step4.gif)
 
 +++
+
 
 >[!NOTE]
 >
@@ -219,6 +223,7 @@ Are there any audiences using a non-default merge policy that could cause profil
 ```
 
 +++
+
 
 ## 詳細情報
 

@@ -2,7 +2,7 @@
 title: コンテンツを最新の状態に保ち、更新をすばやく配信できます
 description: AEM Content MCP Serverを使用して、ツールを切り替えることなく、AEM コンテンツを検索、レビュー、更新、公開します。
 index: false
-source-git-commit: 63f5958eaa227ea21fa5b193a2ac76a69fd349cb
+source-git-commit: 14488b494c454ce6d1207e2d21024749d93db669
 workflow-type: tm+mt
 source-wordcount: '1022'
 ht-degree: 1%
@@ -88,6 +88,7 @@ From WKND Dev environment, find all ski related content.
 
 +++
 
+
 ## 手順2：特定のページの確認
 
 関連コンテンツを見つけたら、AI クライアントに特定のページを表示するように依頼します。 ページは名前またはパスで参照できます。 MCP サーバーは参照を解決し、コンテンツ構造を返します。
@@ -102,6 +103,7 @@ Show me the US English Home Page.
 
 +++
 
+
 ## ステップ 3：コンテンツの改善
 
 ページコンテンツを表示して、AI クライアントに改善点の提案や適用を依頼します。 AIは、ページの現在の内容に基づいてコピーの変更を提案し、何かを書く前に確認を求めることができます。
@@ -115,6 +117,7 @@ Improve the Hero CTAs.
 ![変更を適用する前に、確認プロンプトを使用して改善されたHero CTA コピーを提案するAI クライアント &#x200B;](../assets/use-cases/manage-aem-content/manage-aem-content-step3.gif)
 
 +++
+
 
 >[!CAUTION]
 >
@@ -133,6 +136,7 @@ Publish the changes and share the URL.
 ![&#x200B; ページが公開されたことを確認し、ライブ URLを返すAI クライアント &#x200B;](../assets/use-cases/manage-aem-content/manage-aem-content-step4.gif)
 
 +++
+
 
 ## 達成したこと
 
@@ -253,6 +257,7 @@ Promote the May Updates launch to production.
 ```
 
 +++
+
 
 ## 詳細情報
 

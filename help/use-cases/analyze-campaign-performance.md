@@ -2,7 +2,7 @@
 title: レポートを作成することなくキャンペーンのインサイトを可視化
 description: CX Enterprise MCP Gatewayを使用して、Customer Journey Analyticsのパフォーマンスに関する質問をわかりやすい言語で行い、レポートビルダーを操作することなく回答を得ることができます。
 index: false
-source-git-commit: 63f5958eaa227ea21fa5b193a2ac76a69fd349cb
+source-git-commit: 14488b494c454ce6d1207e2d21024749d93db669
 workflow-type: tm+mt
 source-wordcount: '1031'
 ht-degree: 1%
@@ -86,6 +86,7 @@ What data views are available in my CJA account?
 
 +++
 
+
 ## ステップ 2：施策のパフォーマンスデータの取得
 
 データビューを特定し、収益とコンバージョン率ごとにキャンペーンのパフォーマンスを確認します。 AIは、技術的なIDを必要とせずに、データビューから指標とディメンションの名前を解決します。
@@ -99,6 +100,7 @@ For '[data view name]', show me the top campaigns by revenue and conversion rate
 オムニチャネルのマルチインダストリーデータビューから収益とコンバージョン率で上位キャンペーンを表示する![AI クライアント &#x200B;](../assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step2.gif)
 
 +++
+
 
 >[!NOTE]
 >
@@ -118,6 +120,7 @@ What factors are driving the results for these campaign groups?
 
 +++
 
+
 ## ステップ 4：特定のキャンペーンタイプをドリルダウンする
 
 セグメントレベルの内訳を尋ねることで、特定の結果をフォローアップできます。 これにより、キャンペーンタイプ内でどの顧客タイプがパフォーマンスを促進しているのかを把握できます。
@@ -132,6 +135,7 @@ Break down Promotional Email Campaigns by Customer Segment and explain what's dr
 
 +++
 
+
 ## ステップ 5：発見したことに対して行動する
 
 セッションで表示されたあらゆる情報にもとづいて、優先順位付けされたレコメンデーションを要求できます。 ビジネス価値の見積もりを依頼することは、最初にどこで行動すべきかを決定するのに役立ちます。
@@ -145,6 +149,7 @@ Based on these findings, recommend the highest-impact actions to increase revenu
 ![&#x200B; ビジネス価値の見積もりで優先順位付けされたアクションを推奨するAI クライアント &#x200B;](../assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step5.gif)
 
 +++
+
 
 >[!NOTE]
 >
@@ -261,6 +266,7 @@ Save this analysis as a Workspace project for executive reporting.
 ```
 
 +++
+
 
 ## 詳細情報
 

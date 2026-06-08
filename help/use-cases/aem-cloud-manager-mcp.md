@@ -2,7 +2,7 @@
 title: 確実なAEM as a Cloud Serviceへのデプロイ
 description: AI クライアントを離れることなく、環境の健全性を確認し、パイプラインの履歴を確認し、デプロイメントをトリガーまたは管理できます。
 index: false
-source-git-commit: 63f5958eaa227ea21fa5b193a2ac76a69fd349cb
+source-git-commit: 14488b494c454ce6d1207e2d21024749d93db669
 workflow-type: tm+mt
 source-wordcount: '957'
 ht-degree: 1%
@@ -130,6 +130,7 @@ What is the status of the production environment?
 
 +++
 
+
 ## ステップ 2: パイプライン実行の確認
 
 最近のパイプライン履歴を確認して、デプロイメントパターンを理解し、次のリリースをブロックする前にエラーを検出します。
@@ -144,6 +145,7 @@ Show me the last five pipeline runs for the production pipeline.
 
 +++
 
+
 ## ステップ 3: パイプラインのトリガー
 
 AI クライアントから直接パイプラインを開始します。 サーバーはターゲット環境を確認し、開始する前に承認を求めます。
@@ -157,6 +159,7 @@ Run the Fullstack pipeline against dev environment of WKND sandbox program.
 ![&#x200B; パイプラインのトリガー確認と、実行中のパイプラインを反映したCloud Manager UIを表示するAI クライアント &#x200B;](../assets/use-cases/aem-cloud-manager-mcp/aem-cloud-manager-mcp-step3.gif)
 
 +++
+
 
 >[!CAUTION]
 >
@@ -175,6 +178,7 @@ What is the status of the triggered pipeline?
 ![&#x200B; トリガーされたパイプライン実行のステータスを表示するAI クライアント &#x200B;](../assets/use-cases/aem-cloud-manager-mcp/aem-cloud-manager-mcp-step4-01-ai.png)
 
 +++
+
 
 ## 達成したこと
 
@@ -267,6 +271,7 @@ Pull the step logs for the last failed run. I need to see exactly what the quali
 ```
 
 +++
+
 
 ## 詳細情報
 

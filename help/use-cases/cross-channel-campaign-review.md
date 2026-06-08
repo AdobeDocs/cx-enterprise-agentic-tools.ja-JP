@@ -2,7 +2,7 @@
 title: クロスチャネルキャンペーンのレビューの実施
 description: 単一のAI セッションでCX Enterprise MCP Gatewayを使用し、ジャーニー、オーディエンス、パフォーマンスをまたいで、AJO、CJA、Real-Time CDPのキャンペーンの健全性を一元的に把握できます。
 index: false
-source-git-commit: 63f5958eaa227ea21fa5b193a2ac76a69fd349cb
+source-git-commit: 14488b494c454ce6d1207e2d21024749d93db669
 workflow-type: tm+mt
 source-wordcount: '1433'
 ht-degree: 4%
@@ -99,6 +99,7 @@ AJOで8つのアクティブなジャーニーが見つかりました。
 
 +++
 
+
 ## 手順2：オーディエンスのアクティベーションステータスの確認
 
 ジャーニーを表示して、これらのキャンペーンを強化しているオーディエンスが、配信先に正しく流れていることを確認します。
@@ -122,6 +123,7 @@ Show me the activation status for the high-value loyalty segment.
 
 +++
 
+
 ## ステップ 3:CJAからパフォーマンス指標を取得する
 
 ジャーニーとオーディエンスのコンテキストを確立したら、CJAを使用して、そうしたキャンペーンがどのようにコンバージョンに達し、エンゲージメントがどこで低下するかを評価します。
@@ -143,6 +145,7 @@ Show me click-through and conversion rates for the [campaign name] campaign over
 コンバージョン率：3.8% メール CTRは、前の30日間に対して1.2%増加しました。 プッシュコンバージョンは横ばいです。
 
 +++
+
 
 ## ステップ 4: キャンペーンのヘルスサマリーの合成
 
@@ -170,6 +173,7 @@ Give me a summary of our campaign health: what is running, which audiences are a
 重大な問題は検出されませんでした。 上記の2つの項目は、次のキャンペーン開始の前にレビューが必要です。
 
 +++
+
 
 ここで、マルチサーバーアプローチの出番です。AI クライアントの理由を、ジャーニーの設定、オーディエンスステータス、パフォーマンスデータをまたいで1回の会話で確認できます。
 
@@ -199,6 +203,7 @@ For each flag you identified, what should I do and where should I go to do it?
 どのフィールドから始めますか？
 
 +++
+
 
 ## 達成したこと
 
@@ -279,6 +284,7 @@ Which channel has the highest conversion rate across all active campaigns?
 ```
 
 +++
+
 
 ## 詳細情報
 
