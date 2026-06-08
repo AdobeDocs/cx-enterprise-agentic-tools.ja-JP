@@ -14,7 +14,7 @@ ht-degree: 1%
 
 <!-- last-modified: 2026-05-08 -->
 
->[!VIDEO](https://video.tv.adobe.com/v/3491235/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3491242/?captions=jpn&learn=on&enablevpops)
 
 **Adobe CX Enterprise**&#x200B;のデータ、ワークフロー、オートメーションにAIを直接接続します。 互換性のあるAI クライアントや開発ツールから、**平易な言語**&#x200B;でキャンペーンのクエリ、オーディエンスのアクティブ化、ジャーニーの管理を行うことができます。
 
