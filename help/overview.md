@@ -2,21 +2,24 @@
 title: Adobe CX Enterprise Agentic Tools
 description: MCP サーバー、エージェントスキル、APIを使用して、AI エージェントと開発ツールをAdobe CX Enterpriseの機能に接続します。
 index: false
-source-git-commit: 5b9dc2c695ad0bd30a4776f838d25b5ed13e5b45
+source-git-commit: bb341fa02a8e1e8b3efbf832359846c94441df88
 workflow-type: tm+mt
-source-wordcount: '1054'
-ht-degree: 0%
+source-wordcount: '712'
+ht-degree: 1%
 
 ---
 
 
 # Adobe CX Enterprise Agentic Tools
 
-<!-- last-modified: 2026-05-08 -->
+<!-- last-modified: 2026-06-08 -->
 
->[!VIDEO](https://video.tv.adobe.com/v/3491242/?captions=jpn&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3491235/?learn=on&enablevpops)
 
-**Adobe CX Enterprise**&#x200B;のデータ、ワークフロー、オートメーションにAIを直接接続します。 互換性のあるAI クライアントや開発ツールから、**平易な言語**&#x200B;でキャンペーンのクエリ、オーディエンスのアクティブ化、ジャーニーの管理を行うことができます。
+Adobe CX EnterpriseのパートナーはAI。 AI クライアントをキャンペーン、オーディエンス、ジャーニー、コンテンツに結び付け、既に使用しているあらゆるツールから、わかりやすい言葉で操作できます。 新しいインターフェイスも、コンテキストの切り替えも、コーディングも必要ありません。
+
+>[!TIP]
+>**CX Enterprise MCPで始めます。** 1つの接続で、組織のライセンスに基づいて、AI クライアントはAdobe Journey Optimizer、Customer Journey Analytics、Real-Time CDPにアクセスできます。 [今すぐ接続](tools/mcp-servers.md#cx-enterprise-mcp)
 
 <!--
 CARDS
@@ -191,44 +194,35 @@ CARDS
 
 >[!BEGINTABS]
 
->[!TAB  ビジネスリーダー]
+>[!TAB MCP サーバー]
 
-Adobeのエージェンティックツールのビジネス価値と、それがAdobeへの投資をどのように拡大するのかを理解します。
+互換性のあるAI クライアントを使用して、コーディング不要で平易な言語で顧客体験エンタープライズアプリケーションにアクセスできます。 CX Enterprise MCPを使用して、AJO、CJA、Real-Time CDPに1回接続するか、AEMやその他のアプリケーションに直接接続できます。
 
-- 担当者は、チームを交代させることなく、マーケティングとオペレーションのワークフローを加速させます
-- アクセス制御、監査証跡、Human-in-the-loop ワークフローは最初から組み込まれています
-- エージェンティックツールは、Adobeのサーフェスだけでなく、互換性のあるあらゆるAI クライアントで動作します
-- ユーザーのデータは、ユーザーの権限によって管理された環境に保持されます
+- Claude、Cursor、ChatGPTなどのMCP互換クライアントから数分で接続できます
+- 自然言語を使用して、キャンペーン、オーディエンス、ジャーニーデータをクエリ
+- 新しいインターフェイスやトレーニングは必要ありません
 
-[実際のウォークスルー](agentic-tools-in-action.md)を参照して、今日これらのエージェント型ツールでチームが何をしているのかを確認してください。
+[MCP サーバーの基本を学ぶ](tools/mcp-servers.md)
 
->[!TAB  ビジネスユーザー]
+>[!TAB  エージェントのスキル ]
 
-エージェンティックツールが、どのようにAdobeの日々のワークフローを加速するのかをご確認ください。
+Agent Skillsは、AI クライアントが従うことのできる指示として、Adobeドメインの専門知識をエンコードします。 担当者はメッセージを即興ではなく、確実に、繰り返し、Adobeのベストプラクティスに従って行動できるようになりました。
 
-- [MCP サーバー](tools/mcp-servers.md)を使用して、AI クライアントを数分でAdobe データに接続します
-- 一般的な[&#x200B; キャンペーン &#x200B;](use-cases/analyze-campaign-performance.md)、[&#x200B; オーディエンス &#x200B;](use-cases/query-audiences.md)、[&#x200B; ジャーニー](use-cases/manage-ajo-journeys.md)のタスクについて、順を追って説明します
-- 既に使用しているAI環境で作業する
+- 反復可能な顧客体験の大規模なワークフローにおける一貫した結果
+- 担当者にAdobe Adobeについて説明する必要はありません。担当者が対応します
+- エージェントのスキルをサポートするAI クライアント全体で動作
 
->[!TAB  ビルダーと開発者]
+[エージェントのスキルを見る](tools/agent-skills.md)
 
-Adobe CX Enterpriseの機能をカスタムアプリケーションやエージェントに統合できます。
+>ビルダー]の[!TAB API
 
-- 機能領域ごとにビルダー[&#128279;](tools/apis.md)のAPIを参照し、開発環境の[MCP サーバー](tools/mcp-servers.md)に接続します
-- Adobe APIと共に、[Claude Code](https://docs.anthropic.com/en/docs/claude-code/mcp)や[Cursor](https://cursor.com/docs/mcp)などのAI支援コーディングツールを使用します
-- [Adobe Developer Console](https://developer.adobe.com/developer-console/docs/guides/)で認証と資格情報を設定します
-- サポートされているAI クライアントとセットアップ手順の完全なリストについては、[MCP サーバー](tools/mcp-servers.md)を参照してください
+Adobe製品と同じAPIに、プログラムを利用して直接アクセスできます。 カスタムアプリケーションと統合機能を構築して、チームが特定の顧客体験企業ワークフローに集中して管理されたアクセスを得られるようにします。
 
->[!TAB 管理者]
+- 一度構築すれば、組織全体に展開
+- チームが必要とするガードレール、承認、カスタムロジックの追加
+- Claude Code、Cursorなどのエージェント型コーディングツールを使用して、より迅速に構築できます
 
-アクセスを管理し、承認済みのエージェント型ツールを管理し、組織全体の監視を維持しましょう。
-
-- [Adobe Developer Console](https://developer.adobe.com/developer-console/docs/guides/)を介したMCP サーバーおよびAPIの認証を構成します
-- Identity Management System （IMS）組織レベルの権限を設定して、エージェント型ツールにアクセスできるユーザーとチームを制御します
-- 組織での使用を承認されたAI クライアントとMCP サーバーを定義し、適用します
-- 使用状況の監視、監査証跡の確認、エージェンティックアクティビティがコンプライアンス要件を満たしていることを確認します
-
-認証設定については[MCP サーバー](tools/mcp-servers.md)、資格情報およびプロジェクト管理については[Adobe Developer Console](https://developer.adobe.com/developer-console/docs/guides/)を参照してください。
+[ビルダー用APIの確認](tools/apis.md)
 
 >[!ENDTABS]
 
@@ -239,19 +233,14 @@ Adobe CX Enterpriseのエージェント型ツールの実際をご覧くださ�
 <!--
 CARDS
 
+* use-cases/cross-channel-campaign-review.md
+  {title = Run a cross-channel campaign review}
+  {description = Review AJO journey status, Real-Time CDP audience activation, and CJA performance data in one AI session. Uses CX Enterprise MCP.}
+  {cta = Start walkthrough}
+
 * use-cases/analyze-campaign-performance.md
   {title = Analyze campaign performance}
-  {description = Use the CX Enterprise MCP Gateway to surface Customer Journey Analytics metrics and insights from any AI client.}
-  {cta = Start walkthrough}
-
-* use-cases/query-audiences.md
-  {title = Query audiences}
-  {description = Use the CX Enterprise MCP Gateway to query Real-Time CDP audience and destination data using plain language prompts.}
-  {cta = Start walkthrough}
-
-* use-cases/manage-ajo-journeys.md
-  {title = Review AJO journeys}
-  {description = Use the CX Enterprise MCP Gateway to access AJO journeys, campaign status, and journey conditions from your AI client.}
+  {description = Surface Customer Journey Analytics comparisons and conversion trends through plain-language questions. Uses CX Enterprise MCP.}
   {cta = Start walkthrough}
 
 * use-cases/manage-aem-content.md
@@ -259,18 +248,32 @@ CARDS
   {description = Discover, update, and publish pages and content fragments in AEM using natural language.}
   {cta = Start walkthrough}
 
-* use-cases/optimize-content-with-performance-data.md
-  {title = Optimize content based on performance data}
-  {description = Combine CJA and AEM MCP Servers to find underperforming content and update it in one session.}
-  {cta = Start walkthrough}
-
-* use-cases/cross-channel-campaign-review.md
-  {title = Run a cross-channel campaign review}
-  {description = Connect AJO, CJA, and Real-Time CDP in one AI session for a unified view of campaign health.}
-  {cta = Start walkthrough}
 -->
 <!-- START CARDS HTML - DO NOT MODIFY BY HAND -->
 <div class="columns">
+    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Run a cross-channel campaign review">
+        <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
+            <div class="card-image">
+                <figure class="image x-is-16by9">
+                    <a href="use-cases/cross-channel-campaign-review.md" title="クロスチャネルキャンペーンのレビューの実施" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="https://placehold.co/1600x900?text=Cross-Channel+Campaign+Review" alt="クロスチャネルキャンペーンのレビューの実施"
+                             style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
+                    </a>
+                </figure>
+            </div>
+            <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
+                <div class="top-card-content">
+                    <p class="headline is-size-6 has-text-weight-bold">
+                        <a href="use-cases/cross-channel-campaign-review.md" target="_blank" rel="referrer" title="クロスチャネルキャンペーンのレビューの実施"> クロスチャネルキャンペーンレビューの実行</a>
+                    </p>
+                    <p class="is-size-6">AJOジャーニーのステータス、Real-Time CDPオーディエンスのアクティベーション、CJAのパフォーマンスデータを1つのAI セッションで確認できます。 Cx Enterprise MCPを使用します。</p>
+                </div>
+                <a href="use-cases/cross-channel-campaign-review.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold"> チュートリアルを開始</span>
+                </a>
+            </div>
+        </div>
+    </div>
     <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Analyze campaign performance">
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
@@ -286,55 +289,9 @@ CARDS
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="use-cases/analyze-campaign-performance.md" target="_blank" rel="referrer" title="キャンペーンのパフォーマンスを分析"> キャンペーンパフォーマンスの分析</a>
                     </p>
-                    <p class="is-size-6">CX Enterprise MCP Gatewayを使用して、あらゆるAI クライアントからCustomer Journey Analyticsの指標とインサイトを可視化します。</p>
+                    <p class="is-size-6">平易な言葉で質問し、Customer Journey Analyticsの比較とコンバージョンの傾向を把握できます。 Cx Enterprise MCPを使用します。</p>
                 </div>
                 <a href="use-cases/analyze-campaign-performance.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold"> チュートリアルを開始</span>
-                </a>
-            </div>
-        </div>
-    </div>
-    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Query audiences">
-        <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
-            <div class="card-image">
-                <figure class="image x-is-16by9">
-                    <a href="use-cases/query-audiences.md" title="オーディエンスの照会" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="https://placehold.co/1600x900?text=Query+Audiences" alt="オーディエンスの照会"
-                             style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
-                    </a>
-                </figure>
-            </div>
-            <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
-                <div class="top-card-content">
-                    <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="use-cases/query-audiences.md" target="_blank" rel="referrer" title="オーディエンスの照会"> オーディエンスのクエリ </a>
-                    </p>
-                    <p class="is-size-6">CX Enterprise MCP Gatewayを使用して、平易な言語プロンプトを使用してReal-Time CDP オーディエンスと宛先データをクエリします。</p>
-                </div>
-                <a href="use-cases/query-audiences.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold"> チュートリアルを開始</span>
-                </a>
-            </div>
-        </div>
-    </div>
-    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Review AJO journeys">
-        <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
-            <div class="card-image">
-                <figure class="image x-is-16by9">
-                    <a href="use-cases/manage-ajo-journeys.md" title="AJO ジャーニーのレビュー" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="https://placehold.co/1600x900?text=Review+AJO+Journeys" alt="AJO ジャーニーのレビュー"
-                             style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
-                    </a>
-                </figure>
-            </div>
-            <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
-                <div class="top-card-content">
-                    <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="use-cases/manage-ajo-journeys.md" target="_blank" rel="referrer" title="AJO ジャーニーのレビュー">AJO ジャーニーのレビュー</a>
-                    </p>
-                    <p class="is-size-6">CX Enterprise MCP Gatewayを使用して、AI クライアントからAJO ジャーニー、キャンペーンステータス、ジャーニー条件にアクセスします。</p>
-                </div>
-                <a href="use-cases/manage-ajo-journeys.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold"> チュートリアルを開始</span>
                 </a>
             </div>
@@ -358,52 +315,6 @@ CARDS
                     <p class="is-size-6">AEMの自然言語を使用して、ページとコンテンツフラグメントを検索、更新、公開できます。</p>
                 </div>
                 <a href="use-cases/manage-aem-content.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold"> チュートリアルを開始</span>
-                </a>
-            </div>
-        </div>
-    </div>
-    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Optimize content based on performance data">
-        <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
-            <div class="card-image">
-                <figure class="image x-is-16by9">
-                    <a href="use-cases/optimize-content-with-performance-data.md" title="パフォーマンスデータに基づくコンテンツの最適化" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="https://placehold.co/1600x900?text=Optimize+Content+Based+on+Performance+Data" alt="パフォーマンスデータに基づくコンテンツの最適化"
-                             style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
-                    </a>
-                </figure>
-            </div>
-            <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
-                <div class="top-card-content">
-                    <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="use-cases/optimize-content-with-performance-data.md" target="_blank" rel="referrer" title="パフォーマンスデータに基づくコンテンツの最適化"> パフォーマンスデータに基づいてコンテンツを最適化</a>
-                    </p>
-                    <p class="is-size-6">CJAとAEM MCP サーバーを組み合わせることで、パフォーマンスの低いコンテンツを特定し、1回のセッションで更新できます。</p>
-                </div>
-                <a href="use-cases/optimize-content-with-performance-data.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold"> チュートリアルを開始</span>
-                </a>
-            </div>
-        </div>
-    </div>
-    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Run a cross-channel campaign review">
-        <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
-            <div class="card-image">
-                <figure class="image x-is-16by9">
-                    <a href="use-cases/cross-channel-campaign-review.md" title="クロスチャネルキャンペーンのレビューの実施" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="https://placehold.co/1600x900?text=Cross-Channel+Campaign+Review" alt="クロスチャネルキャンペーンのレビューの実施"
-                             style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
-                    </a>
-                </figure>
-            </div>
-            <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
-                <div class="top-card-content">
-                    <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="use-cases/cross-channel-campaign-review.md" target="_blank" rel="referrer" title="クロスチャネルキャンペーンのレビューの実施"> クロスチャネルキャンペーンレビューの実行</a>
-                    </p>
-                    <p class="is-size-6">AJO、CJA、Real-Time CDPを単一のAI セッションで連携することで、キャンペーンの健全性を包括的に把握できます。</p>
-                </div>
-                <a href="use-cases/cross-channel-campaign-review.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold"> チュートリアルを開始</span>
                 </a>
             </div>
@@ -412,154 +323,15 @@ CARDS
 </div>
 <!-- END CARDS HTML - DO NOT MODIFY BY HAND -->
 
-<!-- START CARDS HTML - DO NOT MODIFY BY HAND -->
-<div class="columns">
-    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Analyze campaign performance">
-        <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
-            <div class="card-image">
-                <figure class="image x-is-16by9">
-                    <a href="use-cases/analyze-campaign-performance.md" title="キャンペーンのパフォーマンスを分析" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="https://placehold.co/1600x900?text=Analyze+Campaign+Performance" alt="キャンペーンのパフォーマンスを分析"
-                             style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
-                    </a>
-                </figure>
-            </div>
-            <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
-                <div class="top-card-content">
-                    <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="use-cases/analyze-campaign-performance.md" target="_blank" rel="referrer" title="キャンペーンのパフォーマンスを分析"> キャンペーンパフォーマンスの分析</a>
-                    </p>
-                    <p class="is-size-6">CX Enterprise MCP Gatewayを使用して、あらゆるAI クライアントからCustomer Journey Analyticsの指標とインサイトを可視化します。</p>
-                </div>
-                <a href="use-cases/analyze-campaign-performance.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold"> チュートリアルを開始</span>
-                </a>
-            </div>
-        </div>
-    </div>
-    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Query audiences">
-        <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
-            <div class="card-image">
-                <figure class="image x-is-16by9">
-                    <a href="use-cases/query-audiences.md" title="オーディエンスの照会" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="https://placehold.co/1600x900?text=Query+Audiences" alt="オーディエンスの照会"
-                             style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
-                    </a>
-                </figure>
-            </div>
-            <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
-                <div class="top-card-content">
-                    <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="use-cases/query-audiences.md" target="_blank" rel="referrer" title="オーディエンスの照会"> オーディエンスのクエリ </a>
-                    </p>
-                    <p class="is-size-6">CX Enterprise MCP Gatewayを使用して、平易な言語プロンプトを使用してReal-Time CDP オーディエンスと宛先データをクエリします。</p>
-                </div>
-                <a href="use-cases/query-audiences.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold"> チュートリアルを開始</span>
-                </a>
-            </div>
-        </div>
-    </div>
-    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Review AJO journeys">
-        <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
-            <div class="card-image">
-                <figure class="image x-is-16by9">
-                    <a href="use-cases/manage-ajo-journeys.md" title="AJO ジャーニーのレビュー" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="https://placehold.co/1600x900?text=Review+AJO+Journeys" alt="AJO ジャーニーのレビュー"
-                             style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
-                    </a>
-                </figure>
-            </div>
-            <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
-                <div class="top-card-content">
-                    <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="use-cases/manage-ajo-journeys.md" target="_blank" rel="referrer" title="AJO ジャーニーのレビュー">AJO ジャーニーのレビュー</a>
-                    </p>
-                    <p class="is-size-6">CX Enterprise MCP Gatewayを使用して、AI クライアントからAJO ジャーニー、キャンペーンステータス、ジャーニー条件にアクセスします。</p>
-                </div>
-                <a href="use-cases/manage-ajo-journeys.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold"> チュートリアルを開始</span>
-                </a>
-            </div>
-        </div>
-    </div>
-    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Manage AEM content with AI">
-        <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
-            <div class="card-image">
-                <figure class="image x-is-16by9">
-                    <a href="use-cases/manage-aem-content.md" title="AIを活用したAEMコンテンツの管理" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="https://placehold.co/1600x900?text=Manage+AEM+Content+with+AI" alt="AIを活用したAEMコンテンツの管理"
-                             style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
-                    </a>
-                </figure>
-            </div>
-            <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
-                <div class="top-card-content">
-                    <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="use-cases/manage-aem-content.md" target="_blank" rel="referrer" title="AIを活用したAEMコンテンツの管理">AIを使用したAEM コンテンツの管理</a>
-                    </p>
-                    <p class="is-size-6">AEMの自然言語を使用して、ページとコンテンツフラグメントを検索、更新、公開できます。</p>
-                </div>
-                <a href="use-cases/manage-aem-content.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold"> チュートリアルを開始</span>
-                </a>
-            </div>
-        </div>
-    </div>
-    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Optimize content based on performance data">
-        <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
-            <div class="card-image">
-                <figure class="image x-is-16by9">
-                    <a href="use-cases/optimize-content-with-performance-data.md" title="パフォーマンスデータに基づくコンテンツの最適化" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="https://placehold.co/1600x900?text=Optimize+Content+Based+on+Performance+Data" alt="パフォーマンスデータに基づくコンテンツの最適化"
-                             style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
-                    </a>
-                </figure>
-            </div>
-            <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
-                <div class="top-card-content">
-                    <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="use-cases/optimize-content-with-performance-data.md" target="_blank" rel="referrer" title="パフォーマンスデータに基づくコンテンツの最適化"> パフォーマンスデータに基づいてコンテンツを最適化</a>
-                    </p>
-                    <p class="is-size-6">CJAとAEM MCP サーバーを組み合わせることで、パフォーマンスの低いコンテンツを特定し、1回のセッションで更新できます。</p>
-                </div>
-                <a href="use-cases/optimize-content-with-performance-data.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold"> チュートリアルを開始</span>
-                </a>
-            </div>
-        </div>
-    </div>
-    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Run a cross-channel campaign review">
-        <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
-            <div class="card-image">
-                <figure class="image x-is-16by9">
-                    <a href="use-cases/cross-channel-campaign-review.md" title="クロスチャネルキャンペーンのレビューの実施" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="https://placehold.co/1600x900?text=Cross-Channel+Campaign+Review" alt="クロスチャネルキャンペーンのレビューの実施"
-                             style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
-                    </a>
-                </figure>
-            </div>
-            <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
-                <div class="top-card-content">
-                    <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="use-cases/cross-channel-campaign-review.md" target="_blank" rel="referrer" title="クロスチャネルキャンペーンのレビューの実施"> クロスチャネルキャンペーンレビューの実行</a>
-                    </p>
-                    <p class="is-size-6">AJO、CJA、Real-Time CDPを単一のAI セッションで連携することで、キャンペーンの健全性を包括的に把握できます。</p>
-                </div>
-                <a href="use-cases/cross-channel-campaign-review.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold"> チュートリアルを開始</span>
-                </a>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- END CARDS HTML - DO NOT MODIFY BY HAND -->
+**[すべてのチュートリアルを見る](use-cases/overview.md)**
 
 ## Adobeの業界トレンド
 
 | リソース | 見つかる内容 |
 | --- | --- |
-| [Adobe AI レジストリ &#x200B;](https://developer.adobe.com/ai-registry/?type=mcp) | 利用可能なMCP サーバーとエージェントスキルの完全カタログ |
-| [Adobe API カタログ &#x200B;](https://developer.adobe.com/apis) | Adobe CX Enterprise API リファレンスの完全版 |
+| [Adobe AI レジストリ ](https://developer.adobe.com/ai-registry/?type=mcp) | MCP サーバーの完全カタログ |
+| [Adobe Agent Skills](https://github.com/adobe/skills) | Adobeが監修したCX エンタープライズワークフロー向けのエージェントのスキル |
+| [Adobe API カタログ ](https://developer.adobe.com/apis) | Adobe CX Enterprise API リファレンスの完全版 |
 | [Adobe Developer Console](https://developer.adobe.com/developer-console/docs/guides/) | API プロジェクトの設定と認証 |
-| [Experience League](https://experienceleague.adobe.com/ja/docs/experience-cloud-ai/experience-cloud-ai/home) | Adobeのアプリケーションに関するドキュメントとチュートリアル |
+| [Adobe Admin Console](https://adminconsole.adobe.com) | ユーザーと製品のアクセス管理 |
+| [Experience League](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/home) | Adobeのアプリケーションに関するドキュメントとチュートリアル |
