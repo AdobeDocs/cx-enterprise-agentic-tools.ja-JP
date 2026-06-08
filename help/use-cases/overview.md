@@ -14,7 +14,7 @@ ht-degree: 0%
 
 <!-- last-modified: 2026-05-20 -->
 
-![ エージェント ツールの動作](assets/hero-agentic-tools-in-action.png)
+![&#x200B; エージェント ツールの動作](assets/hero-agentic-tools-in-action.png)
 
 Adobe CX Enterpriseの実際のワークフローをステップバイステップで解説します。 各ウォークスルーは、設定が終わる場所から始まり、ツールをつなぎ合わせ、実際のワークフローが完了します。
 
@@ -78,7 +78,7 @@ MCP サーバーを使用します。 AI クライアントを関連するAdobe 
 
 単一のAI セッションで複数のMCP サーバーに接続するか、Adobe APIを使用してカスタムマルチアプリケーションオーケストレーションを実行できます。
 
-ビルダー](tools/apis.md)および[MCP サーバー](tools/mcp-servers.md)の[APIを参照してください。
+ビルダー[&#128279;](tools/apis.md)および[MCP サーバー](tools/mcp-servers.md)のAPIを参照してください。
 
 +++
 
@@ -86,7 +86,7 @@ MCP サーバーを使用します。 AI クライアントを関連するAdobe 
 
 エージェントのスキルの使用： エージェントが一貫性のあるタスクを完了できるように、Adobeドメインの専門知識をスキルにコード化します。
 
-[ エージェントスキル ](tools/agent-skills.md)を参照してください。
+[&#x200B; エージェントスキル &#x200B;](tools/agent-skills.md)を参照してください。
 
 +++
 
