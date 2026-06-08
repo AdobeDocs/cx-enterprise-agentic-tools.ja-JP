@@ -3,7 +3,7 @@ user-guide-title: Adobe CX Enterprise Agentic Tools
 breadcrumb-title: エージェント型ツール
 user-guide-description: MCP サーバー、エージェントスキル、APIを使用して、AI エージェントと開発ツールをAdobe CX Enterpriseの機能に接続します。
 index: false
-source-git-commit: 63f5958eaa227ea21fa5b193a2ac76a69fd349cb
+source-git-commit: ece4c03765e73a97d0b0c343b14f7675f6349e7a
 workflow-type: tm+mt
 source-wordcount: '96'
 ht-degree: 5%
@@ -11,7 +11,7 @@ ht-degree: 5%
 ---
 
 
-# 目次 {#toc}
+# 目次 {#using}
 
 <!-- last-modified: 2026-05-08 -->
 
