@@ -60,14 +60,14 @@ Adobeのエージェンティックツールのビジネス価値と、それが
 エージェンティックツールが、どのようにAdobeの日々のワークフローを加速するのかをご確認ください。
 
 - [MCP サーバー](tools/mcp-servers.md)を使用して、AI クライアントを数分でAdobe データに接続します
-- 一般的な[ キャンペーン ](use-cases/analyze-campaign-performance.md)、[ オーディエンス ](use-cases/query-audiences.md)、[ ジャーニー](use-cases/manage-ajo-journeys.md)のタスクについて、順を追って説明します
+- 一般的な[&#x200B; キャンペーン &#x200B;](use-cases/analyze-campaign-performance.md)、[&#x200B; オーディエンス &#x200B;](use-cases/query-audiences.md)、[&#x200B; ジャーニー](use-cases/manage-ajo-journeys.md)のタスクについて、順を追って説明します
 - 既に使用しているAI環境で作業する
 
 >[!TAB  ビルダーと開発者]
 
 Adobe CX Enterpriseの機能をカスタムアプリケーションやエージェントに統合できます。
 
-- 機能領域ごとにビルダー](tools/apis.md)の[APIを参照し、開発環境の[MCP サーバー](tools/mcp-servers.md)に接続します
+- 機能領域ごとにビルダー[&#128279;](tools/apis.md)のAPIを参照し、開発環境の[MCP サーバー](tools/mcp-servers.md)に接続します
 - Adobe APIと共に、[Claude Code](https://docs.anthropic.com/en/docs/claude-code/mcp)や[Cursor](https://cursor.com/docs/mcp)などのAI支援コーディングツールを使用します
 - [Adobe Developer Console](https://developer.adobe.com/developer-console/docs/guides/)で認証と資格情報を設定します
 - サポートされているAI クライアントとセットアップ手順の完全なリストについては、[MCP サーバー](tools/mcp-servers.md)を参照してください
@@ -127,7 +127,7 @@ CARDS
 
 | リソース | 見つかる内容 |
 | --- | --- |
-| [Adobe AI レジストリ ](https://developer.adobe.com/ai-registry/?type=mcp) | 利用可能なMCP サーバーとエージェントスキルの完全カタログ |
-| [Adobe API カタログ ](https://developer.adobe.com/apis) | Adobe CX Enterprise API リファレンスの完全版 |
+| [Adobe AI レジストリ &#x200B;](https://developer.adobe.com/ai-registry/?type=mcp) | 利用可能なMCP サーバーとエージェントスキルの完全カタログ |
+| [Adobe API カタログ &#x200B;](https://developer.adobe.com/apis) | Adobe CX Enterprise API リファレンスの完全版 |
 | [Adobe Developer Console](https://developer.adobe.com/developer-console/docs/guides/) | API プロジェクトの設定と認証 |
 | [Experience League](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/home) | Adobeのアプリケーションに関するドキュメントとチュートリアル |

@@ -14,7 +14,7 @@ ht-degree: 3%
 
 <!-- last-modified: 2026-05-21 -->
 
-![ パフォーマンスデータに基づいてコンテンツを最適化](https://placehold.co/1600x900?text=Optimize+Content+Based+on+Performance+Data)
+![&#x200B; パフォーマンスデータに基づいてコンテンツを最適化](https://placehold.co/1600x900?text=Optimize+Content+Based+on+Performance+Data)
 
 コンテンツパフォーマンスデータとコンテンツの更新を連携させるには、通常、Adobe AnalyticsとAdobe CMSを切り替える必要があります。 このチュートリアルでは、Customer Journey AnalyticsとAEMを同じAI セッションで連携させて、パフォーマンスの低いページを特定して更新する方法を説明します。
 
@@ -44,7 +44,7 @@ ht-degree: 3%
 | CX Enterprise MCP Gateway | `https://cx-enterprise.adobe.io/mcp` |
 | AEM Content MCP Server | `https://mcp.adobeaemcloud.com/adobe/mcp/content` |
 
-完全なセットアップ：[Claude.ai カスタムコネクタのドキュメント ](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp)
+完全なセットアップ：[Claude.ai カスタムコネクタのドキュメント &#x200B;](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp)
 
 >[!TAB ChatGPT]
 
@@ -60,7 +60,7 @@ ChatGPT デベロッパーモードを使用して両方のMCP サーバーを�
 | CX Enterprise MCP Gateway | `https://cx-enterprise.adobe.io/mcp` |
 | AEM Content MCP Server | `https://mcp.adobeaemcloud.com/adobe/mcp/content` |
 
-完全なセットアップ：[ChatGPT MCP ドキュメント ](https://developers.openai.com/api/docs/guides/tools-connectors-mcp)
+完全なセットアップ：[ChatGPT MCP ドキュメント &#x200B;](https://developers.openai.com/api/docs/guides/tools-connectors-mcp)
 
 >[!TAB その他のAI クライアント ]
 
@@ -264,7 +264,7 @@ Promote everything in the current launch to production.
 
 | リソース | 見つかる内容 |
 | --- | --- |
-| [Analytics MCP ドキュメント ](https://developer.adobe.com/analytics-mcp/docs/) | CJA MCPの設定とツールリファレンス |
+| [Analytics MCP ドキュメント &#x200B;](https://developer.adobe.com/analytics-mcp/docs/) | CJA MCPの設定とツールリファレンス |
 | [AEM as a Cloud Service のドキュメント](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service) | Adobe AEMのドキュメント |
 | [AI レジストリのCJA MCP Server](https://developer.adobe.com/ai-registry/#/mcp/cja-mcp) | CJA MCP Serverのツールと機能 |
 | [AI レジストリのAEM Content MCP Server](https://developer.adobe.com/ai-registry/#/mcp/aem-content-mcp) | AEM Content MCP Serverのツールと可用性 |
