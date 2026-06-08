@@ -1,0 +1,111 @@
+---
+title: エージェント型ツール
+description: MCP サーバー、エージェントスキル、ビルダー用APIを比較し、Adobe CX Enterprise ワークフローに適したエージェント型ツールを選択します。
+index: false
+source-git-commit: 63f5958eaa227ea21fa5b193a2ac76a69fd349cb
+workflow-type: tm+mt
+source-wordcount: '603'
+ht-degree: 2%
+
+---
+
+
+# エージェント型ツール
+
+<!-- last-modified: 2026-05-08 -->
+
+あらゆるエージェント型ツールが同じニーズに対応するわけではありません。 MCP サーバーを利用すれば、コーディング不要で、互換性のあるAI クライアントからAdobeデータに自然言語で即座にアクセスできます。 Agent Skillsは、Adobeドメインの専門知識を繰り返し可能なエージェントワークフローに組み込むことで、タスクを常に一貫性のある方法で実行することができます。 開発者は、APIを通じて完全にプログラム制御をおこない、カスタムアプリケーションを構築して統合できます。 このページでは、トレードオフについて解説し、自身の状況に適した出発点を選択できるようにします。
+
+<!--
+CARDS
+
+* mcp-servers.md
+  {title = MCP Servers}
+  {description = Connect any compatible AI client to Adobe CX Enterprise data and workflows. No coding required.}
+  {cta = Explore MCP Servers}
+  {image = ../assets/mcp-servers-card.png}
+
+* agent-skills.md
+  {title = Agent Skills}
+  {description = Adobe-curated workflow instructions that guide agents through CX Enterprise tasks consistently.}
+  {cta = Explore Agent Skills}
+  {image = ../assets/agent-skills-card.png}
+
+* apis.md
+  {title = APIs for Builders}
+  {description = Build custom applications and integrations using the same APIs that power Adobe products.}
+  {cta = Explore APIs for Builders}
+  {image = ../assets/apis-card.png}
+
+-->
+
+## エージェント型ツールの比較
+
+| | MCP サーバー | エージェントスキル | ビルダー用API |
+| --- | --- | --- | --- |
+| 最適な用途 | AI クライアントユーザー | すべてのユーザー | デベロッパー |
+| コーディングが必要 | × | × | ○ |
+| 設定時間 | Minutes | Minutes | 時間から日 |
+| 得られるもの | AI ツールからのAdobeへのアクセス | ガイド付きの反復可能なワークフロー | 完全なプログラム制御 |
+| AI クライアントが必要 | ○ | ○ | オプション |
+
+## どこから始めてよいかわからないものは、
+
+- AIを使用してAdobe CX Enterprise アプリケーションと対話する（アクションを実行し、データを照会し、AIが自然な会話を通じて次に何をすべきかを発見できるようにする）には、[MCP サーバー](mcp-servers.md)が最も柔軟な出発点となります。
+- エージェントがAdobe ネイティブのワークフローに即時に従えるように、[&#x200B; エージェントスキル &#x200B;](agent-skills.md)はそのドメインの専門知識を再利用可能な手順にエンコードします。
+- Adobeの特定のワークフローを合理化または自動化する専用アプリケーションを構築するには、[&#x200B; ビルダー用API](apis.md)を使用すると、何が起こるかを正確に制御できます。
+
+>[!BEGINTABS]
+
+>[!TAB MCP サーバー]
+
+MCP サーバーは、AI ツールとAdobeの間を接続するライブワイヤーだと考えてください。 一度連携すれば、AIがキャンペーンのクエリ、オーディエンスの取得、ジャーニーのステータスの確認などを行うのに役立ちます。 コードは必要ありません。
+
+**次の場合にMCP サーバーを使用：**
+
+- 既存のAI ツールにAdobeのデータを組み込むことで
+- 探索分析や高度なデータ取得を行っている場合
+- プロジェクトを立ち上げることなく、すばやく成果を達成
+
+**試してみる：** Claudeにアクティブなジャーニーの要約を依頼します。 ChatGPTからReal-Time CDPのオーディエンスサイズを取得します。 ダッシュボードを開かずにCJAのキャンペーン指標を確認できます。
+
+[MCP サーバーの探索](mcp-servers.md)
+
+>[!TAB  エージェントのスキル ]
+
+担当者のスキルは、Adobeのドメインの専門知識であり、担当者が従うことのできる指示としてエンコードされます。 担当者が適切なステップを見つけられることを期待するのではなく、適切な手順を説明する必要があります。 Adobeワークフロー向けに、信頼性が高く、反復可能で、すでに調整されている。
+
+**次の場合にエージェントのスキルを使用：**
+
+- 同じタスクを毎回同じように実行する必要があります
+- 反復可能なコンテンツやメディア制作ワークフローを運用している
+- Adobeについて説明しなくても理解できる担当者が必要です
+
+**試してみる：** バッチで一連の写真を編集して、まとまりのある見た目にします。 単一のソースアセットから、プラットフォームに対応したソーシャルコンテンツのバリエーションを生成。 少数のプロンプトで、Adobe Express テンプレートからデザインします。
+
+[エージェントのスキルを見る](agent-skills.md)
+
+>[!TAB ビルダーの API]
+
+APIは構成要素です。 開発者は、Adobeの自社製品と同じAPIを使用して、Adobeのデータとオペレーションに直接プログラムでアクセスできます。 スケジュール、条件、スタックを実行するものを構築するために使用します。
+
+**次の場合にAPIを使用：**
+
+- カスタムアプリケーションやダッシュボードを構築するときに
+- Adobeのデータを
+- クロードコードまたはカーソルを使用して、完全なアプリケーションを生成します
+- 完全な作成、更新、削除コントロールが必要です
+
+**試す：** カスタムキャンペーンダッシュボードを作成します。 データパイプラインの自動化。 Adobe Experience Platformに読み取りと書き込みを行うClaude Codeを使用してアプリケーションを生成します。
+
+[ビルダー用APIの確認](apis.md)
+
+>[!ENDTABS]
+
+## それらを一緒に使用
+
+MCP サーバー、エージェントスキル、APIは補完的なものです。 多くのワークフローは、次の3つを組み合わせています。
+
+- エージェントスキルは、ワークフローを定義し、エージェントをガイドします
+- MCP サーバーは、エージェントにAdobe データへの読み取りアクセス権を付与します
+- APIは、システムへの直接書き込みやカスタムアプリケーションロジックを必要とするアクションを処理します
