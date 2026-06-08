@@ -2,17 +2,16 @@
 title: 顧客に影響を与える前に、ジャーニーの問題を把握したい
 description: CX Enterprise MCP Gatewayを使用して、アクティブなAJOジャーニーをモニタリングし、キャンペーン設定をレビューし、オーディエンスにリーチする前に運用上の問題を確認します。
 index: false
-source-git-commit: 63f5958eaa227ea21fa5b193a2ac76a69fd349cb
+source-git-commit: 135f151c50464461c48fa09d4a7efad20b96cc73
 workflow-type: tm+mt
-source-wordcount: '1007'
+source-wordcount: '1008'
 ht-degree: 3%
 
 ---
 
 
 # 顧客に影響を与える前に、ジャーニーの問題を把握したい
-
-<!-- last-modified: 2026-06-02 -->
+<!-- last-modified: 2026-06-08 -->
 
 ![AJO ジャーニーのレビュー](https://placehold.co/1600x900?text=Review+AJO+Journeys)
 
@@ -27,6 +26,7 @@ ht-degree: 3%
 
 各ステップは、代表的なプロンプトとAI応答の例を示しています。 同じセッションで追加の探索を行うために、**さらに達成できる**&#x200B;のセクションを次に示します。
 
+
 ## 始める前に
 
 >[!BEGINTABS]
@@ -39,7 +39,7 @@ CX Enterprise MCP Gatewayをカスタムコネクタとして接続して、Adob
 2. **カスタムコネクタを追加**&#x200B;を選択し、サーバーURLを入力します：`https://cx-enterprise.adobe.io/mcp`
 3. **Connect**&#x200B;を選択し、Adobe IDでログインします。
 
-完全なセットアップ：[Claude.ai カスタムコネクタのドキュメント &#x200B;](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp)
+完全なセットアップ：[Claude.ai カスタムコネクタのドキュメント ](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp)
 
 >[!TAB ChatGPT]
 
@@ -50,7 +50,7 @@ ChatGPT デベロッパーモードを使用してCX エンタープライズ MC
 3. サーバーURLを入力してください：`https://cx-enterprise.adobe.io/mcp`
 4. **Connect**&#x200B;を選択し、Adobe IDでログインします。
 
-完全なセットアップ：[ChatGPT MCP ドキュメント &#x200B;](https://developers.openai.com/api/docs/guides/tools-connectors-mcp)
+完全なセットアップ：[ChatGPT MCP ドキュメント ](https://developers.openai.com/api/docs/guides/tools-connectors-mcp)
 
 >[!TAB その他のAI クライアント ]
 
@@ -72,6 +72,7 @@ https://cx-enterprise.adobe.io/mcp
 >
 >一部のツールは、実行前に承認を求めます。 リクエストを確認し、承認または辞退します。確認がなければアクションは実行されません。
 
+
 ## ステップ 1：アクティブなジャーニーとその目的を確認する
 
 まず、アクティブなジャーニーのインベントリとその背後にあるビジネス目標を尋ねることから始めます。 これにより、特定のジャーニーに入る前に、全体像を把握できます。
@@ -82,9 +83,11 @@ What customer journeys are currently available and what business objectives do t
 
 +++回答の例を見る
 
-![利用可能なカスタマージャーニーとビジネス目標を一覧表示するAI クライアント &#x200B;](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step1.gif)
+![利用可能なカスタマージャーニーとビジネス目標を一覧表示するAI クライアント ](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step1.gif)
 
 +++
+
+
 
 ## ステップ 2：ジャーニーのステップと顧客体験を見直す
 
@@ -96,13 +99,15 @@ Walk me through the [journey name] journey and explain the customer experience.
 
 +++回答の例を見る
 
-![新規顧客を歓迎するジャーニーの手順と顧客体験を説明するAI クライアント &#x200B;](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step2-welcome-journey.png)
+![新規顧客を歓迎するジャーニーの手順と顧客体験を説明するAI クライアント ](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step2-welcome-journey.png)
 
 +++
+
 
 >[!NOTE]
 >
 >手順1の結果から`[journey name]`をジャーニーの名前に置き換えます。
+
 
 ## ステップ 3：キャンペーン、オーディエンス、目的の見直し
 
@@ -114,9 +119,11 @@ Show me our campaigns, the audiences they target, and the outcomes they're desig
 
 +++回答の例を見る
 
-![&#x200B; アクティブなキャンペーンを、オーディエンスターゲティングおよび意図された結果と共に一覧表示するAI クライアント &#x200B;](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step3.gif)
+![ アクティブなキャンペーンを、オーディエンスターゲティングおよび意図された結果と共に一覧表示するAI クライアント ](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step3.gif)
 
 +++
+
+
 
 ## ステップ 4：キャンペーンとジャーニーがどのように連携しているかを把握する
 
@@ -128,9 +135,11 @@ How do our campaigns and journeys work together to improve customer engagement?
 
 +++回答の例を見る
 
-![&#x200B; キャンペーンとジャーニーの関係を説明するAI クライアント &#x200B;](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step4-connection.png)
+![ キャンペーンとジャーニーの関係を説明するAI クライアント ](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step4-connection.png)
 
 +++
+
+
 
 ## ステップ 5：優先順位の高いレコメンデーションを入手する
 
@@ -146,13 +155,16 @@ If you were our lifecycle marketing manager, what would you prioritize next and 
 
 +++
 
+
 >[!NOTE]
 >
 >AJO MCP Serverは、ジャーニーとキャンペーンの情報を表示しますが、ジャーニー、キャンペーン、コンテンツを変更することはできません。 レコメンデーションを実装するには、AJO アプリケーションに直接移動するか、AEM Content MCP Serverに接続して、同じセッション内のコンテンツの変更を行います。
 
+
 ## 達成したこと
 
-AI クライアントとAdobe Journey Optimizerを接続し、5つのプロンプトを通じてジャーニーとキャンペーンのポートフォリオの全体像を構築しました。 アクティブなジャーニーとビジネス目標を調査し、特定のジャーニーのステップバイステップの顧客体験を確認して、アクティブなキャンペーンをオーディエンスと意図される成果にマッピングし、キャンペーンとジャーニーがどのように結びついているかを把握し、次に注力すべき施策について優先順位の付いたアドバイスを受け取りました。 これにより、AJOのインターフェイスを開くことなく、ライフサイクルマーケティング担当者やキャンペーンマネージャーは、戦略的な可視性を確保できます。
+AI クライアントとAdobe Journey Optimizerを接続し、5つのプロンプトを通じてジャーニーとキャンペーンのポートフォリオの全体像を構築しました。 アクティブなジャーニーとビジネス目標を調査し、特定のジャーニーのステップバイステップの顧客体験を確認して、アクティブなキャンペーンをオーディエンスと意図される成果にマッピングし、キャンペーンとジャーニーがどのように連携しているかを把握して、次に注力すべき施策についての推奨事項を優先的に提示しました。 これにより、AJOのインターフェイスを開くことなく、ライフサイクルマーケティング担当者やキャンペーンマネージャーは、戦略的な可視性を確保できます。
+
 
 ## より多くのことを達成
 
@@ -234,11 +246,13 @@ What channel configurations are set up in our AJO environment?
 
 +++
 
+
+
 ## 詳細情報
 
 | リソース | 見つかる内容 |
 | --- | --- |
 | [AI レジストリのAJO MCP Server](https://developer.adobe.com/ai-registry/#/mcp/ajo-mcp-server) | AJO MCP Serverのツールと機能 |
-| [AJO ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/ajo-home) | Adobe AJOのドキュメント |
+| [AJO ドキュメント ](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/ajo-home) | Adobe AJOのドキュメント |
 | [AJO API](https://developer.adobe.com/journey-optimizer-apis/) | カスタム統合のためのAJO API リファレンス |
-| [AJO チュートリアル &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/tutorials/overview) | ビデオチュートリアルと学習パス |
+| [AJO チュートリアル ](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/tutorials/overview) | ビデオチュートリアルと学習パス |

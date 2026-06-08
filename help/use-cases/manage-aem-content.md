@@ -2,7 +2,7 @@
 title: コンテンツを最新の状態に保ち、更新をすばやく配信できます
 description: AEM Content MCP Serverを使用して、ツールを切り替えることなく、AEM コンテンツを検索、レビュー、更新、公開します。
 index: false
-source-git-commit: 63f5958eaa227ea21fa5b193a2ac76a69fd349cb
+source-git-commit: 14488b494c454ce6d1207e2d21024749d93db669
 workflow-type: tm+mt
 source-wordcount: '1022'
 ht-degree: 1%
@@ -39,7 +39,7 @@ AEM Content MCP Serverをカスタムコネクタとして接続します。
 2. **カスタムコネクタを追加**&#x200B;を選択し、サーバーURLを入力します：`https://mcp.adobeaemcloud.com/adobe/mcp/content`
 3. **Connect**&#x200B;を選択し、Adobe IDでログインします。
 
-完全なセットアップ：[Claude.ai カスタムコネクタのドキュメント &#x200B;](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp)
+完全なセットアップ：[Claude.ai カスタムコネクタのドキュメント ](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp)
 
 >[!TAB ChatGPT]
 
@@ -50,7 +50,7 @@ ChatGPT Developer Modeを使用してAEM Content MCP Serverに接続します（
 3. サーバーURLを入力してください：`https://mcp.adobeaemcloud.com/adobe/mcp/content`
 4. **Connect**&#x200B;を選択し、Adobe IDでログインします。
 
-完全なセットアップ：[ChatGPT MCP ドキュメント &#x200B;](https://developers.openai.com/api/docs/guides/tools-connectors-mcp)
+完全なセットアップ：[ChatGPT MCP ドキュメント ](https://developers.openai.com/api/docs/guides/tools-connectors-mcp)
 
 >[!TAB その他のAI クライアント ]
 
@@ -84,9 +84,10 @@ From WKND Dev environment, find all ski related content.
 
 +++回答の例を見る
 
-![WKND Dev AEM環境からのスキーコンテンツの検索結果を表示するAI クライアント &#x200B;](../assets/use-cases/manage-aem-content/manage-aem-content-step1-find-ski.png)
+![WKND Dev AEM環境からのスキーコンテンツの検索結果を表示するAI クライアント ](../assets/use-cases/manage-aem-content/manage-aem-content-step1-find-ski.png)
 
 +++
+
 
 ## 手順2：特定のページの確認
 
@@ -98,9 +99,10 @@ Show me the US English Home Page.
 
 +++回答の例を見る
 
-![AEMの米国英語ホームページのコンテンツ構造を表示するAI クライアント &#x200B;](../assets/use-cases/manage-aem-content/manage-aem-content-step2-home-page.png)
+![AEMの米国英語ホームページのコンテンツ構造を表示するAI クライアント ](../assets/use-cases/manage-aem-content/manage-aem-content-step2-home-page.png)
 
 +++
+
 
 ## ステップ 3：コンテンツの改善
 
@@ -112,9 +114,10 @@ Improve the Hero CTAs.
 
 +++回答の例を見る
 
-![変更を適用する前に、確認プロンプトを使用して改善されたHero CTA コピーを提案するAI クライアント &#x200B;](../assets/use-cases/manage-aem-content/manage-aem-content-step3.gif)
+![変更を適用する前に、確認プロンプトを使用して改善されたHero CTA コピーを提案するAI クライアント ](../assets/use-cases/manage-aem-content/manage-aem-content-step3.gif)
 
 +++
+
 
 >[!CAUTION]
 >
@@ -130,9 +133,10 @@ Publish the changes and share the URL.
 
 +++回答の例を見る
 
-![&#x200B; ページが公開されたことを確認し、ライブ URLを返すAI クライアント &#x200B;](../assets/use-cases/manage-aem-content/manage-aem-content-step4.gif)
+![ ページが公開されたことを確認し、ライブ URLを返すAI クライアント ](../assets/use-cases/manage-aem-content/manage-aem-content-step4.gif)
 
 +++
+
 
 ## 達成したこと
 
@@ -254,12 +258,13 @@ Promote the May Updates launch to production.
 
 +++
 
+
 ## 詳細情報
 
 | リソース | 見つかる内容 |
 | --- | --- |
-| [AEM Content MCP Server ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | MCP サーバーの設定と使用ガイド |
+| [AEM Content MCP Server ドキュメント ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | MCP サーバーの設定と使用ガイド |
 | [AI レジストリのAEM Content MCP Server](https://developer.adobe.com/ai-registry/#/mcp/aem-content-mcp) | ツールリストと可用性 |
-| [AEM as a Cloud Service のドキュメント](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service) | Adobe AEMのドキュメント |
-| [AEM コンテンツフラグメント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/content-fragments/content-fragments) | コンテンツフラグメントのオーサリングリファレンス |
+| [AEM as a Cloud Service のドキュメント](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service) | Adobe AEMのドキュメント |
+| [AEM コンテンツフラグメント ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/content-fragments/content-fragments) | コンテンツフラグメントのオーサリングリファレンス |
 | [MCP サーバー](../tools/mcp-servers.md) | AI クライアントをAdobe MCP サーバーに接続する |
