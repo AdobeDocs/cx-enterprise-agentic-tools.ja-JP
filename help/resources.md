@@ -1,8 +1,9 @@
 ---
 title: リソース
 description: Adobe CX Enterprise Agentic Toolsのドキュメント、レジストリ、API、開発者ガイドをすべて一元管理できます。
+last-substantial-update: 2026-05-08T00:00:00Z
 index: false
-source-git-commit: 63f5958eaa227ea21fa5b193a2ac76a69fd349cb
+source-git-commit: 093448ea6a9840d1d2027b76e177b145400a9202
 workflow-type: tm+mt
 source-wordcount: '554'
 ht-degree: 19%
