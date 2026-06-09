@@ -21,7 +21,7 @@ ht-degree: 5%
 
 | シナリオの詳細 | |
 | --- | --- |
-| CX エンタープライズアプリケーション | [Adobe Journey Optimizer](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/ajo-home)、[Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview)、[Real-Time CDP](https://experienceleague.adobe.com/ja/docs/experience-platform/rtcdp/home) |
+| CX エンタープライズアプリケーション | [Adobe Journey Optimizer](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/ajo-home)、[Customer Journey Analytics](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-overview/cja-overview)、[Real-Time CDP](https://experienceleague.adobe.com/ja/docs/experience-platform/rtcdp/home) |
 | エージェント型ツール | [CX エンタープライズ MCP](../tools/mcp-servers.md#cx-enterprise-mcp-servers) |
 | オーディエンス | キャンペーンマネージャー，マーケティングオペレーション |
 | 前提条件 | MCP対応のAI クライアント、AJO、CJA、Real-Time CDPへのアクセス |
@@ -293,7 +293,7 @@ Which channel has the highest conversion rate across all active campaigns?
 | --- | --- |
 | [AJO ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/ajo-home) | Adobe AJOのドキュメント |
 | [Analytics MCP ドキュメント &#x200B;](https://developer.adobe.com/analytics-mcp/docs/) | CJA MCPの設定とツールリファレンス |
-| [Real-Time CDP MCP ドキュメント &#x200B;](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/mcp/rtcdp-mcp) | RTCDP MCP セットアップガイド |
+| [Real-Time CDP MCP ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-cloud-ai/experience-cloud-ai/mcp/rtcdp-mcp) | RTCDP MCP セットアップガイド |
 | [AI レジストリのAJO MCP Server](https://developer.adobe.com/ai-registry/#/mcp/ajo-mcp-server) | AJO MCP Serverのツールと機能 |
 | [AI レジストリのCJA MCP Server](https://developer.adobe.com/ai-registry/#/mcp/cja-mcp) | CJA MCP Serverのツールと機能 |
 | [MCP サーバー](../tools/mcp-servers.md) | AI クライアントをAdobe MCP サーバーに接続する |
