@@ -3,7 +3,7 @@ title: コンテンツを最新の状態に保ち、更新をすばやく配信�
 description: AEM Content MCP Serverを使用して、ツールを切り替えることなく、AEM コンテンツを検索、レビュー、更新、公開します。
 last-substantial-update: 2026-06-09T00:00:00Z
 index: false
-source-git-commit: 94c7d3c6b0542b6e27d8775f78acf40a1b1cae91
+source-git-commit: ed47f1547e6949fc71417e7d99d83802ae3c2134
 workflow-type: tm+mt
 source-wordcount: '1053'
 ht-degree: 2%
@@ -15,16 +15,16 @@ ht-degree: 2%
 
 <!-- last-modified: 2026-05-22 -->
 
-![&#x200B; ページが公開されたことを確認し、ライブ URLを返すAI クライアント &#x200B;](../assets/use-cases/manage-aem-content/manage-aem-content-step4-02-product.png)
+![ ページが公開されたことを確認し、ライブ URLを返すAI クライアント ](../assets/use-cases/manage-aem-content/manage-aem-content-step4-02-product.png)
 
 ページの検索やコンテンツの確認から、更新や公開に至るまで、Adobe Experience Managerでコンテンツを操作するには、通常、AEMインターフェイスを直接操作する必要があります。 このチュートリアルでは、AEM Content MCP Serverを使用するAI クライアントを通じて、これらのオペレーションを処理する方法を説明します。これにより、ツール間でコンテキストを切り替えることなく、コンテンツチームはより迅速に作業できるようになります。
 
 | シナリオの詳細 | |
 | --- | --- |
-| **CX エンタープライズ アプリケーション** | [Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/overview/introduction) |
-| **エージェント ツール** | [AEM Content MCP Server](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) |
-| **オーディエンス** | コンテンツマネージャー，マーケティングチーム |
-| **前提条件** | MCP対応AI クライアント、AEM as a Cloud Serviceアクセス |
+| CX エンタープライズアプリケーション | [Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/overview/introduction) |
+| エージェント型ツール | [AEM Content MCP Server](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) |
+| オーディエンス | コンテンツマネージャー，マーケティングチーム |
+| 前提条件 | MCP対応AI クライアント、AEM as a Cloud Serviceアクセス |
 
 各ステップは、代表的なプロンプトとAI応答の例を示しています。 同じセッションで追加の探索を行うために、**さらに達成できる**&#x200B;のセクションを次に示します。
 
@@ -40,7 +40,7 @@ AEM Content MCP Serverをカスタムコネクタとして接続します。
 2. **カスタムコネクタを追加**&#x200B;を選択し、サーバーURLを入力します：`https://mcp.adobeaemcloud.com/adobe/mcp/content`
 3. **Connect**&#x200B;を選択し、Adobe IDでログインします。
 
-完全なセットアップ：[Claude.ai カスタムコネクタのドキュメント &#x200B;](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp)
+完全なセットアップ：[Claude.ai カスタムコネクタのドキュメント ](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp)
 
 >[!TAB ChatGPT]
 
@@ -51,7 +51,7 @@ ChatGPT Developer Modeを使用してAEM Content MCP Serverに接続します（
 3. サーバーURLを入力してください：`https://mcp.adobeaemcloud.com/adobe/mcp/content`
 4. **Connect**&#x200B;を選択し、Adobe IDでログインします。
 
-完全なセットアップ：[ChatGPT MCP ドキュメント &#x200B;](https://developers.openai.com/api/docs/guides/tools-connectors-mcp)
+完全なセットアップ：[ChatGPT MCP ドキュメント ](https://developers.openai.com/api/docs/guides/tools-connectors-mcp)
 
 >[!TAB その他のAI クライアント ]
 
@@ -85,7 +85,7 @@ From WKND Dev environment, find all ski related content.
 
 +++回答の例を見る
 
-![WKND Dev AEM環境からのスキーコンテンツの検索結果を表示するAI クライアント &#x200B;](../assets/use-cases/manage-aem-content/manage-aem-content-step1-find-ski.png)
+![WKND Dev AEM環境からのスキーコンテンツの検索結果を表示するAI クライアント ](../assets/use-cases/manage-aem-content/manage-aem-content-step1-find-ski.png)
 
 +++
 
@@ -100,7 +100,7 @@ Show me the US English Home Page.
 
 +++回答の例を見る
 
-![AEMの米国英語ホームページのコンテンツ構造を表示するAI クライアント &#x200B;](../assets/use-cases/manage-aem-content/manage-aem-content-step2-home-page.png)
+![AEMの米国英語ホームページのコンテンツ構造を表示するAI クライアント ](../assets/use-cases/manage-aem-content/manage-aem-content-step2-home-page.png)
 
 +++
 
@@ -115,7 +115,7 @@ Improve the Hero CTAs.
 
 +++回答の例を見る
 
-![変更を適用する前に、確認プロンプトを使用して改善されたHero CTA コピーを提案するAI クライアント &#x200B;](../assets/use-cases/manage-aem-content/manage-aem-content-step3.gif)
+![変更を適用する前に、確認プロンプトを使用して改善されたHero CTA コピーを提案するAI クライアント ](../assets/use-cases/manage-aem-content/manage-aem-content-step3.gif)
 
 +++
 
@@ -134,7 +134,7 @@ Publish the changes and share the URL.
 
 +++回答の例を見る
 
-![&#x200B; ページが公開されたことを確認し、ライブ URLを返すAI クライアント &#x200B;](../assets/use-cases/manage-aem-content/manage-aem-content-step4.gif)
+![ ページが公開されたことを確認し、ライブ URLを返すAI クライアント ](../assets/use-cases/manage-aem-content/manage-aem-content-step4.gif)
 
 +++
 
@@ -264,8 +264,8 @@ Promote the May Updates launch to production.
 
 | リソース | 見つかる内容 |
 | --- | --- |
-| [AEM Content MCP Server ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | MCP サーバーの設定と使用ガイド |
+| [AEM Content MCP Server ドキュメント ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | MCP サーバーの設定と使用ガイド |
 | [AI レジストリのAEM Content MCP Server](https://developer.adobe.com/ai-registry/#/mcp/aem-content-mcp) | ツールリストと可用性 |
-| [AEM as a Cloud Service のドキュメント](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service) | Adobe AEMのドキュメント |
-| [AEM コンテンツフラグメント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/content-fragments/content-fragments) | コンテンツフラグメントのオーサリングリファレンス |
+| [AEM as a Cloud Service のドキュメント](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service) | Adobe AEMのドキュメント |
+| [AEM コンテンツフラグメント ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/content-fragments/content-fragments) | コンテンツフラグメントのオーサリングリファレンス |
 | [MCP サーバー](../tools/mcp-servers.md) | AI クライアントをAdobe MCP サーバーに接続する |
