@@ -22,7 +22,7 @@ ht-degree: 3%
 | シナリオの詳細 | |
 | --- | --- |
 | CX エンタープライズアプリケーション | [Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/overview/introduction) |
-| エージェント型ツール | [AEM Content MCP Server](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) |
+| エージェント型ツール | [AEM Content MCP Server](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) |
 | オーディエンス | コンテンツマネージャー，マーケティングチーム |
 | 前提条件 | MCP対応AI クライアント、AEM as a Cloud Serviceアクセス |
 
@@ -265,4 +265,4 @@ Promote the May Updates launch to production.
 | リソース | 見つかる内容 |
 | --- | --- |
 | [AI レジストリのAEM Content MCP Server](https://developer.adobe.com/ai-registry/#/mcp/aem-content-mcp){target="_blank"} | ツールリストと可用性 |
-| [AEM as a Cloud Service のドキュメント](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service){target="_blank"} | Adobe AEMのドキュメント |
+| [AEM as a Cloud Service のドキュメント](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service){target="_blank"} | Adobe AEMのドキュメント |
