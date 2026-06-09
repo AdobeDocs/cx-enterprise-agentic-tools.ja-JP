@@ -279,5 +279,5 @@ Pull the step logs for the last failed run. I need to see exactly what the quali
 | リソース | 見つかる内容 |
 | --- | --- |
 | [AEM Cloud Manager ドキュメント &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/introduction-to-cloud-manager) | Adobe Cloud Managerのドキュメント |
-| [AEM as a Cloud Service のドキュメント](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service) | Adobe AEMのドキュメント |
+| [AEM as a Cloud Service のドキュメント](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service) | Adobe AEMのドキュメント |
 | [MCP サーバー](../tools/mcp-servers.md) | AI クライアントをAdobe MCP サーバーに接続する |
