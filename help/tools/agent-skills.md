@@ -15,15 +15,15 @@ ht-degree: 7%
 
 <!-- last-modified: 2026-05-19 -->
 
-Adobe CX Enterpriseの![担当者のスキル ](../assets/hero-agent-skills.png)
+Adobe CX Enterpriseの![担当者のスキル &#x200B;](../assets/hero-agent-skills.png)
 
 エージェントスキルは、Adobeがキュレートしたワークフローで、AI エージェントがAdobe CX Enterpriseのタスクを確実に完了するためのステップバイステップの手順を提供します。 各エージェントスキルは、ドメインの専門知識とベストプラクティスをエンコードすることで、エージェントが改善を必要とせずに、一貫した検証済みの結果を生成できるようにします。 エージェントのスキルは、会話をまたいで繰り返し可能なガイド付きの行動を求めるときに理にかなっています。特に、毎回詳細なプロンプトが必要になるタスクでは、これが重要になります。 これらはMCP サーバーとAPIを補完します。エージェントスキルはエージェントの仕組みを定義し、MCP サーバーとAPIは基礎となるアクセスを提供します。
 
-すべてのエージェントスキルは、[Adobe Skills GitHub リポジトリ ](https://github.com/adobe/skills)に保持されます。これは、エージェントスキルのドキュメント、インストール、実装の詳細の主要なソースです。
+すべてのエージェントスキルは、[Adobe Skills GitHub リポジトリ &#x200B;](https://github.com/adobe/skills)に保持されます。これは、エージェントスキルのドキュメント、インストール、実装の詳細の主要なソースです。
 
 ## Adobe CX Enterprise Agent Skills
 
-すべてのエージェントスキルは、[Adobe Skills GitHub リポジトリ ](https://github.com/adobe/skills)で管理されます。 そのワークフローのスキルを探るには、以下の機能領域を選択してください。
+すべてのエージェントスキルは、[Adobe Skills GitHub リポジトリ &#x200B;](https://github.com/adobe/skills)で管理されます。 そのワークフローのスキルを探るには、以下の機能領域を選択してください。
 
 ### アドビアプリケーション
 
@@ -187,11 +187,11 @@ CARDS
 <!-- END CARDS HTML - DO NOT MODIFY BY HAND -->
 
 
-スキルの詳細、インストール方法、ソースコードについては、[Adobe Skills GitHub リポジトリ ](https://github.com/adobe/skills)を参照してください。
+スキルの詳細、インストール方法、ソースコードについては、[Adobe Skills GitHub リポジトリ &#x200B;](https://github.com/adobe/skills)を参照してください。
 
 ## エージェントスキルの仕組み
 
-![ エージェントスキルの仕組み](../assets/hero-connect-agent-skills.gif)
+![&#x200B; エージェントスキルの仕組み](../assets/hero-connect-agent-skills.gif)
 
 エージェントスキルとは、AI担当者にAdobeのエージェント型ツールを使用してタスクを完了する方法を伝える一連の指示です。 エージェントがスキルを読み込むと、即興ではなく、そのワークフローに従います。
 
@@ -207,11 +207,11 @@ CARDS
 - **ノード環境**: `npx skills add adobe/skills`
 - **GitHub CLI**: `gh upskill adobe/skills`
 
-他のクライアントでは、スキルファイルをダウンロードしてAI クライアントに直接追加する必要があります。 クライアントによる完全なインストール手順については、GitHub](https://github.com/adobe/skills#installation)の[Adobe Skills READMEを参照してください。
+他のクライアントでは、スキルファイルをダウンロードしてAI クライアントに直接追加する必要があります。 クライアントによる完全なインストール手順については、GitHub[&#128279;](https://github.com/adobe/skills#installation)のAdobe Skills READMEを参照してください。
 
 ### エージェントのスキルの検索
 
-利用可能なスキルの完全なリストについては、[Adobe Skills GitHub リポジトリ ](https://github.com/adobe/skills)を参照してください。 各エージェントスキルには、詳細なガイダンス、参照、例を含む`SKILL.md` ファイルが含まれています。
+利用可能なスキルの完全なリストについては、[Adobe Skills GitHub リポジトリ &#x200B;](https://github.com/adobe/skills)を参照してください。 各エージェントスキルには、詳細なガイダンス、参照、例を含む`SKILL.md` ファイルが含まれています。
 
 `adobe/skills` パッケージをインストールまたは追加した後、一部のAI クライアントでは、利用可能なすべてのスキルを直接一覧表示できます。
 
