@@ -3,9 +3,9 @@ title: エージェント型ツールの活用例
 description: 実際のビジネスワークフローに適用されたAdobe CX Enterprise Agentic Toolsを示すステップバイステップのウォークスルー。
 last-substantial-update: 2026-06-08T00:00:00Z
 index: false
-source-git-commit: ec08b7ff646519ceb10bd3431e0c0d5db8f3367f
+source-git-commit: 94c7d3c6b0542b6e27d8775f78acf40a1b1cae91
 workflow-type: tm+mt
-source-wordcount: '413'
+source-wordcount: '264'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 <!-- last-modified: 2026-06-08 -->
 
-![&#x200B; エージェント ツールの動作](../assets/hero-agentic-tools-in-action.png)
+![ エージェント ツールの動作](../assets/hero-agentic-tools-in-action.png)
 
 Adobe CX Enterpriseの実際のワークフローをステップバイステップで解説します。 各ウォークスルーは、設定が終わる場所から始まり、ツールをつなぎ合わせ、実際のワークフローが完了します。
 
@@ -195,35 +195,3 @@ CARDS
     </div>
 </div>
 <!-- END CARDS HTML - DO NOT MODIFY BY HAND -->
-
-## よくある質問
-
-+++AI クライアントからAdobe データをクエリする方法を教えてください。
-
-MCP サーバーを使用します。 AI クライアントを関連するAdobe MCP サーバーエンドポイントに接続し、自然言語で質問します。 サーバーは、リクエストをAdobe API呼び出しに変換し、構造化された結果を返します。
-
-開始するには、[MCP サーバー](../tools/mcp-servers.md)を参照してください。
-
-+++
-
-+++複数のAdobe アプリケーションを接続するワークフローを構築するにはどうすればよいですか？
-
-単一のAI セッションで複数のMCP サーバーに接続するか、Adobe APIを使用してカスタムマルチアプリケーションオーケストレーションを実行できます。
-
-ビルダー[&#128279;](../tools/apis.md)および[MCP サーバー](../tools/mcp-servers.md)のAPIを参照してください。
-
-+++
-
-+++担当者をAdobeのベストプラクティスに従わせるにはどうすればよいですか？
-
-エージェントのスキルの使用： エージェントが一貫性のあるタスクを完了できるように、Adobeドメインの専門知識をスキルにコード化します。
-
-[&#x200B; エージェントスキル &#x200B;](../tools/agent-skills.md)を参照してください。
-
-+++
-
-+++Adobe MCP サーバーで動作するAI クライアント？
-
-任意のMCP対応クライアント。 Claude Code、Claude.ai、Cursor、ChatGPT、Google GeminiはすべてMCPをサポートしています。 完全なクライアント比較とセットアップリンクについては、[MCP サーバー](../tools/mcp-servers.md)を参照してください。
-
-+++

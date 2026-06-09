@@ -1,12 +1,12 @@
 ---
 title: オーディエンスとアクティベートされた場所を把握
-description: CX Enterprise MCP Gatewayを使用して、オーディエンスのアクティベーション状況を監視し、宛先の健全性をチェックし、キャンペーンに影響を与える前に問題を特定します。
-last-substantial-update: 2026-06-04T00:00:00Z
+description: CX エンタープライズ MCPを使用して、オーディエンスのアクティベーションステータスを監視し、宛先の健全性をチェックし、キャンペーンに影響を与える前に問題を特定します。
+last-substantial-update: 2026-06-09T00:00:00Z
 index: false
-source-git-commit: 270aed67540f7347850aece70cebddc9b40b9de8
+source-git-commit: 94c7d3c6b0542b6e27d8775f78acf40a1b1cae91
 workflow-type: tm+mt
-source-wordcount: '898'
-ht-degree: 2%
+source-wordcount: '900'
+ht-degree: 3%
 
 ---
 
@@ -15,16 +15,16 @@ ht-degree: 2%
 
 <!-- last-modified: 2026-06-04 -->
 
-![&#x200B; アクティベーションに関する推奨事項を含む、優先順位付けされたオーディエンス戦略を提供するAI クライアント &#x200B;](../assets/use-cases/query-audiences/query-audiences-step4-02-summary.png)
+![ アクティベーションに関する推奨事項を含む、優先順位付けされたオーディエンス戦略を提供するAI クライアント ](../assets/use-cases/query-audiences/query-audiences-step4-02-summary.png)
 
 どのオーディエンスがアクティベートされ、どこを流れているのか、配信先が健全かどうかを把握することは、通常、Real-Time CDPを開き、複数のスクリーンを操作することを意味します。 このチュートリアルでは、RTCDP MCP Serverを使用して、宛先設定、アクティベーションステータス、データフローの正常性を確認しながら、AI クライアントを通じて同じ回答を得る方法を説明します。
 
-| | |
+| シナリオの詳細 | |
 | --- | --- |
-| CX エンタープライズアプリケーション | Real-Time Customer Data Platform（Real-Time CDP） |
-| エージェント型ツール | CX Enterprise MCP Gateway |
-| オーディエンス | マーケター、アナリスト、オペレーター |
-| 前提条件 | MCP対応AI クライアント、Real-Time CDPアクセス |
+| **CX エンタープライズ アプリケーション** | [Real-Time Customer Data Platform （Real-Time CDP） ](https://experienceleague.adobe.com/ja/docs/experience-platform/rtcdp/home) |
+| **エージェント ツール** | [CX エンタープライズ MCP](../tools/mcp-servers.md#cx-enterprise-mcp-servers) |
+| **オーディエンス** | マーケター、アナリスト、オペレーター |
+| **前提条件** | MCP対応AI クライアント、Real-Time CDPアクセス |
 
 各ステップは、代表的なプロンプトとAI応答の例を示しています。 同じセッションで追加の探索を行うために、**さらに達成できる**&#x200B;のセクションを次に示します。
 
@@ -34,28 +34,28 @@ ht-degree: 2%
 
 >[!TAB  クロード.ai]
 
-CX Enterprise MCP Gatewayをカスタムコネクタとして接続して、Real-Time CDP ツールにアクセスします。
+CX Enterprise MCPをカスタムコネクタとして接続して、Real-Time CDP ツールにアクセスします。
 
 1. Claude.aiの&#x200B;**設定/統合**&#x200B;に移動します。
 2. **カスタムコネクタを追加**&#x200B;を選択し、サーバーURLを入力します：`https://cx-enterprise.adobe.io/mcp`
 3. **Connect**&#x200B;を選択し、Adobe IDでログインします。
 
-完全なセットアップ：[Claude.ai カスタムコネクタのドキュメント &#x200B;](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp)
+完全なセットアップ：[Claude.ai カスタムコネクタのドキュメント ](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp)
 
 >[!TAB ChatGPT]
 
-ChatGPT デベロッパーモードを使用してCX エンタープライズ MCP ゲートウェイを接続します（Pro、Plus、Business、Enterprise、またはEducation プランが必要）。
+ChatGPT デベロッパーモードを使用してCX エンタープライズ MCPを接続します（Pro、Plus、Business、Enterprise、またはEducation プランが必要）。
 
 1. **ChatGPT設定**&#x200B;で&#x200B;**開発者モード**&#x200B;を有効にします。
 2. **設定/統合**&#x200B;に移動し、**カスタムコネクタを追加/リモート MCP サーバー**&#x200B;を選択します。
 3. サーバーURLを入力してください：`https://cx-enterprise.adobe.io/mcp`
 4. **Connect**&#x200B;を選択し、Adobe IDでログインします。
 
-完全なセットアップ：[ChatGPT MCP ドキュメント &#x200B;](https://developers.openai.com/api/docs/guides/tools-connectors-mcp)
+完全なセットアップ：[ChatGPT MCP ドキュメント ](https://developers.openai.com/api/docs/guides/tools-connectors-mcp)
 
 >[!TAB その他のAI クライアント ]
 
-Gemini、Microsoft Copilot、Cursor、Claude CodeなどのMCP互換アプリケーションを使用している場合、 次のエンドポイントを使用して、CX Enterprise MCP Gatewayに接続します。
+Gemini、Microsoft Copilot、Cursor、Claude CodeなどのMCP互換アプリケーションを使用している場合、 次のエンドポイントを使用してCX Enterprise MCPに接続します。
 
 ```
 https://cx-enterprise.adobe.io/mcp
@@ -79,7 +79,7 @@ What audiences are currently available and what customer behaviors do they repre
 
 +++回答の例を見る
 
-![利用可能なオーディエンスと、そのオーディエンスが表す顧客行動をリストするAI クライアント &#x200B;](../assets/use-cases/query-audiences/query-audiences-step1-audience-list.png)
+![利用可能なオーディエンスと、そのオーディエンスが表す顧客行動をリストするAI クライアント ](../assets/use-cases/query-audiences/query-audiences-step1-audience-list.png)
 
 +++
 
@@ -94,7 +94,7 @@ Which audiences are the largest and what makes them valuable?
 
 +++回答の例を見る
 
-![最大のオーディエンスを特定し、その価値を説明するAI クライアント &#x200B;](../assets/use-cases/query-audiences/query-audiences-step2.gif)
+![最大のオーディエンスを特定し、その価値を説明するAI クライアント ](../assets/use-cases/query-audiences/query-audiences-step2.gif)
 
 +++
 
@@ -109,14 +109,14 @@ Where are our audiences currently being activated and to which destinations?
 
 +++回答の例を見る
 
-オーディエンスのアクティブ化ステータスと宛先マッピングを表示する![AI クライアント &#x200B;](../assets/use-cases/query-audiences/query-audiences-step3.gif)
+オーディエンスのアクティブ化ステータスと宛先マッピングを表示する![AI クライアント ](../assets/use-cases/query-audiences/query-audiences-step3.gif)
 
 +++
 
 
 ## ステップ 4：戦略的な推奨事項を提案する
 
-CX Enterprise MCP GatewayのRTCDP ツールは読み取り専用で、アクティベーションステータス、宛先の健全性、データフローのデータは表示されますが、設定は変更されません。 問題を特定すると、アプリケーションで修正が行われます。
+CX Enterprise MCPのRTCDP ツールは読み取り専用で、アクティベーションステータス、宛先のヘルス、データフローのデータを表示しますが、設定は変更しません。 問題を特定すると、アプリケーションで修正が行われます。
 
 ```
 If you were our audience strategist, what would you prioritize next and why?
@@ -131,7 +131,7 @@ If you were our audience strategist, what would you prioritize next and why?
 
 >[!NOTE]
 >
->CX Enterprise MCP GatewayのRTCDP ツールは、宛先とアクティベーション データを表示しますが、宛先設定、セグメント定義、データフロー設定を変更することはできません。 修正ステップは、Real-Time CDP アプリケーションで実行されます。
+>CX Enterprise MCPのRTCDP ツールは、宛先とアクティベーション データを表示しますが、宛先設定、セグメント定義、データフロー設定を変更することはできません。 修正ステップは、Real-Time CDP アプリケーションで実行されます。
 
 ## 達成したこと
 
@@ -139,7 +139,7 @@ AI クライアントとReal-Time CDPを接続し、4つのプロンプトでオ
 
 ## より多くのことを達成
 
-CX Enterprise MCP GatewayのReal-Time CDP ツールは、幅広いオーディエンスとアクティベーションクエリをサポートしています。 以下のシナリオを展開すると、同じセッションで試すことができるプロンプトが表示されます。
+CX Enterprise MCPのReal-Time CDPツールは、幅広いオーディエンスとアクティベーションクエリをサポートしています。 以下のシナリオを展開すると、同じセッションで試すことができるプロンプトが表示されます。
 
 +++キャンペーンの送信前に何が発生しているのかを正確に把握
 
@@ -230,7 +230,7 @@ Are there any audiences using a non-default merge policy that could cause profil
 
 | リソース | 見つかる内容 |
 | --- | --- |
-| [Real-Time CDP MCP ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-cloud-ai/experience-cloud-ai/mcp/rtcdp-mcp) | MCP サーバーの設定とツール リファレンス |
-| [Adobe AI レジストリ &#x200B;](https://developer.adobe.com/ai-registry/?type=mcp) | MCP サーバーのメタデータと可用性 |
-| [Real-Time CDP ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/rtcdp/home) | Adobe Real-Time CDPのドキュメント |
-| [AEP宛先ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/destinations/home) | 完全な宛先の参照 |
+| [Real-Time CDP MCP ドキュメント ](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/mcp/rtcdp-mcp) | MCP サーバーの設定とツール リファレンス |
+| [Adobe AI レジストリ ](https://developer.adobe.com/ai-registry/?type=mcp) | MCP サーバーのメタデータと可用性 |
+| [Real-Time CDP ドキュメント ](https://experienceleague.adobe.com/ja/docs/experience-platform/rtcdp/home) | Adobe Real-Time CDPのドキュメント |
+| [AEP宛先ドキュメント ](https://experienceleague.adobe.com/ja/docs/experience-platform/destinations/home) | 完全な宛先の参照 |

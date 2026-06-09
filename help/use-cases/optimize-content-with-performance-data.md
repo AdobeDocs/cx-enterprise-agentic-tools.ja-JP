@@ -3,9 +3,9 @@ title: パフォーマンスデータに基づくコンテンツの最適化
 description: CJAとAEMを単一のAI セッションで連携することで、コンバージョンのギャップがあるキャンペーンを特定し、原因を診断して、ツールを切り替えることなくコンテンツを更新できます。
 last-substantial-update: 2026-06-08T00:00:00Z
 index: false
-source-git-commit: 270aed67540f7347850aece70cebddc9b40b9de8
+source-git-commit: 94c7d3c6b0542b6e27d8775f78acf40a1b1cae91
 workflow-type: tm+mt
-source-wordcount: '1089'
+source-wordcount: '1129'
 ht-degree: 1%
 
 ---
@@ -14,16 +14,16 @@ ht-degree: 1%
 # パフォーマンスデータに基づくコンテンツの最適化
 <!-- last-modified: 2026-06-08 -->
 
-![&#x200B; オリジナルと更新されたページコンテンツを並べて比較するAI クライアント &#x200B;](../assets/use-cases/optimize-content-with-performance-data/optimize-content-with-performance-data-step5-03-page-compare.png)
+![ オリジナルと更新されたページコンテンツを並べて比較するAI クライアント ](../assets/use-cases/optimize-content-with-performance-data/optimize-content-with-performance-data-step5-03-page-compare.png)
 
-施策のパフォーマンスデータとコンテンツの更新を連携させるには、通常、分析ツールとCMSを切り替える必要があります。 このチュートリアルでは、Adobe Customer Journey AnalyticsとAdobe AEMを同じAI セッションで連携する方法を紹介します。コンバージョンのギャップを埋めるキャンペーンを浮き彫りにし、何が原因で発生しているのかを診断し、コンテンツを調査して、ターゲットを絞ったレコメンデーションを取得し、変更を適用することができます。
+施策のパフォーマンスデータとコンテンツの更新を連携させるには、通常、分析ツールとCMSを切り替える必要があります。 このチュートリアルでは、Customer Journey AnalyticsとAEMを同じAI セッションで連携する方法を示します。コンバージョンギャップを伴うキャンペーンを浮き彫りにし、何が原因かを診断し、コンテンツを調査し、ターゲットを絞ったレコメンデーションを取得し、変更を適用します。
 
-| | |
+| シナリオの詳細 | |
 | --- | --- |
-| CX エンタープライズアプリケーション | Customer Journey Analytics、Adobe Experience Manager as a Cloud Service |
-| エージェント型ツール | CX Enterprise MCP Gateway、AEM Content MCP Server |
-| オーディエンス | キャンペーンマネージャー，コンテンツストラテジスト，マーケティングオペレーション |
-| 前提条件 | MCP対応AI クライアント、CJAアクセス、AEM as a Cloud Serviceアクセス |
+| **CX エンタープライズ アプリケーション** | [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview)、[Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/overview/introduction) |
+| **エージェント ツール** | [CX Enterprise MCP](../tools/mcp-servers.md#cx-enterprise-mcp-servers)、[AEM Content MCP Server](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) |
+| **オーディエンス** | キャンペーンマネージャー，コンテンツストラテジスト，マーケティングオペレーション |
+| **前提条件** | MCP対応AI クライアント、CJAアクセス、AEM as a Cloud Serviceアクセス |
 
 各ステップは、代表的なプロンプトとAI応答の例を示しています。 同じセッションで追加の探索を行うために、**さらに達成できる**&#x200B;のセクションを次に示します。
 
@@ -42,10 +42,10 @@ ht-degree: 1%
 
 | サーバー | エンドポイント |
 | --- | --- |
-| CX Enterprise MCP Gateway | `https://cx-enterprise.adobe.io/mcp` |
+| CX Enterprise MCP | `https://cx-enterprise.adobe.io/mcp` |
 | AEM Content MCP Server | `https://mcp.adobeaemcloud.com/adobe/mcp/content` |
 
-完全なセットアップ：[Claude.ai カスタムコネクタのドキュメント &#x200B;](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp)
+完全なセットアップ：[Claude.ai カスタムコネクタのドキュメント ](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp)
 
 >[!TAB ChatGPT]
 
@@ -58,10 +58,10 @@ ChatGPT デベロッパーモードを使用して両方のMCP サーバーを�
 
 | サーバー | エンドポイント |
 | --- | --- |
-| CX Enterprise MCP Gateway | `https://cx-enterprise.adobe.io/mcp` |
+| CX Enterprise MCP | `https://cx-enterprise.adobe.io/mcp` |
 | AEM Content MCP Server | `https://mcp.adobeaemcloud.com/adobe/mcp/content` |
 
-完全なセットアップ：[ChatGPT MCP ドキュメント &#x200B;](https://developers.openai.com/api/docs/guides/tools-connectors-mcp)
+完全なセットアップ：[ChatGPT MCP ドキュメント ](https://developers.openai.com/api/docs/guides/tools-connectors-mcp)
 
 >[!TAB その他のAI クライアント ]
 
@@ -69,7 +69,7 @@ Gemini、Microsoft Copilot、Cursor、Claude CodeなどのMCP互換アプリケ�
 
 | サーバー | エンドポイント |
 | --- | --- |
-| CX Enterprise MCP Gateway | `https://cx-enterprise.adobe.io/mcp` |
+| CX Enterprise MCP | `https://cx-enterprise.adobe.io/mcp` |
 | AEM Content MCP Server | `https://mcp.adobeaemcloud.com/adobe/mcp/content` |
 
 サポートされているすべてのクライアントの完全なセットアップ手順：[AI クライアントに接続](../tools/mcp-servers.md)
@@ -82,12 +82,12 @@ Gemini、Microsoft Copilot、Cursor、Claude CodeなどのMCP互換アプリケ�
 >
 >最初の接続時に、AI クライアントからIMS組織の選択またはサンドボックスの指定を求められる場合があります。 そのコンテキストが設定されると、MCP サーバーは残りのセッションにコンテキストを使用します。
 >
->一部のツールは、実行前に承認を求めます。 リクエストを確認し、承認または辞退します。確認がなければアクションは実行されません。
+>一部のツールは、実行前に承認を求めます。 リクエストを確認して承認または辞退します。 確認なしにアクションは実行されません。
 
 
 ## ステップ 1：コンバージョンギャップのある施策の特定
 
-Adobe CJAを利用して、クリックスルー率は高いものの、コンバージョン率が低いキャンペーンを特定できます。 このパターン（高い意欲、低い完了率）は、通常、ランディングページ上のコンテンツまたはエクスペリエンスの問題を示します。
+Adobe CJAを利用して、クリックスルー率は高いものの、コンバージョン率が低いキャンペーンを特定できます。 このパターン（高いインテント、低完了）は、通常、ランディングページ上のコンテンツまたはエクスペリエンスの問題を示します。
 
 ```
 Which campaigns have strong click-through but low conversion in the last 30 days?
@@ -95,7 +95,7 @@ Which campaigns have strong click-through but low conversion in the last 30 days
 
 +++回答の例を見る
 
-![CJAからのクリックスルー率は高いがコンバージョン率は低いAI クライアントサーフェスキャンペーン &#x200B;](../assets/use-cases/optimize-content-with-performance-data/optimize-content-step1-campaigns.png)
+![CJAからのクリックスルー率は高いがコンバージョン率は低いAI クライアントサーフェスキャンペーン ](../assets/use-cases/optimize-content-with-performance-data/optimize-content-step1-campaigns.png)
 
 +++
 
@@ -111,7 +111,7 @@ What's causing the conversion drop-off, is it device, segment, or content?
 
 +++回答の例を見る
 
-![&#x200B; デバイス、セグメント、コンテンツ要因ごとにコンバージョンの脱落を診断するAI クライアント &#x200B;](../assets/use-cases/optimize-content-with-performance-data/optimize-content-step2-diagnosis.png)
+![ デバイス、セグメント、コンテンツ要因ごとにコンバージョンの脱落を診断するAI クライアント ](../assets/use-cases/optimize-content-with-performance-data/optimize-content-step2-diagnosis.png)
 
 +++
 
@@ -127,7 +127,7 @@ Show me the Bali Surf Camp page.
 
 +++回答の例を見る
 
-AEMからのランディングページの現在のコンテンツを表示する![AI クライアント &#x200B;](../assets/use-cases/optimize-content-with-performance-data/optimize-content-step3-page-content.png)
+AEMからのランディングページの現在のコンテンツを表示する![AI クライアント ](../assets/use-cases/optimize-content-with-performance-data/optimize-content-step3-page-content.png)
 
 +++
 
@@ -143,7 +143,7 @@ Which content sections are underperforming, and what changes would you recommend
 
 +++回答の例を見る
 
-パフォーマンスの低いコンテンツセクションを特定し、特定の変更を推奨する![AI クライアント &#x200B;](../assets/use-cases/optimize-content-with-performance-data/optimize-content-with-performance-data-step4.gif)
+パフォーマンスの低いコンテンツセクションを特定し、特定の変更を推奨する![AI クライアント ](../assets/use-cases/optimize-content-with-performance-data/optimize-content-with-performance-data-step4.gif)
 
 +++
 
@@ -171,7 +171,7 @@ Create an optimized version of the Bali Surf Camp page and summarize the propose
 
 ## 達成したこと
 
-Customer Journey AnalyticsとAEMを単一のAI セッションで連携し、キャンペーンデータからコンテンツ変更のデプロイにツールを切り替えることなく移行しました。 コンバージョンのギャップがあるキャンペーンを特定し、根本原因を診断して、ランディングページを調査し、データとコンテンツの両方に基づいたターゲットを絞ったレコメンデーションを得て、変更内容を同じ会話に適用しました。 これにより、Adobe Analytics insightと公開されたコンテンツとの間のフィードバックループが短縮され、同じセッションでパフォーマンスの低い任意の数のページに拡張できます。
+Customer Journey AnalyticsとAEMを単一のAI セッションで連携し、キャンペーンデータからコンテンツ変更のデプロイにツールを切り替えることなく移行しました。 コンバージョンのギャップがあるキャンペーンを特定し、根本原因を診断して、ランディングページを調査し、データとコンテンツの両方に基づいたターゲットを絞ったレコメンデーションを得て、変更内容を同じ会話に適用しました。 これにより、Adobe Analytics insightと公開されたコンテンツ間のフィードバックループが短縮され、同じセッションでパフォーマンスの低い任意の数のページに拡張できます。
 
 
 ## より多くのことを達成
@@ -256,8 +256,8 @@ Publish all confirmed changes and share the updated URLs.
 
 | リソース | 見つかる内容 |
 | --- | --- |
-| [CJA MCP Server ドキュメント &#x200B;](https://developer.adobe.com/analytics-mcp/docs/cja/) | CJA MCPの設定とツールリファレンス |
-| [AEM Content MCP Server ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | AEM Content MCPの設定と使用ガイド |
+| [CJA MCP Server ドキュメント ](https://developer.adobe.com/analytics-mcp/docs/cja/) | CJA MCPの設定とツールリファレンス |
+| [AEM Content MCP Server ドキュメント ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | AEM Content MCPの設定と使用ガイド |
 | [AI レジストリのCJA MCP Server](https://developer.adobe.com/ai-registry/#/mcp/cja-mcp) | CJA MCP Serverのツールと機能 |
 | [AI レジストリのAEM Content MCP Server](https://developer.adobe.com/ai-registry/#/mcp/aem-content-mcp) | AEM Content MCP Serverのツールと可用性 |
 | [MCP サーバー](../tools/mcp-servers.md) | AI クライアントをAdobe MCP サーバーに接続する |
