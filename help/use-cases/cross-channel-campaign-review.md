@@ -1,8 +1,9 @@
 ---
 title: クロスチャネルキャンペーンのレビューの実施
 description: 単一のAI セッションでCX Enterprise MCP Gatewayを使用し、ジャーニー、オーディエンス、パフォーマンスをまたいで、AJO、CJA、Real-Time CDPのキャンペーンの健全性を一元的に把握できます。
+last-substantial-update: 2026-05-21T00:00:00Z
 index: false
-source-git-commit: 14488b494c454ce6d1207e2d21024749d93db669
+source-git-commit: 093448ea6a9840d1d2027b76e177b145400a9202
 workflow-type: tm+mt
 source-wordcount: '1433'
 ht-degree: 4%
@@ -14,7 +15,7 @@ ht-degree: 4%
 
 <!-- last-modified: 2026-05-21 -->
 
-![&#x200B; クロスチャネルキャンペーンレビューの実行](https://placehold.co/1600x900?text=Cross-Channel+Campaign+Review)
+![ クロスチャネルキャンペーンレビューの実行](https://placehold.co/1600x900?text=Cross-Channel+Campaign+Review)
 
 キャンペーンの健全性を包括的に把握するには、複数のシステムからのデータが必要です。AJOのアクティブジャーニー、Real-Time CDPのオーディエンスアクティベーションステータス、CJAのパフォーマンス指標などです。 このチュートリアルでは、3つのAI セッションすべてを接続する方法を示します。これにより、3つの個別のツールではなく、1つの会話でジャーニーのステータスからオーディエンスの健全性、パフォーマンスのトレンドに移行できます。
 
@@ -39,7 +40,7 @@ CX Enterprise MCP Gatewayをカスタムコネクタとして接続します。 
 2. **カスタムコネクタを追加**&#x200B;を選択し、サーバーURLを入力します：`https://cx-enterprise.adobe.io/mcp`
 3. **Connect**&#x200B;を選択し、Adobe IDでログインします。
 
-完全なセットアップ：[Claude.ai カスタムコネクタのドキュメント &#x200B;](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp)
+完全なセットアップ：[Claude.ai カスタムコネクタのドキュメント ](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp)
 
 >[!TAB ChatGPT]
 
@@ -50,7 +51,7 @@ ChatGPT デベロッパーモードを使用してCX エンタープライズ MC
 3. サーバーURLを入力してください：`https://cx-enterprise.adobe.io/mcp`
 4. **Connect**&#x200B;を選択し、Adobe IDでログインします。
 
-完全なセットアップ：[ChatGPT MCP ドキュメント &#x200B;](https://developers.openai.com/api/docs/guides/tools-connectors-mcp)
+完全なセットアップ：[ChatGPT MCP ドキュメント ](https://developers.openai.com/api/docs/guides/tools-connectors-mcp)
 
 >[!TAB その他のAI クライアント ]
 
@@ -290,9 +291,9 @@ Which channel has the highest conversion rate across all active campaigns?
 
 | リソース | 見つかる内容 |
 | --- | --- |
-| [AJO ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/ajo-home) | Adobe AJOのドキュメント |
-| [Analytics MCP ドキュメント &#x200B;](https://developer.adobe.com/analytics-mcp/docs/) | CJA MCPの設定とツールリファレンス |
-| [Real-Time CDP MCP ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-cloud-ai/experience-cloud-ai/mcp/rtcdp-mcp) | RTCDP MCP セットアップガイド |
+| [AJO ドキュメント ](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/ajo-home) | Adobe AJOのドキュメント |
+| [Analytics MCP ドキュメント ](https://developer.adobe.com/analytics-mcp/docs/) | CJA MCPの設定とツールリファレンス |
+| [Real-Time CDP MCP ドキュメント ](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/mcp/rtcdp-mcp) | RTCDP MCP セットアップガイド |
 | [AI レジストリのAJO MCP Server](https://developer.adobe.com/ai-registry/#/mcp/ajo-mcp-server) | AJO MCP Serverのツールと機能 |
 | [AI レジストリのCJA MCP Server](https://developer.adobe.com/ai-registry/#/mcp/cja-mcp) | CJA MCP Serverのツールと機能 |
 | [MCP サーバー](../tools/mcp-servers.md) | AI クライアントをAdobe MCP サーバーに接続する |

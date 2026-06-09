@@ -1,8 +1,9 @@
 ---
 title: ビルダー用API
 description: Adobe CX Enterprise APIを使用して、カスタムアプリケーションと統合を構築します。
+last-substantial-update: 2026-06-02T00:00:00Z
 index: false
-source-git-commit: 3c29bfeeef3d2cb523724db02448aaa77cdf8900
+source-git-commit: 093448ea6a9840d1d2027b76e177b145400a9202
 workflow-type: tm+mt
 source-wordcount: '999'
 ht-degree: 23%
@@ -67,7 +68,7 @@ CARDS
   {target = _blank}
   {image = ../assets/apis-cxenterprise-card.png}
 
-* https://experienceleague.adobe.com/ja/docs/experience-platform/privacy/home
+* https://experienceleague.adobe.com/en/docs/experience-platform/privacy/home
   {title = Privacy}
   {description = Privacy workflows, data governance, and data subject requests.}
   {cta = Explore API}
@@ -420,9 +421,9 @@ Adobe CX Enterprise APIを構築する前に、Adobe Developer Consoleの認証�
 
 すべてのAdobe CX Enterprise API アクセスは[Adobe Developer Console](https://developer.adobe.com/developer-console/docs/guides/)を通じて管理されます。 プロジェクトを作成し、アプリケーションに必要なAPIを追加し、資格情報を生成します。
 
-1. ログインして[Adobe Developer Consoleでプロジェクト &#x200B;](https://developer.adobe.com/developer-console/docs/guides/projects/)を作成します。
+1. ログインして[Adobe Developer Consoleでプロジェクト ](https://developer.adobe.com/developer-console/docs/guides/projects/)を作成します。
 2. [必要なAdobe CX Enterprise アプリケーションのAPI](https://developer.adobe.com/developer-console/docs/guides/services/)を追加します。
-3. [認証タイプ &#x200B;](https://developer.adobe.com/developer-console/docs/guides/authentication/)を選択してください。 自動ワークフローには&#x200B;**OAuth サーバー間**&#x200B;を使用し、ユーザー向けアプリケーションには&#x200B;**OAuth Web App**&#x200B;を使用します。
+3. [認証タイプ ](https://developer.adobe.com/developer-console/docs/guides/authentication/)を選択してください。 自動ワークフローには&#x200B;**OAuth サーバー間**&#x200B;を使用し、ユーザー向けアプリケーションには&#x200B;**OAuth Web App**&#x200B;を使用します。
 4. 認証情報を生成。 アプリケーションで使用するクライアント ID、クライアント秘密鍵、およびトークンエンドポイントをメモします。
 
 ほとんどのAdobe CX Enterprise APIには、アプリケーションのライセンスが必要です。 Developer Console プロジェクトでAPIが使用できない場合は、Adobe担当者にお問い合わせください。
@@ -433,7 +434,7 @@ AI コーディングエージェントは、プロジェクトに適切な参�
 
 **1. API仕様を検索**
 
-上記の[Adobe CX Enterprise API](#adobe-cx-enterprise-apis)を参照するか、[Adobe Developer API カタログ &#x200B;](https://developer.adobe.com/apis)に直接移動します。
+上記の[Adobe CX Enterprise API](#adobe-cx-enterprise-apis)を参照するか、[Adobe Developer API カタログ ](https://developer.adobe.com/apis)に直接移動します。
 
 **2. OpenAPI仕様をダウンロード**
 
