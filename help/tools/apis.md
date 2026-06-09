@@ -3,10 +3,10 @@ title: ビルダー用API
 description: Adobe CX Enterprise APIを使用して、カスタムアプリケーションと統合を構築します。
 last-substantial-update: 2026-06-02T00:00:00Z
 index: false
-source-git-commit: 093448ea6a9840d1d2027b76e177b145400a9202
+source-git-commit: 9318512ab3280356be3f64a17f5320e30a9c4f8d
 workflow-type: tm+mt
-source-wordcount: '999'
-ht-degree: 23%
+source-wordcount: '935'
+ht-degree: 24%
 
 ---
 
@@ -20,8 +20,6 @@ ht-degree: 23%
 Adobe CX Enterprise APIでは、開発者とAIを活用したコーディングエージェンティックツールが、Adobeのデータとワークフローに直接アクセスできます。 カスタムアプリケーションの構築や統合の自動化、Adobeの機能の自社システムへの組み込みに利用できます。 APIは、システム統合を完全にプログラム制御する必要がある場合や、Adobeデータを基にアプリケーションを構築する場合に最適な選択肢です。 Adobe ワークフローへのエージェント駆動型の会話型アクセスについては、[MCP サーバー](mcp-servers.md)を参照してください。
 
 ## Adobe CX Enterprise API
-
-Adobe CX Enterprise APIは、Adobe Experience Platform、Journey Optimizer、Customer Journey Analyticsなどの製品を支える中核となるデータとオペレーションを公開します。 各APIはAPI ファーストの設計に従っており、開発者とAI支援のコーディングエージェンティックツールが、Adobe Adobeの社内で使用するのと同じ機能に、プログラミング可能な方法で直接アクセスできます。 カスタムアプリケーションの構築、ワークフローの自動化、Adobeデータの自社システムへの統合に役立ちます。
 
 <!--
 CARDS
@@ -398,19 +396,6 @@ CARDS
 </div>
 <!-- END CARDS HTML - DO NOT MODIFY BY HAND -->
 
-
-## ビルダーとMCP サーバーのAPI
-
-システム統合を完全に制御する必要がある場合や、カスタムアプリケーションを構築する場合は、APIを使用します。 AI エージェントにAdobeワークフローを直接操作してもらいたい場合は、MCP サーバーを使用します。
-
-| | API | MCP サーバー |
-| --- | --- | --- |
-| 直接システム統合 | ○ | 時々 |
-| エージェントにも使いやすいオーケストレーション | 制限付き | ○ |
-| 生データへのアクセス | ○ | 通常は抽象化 |
-| カスタムアプリケーション開発 | プライマリの使用例 | セカンダリ |
-| AIを活用したワークフロー | 対応 | プライマリの使用例 |
-
 ## ビルダー向けAPIの基本を学ぶ
 
 ![Adobe CX Enterprise APIに接続するIDE](../assets/hero-connect-apis.gif)
@@ -500,3 +485,15 @@ project/
 **スペックを最新の状態に保つ**
 
 Adobeが新しいAPI バージョンを公開する場合：新しいスナップショットを`/specs`にダウンロードし、`README.md`で日付を更新し、インデックスと`AGENTS.md`を再生成します。
+
+## ビルダーとMCP サーバーのAPI
+
+システム統合を完全に制御する必要がある場合や、カスタムアプリケーションを構築する場合は、APIを使用します。 AI エージェントにAdobeワークフローを直接操作してもらいたい場合は、MCP サーバーを使用します。
+
+| | API | MCP サーバー |
+| --- | --- | --- |
+| 直接システム統合 | ○ | 時々 |
+| エージェントにも使いやすいオーケストレーション | 制限付き | ○ |
+| 生データへのアクセス | ○ | 通常は抽象化 |
+| カスタムアプリケーション開発 | プライマリの使用例 | セカンダリ |
+| AIを活用したワークフロー | 対応 | プライマリの使用例 |
