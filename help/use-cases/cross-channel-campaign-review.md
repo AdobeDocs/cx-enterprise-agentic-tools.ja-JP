@@ -15,7 +15,7 @@ ht-degree: 5%
 
 <!-- last-modified: 2026-05-21 -->
 
-![ クロスチャネルキャンペーンレビューの実行](https://placehold.co/1600x900?text=Cross-Channel+Campaign+Review)
+![&#x200B; クロスチャネルキャンペーンレビューの実行](https://placehold.co/1600x900?text=Cross-Channel+Campaign+Review)
 
 キャンペーンの健全性を包括的に把握するには、複数のシステムからのデータが必要です。AJOのアクティブジャーニー、Real-Time CDPのオーディエンスアクティベーションステータス、CJAのパフォーマンス指標などです。 このチュートリアルでは、3つのAI セッションすべてを接続する方法を示します。これにより、3つの個別のツールではなく、1つの会話でジャーニーのステータスからオーディエンスの健全性、パフォーマンスのトレンドに移行できます。
 
@@ -40,7 +40,7 @@ CX Enterprise MCPをカスタムコネクタとして接続します。 1つの�
 2. **カスタムコネクタを追加**&#x200B;を選択し、サーバーURLを入力します：`https://cx-enterprise.adobe.io/mcp`
 3. **Connect**&#x200B;を選択し、Adobe IDでログインします。
 
-完全なセットアップ：[Claude.ai カスタムコネクタのドキュメント ](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp)
+完全なセットアップ：[Claude.ai カスタムコネクタのドキュメント &#x200B;](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp)
 
 >[!TAB ChatGPT]
 
@@ -51,7 +51,7 @@ ChatGPT デベロッパーモードを使用してCX エンタープライズ MC
 3. サーバーURLを入力してください：`https://cx-enterprise.adobe.io/mcp`
 4. **Connect**&#x200B;を選択し、Adobe IDでログインします。
 
-完全なセットアップ：[ChatGPT MCP ドキュメント ](https://developers.openai.com/api/docs/guides/tools-connectors-mcp)
+完全なセットアップ：[ChatGPT MCP ドキュメント &#x200B;](https://developers.openai.com/api/docs/guides/tools-connectors-mcp)
 
 >[!TAB その他のAI クライアント ]
 
@@ -291,6 +291,6 @@ Which channel has the highest conversion rate across all active campaigns?
 
 | リソース | 見つかる内容 |
 | --- | --- |
-| [AJO ドキュメント ](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/ajo-home){target="_blank"} | Adobe AJOのドキュメント |
+| [AJO ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/ajo-home){target="_blank"} | Adobe AJOのドキュメント |
 | [AI レジストリのAJO MCP Server](https://developer.adobe.com/ai-registry/#/mcp/ajo-mcp-server){target="_blank"} | AJO MCP Serverのツールと機能 |
 | [AI レジストリのCJA MCP Server](https://developer.adobe.com/ai-registry/#/mcp/cja-mcp){target="_blank"} | CJA MCP Serverのツールと機能 |

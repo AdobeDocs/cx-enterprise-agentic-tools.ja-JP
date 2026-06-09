@@ -15,7 +15,7 @@ ht-degree: 3%
 
 <!-- last-modified: 2026-05-22 -->
 
-![ ページが公開されたことを確認し、ライブ URLを返すAI クライアント ](../assets/use-cases/manage-aem-content/manage-aem-content-step4-02-product.png)
+![&#x200B; ページが公開されたことを確認し、ライブ URLを返すAI クライアント &#x200B;](../assets/use-cases/manage-aem-content/manage-aem-content-step4-02-product.png)
 
 ページの検索やコンテンツの確認から、更新や公開に至るまで、Adobe Experience Managerでコンテンツを操作するには、通常、AEMインターフェイスを直接操作する必要があります。 このチュートリアルでは、AEM Content MCP Serverを使用するAI クライアントを通じて、これらのオペレーションを処理する方法を説明します。これにより、ツール間でコンテキストを切り替えることなく、コンテンツチームはより迅速に作業できるようになります。
 
@@ -40,7 +40,7 @@ AEM Content MCP Serverをカスタムコネクタとして接続します。
 2. **カスタムコネクタを追加**&#x200B;を選択し、サーバーURLを入力します：`https://mcp.adobeaemcloud.com/adobe/mcp/content`
 3. **Connect**&#x200B;を選択し、Adobe IDでログインします。
 
-完全なセットアップ：[Claude.ai カスタムコネクタのドキュメント ](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp)
+完全なセットアップ：[Claude.ai カスタムコネクタのドキュメント &#x200B;](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp)
 
 >[!TAB ChatGPT]
 
@@ -51,7 +51,7 @@ ChatGPT Developer Modeを使用してAEM Content MCP Serverに接続します（
 3. サーバーURLを入力してください：`https://mcp.adobeaemcloud.com/adobe/mcp/content`
 4. **Connect**&#x200B;を選択し、Adobe IDでログインします。
 
-完全なセットアップ：[ChatGPT MCP ドキュメント ](https://developers.openai.com/api/docs/guides/tools-connectors-mcp)
+完全なセットアップ：[ChatGPT MCP ドキュメント &#x200B;](https://developers.openai.com/api/docs/guides/tools-connectors-mcp)
 
 >[!TAB その他のAI クライアント ]
 
@@ -85,7 +85,7 @@ From WKND Dev environment, find all ski related content.
 
 +++回答の例を見る
 
-![WKND Dev AEM環境からのスキーコンテンツの検索結果を表示するAI クライアント ](../assets/use-cases/manage-aem-content/manage-aem-content-step1-find-ski.png)
+![WKND Dev AEM環境からのスキーコンテンツの検索結果を表示するAI クライアント &#x200B;](../assets/use-cases/manage-aem-content/manage-aem-content-step1-find-ski.png)
 
 +++
 
@@ -100,7 +100,7 @@ Show me the US English Home Page.
 
 +++回答の例を見る
 
-![AEMの米国英語ホームページのコンテンツ構造を表示するAI クライアント ](../assets/use-cases/manage-aem-content/manage-aem-content-step2-home-page.png)
+![AEMの米国英語ホームページのコンテンツ構造を表示するAI クライアント &#x200B;](../assets/use-cases/manage-aem-content/manage-aem-content-step2-home-page.png)
 
 +++
 
@@ -115,7 +115,7 @@ Improve the Hero CTAs.
 
 +++回答の例を見る
 
-![変更を適用する前に、確認プロンプトを使用して改善されたHero CTA コピーを提案するAI クライアント ](../assets/use-cases/manage-aem-content/manage-aem-content-step3.gif)
+![変更を適用する前に、確認プロンプトを使用して改善されたHero CTA コピーを提案するAI クライアント &#x200B;](../assets/use-cases/manage-aem-content/manage-aem-content-step3.gif)
 
 +++
 
@@ -134,7 +134,7 @@ Publish the changes and share the URL.
 
 +++回答の例を見る
 
-![ ページが公開されたことを確認し、ライブ URLを返すAI クライアント ](../assets/use-cases/manage-aem-content/manage-aem-content-step4.gif)
+![&#x200B; ページが公開されたことを確認し、ライブ URLを返すAI クライアント &#x200B;](../assets/use-cases/manage-aem-content/manage-aem-content-step4.gif)
 
 +++
 
