@@ -257,7 +257,7 @@ Publish all confirmed changes and share the updated URLs.
 | リソース | 見つかる内容 |
 | --- | --- |
 | [CJA MCP Server ドキュメント &#x200B;](https://developer.adobe.com/analytics-mcp/docs/cja/) | CJA MCPの設定とツールリファレンス |
-| [AEM Content MCP Server ドキュメント &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | AEM Content MCPの設定と使用ガイド |
+| [AEM Content MCP Server ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | AEM Content MCPの設定と使用ガイド |
 | [AI レジストリのCJA MCP Server](https://developer.adobe.com/ai-registry/#/mcp/cja-mcp) | CJA MCP Serverのツールと機能 |
 | [AI レジストリのAEM Content MCP Server](https://developer.adobe.com/ai-registry/#/mcp/aem-content-mcp) | AEM Content MCP Serverのツールと可用性 |
 | [MCP サーバー](../tools/mcp-servers.md) | AI クライアントをAdobe MCP サーバーに接続する |
