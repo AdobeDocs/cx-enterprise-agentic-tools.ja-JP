@@ -3,7 +3,7 @@ title: MCP サーバー
 description: モデルコンテキストプロトコルサーバーを使用して、MCP互換のAI クライアントをAdobe CX Enterprise ワークフローに接続します。
 index: false
 last-substantial-update: 2026-06-09T00:00:00Z
-source-git-commit: 76a2dc291781d0555e0b128eb6c0e226759f5cc8
+source-git-commit: 8f499ad7baf1b5d08dfac90511d0c76e8372c08b
 workflow-type: tm+mt
 source-wordcount: '2078'
 ht-degree: 3%
@@ -138,7 +138,7 @@ Claude.aiは、アカウント設定のカスタムコネクタを介してリ�
 
 1. **設定/統合**&#x200B;に移動します。
 2. 「**カスタムコネクタを追加**」をクリックします。
-3. サーバーエンドポイントをURL （CX Enterprise MCPの場合は`https://cx-enterprise.adobe.io/mcp`など）として入力し、任意の表示名を入力します。
+3. サーバーエンドポイントをURL （CX Enterprise MCPの場合は`https://cx-enterprise.adobe.io/mcp`など）として入力し、選択した表示名を入力します。
 4. **Connect**&#x200B;をクリックし、Adobe IDでログインします。 適切なIMS組織を選択します。
 
 完全なセットアップ：[Claude.ai カスタムコネクタのドキュメント &#x200B;](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp)
@@ -209,7 +209,7 @@ ChatGPTは、[開発者モード &#x200B;](https://developers.openai.com/api/doc
 1. **ChatGPT設定**&#x200B;で開発者モードを有効にします。
 2. **設定/統合**&#x200B;に移動します。
 3. 「**カスタムコネクタを追加**」をクリックし、**リモート MCP サーバー**&#x200B;を選択します。
-4. サーバーエンドポイントをURL （CX Enterprise MCPの場合は`https://cx-enterprise.adobe.io/mcp`など）として入力し、任意の表示名を入力します。
+4. サーバーエンドポイントをURL （CX Enterprise MCPの場合は`https://cx-enterprise.adobe.io/mcp`など）として入力し、選択した表示名を入力します。
 5. 認証を&#x200B;**OAuth**&#x200B;に設定します。
 6. **Connect**&#x200B;をクリックし、Adobe IDでログインします。 適切なIMS組織を選択します。
 
@@ -243,7 +243,7 @@ Microsoft Copilot Studioは、Power Platform カスタムコネクタを自動�
 1. Copilot Studioでエージェントを開きます。
 2. **ツール** ページに移動します。
 3. **ツールを追加/新規ツール/モデルコンテキストプロトコル**&#x200B;を選択します。
-4. MCP オンボーディングウィザードで、サーバーの詳細（CX Enterprise MCPなど）を入力します。
+4. MCP オンボーディングウィザードで、サーバーの詳細を入力します。 例えば、CX Enterprise MCPの場合は次のようになります。
    - **サーバー名：** `Adobe CX Enterprise`
    - **サーバーURL:** `https://cx-enterprise.adobe.io/mcp`
 5. Authenticationを&#x200B;**OAuth 2.0**&#x200B;に設定し、Adobe IMS認証とトークン URLを使用して設定します。

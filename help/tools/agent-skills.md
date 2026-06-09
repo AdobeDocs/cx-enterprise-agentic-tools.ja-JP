@@ -3,7 +3,7 @@ title: エージェントスキル
 description: Adobeが監修したワークフローと手引きを活用して、AI エージェントがCX Enterpriseのタスクを一貫して進められるようにします。
 last-substantial-update: 2026-05-19T00:00:00Z
 index: false
-source-git-commit: a130fc470e97f2316e2ea72ebda47b9fc4ad9b33
+source-git-commit: 8f499ad7baf1b5d08dfac90511d0c76e8372c08b
 workflow-type: tm+mt
 source-wordcount: '440'
 ht-degree: 1%
@@ -11,7 +11,7 @@ ht-degree: 1%
 ---
 
 
-# エージェントスキル
+# エージェントのスキル
 
 <!-- last-modified: 2026-05-19 -->
 
@@ -19,7 +19,7 @@ Adobe CX Enterpriseの![担当者のスキル &#x200B;](../assets/hero-agent-ski
 
 エージェントスキルは、Adobeがキュレートしたワークフローで、AI エージェントがAdobe CX Enterpriseのタスクを確実に完了するためのステップバイステップの手順を提供します。 各エージェントスキルは、ドメインの専門知識とベストプラクティスをエンコードすることで、エージェントが改善を必要とせずに、一貫した検証済みの結果を生成できるようにします。 エージェントのスキルは、会話をまたいで繰り返し可能なガイド付きの行動を求めるときに理にかなっています。特に、毎回詳細なプロンプトが必要になるタスクでは、これが重要になります。 これらはMCP サーバーとAPIを補完します。エージェントスキルはエージェントの仕組みを定義し、MCP サーバーとAPIは基礎となるアクセスを提供します。
 
-## Adobe CX Enterprise Agent Skills
+## Adobe CX Enterpriseの担当者のスキル
 
 そのワークフローのスキルを探るには、以下の機能領域を選択してください。
 
@@ -57,7 +57,7 @@ Creative Cloudを使用した、一括写真編集、テンプレートからの
 
 >[!ENDTABS]
 
-## エージェントスキルの追加
+## エージェントのスキルを追加
 
 ![&#x200B; エージェントスキルの仕組み](../assets/hero-connect-agent-skills.gif)
 
@@ -73,7 +73,7 @@ Creative Cloudを使用した、一括写真編集、テンプレートからの
 
 他のクライアントでは、スキルファイルをダウンロードしてAI クライアントに直接追加する必要があります。 クライアントによる完全なインストール手順については、GitHub[&#128279;](https://github.com/adobe/skills#installation)のAdobe Skills READMEを参照してください。
 
-### エージェントのスキルの検索
+### エージェントのスキルを見つける
 
 利用可能なスキルの完全なリストについては、[Adobe Skills GitHub リポジトリ &#x200B;](https://github.com/adobe/skills)を参照してください。 各エージェントスキルには、詳細なガイダンス、参照、例を含む`SKILL.md` ファイルが含まれています。
 

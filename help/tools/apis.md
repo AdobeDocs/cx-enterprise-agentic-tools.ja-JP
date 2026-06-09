@@ -3,7 +3,7 @@ title: ビルダー用API
 description: Adobe CX Enterprise APIを使用して、カスタムアプリケーションと統合を構築します。
 last-substantial-update: 2026-06-02T00:00:00Z
 index: false
-source-git-commit: a130fc470e97f2316e2ea72ebda47b9fc4ad9b33
+source-git-commit: 8f499ad7baf1b5d08dfac90511d0c76e8372c08b
 workflow-type: tm+mt
 source-wordcount: '747'
 ht-degree: 11%
@@ -107,7 +107,7 @@ API プロジェクトの設定、認証、資格情報管理。
 
 ![Adobe CX Enterprise APIに接続するIDE](../assets/hero-connect-apis.gif)
 
-Claude Code、Cursor、OpenAI Codexなどのコーディングエージェントは、Adobe CX Enterprise APIを使用した構築に適しています。プロジェクトにOpenAPI仕様を追加すると、エージェントは手作業での配線を必要とせずに、エンドポイントの発見、リクエストの作成、API動作の理由を確認できます。 まず、Adobe Developer Consoleの認証済み資格情報と、プロジェクトに追加されたAPI ドキュメントの2つが必要です。
+Claude Code、Cursor、OpenAI Codexなどのコーディングエージェントは、Adobe CX Enterprise APIを使用した構築に適しています。 プロジェクトにOpenAPI仕様を追加すると、エージェントは手動での配線なしでエンドポイントを発見し、リクエストを作成し、API動作の理由を確認できます。 まず、Adobe Developer Consoleの認証済み資格情報と、プロジェクトに追加されたAPI ドキュメントの2つが必要です。
 
 ### Adobe Developer ConsoleでのAPI資格情報の設定
 
