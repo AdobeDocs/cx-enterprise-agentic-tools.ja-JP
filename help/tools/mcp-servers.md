@@ -3,9 +3,9 @@ title: MCP サーバー
 description: モデルコンテキストプロトコルサーバーを使用して、MCP互換のAI クライアントをAdobe CX Enterprise ワークフローに接続します。
 index: false
 last-substantial-update: 2026-06-09T00:00:00Z
-source-git-commit: a580957c41e750578b03688bb7ef980103a97781
+source-git-commit: ec08b7ff646519ceb10bd3431e0c0d5db8f3367f
 workflow-type: tm+mt
-source-wordcount: '1965'
+source-wordcount: '1970'
 ht-degree: 3%
 
 ---
@@ -33,7 +33,7 @@ Adobe MCP サーバーは、オープン [&#x200B; モデル コンテキスト 
 
 **1つのエンドポイント。 複数のCX エンタープライズ アプリケーション。**
 
-接続すると、AI クライアントは、組織のライセンスに基づいてCX エンタープライズアプリケーションにアクセスできます。
+接続すると、AI クライアントは、組織のライセンスに基づいてCX エンタープライズアプリケーションにアクセスできます。 組織を有効にするには、[cxo-mcp-feedback@adobe.com](mailto:cxo-mcp-feedback@adobe.com)にメールを送信してアクセスをリクエストしてください。
 
 ```
 https://cx-enterprise.adobe.io/mcp
@@ -50,7 +50,7 @@ https://cx-enterprise.adobe.io/mcp
 
 >[!NOTE]
 >
->各CX Enterprise アプリケーションへのアクセスは、組織の使用権限とAdobe Admin Consoleでのユーザーの権限に基づいています。
+>各CX Enterprise アプリケーションへのアクセスは、組織の使用権限とAdobe Admin Consoleでのユーザーの権限に基づいています。 組織のCX Enterprise MCPを有効にするには、[cxo-mcp-feedback@adobe.com](mailto:cxo-mcp-feedback@adobe.com)に電子メールを送信します。
 
 >[!TAB Experience Manager]
 
@@ -82,17 +82,13 @@ Adobe Experience Managerには、異なるワークフロー用に複数のMCP �
 
 >[!TAB Marketo Engage]
 
->[!NOTE]
->
->Marketo Engage MCPは、Adobe IMSではなく、Marketoネイティブのサービス資格情報を使用します。 認証設定の手順については、[Marketo Engage MCP Server ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/marketo-developer/marketo/mcp-server)を参照してください。
-
 | MCP サーバー | エンドポイント | 実行できること |
 | --- | --- | --- |
 | [Marketo Engage](https://experienceleague.adobe.com/ja/docs/marketo-developer/marketo/mcp-server) | `https://marketo-mcp.adobe.io/mcp` | プログラム、キャンペーン、リード、スマートリスト、メール、フォームを管理する |
 
 >[!NOTE]
 >
->アクセスは、Marketo Engage サブスクリプションとAPI ユーザーの権限によって異なります。
+>Marketo Engage MCPは、Adobe IMSではなく、Marketoネイティブのサービス資格情報を使用します。 認証設定については、[Marketo Engage MCP Server ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/marketo-developer/marketo/mcp-server)を参照してください。 アクセスは、Marketo Engage サブスクリプションとAPI ユーザーの権限によって異なります。
 
 >[!TAB Target]
 
@@ -292,11 +288,6 @@ CARDS
   {title = Optimize content based on performance data}
   {description = Combine CX Enterprise MCP and AEM Content MCP Server to find underperforming content and update it in one session.}
   {cta = Start walkthrough}
-
-* ../use-cases/cross-channel-campaign-review.md
-  {title = Run a cross-channel campaign review}
-  {description = Use CX Enterprise MCP for a unified view of AJO, CJA, and Real-Time CDP campaign health in one AI session.}
-  {cta = Start walkthrough}
 -->
 
 <!-- START CARDS HTML - DO NOT MODIFY BY HAND -->
@@ -416,33 +407,12 @@ CARDS
             </div>
         </div>
     </div>
-    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Run a cross-channel campaign review">
-        <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
-            <div class="card-image">
-                <figure class="image x-is-16by9">
-                    <a href="../use-cases/cross-channel-campaign-review.md" title="クロスチャネルキャンペーンのレビューの実施" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="https://placehold.co/1600x900?text=Cross-Channel+Campaign+Review" alt="クロスチャネルキャンペーンのレビューの実施"
-                             style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
-                    </a>
-                </figure>
-            </div>
-            <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
-                <div class="top-card-content">
-                    <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="../use-cases/cross-channel-campaign-review.md" target="_blank" rel="referrer" title="クロスチャネルキャンペーンのレビューの実施"> クロスチャネルキャンペーンレビューの実行</a>
-                    </p>
-                    <p class="is-size-6">CX Enterprise MCPを使用すると、AJO、CJA、Real-Time CDPのキャンペーンの健全性を1つのAI セッションで一元的に把握できます。</p>
-                </div>
-                <a href="../use-cases/cross-channel-campaign-review.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold"> チュートリアルを開始</span>
-                </a>
-            </div>
-        </div>
-    </div>
 </div>
 <!-- END CARDS HTML - DO NOT MODIFY BY HAND -->
 
-## トラブルシューティング
+## もっと手伝いが必要ですか？
+
+MCP接続には、認証、組織の選択、アプリケーションレベルの権限が含まれます。 何かが期待どおりに機能しない場合は、これらの手順で最も一般的な原因を説明します。
 
 +++Adobe組織の切り替え
 

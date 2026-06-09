@@ -3,9 +3,9 @@ user-guide-title: Adobe CX Enterprise Agentic Tools
 breadcrumb-title: エージェント型ツール
 user-guide-description: MCP サーバー、エージェントスキル、APIを使用して、AI エージェントと開発ツールをAdobe CX Enterpriseの機能に接続します。
 index: false
-source-git-commit: 3c29bfeeef3d2cb523724db02448aaa77cdf8900
+source-git-commit: ec08b7ff646519ceb10bd3431e0c0d5db8f3367f
 workflow-type: tm+mt
-source-wordcount: '96'
+source-wordcount: '90'
 ht-degree: 5%
 
 ---
@@ -28,5 +28,4 @@ ht-degree: 5%
    + [顧客に影響を与える前に、ジャーニーの問題を把握したい](/help/use-cases/manage-ajo-journeys.md)
    + [コンテンツを最新の状態に保ち、更新をすばやく配信できます](/help/use-cases/manage-aem-content.md)
    + [パフォーマンスデータに基づくコンテンツの最適化](/help/use-cases/optimize-content-with-performance-data.md)
-   + [クロスチャネルキャンペーンのレビューの実施](/help/use-cases/cross-channel-campaign-review.md)
    + [確実なAEM as a Cloud Serviceへのデプロイ](/help/use-cases/aem-cloud-manager-mcp.md)
