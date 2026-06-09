@@ -3,9 +3,9 @@ title: レポートを作成することなくキャンペーンのインサイ�
 description: CX Enterprise MCPを使用して、Customer Journey Analyticsのパフォーマンスに関する質問をわかりやすい言語で行い、レポートビルダーを移動することなく回答を得ることができます。
 last-substantial-update: 2026-06-09T00:00:00Z
 index: false
-source-git-commit: ed47f1547e6949fc71417e7d99d83802ae3c2134
+source-git-commit: 6a2b8b54eb9fe040f5f9defa9e6681e46a5e65cf
 workflow-type: tm+mt
-source-wordcount: '1036'
+source-wordcount: '1007'
 ht-degree: 1%
 
 ---
@@ -273,7 +273,5 @@ Save this analysis as a Workspace project for executive reporting.
 
 | リソース | 見つかる内容 |
 | --- | --- |
-| [CJA MCP Server ドキュメント &#x200B;](https://developer.adobe.com/analytics-mcp/docs/cja/) | 完全なツールリファレンスとセットアップガイド |
-| [CJA MCP使用ガイド &#x200B;](https://developer.adobe.com/analytics-mcp/docs/guides/) | 詳細な利用方法ガイド |
-| [AI レジストリのCJA MCP Server](https://developer.adobe.com/ai-registry/#/mcp/cja-mcp) | CJA MCP Serverのツールと機能 |
-| [Customer Journey Analytics ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-landing) | Adobe CJAのドキュメント |
+| [AI レジストリのCJA MCP Server](https://developer.adobe.com/ai-registry/#/mcp/cja-mcp){target="_blank"} | CJA MCP Serverのツールと機能 |
+| [Customer Journey Analytics ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-landing){target="_blank"} | Adobe CJAのドキュメント |
