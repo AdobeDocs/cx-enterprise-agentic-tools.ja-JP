@@ -3,9 +3,9 @@ title: MCP サーバー
 description: モデルコンテキストプロトコルサーバーを使用して、MCP互換のAI クライアントをAdobe CX Enterprise ワークフローに接続します。
 index: false
 last-substantial-update: 2026-06-09T00:00:00Z
-source-git-commit: a580957c41e750578b03688bb7ef980103a97781
+source-git-commit: ec08b7ff646519ceb10bd3431e0c0d5db8f3367f
 workflow-type: tm+mt
-source-wordcount: '1965'
+source-wordcount: '1970'
 ht-degree: 3%
 
 ---
@@ -15,11 +15,11 @@ ht-degree: 3%
 
 <!-- last-modified: 2026-06-09 -->
 
->[!VIDEO](https://video.tv.adobe.com/v/3491323/?captions=jpn&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3491320/?learn=on&enablevpops)
 
 Adobe CX Enterprise MCP サーバーは、互換性のあるAI クライアントに、Adobeデータやワークフローへの直接的で管理されたアクセスを提供します。 接続すれば、AI環境から直接、キャンペーンのパフォーマンスのクエリ、オーディエンスのアクティベーション、ジャーニーのレビュー、コンテンツの管理などをおわかりやすい言葉で行うことができます。 MCP サーバーは、AI クライアントとAdobeの基盤システムの間に配置されているため、企業のアクセス制御とデータガバナンスを維持しながら、自然言語の柔軟性を実現できます。
 
-Adobe MCP サーバーは、オープン [&#x200B; モデル コンテキスト プロトコル &#x200B;](https://modelcontextprotocol.io/docs/getting-started/intro)標準に従います。 MCP対応のAI クライアントは、あらゆるAdobe MCP サーバーに接続できます。
+Adobe MCP サーバーは、オープン [ モデル コンテキスト プロトコル ](https://modelcontextprotocol.io/docs/getting-started/intro)標準に従います。 MCP対応のAI クライアントは、あらゆるAdobe MCP サーバーに接続できます。
 
 ## CX Enterprise MCP サーバー
 
@@ -33,7 +33,7 @@ Adobe MCP サーバーは、オープン [&#x200B; モデル コンテキスト 
 
 **1つのエンドポイント。 複数のCX エンタープライズ アプリケーション。**
 
-接続すると、AI クライアントは、組織のライセンスに基づいてCX エンタープライズアプリケーションにアクセスできます。
+接続すると、AI クライアントは、組織のライセンスに基づいてCX エンタープライズアプリケーションにアクセスできます。 組織を有効にするには、[cxo-mcp-feedback@adobe.com](mailto:cxo-mcp-feedback@adobe.com)にメールを送信してアクセスをリクエストしてください。
 
 ```
 https://cx-enterprise.adobe.io/mcp
@@ -50,7 +50,7 @@ https://cx-enterprise.adobe.io/mcp
 
 >[!NOTE]
 >
->各CX Enterprise アプリケーションへのアクセスは、組織の使用権限とAdobe Admin Consoleでのユーザーの権限に基づいています。
+>各CX Enterprise アプリケーションへのアクセスは、組織の使用権限とAdobe Admin Consoleでのユーザーの権限に基づいています。 組織のCX Enterprise MCPを有効にするには、[cxo-mcp-feedback@adobe.com](mailto:cxo-mcp-feedback@adobe.com)に電子メールを送信します。
 
 >[!TAB Experience Manager]
 
@@ -58,13 +58,13 @@ Adobe Experience Managerには、異なるワークフロー用に複数のMCP �
 
 | MCP サーバー | エンドポイント | 実行できること |
 | --- | --- | --- |
-| [AEM （コードモード） &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | `https://mcp.adobeaemcloud.com/adobe/mcp/aem` | 自然言語のルックアップ、読み取り、書き込み、削除により、AEMにREST API アクセスを直接実行できます |
+| [AEM （コードモード） ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | `https://mcp.adobeaemcloud.com/adobe/mcp/aem` | 自然言語のルックアップ、読み取り、書き込み、削除により、AEMにREST API アクセスを直接実行できます |
 | [AEM Cloud Manager](https://experienceleague.adobe.com/ja/docs/experience-manager-learn/cloud-service/ai/mcp-servers/cloud-manager) | `https://mcp.adobeaemcloud.com/adobe/mcp/cloudmanager` | プログラム、環境、パイプライン、リポジトリの管理 |
-| [AEM コンテンツ &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | `https://mcp.adobeaemcloud.com/adobe/mcp/content` | ページ、コンテンツフラグメント、アセット、ローンチの管理 |
-| [AEM コンテンツ （読み取り専用） &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | `https://mcp.adobeaemcloud.com/adobe/mcp/content-readonly` | 書き込みアクセスなしで、ページ、コンテンツフラグメント、ローンチを発見、クエリできます |
+| [AEM コンテンツ ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | `https://mcp.adobeaemcloud.com/adobe/mcp/content` | ページ、コンテンツフラグメント、アセット、ローンチの管理 |
+| [AEM コンテンツ （読み取り専用） ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | `https://mcp.adobeaemcloud.com/adobe/mcp/content-readonly` | 書き込みアクセスなしで、ページ、コンテンツフラグメント、ローンチを発見、クエリできます |
 | [AEM Document Authoring] （TODO：検証） | `https://mcp.adobeaemcloud.com/adobe/mcp/da` | 文書オーサリングでのファイル、バージョン履歴、メディア参照の管理 |
 | [AEM Experience Governance](https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/ai/mcp-servers/experience-governance-mcp-server) | `https://mcp.adobeaemcloud.com/adobe/mcp/experience-governance` | ブランドガイドラインやコンプライアンスルールに照らしてコンテンツや画像を評価する |
-| [AEM Experience Production](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/ai-in-aem/agents/brand-experience/experience-production/overview) | `https://mcp.adobeaemcloud.com/adobe/mcp/experience-production` | AIを活用したコンテンツ概要により、AEMページを大規模に変革、作成できます |
+| [AEM Experience Production](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agents/brand-experience/experience-production/overview) | `https://mcp.adobeaemcloud.com/adobe/mcp/experience-production` | AIを活用したコンテンツ概要により、AEMページを大規模に変革、作成できます |
 
 >[!NOTE]
 >
@@ -82,17 +82,13 @@ Adobe Experience Managerには、異なるワークフロー用に複数のMCP �
 
 >[!TAB Marketo Engage]
 
->[!NOTE]
->
->Marketo Engage MCPは、Adobe IMSではなく、Marketoネイティブのサービス資格情報を使用します。 認証設定の手順については、[Marketo Engage MCP Server ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/marketo-developer/marketo/mcp-server)を参照してください。
-
 | MCP サーバー | エンドポイント | 実行できること |
 | --- | --- | --- |
-| [Marketo Engage](https://experienceleague.adobe.com/ja/docs/marketo-developer/marketo/mcp-server) | `https://marketo-mcp.adobe.io/mcp` | プログラム、キャンペーン、リード、スマートリスト、メール、フォームを管理する |
+| [Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo-developer/marketo/mcp-server) | `https://marketo-mcp.adobe.io/mcp` | プログラム、キャンペーン、リード、スマートリスト、メール、フォームを管理する |
 
 >[!NOTE]
 >
->アクセスは、Marketo Engage サブスクリプションとAPI ユーザーの権限によって異なります。
+>Marketo Engage MCPは、Adobe IMSではなく、Marketoネイティブのサービス資格情報を使用します。 認証設定については、[Marketo Engage MCP Server ドキュメント ](https://experienceleague.adobe.com/en/docs/marketo-developer/marketo/mcp-server)を参照してください。 アクセスは、Marketo Engage サブスクリプションとAPI ユーザーの権限によって異なります。
 
 >[!TAB Target]
 
@@ -100,7 +96,7 @@ Adobe Target MCPはパブリックベータ版です。 現在利用可能なす
 
 | MCP サーバー | エンドポイント | 実行できること |
 | --- | --- | --- |
-| [Adobe Target](https://experienceleague.adobe.com/ja/docs/target/using/mcp/target-mcp) | `https://targetmcp.adobe.io/mcp` | アクティビティ、オファー、オーディエンス、mbox、パフォーマンスレポートの確認 |
+| [Adobe Target](https://experienceleague.adobe.com/en/docs/target/using/mcp/target-mcp) | `https://targetmcp.adobe.io/mcp` | アクティビティ、オファー、オーディエンス、mbox、パフォーマンスレポートの確認 |
 
 >[!NOTE]
 >
@@ -124,7 +120,7 @@ Adobe Target MCPはパブリックベータ版です。 現在利用可能なす
 
 手動で設定する前に、AI クライアントとAdobe アプリケーションのマネージドコネクタの[Adobe AI Registry](https://developer.adobe.com/ai-registry/?type=connector)を確認してください。 マネージドコネクタで認証を自動的に処理します。 クライアントとアプリケーションでコネクタが使用可能な場合は、以下の手動手順の代わりにそれを使用します。
 
-![Adobe MCP サーバーに接続しているAI エージェント &#x200B;](../assets/hero-connect-mcp-servers.gif)
+![Adobe MCP サーバーに接続しているAI エージェント ](../assets/hero-connect-mcp-servers.gif)
 
 >[!BEGINTABS]
 
@@ -132,7 +128,7 @@ Adobe Target MCPはパブリックベータ版です。 現在利用可能なす
 
 ### ![推奨](../assets/badge-recommended.svg)管理対象コネクタの使用
 
-[Adobe AI レジストリ &#x200B;](https://developer.adobe.com/ai-registry/?type=connector)に移動し、Adobe アプリケーションを検索します。 Claude コネクタが一覧表示されている場合（例：[Adobe Experience Manager コネクタ &#x200B;](https://developer.adobe.com/ai-registry/#/connectors/adobe-experience-manager-connector)）、次の手順ではなく、その設定手順に従います。
+[Adobe AI レジストリ ](https://developer.adobe.com/ai-registry/?type=connector)に移動し、Adobe アプリケーションを検索します。 Claude コネクタが一覧表示されている場合（例：[Adobe Experience Manager コネクタ ](https://developer.adobe.com/ai-registry/#/connectors/adobe-experience-manager-connector)）、次の手順ではなく、その設定手順に従います。
 
 ### カスタムコネクタを使用した接続
 
@@ -143,7 +139,7 @@ Claude.aiは、アカウント設定のカスタムコネクタを介してリ�
 3. URLとして`https://cx-enterprise.adobe.io/mcp`を入力し、`Adobe CX Enterprise`などの表示名を入力します。
 4. **Connect**&#x200B;をクリックし、Adobe IDでログインします。 適切なIMS組織を選択します。
 
-完全なセットアップ：[Claude.ai カスタムコネクタのドキュメント &#x200B;](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp)
+完全なセットアップ：[Claude.ai カスタムコネクタのドキュメント ](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp)
 
 >[!TAB  クロード コード ]
 
@@ -172,7 +168,7 @@ claude mcp add --transport http adobe-cx-enterprise https://cx-enterprise.adobe.
 
 Adobe MCP サーバーはOAuthを使用します。 Claude Codeは、ツールを初めて呼び出したときに、Adobe IDでの認証を求めるプロンプトを表示します。 プロンプトが表示されたら、正しいIMS組織を選択します。
 
-完全なセットアップ：[Claude Code MCP ドキュメント &#x200B;](https://docs.anthropic.com/en/docs/claude-code/mcp)
+完全なセットアップ：[Claude Code MCP ドキュメント ](https://docs.anthropic.com/en/docs/claude-code/mcp)
 
 >[!TAB  カーソル ]
 
@@ -196,19 +192,19 @@ Adobe MCP サーバーはOAuthを使用します。 Claude Codeは、ツール�
 
 追加すると、カーソル設定の&#x200B;**インストール済みMCP サーバー**&#x200B;の下にMCP サーバーが表示されます。 **認証が必要**&#x200B;と表示されているサーバーの横にある&#x200B;**Connect**&#x200B;を選択し、Adobe IDでログインします。 アプリケーションにアクセスできるIMS組織を選択します。
 
-![&#x200B; インストール済みのAdobe MCP サーバーとmcp.json](../assets/screenshots/cursor-mcp-server-configuration.jpg)を示すCursor MCP サーバー設定
+![ インストール済みのAdobe MCP サーバーとmcp.json](../assets/screenshots/cursor-mcp-server-configuration.jpg)を示すCursor MCP サーバー設定
 
-完全なセットアップ：[&#x200B; カーソル MCP ドキュメント &#x200B;](https://cursor.com/docs/mcp)
+完全なセットアップ：[ カーソル MCP ドキュメント ](https://cursor.com/docs/mcp)
 
 >[!TAB ChatGPT]
 
 ### ![推奨](../assets/badge-recommended.svg)管理対象コネクタの使用
 
-[Adobe AI レジストリ &#x200B;](https://developer.adobe.com/ai-registry/?type=connector)に移動し、Adobe アプリケーションを検索します。 ChatGPT コネクタがリストされている場合は、以下の手順ではなく、その設定手順に従います。
+[Adobe AI レジストリ ](https://developer.adobe.com/ai-registry/?type=connector)に移動し、Adobe アプリケーションを検索します。 ChatGPT コネクタがリストされている場合は、以下の手順ではなく、その設定手順に従います。
 
 ### リモート MCP サーバーを使用した接続
 
-ChatGPTは、[開発者モード &#x200B;](https://developers.openai.com/api/docs/guides/developer-mode)を介したリモート MCP サーバーをサポートしています。これは、Pro、Plus、Business、Enterprise、Education プランで利用できます。
+ChatGPTは、[開発者モード ](https://developers.openai.com/api/docs/guides/developer-mode)を介したリモート MCP サーバーをサポートしています。これは、Pro、Plus、Business、Enterprise、Education プランで利用できます。
 
 1. **ChatGPT設定**&#x200B;で開発者モードを有効にします。
 2. **設定/統合**&#x200B;に移動します。
@@ -217,7 +213,7 @@ ChatGPTは、[開発者モード &#x200B;](https://developers.openai.com/api/doc
 5. 認証を&#x200B;**OAuth**&#x200B;に設定します。
 6. **Connect**&#x200B;をクリックし、Adobe IDでログインします。 適切なIMS組織を選択します。
 
-完全なセットアップ：[ChatGPT MCP ドキュメント &#x200B;](https://developers.openai.com/api/docs/guides/tools-connectors-mcp)
+完全なセットアップ：[ChatGPT MCP ドキュメント ](https://developers.openai.com/api/docs/guides/tools-connectors-mcp)
 
 >[!TAB OpenAI Codex CLI]
 
@@ -238,7 +234,7 @@ enabled = true
 
 Adobe MCP サーバーはOAuthを使用します。 Codex CLIは、初回使用時にOAuth フローを自動的に処理します。 プロンプトが表示されたら、正しいIMS組織を選択します。
 
-完全なセットアップ：[OpenAI Codex CLI MCP ドキュメント &#x200B;](https://developers.openai.com/codex/mcp)
+完全なセットアップ：[OpenAI Codex CLI MCP ドキュメント ](https://developers.openai.com/codex/mcp)
 
 >[!TAB  コパイロット スタジオ ]
 
@@ -257,7 +253,7 @@ Microsoft Copilot Studioは、Power Platform カスタムコネクタを自動�
 >
 >Copilot StudioのMCP サーバー接続は、Power Platformを介して行われます。 組織のデータ損失防止（DLP）ポリシーが適用されます。
 
-完全なセットアップ：[Copilot Studio MCP ドキュメント &#x200B;](https://learn.microsoft.com/microsoft-copilot-studio/mcp-add-existing-server-to-agent)
+完全なセットアップ：[Copilot Studio MCP ドキュメント ](https://learn.microsoft.com/microsoft-copilot-studio/mcp-add-existing-server-to-agent)
 
 >[!ENDTABS]
 
@@ -291,11 +287,6 @@ CARDS
 * ../use-cases/optimize-content-with-performance-data.md
   {title = Optimize content based on performance data}
   {description = Combine CX Enterprise MCP and AEM Content MCP Server to find underperforming content and update it in one session.}
-  {cta = Start walkthrough}
-
-* ../use-cases/cross-channel-campaign-review.md
-  {title = Run a cross-channel campaign review}
-  {description = Use CX Enterprise MCP for a unified view of AJO, CJA, and Real-Time CDP campaign health in one AI session.}
   {cta = Start walkthrough}
 -->
 
@@ -416,33 +407,12 @@ CARDS
             </div>
         </div>
     </div>
-    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Run a cross-channel campaign review">
-        <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
-            <div class="card-image">
-                <figure class="image x-is-16by9">
-                    <a href="../use-cases/cross-channel-campaign-review.md" title="クロスチャネルキャンペーンのレビューの実施" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="https://placehold.co/1600x900?text=Cross-Channel+Campaign+Review" alt="クロスチャネルキャンペーンのレビューの実施"
-                             style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
-                    </a>
-                </figure>
-            </div>
-            <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
-                <div class="top-card-content">
-                    <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="../use-cases/cross-channel-campaign-review.md" target="_blank" rel="referrer" title="クロスチャネルキャンペーンのレビューの実施"> クロスチャネルキャンペーンレビューの実行</a>
-                    </p>
-                    <p class="is-size-6">CX Enterprise MCPを使用すると、AJO、CJA、Real-Time CDPのキャンペーンの健全性を1つのAI セッションで一元的に把握できます。</p>
-                </div>
-                <a href="../use-cases/cross-channel-campaign-review.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold"> チュートリアルを開始</span>
-                </a>
-            </div>
-        </div>
-    </div>
 </div>
 <!-- END CARDS HTML - DO NOT MODIFY BY HAND -->
 
-## トラブルシューティング
+## もっと手伝いが必要ですか？
+
+MCP接続には、認証、組織の選択、アプリケーションレベルの権限が含まれます。 何かが期待どおりに機能しない場合は、これらの手順で最も一般的な原因を説明します。
 
 +++Adobe組織の切り替え
 
