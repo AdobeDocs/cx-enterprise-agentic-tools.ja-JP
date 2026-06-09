@@ -15,7 +15,7 @@ ht-degree: 1%
 
 <!-- last-modified: 2026-06-08 -->
 
->[!VIDEO](https://video.tv.adobe.com/v/3491235/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3491242/?captions=jpn&learn=on&enablevpops)
 
 Adobe CX EnterpriseのパートナーはAI。 AI クライアントをキャンペーン、オーディエンス、ジャーニー、コンテンツに結び付け、既に使用しているあらゆるツールから、わかりやすい言葉で操作できます。 新しいインターフェイスも、コンテキストの切り替えも、コーディングも必要ありません。
 
