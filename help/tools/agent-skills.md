@@ -3,9 +3,9 @@ title: エージェントスキル
 description: Adobeが監修したワークフローと手引きを活用して、AI エージェントがCX Enterpriseのタスクを一貫して進められるようにします。
 last-substantial-update: 2026-05-19T00:00:00Z
 index: false
-source-git-commit: 093448ea6a9840d1d2027b76e177b145400a9202
+source-git-commit: 1681b6de9d0459ed9d5420f77048778712cd0004
 workflow-type: tm+mt
-source-wordcount: '699'
+source-wordcount: '697'
 ht-degree: 7%
 
 ---
@@ -24,8 +24,6 @@ Adobe CX Enterpriseの![担当者のスキル &#x200B;](../assets/hero-agent-ski
 ## Adobe CX Enterprise Agent Skills
 
 すべてのエージェントスキルは、[Adobe Skills GitHub リポジトリ &#x200B;](https://github.com/adobe/skills)で管理されます。 そのワークフローのスキルを探るには、以下の機能領域を選択してください。
-
-### アドビアプリケーション
 
 <!--
 CARDS

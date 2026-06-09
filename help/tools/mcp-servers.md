@@ -3,7 +3,7 @@ title: MCP サーバー
 description: モデルコンテキストプロトコルサーバーを使用して、MCP互換のAI クライアントをAdobe CX Enterprise ワークフローに接続します。
 index: false
 last-substantial-update: 2026-06-09T00:00:00Z
-source-git-commit: 0fb630143968f07246f2a693cec5c8c3432f64f2
+source-git-commit: e37222abaf2d2502dfbc2f8588ae9ece94fffbd1
 workflow-type: tm+mt
 source-wordcount: '2078'
 ht-degree: 3%
@@ -128,7 +128,7 @@ Adobe Target MCPはパブリックベータ版です。 現在利用可能なす
 
 >[!TAB  クロード.ai]
 
-### ![推奨](../assets/icons/star.svg)管理対象コネクタの使用
+### <img src="../assets/icons/star.svg" width="24" height="24" alt="推奨"> マネージド コネクタを使用
 
 [Adobe AI レジストリ &#x200B;](https://developer.adobe.com/ai-registry/?type=connector)に移動し、Adobe アプリケーションを検索します。 Claude コネクタが一覧表示されている場合（例：[Adobe Experience Manager コネクタ &#x200B;](https://developer.adobe.com/ai-registry/#/connectors/adobe-experience-manager-connector)）、次の手順ではなく、その設定手順に従います。
 
@@ -198,7 +198,7 @@ Adobe MCP サーバーをCursor `mcp.json`設定ファイルに追加し、**Set
 
 >[!TAB ChatGPT]
 
-### ![推奨](../assets/badge-recommended.svg)管理対象コネクタの使用
+### <img src="../assets/icons/star.svg" width="24" height="24" alt="推奨"> マネージド コネクタを使用
 
 [Adobe AI レジストリ &#x200B;](https://developer.adobe.com/ai-registry/?type=connector)に移動し、Adobe アプリケーションを検索します。 ChatGPT コネクタがリストされている場合は、以下の手順ではなく、その設定手順に従います。
 
