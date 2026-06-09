@@ -230,7 +230,7 @@ Are there any audiences using a non-default merge policy that could cause profil
 
 | リソース | 見つかる内容 |
 | --- | --- |
-| [Real-Time CDP MCP ドキュメント &#x200B;](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/mcp/rtcdp-mcp) | MCP サーバーの設定とツール リファレンス |
+| [Real-Time CDP MCP ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-cloud-ai/experience-cloud-ai/mcp/rtcdp-mcp) | MCP サーバーの設定とツール リファレンス |
 | [Adobe AI レジストリ &#x200B;](https://developer.adobe.com/ai-registry/?type=mcp) | MCP サーバーのメタデータと可用性 |
 | [Real-Time CDP ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/rtcdp/home) | Adobe Real-Time CDPのドキュメント |
 | [AEP宛先ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/destinations/home) | 完全な宛先の参照 |

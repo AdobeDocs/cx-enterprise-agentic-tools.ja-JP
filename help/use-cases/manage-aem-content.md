@@ -264,8 +264,8 @@ Promote the May Updates launch to production.
 
 | リソース | 見つかる内容 |
 | --- | --- |
-| [AEM Content MCP Server ドキュメント &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | MCP サーバーの設定と使用ガイド |
+| [AEM Content MCP Server ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | MCP サーバーの設定と使用ガイド |
 | [AI レジストリのAEM Content MCP Server](https://developer.adobe.com/ai-registry/#/mcp/aem-content-mcp) | ツールリストと可用性 |
-| [AEM as a Cloud Service のドキュメント](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service) | Adobe AEMのドキュメント |
-| [AEM コンテンツフラグメント &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/content-fragments/content-fragments) | コンテンツフラグメントのオーサリングリファレンス |
+| [AEM as a Cloud Service のドキュメント](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service) | Adobe AEMのドキュメント |
+| [AEM コンテンツフラグメント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/content-fragments/content-fragments) | コンテンツフラグメントのオーサリングリファレンス |
 | [MCP サーバー](../tools/mcp-servers.md) | AI クライアントをAdobe MCP サーバーに接続する |
