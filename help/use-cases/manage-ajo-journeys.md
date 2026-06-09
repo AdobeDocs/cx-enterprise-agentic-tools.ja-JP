@@ -1,11 +1,11 @@
 ---
 title: 顧客に影響を与える前に、ジャーニーの問題を把握したい
-description: CX Enterprise MCP Gatewayを使用して、アクティブなAJOジャーニーをモニタリングし、キャンペーン設定をレビューし、オーディエンスにリーチする前に運用上の問題を確認します。
+description: CX Enterprise MCPを使用して、アクティブなAJOジャーニーをモニタリングし、キャンペーン設定をレビューし、オーディエンスにリーチする前に運用上の問題を確認します。
 last-substantial-update: 2026-06-08T00:00:00Z
 index: false
-source-git-commit: 270aed67540f7347850aece70cebddc9b40b9de8
+source-git-commit: 94c7d3c6b0542b6e27d8775f78acf40a1b1cae91
 workflow-type: tm+mt
-source-wordcount: '1009'
+source-wordcount: '1013'
 ht-degree: 3%
 
 ---
@@ -16,14 +16,14 @@ ht-degree: 3%
 
 ![&#x200B; エグゼクティブサマリーを使用してキャンペーンとジャーニー戦略を要約するAI クライアント &#x200B;](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step5-02-exe-summary.png)
 
-どのジャーニーがアクティブで、どのような条件がそれらを促進しているか、キャンペーンが通常どのように設定されているかなどを明確に把握することは、Adobe Journey Optimizerを開き、そのインターフェイスをナビゲートすることを意味します。 このチュートリアルでは、CX Enterprise MCP Gatewayを使用して、平易な言語の質問を通じてAJOのジャーニーとキャンペーンデータをクエリし、AI クライアントを通じて同じ可視性を取得する方法を示します。
+どのジャーニーがアクティブで、どのような条件がそれらを促進しているか、キャンペーンが通常どのように設定されているかなどを明確に把握することは、Adobe Journey Optimizerを開き、そのインターフェイスをナビゲートすることを意味します。 このチュートリアルでは、CX Enterprise MCPを使用して、平易な言葉でAJOのジャーニーとキャンペーンのデータをクエリし、AI クライアントを通じて同じ可視性を取得する方法を示します。
 
-| | |
+| シナリオの詳細 | |
 | --- | --- |
-| CX エンタープライズアプリケーション | Adobe Journey Optimizer（AJO） |
-| エージェント型ツール | CX Enterprise MCP Gateway |
-| オーディエンス | キャンペーンマネージャー，マーケター |
-| 前提条件 | MCP対応AI クライアント、AJOアクセス |
+| **CX エンタープライズ アプリケーション** | [Adobe Journey Optimizer （AJO） &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/ajo-home) |
+| **エージェント ツール** | [CX エンタープライズ MCP](../tools/mcp-servers.md#cx-enterprise-mcp-servers) |
+| **オーディエンス** | キャンペーンマネージャー，マーケター |
+| **前提条件** | MCP対応AI クライアント、AJOアクセス |
 
 各ステップは、代表的なプロンプトとAI応答の例を示しています。 同じセッションで追加の探索を行うために、**さらに達成できる**&#x200B;のセクションを次に示します。
 
@@ -34,7 +34,7 @@ ht-degree: 3%
 
 >[!TAB  クロード.ai]
 
-CX Enterprise MCP Gatewayをカスタムコネクタとして接続して、Adobe Journey Optimizer ツールにアクセスします。
+CX Enterprise MCPをカスタムコネクタとして接続して、Adobe Journey Optimizer ツールにアクセスします。
 
 1. Claude.aiの&#x200B;**設定/統合**&#x200B;に移動します。
 2. **カスタムコネクタを追加**&#x200B;を選択し、サーバーURLを入力します：`https://cx-enterprise.adobe.io/mcp`
@@ -44,7 +44,7 @@ CX Enterprise MCP Gatewayをカスタムコネクタとして接続して、Adob
 
 >[!TAB ChatGPT]
 
-ChatGPT デベロッパーモードを使用してCX エンタープライズ MCP ゲートウェイを接続します（Pro、Plus、Business、Enterprise、またはEducation プランが必要）。
+ChatGPT デベロッパーモードを使用してCX エンタープライズ MCPを接続します（Pro、Plus、Business、Enterprise、またはEducation プランが必要）。
 
 1. **ChatGPT設定**&#x200B;で&#x200B;**開発者モード**&#x200B;を有効にします。
 2. **設定/統合**&#x200B;に移動し、**カスタムコネクタを追加/リモート MCP サーバー**&#x200B;を選択します。
@@ -55,7 +55,7 @@ ChatGPT デベロッパーモードを使用してCX エンタープライズ MC
 
 >[!TAB その他のAI クライアント ]
 
-Gemini、Microsoft Copilot、Cursor、Claude CodeなどのMCP互換アプリケーションを使用している場合、 次のエンドポイントを使用して、CX Enterprise MCP Gatewayに接続します。
+Gemini、Microsoft Copilot、Cursor、Claude CodeなどのMCP互換アプリケーションを使用している場合、 次のエンドポイントを使用してCX Enterprise MCPに接続します。
 
 ```
 https://cx-enterprise.adobe.io/mcp
@@ -71,7 +71,7 @@ https://cx-enterprise.adobe.io/mcp
 >
 >最初の接続時に、AI クライアントからIMS組織の選択またはサンドボックスの指定を求められる場合があります。 そのコンテキストが設定されると、MCP サーバーは残りのセッションにコンテキストを使用します。
 >
->一部のツールは、実行前に承認を求めます。 リクエストを確認し、承認または辞退します。確認がなければアクションは実行されません。
+>一部のツールは、実行前に承認を求めます。 リクエストを確認して承認または辞退します。 確認なしにアクションは実行されません。
 
 
 ## ステップ 1：アクティブなジャーニーとその目的を確認する
@@ -169,7 +169,7 @@ AI クライアントとAdobe Journey Optimizerを接続し、5つのプロン�
 
 ## より多くのことを達成
 
-CX Enterprise MCP Gatewayでは、AJOの様々なジャーニーとキャンペーンの詳細を確認できます。 以下のシナリオを展開すると、同じセッションで試すことができるプロンプトが表示されます。
+CX Enterprise MCPでは、AJOの幅広いジャーニーとキャンペーンの詳細を確認できます。 以下のシナリオを展開すると、同じセッションで試すことができるプロンプトが表示されます。
 
 +++変更する前に公開されている情報を把握
 

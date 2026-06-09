@@ -1,12 +1,12 @@
 ---
 title: コンテンツを最新の状態に保ち、更新をすばやく配信できます
 description: AEM Content MCP Serverを使用して、ツールを切り替えることなく、AEM コンテンツを検索、レビュー、更新、公開します。
-last-substantial-update: 2026-05-22T00:00:00Z
+last-substantial-update: 2026-06-09T00:00:00Z
 index: false
-source-git-commit: 270aed67540f7347850aece70cebddc9b40b9de8
+source-git-commit: 94c7d3c6b0542b6e27d8775f78acf40a1b1cae91
 workflow-type: tm+mt
-source-wordcount: '1020'
-ht-degree: 1%
+source-wordcount: '1053'
+ht-degree: 2%
 
 ---
 
@@ -19,12 +19,12 @@ ht-degree: 1%
 
 ページの検索やコンテンツの確認から、更新や公開に至るまで、Adobe Experience Managerでコンテンツを操作するには、通常、AEMインターフェイスを直接操作する必要があります。 このチュートリアルでは、AEM Content MCP Serverを使用するAI クライアントを通じて、これらのオペレーションを処理する方法を説明します。これにより、ツール間でコンテキストを切り替えることなく、コンテンツチームはより迅速に作業できるようになります。
 
-| | |
+| シナリオの詳細 | |
 | --- | --- |
-| CX エンタープライズアプリケーション | Adobe Experience Manager as a Cloud Service |
-| エージェント型ツール | AEM Content MCP Server |
-| オーディエンス | コンテンツマネージャー，マーケティングチーム |
-| 前提条件 | MCP対応AI クライアント、AEM as a Cloud Serviceアクセス |
+| **CX エンタープライズ アプリケーション** | [Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/overview/introduction) |
+| **エージェント ツール** | [AEM Content MCP Server](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) |
+| **オーディエンス** | コンテンツマネージャー，マーケティングチーム |
+| **前提条件** | MCP対応AI クライアント、AEM as a Cloud Serviceアクセス |
 
 各ステップは、代表的なプロンプトとAI応答の例を示しています。 同じセッションで追加の探索を行うために、**さらに達成できる**&#x200B;のセクションを次に示します。
 
@@ -73,7 +73,7 @@ https://mcp.adobeaemcloud.com/adobe/mcp/content
 >
 >最初の接続時に、AI クライアントから組織またはAEM環境の確認を求められる場合があります。 そのコンテキストが設定されると、MCP サーバーは残りのセッションにコンテキストを使用します。
 >
->一部のツールは、実行前に承認を求めます。 提案されたアクションを確認し、承認または辞退します。確認がなければ変更は行われません。
+>一部のツールは、実行前に承認を求めます。 提案されたアクションを確認し、承認または辞退します。 変更は確認なしには行われません。
 
 ## ステップ 1:AEM環境全体のコンテンツを検索する
 

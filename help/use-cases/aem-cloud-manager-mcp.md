@@ -1,12 +1,12 @@
 ---
 title: 確実なAEM as a Cloud Serviceへのデプロイ
 description: AI クライアントを離れることなく、環境の健全性を確認し、パイプラインの履歴を確認し、デプロイメントをトリガーまたは管理できます。
-last-substantial-update: 2026-05-21T00:00:00Z
+last-substantial-update: 2026-06-09T00:00:00Z
 index: false
-source-git-commit: 093448ea6a9840d1d2027b76e177b145400a9202
+source-git-commit: 94c7d3c6b0542b6e27d8775f78acf40a1b1cae91
 workflow-type: tm+mt
-source-wordcount: '957'
-ht-degree: 1%
+source-wordcount: '990'
+ht-degree: 2%
 
 ---
 
@@ -19,12 +19,12 @@ ht-degree: 1%
 
 Adobe Experience Manager環境の管理とは、通常、Cloud Managerにログインし、パイプラインと環境を移動し、デプロイメントステータスを追跡するためにコンテキストを切り替えることを意味します。 このチュートリアルでは、AEM Cloud Manager MCP Serverを使用してAI クライアントからこれらのオペレーションを処理する方法を示します。これにより、デベロッパーとオペレーション部門は、AI環境から離れることなく、ステータスの確認、パイプラインのレビュー、デプロイメントの詳細の処理を行うことができます。
 
-| | |
+| シナリオの詳細 | |
 | --- | --- |
-| CX エンタープライズアプリケーション | Adobe Experience Manager Cloud Manager |
-| エージェント型ツール | AEM Cloud Manager MCP Server |
-| オーディエンス | 開発、DevOps、運用チーム |
-| 前提条件 | MCP対応AI クライアント、AEM Cloud Managerアクセス |
+| **CX エンタープライズ アプリケーション** | [Adobe Experience Manager Cloud Manager](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/introduction-to-cloud-manager) |
+| **エージェント ツール** | [AEM Cloud Manager MCP Server](https://experienceleague.adobe.com/ja/docs/experience-manager-learn/cloud-service/ai/mcp-servers/cloud-manager) |
+| **オーディエンス** | 開発、DevOps、運用チーム |
+| **前提条件** | MCP対応AI クライアント、AEM Cloud Managerアクセス |
 
 各ステップは、代表的なプロンプトとAI応答の例を示しています。 同じセッションで追加の探索を行うために、**さらに**&#x200B;個のセクションを試すよう求めるプロンプトが表示されます。
 
@@ -111,11 +111,11 @@ https://mcp.adobeaemcloud.com/adobe/mcp/cloudmanager
 
 >[!NOTE]
 >
->プロンプトが表示されたらAdobe IDでログインし、AEM as a Cloud Service プログラムにリンクされているIMS組織を選択します。 権限はCloud Managerレベルで適用されます。AI クライアントは、アカウントが承認された操作のみを実行できます。
+>プロンプトが表示されたらAdobe IDでログインし、AEM as a Cloud Service プログラムにリンクされているIMS組織を選択します。 権限はCloud Manager レベルで適用されます。 AI クライアントは、アカウントが承認した操作のみを実行できます。
 >
 >最初の接続時に、AI クライアントから組織またはAEM プログラムの確認を求められる場合があります。 そのコンテキストが設定されると、MCP サーバーは残りのセッションにコンテキストを使用します。
 >
->一部のツールは、実行前に承認を求めます。 提案されたアクションを確認し、承認または拒否します。確認がなければアクションは実行されません。
+>一部のツールは、実行前に承認を求めます。 提案されたアクションを確認し、承認または辞退します。 確認なしにアクションは実行されません。
 
 ## 手順1：環境ステータスの確認
 

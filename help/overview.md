@@ -3,9 +3,9 @@ title: Adobe CX Enterprise Agentic Tools
 description: MCP サーバー、エージェントスキル、APIを使用して、AI エージェントと開発ツールをAdobe CX Enterpriseの機能に接続します。
 last-substantial-update: 2026-06-08T00:00:00Z
 index: false
-source-git-commit: ec08b7ff646519ceb10bd3431e0c0d5db8f3367f
+source-git-commit: 94c7d3c6b0542b6e27d8775f78acf40a1b1cae91
 workflow-type: tm+mt
-source-wordcount: '585'
+source-wordcount: '584'
 ht-degree: 1%
 
 ---
@@ -17,10 +17,10 @@ ht-degree: 1%
 
 >[!VIDEO](https://video.tv.adobe.com/v/3491242/?captions=jpn&learn=on&enablevpops)
 
-Adobe CX EnterpriseのパートナーはAI。 AI クライアントをキャンペーン、オーディエンス、ジャーニー、コンテンツに結び付け、既に使用しているあらゆるツールから、わかりやすい言葉で操作できます。 新しいインターフェイスも、コンテキストの切り替えも、コーディングも必要ありません。
+Adobe CX EnterpriseのパートナーはAI。 キャンペーン、オーディエンス、ジャーニー、コンテンツにAI クライアントを接続します。 あらゆるツールから平易な言葉で顧客とやり取りできます。 新しいインターフェイスも、コンテキストの切り替えも、コーディングも必要ありません。
 
 >[!TIP]
->**CX Enterprise MCPで始めます。** 1つの接続で、組織のライセンスに基づいて、AI クライアントはAdobe Journey Optimizer、Customer Journey Analytics、Real-Time CDPにアクセスできます。 [今すぐ接続](tools/mcp-servers.md#cx-enterprise-mcp)
+>**CX Enterprise MCPで始めます。** 1つの接続で、組織のライセンスに基づいて、AI クライアントはAdobe Journey Optimizer、Customer Journey Analytics、Real-Time CDPにアクセスできます。 [今すぐ接続](tools/mcp-servers.md#cx-enterprise-mcp-servers)
 
 <!--
 CARDS
@@ -123,7 +123,7 @@ CARDS
 
 >[!TAB MCP サーバー]
 
-互換性のあるAI クライアントを使用して、コーディング不要で平易な言語で顧客体験エンタープライズアプリケーションにアクセスできます。 CX Enterprise MCPを使用して、AJO、CJA、Real-Time CDPに1回接続するか、AEMやその他のアプリケーションに直接接続できます。
+互換性のある任意のAI クライアントを使用して、平易な言語で顧客体験エンタープライズアプリケーションにアクセスできます。 コーディングは必要ありません。 CX Enterprise MCPを使用して、AJO、CJA、Real-Time CDPに1回接続するか、AEMやその他のアプリケーションに直接接続できます。
 
 - Claude、Cursor、ChatGPTなどのMCP互換クライアントから数分で接続できます
 - 自然言語を使用して、キャンペーン、オーディエンス、ジャーニーデータをクエリ
@@ -133,10 +133,10 @@ CARDS
 
 >[!TAB  エージェントのスキル ]
 
-Agent Skillsは、AI クライアントが従うことのできる指示として、Adobeドメインの専門知識をエンコードします。 担当者はメッセージを即興ではなく、確実に、繰り返し、Adobeのベストプラクティスに従って行動できるようになりました。
+Agent Skillsは、AI クライアントが従うことのできる指示として、Adobeドメインの専門知識をエンコードします。 担当者は助言を入れるのではなく、何をすべきかを正確に把握し、Adobeのベストプラクティスに従って、信頼性の高い反復的な作業を行います。
 
 - 反復可能な顧客体験の大規模なワークフローにおける一貫した結果
-- 担当者にAdobe Adobeについて説明する必要はありません。担当者が対応します
+- 担当者にAdobeについて説明する必要はありません。担当者が対応します
 - エージェントのスキルをサポートするAI クライアント全体で動作
 
 [エージェントのスキルを見る](tools/agent-skills.md)

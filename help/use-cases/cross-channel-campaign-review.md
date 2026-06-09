@@ -1,12 +1,12 @@
 ---
 title: クロスチャネルキャンペーンのレビューの実施
-description: 単一のAI セッションでCX Enterprise MCP Gatewayを使用し、ジャーニー、オーディエンス、パフォーマンスをまたいで、AJO、CJA、Real-Time CDPのキャンペーンの健全性を一元的に把握できます。
-last-substantial-update: 2026-05-21T00:00:00Z
+description: 単一のAI セッションでCX Enterprise MCPを使用し、ジャーニー、オーディエンス、パフォーマンスをまたいで、AJO、CJA、Real-Time CDPのキャンペーンの健全性を一元的に把握できます。
+last-substantial-update: 2026-06-09T00:00:00Z
 index: false
-source-git-commit: 093448ea6a9840d1d2027b76e177b145400a9202
+source-git-commit: 94c7d3c6b0542b6e27d8775f78acf40a1b1cae91
 workflow-type: tm+mt
-source-wordcount: '1433'
-ht-degree: 4%
+source-wordcount: '1458'
+ht-degree: 5%
 
 ---
 
@@ -19,12 +19,12 @@ ht-degree: 4%
 
 キャンペーンの健全性を包括的に把握するには、複数のシステムからのデータが必要です。AJOのアクティブジャーニー、Real-Time CDPのオーディエンスアクティベーションステータス、CJAのパフォーマンス指標などです。 このチュートリアルでは、3つのAI セッションすべてを接続する方法を示します。これにより、3つの個別のツールではなく、1つの会話でジャーニーのステータスからオーディエンスの健全性、パフォーマンスのトレンドに移行できます。
 
-| | |
+| シナリオの詳細 | |
 | --- | --- |
-| CX エンタープライズアプリケーション | Adobe Journey Optimizer、Customer Journey Analytics、Real-Time CDP |
-| エージェント型ツール | CX Enterprise MCP Gateway |
-| オーディエンス | キャンペーンマネージャー，マーケティングオペレーション |
-| 前提条件 | MCP対応のAI クライアント、AJO、CJA、Real-Time CDPへのアクセス |
+| **CX エンタープライズ アプリケーション** | [Adobe Journey Optimizer](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/ajo-home)、[Customer Journey Analytics](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-overview/cja-overview)、[Real-Time CDP](https://experienceleague.adobe.com/ja/docs/experience-platform/rtcdp/home) |
+| **エージェント ツール** | [CX エンタープライズ MCP](../tools/mcp-servers.md#cx-enterprise-mcp-servers) |
+| **オーディエンス** | キャンペーンマネージャー，マーケティングオペレーション |
+| **前提条件** | MCP対応のAI クライアント、AJO、CJA、Real-Time CDPへのアクセス |
 
 各ステップは、代表的なプロンプトとAI応答の例を示しています。 同じセッションで追加の探索を行うために、**さらに達成できる**&#x200B;のセクションを次に示します。
 
@@ -34,7 +34,7 @@ ht-degree: 4%
 
 >[!TAB  クロード.ai]
 
-CX Enterprise MCP Gatewayをカスタムコネクタとして接続します。 1つの接続からAJO、CJA、Real-Time CDP ツールにアクセスできます。
+CX Enterprise MCPをカスタムコネクタとして接続します。 1つの接続からAJO、CJA、Real-Time CDP ツールにアクセスできます。
 
 1. Claude.aiの&#x200B;**設定/統合**&#x200B;に移動します。
 2. **カスタムコネクタを追加**&#x200B;を選択し、サーバーURLを入力します：`https://cx-enterprise.adobe.io/mcp`
@@ -44,7 +44,7 @@ CX Enterprise MCP Gatewayをカスタムコネクタとして接続します。 
 
 >[!TAB ChatGPT]
 
-ChatGPT デベロッパーモードを使用してCX エンタープライズ MCP ゲートウェイを接続します（Pro、Plus、Business、Enterprise、またはEducation プランが必要）。
+ChatGPT デベロッパーモードを使用してCX エンタープライズ MCPを接続します（Pro、Plus、Business、Enterprise、またはEducation プランが必要）。
 
 1. **ChatGPT設定**&#x200B;で&#x200B;**開発者モード**&#x200B;を有効にします。
 2. **設定/統合**&#x200B;に移動し、**カスタムコネクタを追加/リモート MCP サーバー**&#x200B;を選択します。
@@ -55,7 +55,7 @@ ChatGPT デベロッパーモードを使用してCX エンタープライズ MC
 
 >[!TAB その他のAI クライアント ]
 
-Gemini、Microsoft Copilot、Cursor、Claude CodeなどのMCP互換アプリケーションを使用している場合、 次のエンドポイントを使用して、CX Enterprise MCP Gatewayに接続します。
+Gemini、Microsoft Copilot、Cursor、Claude CodeなどのMCP互換アプリケーションを使用している場合、 次のエンドポイントを使用してCX Enterprise MCPに接続します。
 
 ```
 https://cx-enterprise.adobe.io/mcp
@@ -71,7 +71,7 @@ https://cx-enterprise.adobe.io/mcp
 >
 >最初の接続時に、AI クライアントからIMS組織の選択またはサンドボックスの指定を求められる場合があります。 そのコンテキストが設定されると、MCP サーバーは残りのセッションにコンテキストを使用します。
 >
->一部のツールは、実行前に承認を求めます。 リクエストを確認し、承認または辞退します。確認がなければアクションは実行されません。
+>一部のツールは、実行前に承認を求めます。 リクエストを確認して承認または辞退します。 確認なしにアクションは実行されません。
 
 ## ステップ 1：アクティブなジャーニーとキャンペーンの確認
 
@@ -87,14 +87,14 @@ AJOで8つのアクティブなジャーニーが見つかりました。
 
 | ジャーニー | チャネル | 最終変更日 |
 | --- | --- | --- |
-| ウェルカムシリーズ – 新規メンバー | 電子メール、プッシュ | 2026年5月18日（PT） |
+| ウェルカムシリーズ：新メンバー | 電子メール、プッシュ | 2026年5月18日（PT） |
 | 購入後のフォローアップ | 電子メール，SMS | 2026年5月14日（PT） |
 | ロイヤルティ再エンゲージメント | メール | 2026年5月20日（PT） |
-| カート放棄 – 24時間 | 電子メール，SMS | 2026年5月10日（PT） |
+| カート放棄：24時間 | 電子メール，SMS | 2026年5月10日（PT） |
 | 春プロモーション | 電子メール、プッシュ | 2026年5月19日（PT） |
-| ウィンバック — 90日間の非アクティブ | メール | 2026年4月28日（PT） |
+| ウィンバック：90日間の非アクティブ | メール | 2026年4月28日（PT） |
 | バースデイ・リワード | メール | 2026年4月15日（PT） |
-| リエンゲージメント – プッシュオプトアウト | SMS | 2026年5月12日（PT） |
+| リエンゲージメント：プッシュオプトアウト | SMS | 2026年5月12日（PT） |
 
 過去7日間に3つのジャーニーが変更されました。 これらのいずれかに関する詳細が必要ですか？
 
@@ -111,7 +111,7 @@ Show me the activation status for the high-value loyalty segment.
 
 +++回答の例を見る
 
-**価値の高いロイヤルティセグメント** – 宛先をまたいだアクティベーションステータス：
+**価値の高いロイヤルティセグメント**：宛先をまたいだアクティベーションステータス：
 
 | 宛先 | ステータス | 前回成功した実行 | オーディエンスサイズ |
 | --- | --- | --- | --- |
@@ -136,7 +136,7 @@ Show me click-through and conversion rates for the [campaign name] campaign over
 
 +++回答の例を見る
 
-**ロイヤルティ再エンゲージメントキャンペーン** — 2026年4月21日～5月21日：
+**ロイヤルティ再エンゲージメントキャンペーン**: 2026年4月21日～5月21日：
 
 | チャネル | 送信数 | CTR | コンバージョン数 | Conv. 割合 |
 | --- | --- | --- | --- | --- |
@@ -169,7 +169,7 @@ Give me a summary of our campaign health: what is running, which audiences are a
 **注目用フラグ：**
 
 - ウィンバックジャーニー（90日間の非アクティブ）は23日前に最終変更され、最近レビューされていません。
-- プッシュ通知のコンバージョン率は、メッセージやタイミングを見直すに値する3期連続で横ばいです。
+- プッシュコンバージョン率は3期連続で横ばいであり、メッセージやタイミングを見直す価値があります。
 
 重大な問題は検出されませんでした。 上記の2つの項目は、次のキャンペーン開始の前にレビューが必要です。
 
