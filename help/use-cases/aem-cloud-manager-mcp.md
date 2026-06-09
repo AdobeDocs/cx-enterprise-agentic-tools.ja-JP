@@ -15,7 +15,7 @@ ht-degree: 1%
 
 <!-- last-modified: 2026-05-21 -->
 
->[!VIDEO](https://video.tv.adobe.com/v/3480340/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3480343/?captions=jpn&learn=on&enablevpops)
 
 Adobe Experience Manager環境の管理とは、通常、Cloud Managerにログインし、パイプラインと環境を移動し、デプロイメントステータスを追跡するためにコンテキストを切り替えることを意味します。 このチュートリアルでは、AEM Cloud Manager MCP Serverを使用してAI クライアントからこれらのオペレーションを処理する方法を示します。これにより、デベロッパーとオペレーション部門は、AI環境から離れることなく、ステータスの確認、パイプラインのレビュー、デプロイメントの詳細の処理を行うことができます。
 
