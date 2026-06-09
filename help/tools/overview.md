@@ -3,10 +3,10 @@ title: エージェント型ツール
 description: MCP サーバー、エージェントスキル、ビルダー用APIを比較し、Adobe CX Enterprise ワークフローに適したエージェント型ツールを選択します。
 last-substantial-update: 2026-06-08T00:00:00Z
 index: false
-source-git-commit: 94c7d3c6b0542b6e27d8775f78acf40a1b1cae91
+source-git-commit: 76a2dc291781d0555e0b128eb6c0e226759f5cc8
 workflow-type: tm+mt
-source-wordcount: '610'
-ht-degree: 1%
+source-wordcount: '839'
+ht-degree: 0%
 
 ---
 
@@ -45,7 +45,7 @@ CARDS
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="mcp-servers.md" title="MCP サーバー" target="_blank" rel="referrer">
+                    <a href="mcp-servers.md" title="MCP サーバー">
                         <img class="is-bordered-r-small" src="../assets/mcp-servers-card.png" alt="MCP サーバー"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
@@ -54,11 +54,11 @@ CARDS
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="mcp-servers.md" target="_blank" rel="referrer" title="MCP サーバー">MCP サーバー</a>
+                        <a href="mcp-servers.md" title="MCP サーバー">MCP サーバー</a>
                     </p>
                     <p class="is-size-6">互換性のあるあらゆるAI クライアントを、Adobe CX Enterpriseのデータおよびワークフローに接続できます。 コーディングは必要ありません。</p>
                 </div>
-                <a href="mcp-servers.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                <a href="mcp-servers.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">MCP サーバーの探索</span>
                 </a>
             </div>
@@ -68,7 +68,7 @@ CARDS
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="agent-skills.md" title="エージェントスキル" target="_blank" rel="referrer">
+                    <a href="agent-skills.md" title="エージェントスキル">
                         <img class="is-bordered-r-small" src="../assets/agent-skills-card.png" alt="エージェントスキル"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
@@ -77,11 +77,11 @@ CARDS
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="agent-skills.md" target="_blank" rel="referrer" title="エージェントスキル"> エージェントのスキル </a>
+                        <a href="agent-skills.md" title="エージェントスキル"> エージェントのスキル </a>
                     </p>
                     <p class="is-size-6">Adobeが監修したワークフロー手順により、一貫してCX エンタープライズのタスクをガイドします。</p>
                 </div>
-                <a href="agent-skills.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                <a href="agent-skills.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold"> エージェントのスキルを探る</span>
                 </a>
             </div>
@@ -91,7 +91,7 @@ CARDS
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="apis.md" title="ビルダー用API" target="_blank" rel="referrer">
+                    <a href="apis.md" title="ビルダー用API">
                         <img class="is-bordered-r-small" src="../assets/apis-card.png" alt="ビルダー用API"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
@@ -100,11 +100,11 @@ CARDS
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        ビルダー</a>の<a href="apis.md" target="_blank" rel="referrer" title="ビルダー用API">API
+                        ビルダー</a>の<a href="apis.md" title="ビルダー用API">API
                     </p>
                     <p class="is-size-6">Adobeと同じAPIを使用して、カスタムアプリケーションや統合機能を構築できます。</p>
                 </div>
-                <a href="apis.md" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                <a href="apis.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold"> ビルダー用APIの探索</span>
                 </a>
             </div>
@@ -126,8 +126,8 @@ CARDS
 ## どこから始めてよいかわからないものは、
 
 - AIを使用してCX エンタープライズ アプリケーションと対話する（アクションを実行し、データを照会し、AIが自然会話を通じて次に何をすべきかを見つけられるようにする）には、[MCP サーバー](mcp-servers.md)が最も柔軟な出発点となります。
-- エージェントがCX Enterprise ワークフローに関するAdobeのベストプラクティスに即興で従えるように、[&#x200B; エージェントスキル &#x200B;](agent-skills.md)はそのドメインの専門知識を再利用可能な手順にエンコードします。
-- ユーザー向けの特定のCX エンタープライズ ワークフローを合理化または自動化する集中型アプリケーションを構築するには、[&#x200B; ビルダー向けAPI](apis.md)を使用すると、何が起こるかを正確に制御してプログラム可能な直接の制御が可能になります。
+- エージェントがCX Enterprise ワークフローに関するAdobeのベストプラクティスに即興で従えるように、[ エージェントスキル ](agent-skills.md)はそのドメインの専門知識を再利用可能な手順にエンコードします。
+- ユーザー向けの特定のCX エンタープライズ ワークフローを合理化または自動化する集中型アプリケーションを構築するには、[ ビルダー向けAPI](apis.md)を使用すると、何が起こるかを正確に制御してプログラム可能な直接の制御が可能になります。
 
 >[!BEGINTABS]
 
@@ -156,7 +156,7 @@ MCP サーバーは、AI クライアントとCX エンタープライズアプ�
 
 [エージェントのスキルを見る](agent-skills.md)
 
->[!TAB ビルダーの API]
+>ビルダー]の[!TAB API
 
 APIは構成要素です。 開発者は、Adobeの自社製品と同じAPIを使用して、Adobeのデータとオペレーションに直接プログラムでアクセスできます。 これらのツールを利用して、特定のビジネスワークフローを合理化し、組織が必要とするガードレールを備えたカスタマイズされたエクスペリエンスを構築できます。
 
@@ -174,3 +174,102 @@ APIは構成要素です。 開発者は、Adobeの自社製品と同じAPIを�
 ## それらを一緒に使用
 
 これらのツールは連携するように設計されています。 それらを組み合わせることで、Adobe AIを最大限に活用できます。 エージェントスキルは、AI クライアントがMCP サーバーをどのように使用するかを導き、エージェントをCX エンタープライズワークフローに適切な軌道に乗せます。 また、スキルは、APIを呼び出す方法とタイミングを判断し、Adobeのベストプラクティスのガードレールをカスタムビルドの自動化に追加することもできます。 ひとつのチャネルだけを選択する必要はありません。
+
+## エージェント型ツールの活用例
+
+実際の顧客体験エンタープライズワークフローに適用されたツールをご覧ください。
+
+<!--
+CARDS
+
+* ../use-cases/query-audiences.md
+  {title = Query audiences}
+  {description = Use CX Enterprise MCP to query Real-Time CDP audience and destination data using plain language prompts.}
+  {cta = Try with MCP}
+
+* https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/ai/ai-assisted-development/use-cases/component-development
+  {title = Develop AEM components with AI}
+  {description = Use Claude Code or Cursor with Agent Skills to scaffold, code, and refine AEM components guided by Adobe best practices.}
+  {cta = Try with Agent Skills}
+  {image = ../assets/agent-skills-card.png}
+
+* https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/aem-apis/openapis/invoke-api-using-oauth-web-app
+  {title = Invoke AEM APIs from a web app}
+  {description = Build a web application that authenticates users and calls AEM OpenAPIs using OAuth to deliver governed, programmatic access.}
+  {cta = Try with APIs}
+  {image = ../assets/using-api-card.png}
+
+-->
+<!-- START CARDS HTML - DO NOT MODIFY BY HAND -->
+<div class="columns">
+    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Query audiences">
+        <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
+            <div class="card-image">
+                <figure class="image x-is-16by9">
+                    <a href="../use-cases/query-audiences.md" title="オーディエンスの照会">
+                        <img class="is-bordered-r-small" src="../assets/use-cases/query-audiences/query-audiences-step4-02-summary.png" alt="オーディエンスの照会"
+                             style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
+                    </a>
+                </figure>
+            </div>
+            <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
+                <div class="top-card-content">
+                    <p class="headline is-size-6 has-text-weight-bold">
+                        <a href="../use-cases/query-audiences.md" title="オーディエンスの照会"> オーディエンスのクエリ </a>
+                    </p>
+                    <p class="is-size-6">CX Enterprise MCPを使用して、平易な言語プロンプトを使用してReal-Time CDPのオーディエンスと宛先データをクエリします。</p>
+                </div>
+                <a href="../use-cases/query-audiences.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">MCPを試す</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Develop AEM components with AI">
+        <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
+            <div class="card-image">
+                <figure class="image x-is-16by9">
+                    <a href="https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/ai/ai-assisted-development/use-cases/component-development" title="AIを活用したAEMコンポーネントの開発" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="../assets/agent-skills-card.png" alt="AIを活用したAEMコンポーネントの開発"
+                             style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
+                    </a>
+                </figure>
+            </div>
+            <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
+                <div class="top-card-content">
+                    <p class="headline is-size-6 has-text-weight-bold">
+                        <a href="https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/ai/ai-assisted-development/use-cases/component-development" target="_blank" rel="referrer" title="AIを活用したAEMコンポーネントの開発">AIを使用してAEM コンポーネントを開発</a>
+                    </p>
+                    <p class="is-size-6">Agent SkillsでClaude CodeまたはCursorを使用して、Adobeのベストプラクティスに従って、AEM コンポーネントを基礎モード化、コード化、調整します。</p>
+                </div>
+                <a href="https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/ai/ai-assisted-development/use-cases/component-development" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold"> エージェントのスキルを試す</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Invoke AEM APIs from a web app">
+        <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
+            <div class="card-image">
+                <figure class="image x-is-16by9">
+                    <a href="https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/aem-apis/openapis/invoke-api-using-oauth-web-app" title="Web アプリからのAEM APIの呼び出し" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="../assets/using-api-card.png" alt="Web アプリからのAEM APIの呼び出し"
+                             style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
+                    </a>
+                </figure>
+            </div>
+            <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
+                <div class="top-card-content">
+                    <p class="headline is-size-6 has-text-weight-bold">
+                        <a href="https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/aem-apis/openapis/invoke-api-using-oauth-web-app" target="_blank" rel="referrer" title="Web アプリからのAEM APIの呼び出し">Web アプリからAEM APIを呼び出す</a>
+                    </p>
+                    <p class="is-size-6">OAuthを使用してユーザーを認証し、AEM OpenAPIを呼び出して、管理されたプログラマティックなアクセスを提供するweb アプリケーションを構築します。</p>
+                </div>
+                <a href="https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/aem-apis/openapis/invoke-api-using-oauth-web-app" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">APIで試す</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- END CARDS HTML - DO NOT MODIFY BY HAND -->
