@@ -3,7 +3,7 @@ title: 顧客に影響を与える前に、ジャーニーの問題を把握し�
 description: CX Enterprise MCPを使用して、アクティブなAJOジャーニーをモニタリングし、キャンペーン設定をレビューし、オーディエンスにリーチする前に運用上の問題を確認します。
 last-substantial-update: 2026-06-08T00:00:00Z
 index: false
-source-git-commit: 94c7d3c6b0542b6e27d8775f78acf40a1b1cae91
+source-git-commit: ed47f1547e6949fc71417e7d99d83802ae3c2134
 workflow-type: tm+mt
 source-wordcount: '1013'
 ht-degree: 3%
@@ -20,10 +20,10 @@ ht-degree: 3%
 
 | シナリオの詳細 | |
 | --- | --- |
-| **CX エンタープライズ アプリケーション** | [Adobe Journey Optimizer （AJO） &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/ajo-home) |
-| **エージェント ツール** | [CX エンタープライズ MCP](../tools/mcp-servers.md#cx-enterprise-mcp-servers) |
-| **オーディエンス** | キャンペーンマネージャー，マーケター |
-| **前提条件** | MCP対応AI クライアント、AJOアクセス |
+| CX エンタープライズアプリケーション | [Adobe Journey Optimizer （AJO） &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/ajo-home) |
+| エージェント型ツール | [CX エンタープライズ MCP](../tools/mcp-servers.md#cx-enterprise-mcp-servers) |
+| オーディエンス | キャンペーンマネージャー，マーケター |
+| 前提条件 | MCP対応AI クライアント、AJOアクセス |
 
 各ステップは、代表的なプロンプトとAI応答の例を示しています。 同じセッションで追加の探索を行うために、**さらに達成できる**&#x200B;のセクションを次に示します。
 

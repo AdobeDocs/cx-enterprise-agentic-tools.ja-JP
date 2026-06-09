@@ -3,7 +3,7 @@ title: オーディエンスとアクティベートされた場所を把握
 description: CX エンタープライズ MCPを使用して、オーディエンスのアクティベーションステータスを監視し、宛先の健全性をチェックし、キャンペーンに影響を与える前に問題を特定します。
 last-substantial-update: 2026-06-09T00:00:00Z
 index: false
-source-git-commit: 94c7d3c6b0542b6e27d8775f78acf40a1b1cae91
+source-git-commit: ed47f1547e6949fc71417e7d99d83802ae3c2134
 workflow-type: tm+mt
 source-wordcount: '900'
 ht-degree: 3%
@@ -21,10 +21,10 @@ ht-degree: 3%
 
 | シナリオの詳細 | |
 | --- | --- |
-| **CX エンタープライズ アプリケーション** | [Real-Time Customer Data Platform （Real-Time CDP） &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/rtcdp/home) |
-| **エージェント ツール** | [CX エンタープライズ MCP](../tools/mcp-servers.md#cx-enterprise-mcp-servers) |
-| **オーディエンス** | マーケター、アナリスト、オペレーター |
-| **前提条件** | MCP対応AI クライアント、Real-Time CDPアクセス |
+| CX エンタープライズアプリケーション | [Real-Time Customer Data Platform （Real-Time CDP） &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/rtcdp/home) |
+| エージェント型ツール | [CX エンタープライズ MCP](../tools/mcp-servers.md#cx-enterprise-mcp-servers) |
+| オーディエンス | マーケター、アナリスト、オペレーター |
+| 前提条件 | MCP対応AI クライアント、Real-Time CDPアクセス |
 
 各ステップは、代表的なプロンプトとAI応答の例を示しています。 同じセッションで追加の探索を行うために、**さらに達成できる**&#x200B;のセクションを次に示します。
 

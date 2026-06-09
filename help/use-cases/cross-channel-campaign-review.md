@@ -3,7 +3,7 @@ title: クロスチャネルキャンペーンのレビューの実施
 description: 単一のAI セッションでCX Enterprise MCPを使用し、ジャーニー、オーディエンス、パフォーマンスをまたいで、AJO、CJA、Real-Time CDPのキャンペーンの健全性を一元的に把握できます。
 last-substantial-update: 2026-06-09T00:00:00Z
 index: false
-source-git-commit: 94c7d3c6b0542b6e27d8775f78acf40a1b1cae91
+source-git-commit: ed47f1547e6949fc71417e7d99d83802ae3c2134
 workflow-type: tm+mt
 source-wordcount: '1458'
 ht-degree: 5%
@@ -21,10 +21,10 @@ ht-degree: 5%
 
 | シナリオの詳細 | |
 | --- | --- |
-| **CX エンタープライズ アプリケーション** | [Adobe Journey Optimizer](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/ajo-home)、[Customer Journey Analytics](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-overview/cja-overview)、[Real-Time CDP](https://experienceleague.adobe.com/ja/docs/experience-platform/rtcdp/home) |
-| **エージェント ツール** | [CX エンタープライズ MCP](../tools/mcp-servers.md#cx-enterprise-mcp-servers) |
-| **オーディエンス** | キャンペーンマネージャー，マーケティングオペレーション |
-| **前提条件** | MCP対応のAI クライアント、AJO、CJA、Real-Time CDPへのアクセス |
+| CX エンタープライズアプリケーション | [Adobe Journey Optimizer](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/ajo-home)、[Customer Journey Analytics](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-overview/cja-overview)、[Real-Time CDP](https://experienceleague.adobe.com/ja/docs/experience-platform/rtcdp/home) |
+| エージェント型ツール | [CX エンタープライズ MCP](../tools/mcp-servers.md#cx-enterprise-mcp-servers) |
+| オーディエンス | キャンペーンマネージャー，マーケティングオペレーション |
+| 前提条件 | MCP対応のAI クライアント、AJO、CJA、Real-Time CDPへのアクセス |
 
 各ステップは、代表的なプロンプトとAI応答の例を示しています。 同じセッションで追加の探索を行うために、**さらに達成できる**&#x200B;のセクションを次に示します。
 

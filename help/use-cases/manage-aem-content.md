@@ -3,7 +3,7 @@ title: コンテンツを最新の状態に保ち、更新をすばやく配信�
 description: AEM Content MCP Serverを使用して、ツールを切り替えることなく、AEM コンテンツを検索、レビュー、更新、公開します。
 last-substantial-update: 2026-06-09T00:00:00Z
 index: false
-source-git-commit: 94c7d3c6b0542b6e27d8775f78acf40a1b1cae91
+source-git-commit: ed47f1547e6949fc71417e7d99d83802ae3c2134
 workflow-type: tm+mt
 source-wordcount: '1053'
 ht-degree: 2%
@@ -21,10 +21,10 @@ ht-degree: 2%
 
 | シナリオの詳細 | |
 | --- | --- |
-| **CX エンタープライズ アプリケーション** | [Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/overview/introduction) |
-| **エージェント ツール** | [AEM Content MCP Server](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) |
-| **オーディエンス** | コンテンツマネージャー，マーケティングチーム |
-| **前提条件** | MCP対応AI クライアント、AEM as a Cloud Serviceアクセス |
+| CX エンタープライズアプリケーション | [Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/overview/introduction) |
+| エージェント型ツール | [AEM Content MCP Server](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) |
+| オーディエンス | コンテンツマネージャー，マーケティングチーム |
+| 前提条件 | MCP対応AI クライアント、AEM as a Cloud Serviceアクセス |
 
 各ステップは、代表的なプロンプトとAI応答の例を示しています。 同じセッションで追加の探索を行うために、**さらに達成できる**&#x200B;のセクションを次に示します。
 

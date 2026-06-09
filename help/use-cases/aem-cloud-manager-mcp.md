@@ -3,7 +3,7 @@ title: 確実なAEM as a Cloud Serviceへのデプロイ
 description: AI クライアントを離れることなく、環境の健全性を確認し、パイプラインの履歴を確認し、デプロイメントをトリガーまたは管理できます。
 last-substantial-update: 2026-06-09T00:00:00Z
 index: false
-source-git-commit: 94c7d3c6b0542b6e27d8775f78acf40a1b1cae91
+source-git-commit: ed47f1547e6949fc71417e7d99d83802ae3c2134
 workflow-type: tm+mt
 source-wordcount: '990'
 ht-degree: 2%
@@ -21,10 +21,10 @@ Adobe Experience Manager環境の管理とは、通常、Cloud Managerにログ�
 
 | シナリオの詳細 | |
 | --- | --- |
-| **CX エンタープライズ アプリケーション** | [Adobe Experience Manager Cloud Manager](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/introduction-to-cloud-manager) |
-| **エージェント ツール** | [AEM Cloud Manager MCP Server](https://experienceleague.adobe.com/ja/docs/experience-manager-learn/cloud-service/ai/mcp-servers/cloud-manager) |
-| **オーディエンス** | 開発、DevOps、運用チーム |
-| **前提条件** | MCP対応AI クライアント、AEM Cloud Managerアクセス |
+| CX エンタープライズアプリケーション | [Adobe Experience Manager Cloud Manager](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/introduction-to-cloud-manager) |
+| エージェント型ツール | [AEM Cloud Manager MCP Server](https://experienceleague.adobe.com/ja/docs/experience-manager-learn/cloud-service/ai/mcp-servers/cloud-manager) |
+| オーディエンス | 開発、DevOps、運用チーム |
+| 前提条件 | MCP対応AI クライアント、AEM Cloud Managerアクセス |
 
 各ステップは、代表的なプロンプトとAI応答の例を示しています。 同じセッションで追加の探索を行うために、**さらに**&#x200B;個のセクションを試すよう求めるプロンプトが表示されます。
 

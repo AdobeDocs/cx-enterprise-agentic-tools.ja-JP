@@ -3,7 +3,7 @@ title: MCP サーバー
 description: モデルコンテキストプロトコルサーバーを使用して、MCP互換のAI クライアントをAdobe CX Enterprise ワークフローに接続します。
 index: false
 last-substantial-update: 2026-06-09T00:00:00Z
-source-git-commit: 9c62818daecf3c20230457da5b9b8086d954260f
+source-git-commit: 25d2a09ed7ca8357fd4d9eff93233732fe81a2d5
 workflow-type: tm+mt
 source-wordcount: '2084'
 ht-degree: 3%
@@ -128,7 +128,7 @@ Adobe Target MCPはパブリックベータ版です。 現在利用可能なす
 
 >[!TAB  クロード.ai]
 
-### ![推奨](../assets/badge-recommended.svg)管理対象コネクタの使用
+### ![推奨](../assets/icons/star.svg)管理対象コネクタの使用
 
 [Adobe AI レジストリ &#x200B;](https://developer.adobe.com/ai-registry/?type=connector)に移動し、Adobe アプリケーションを検索します。 Claude コネクタが一覧表示されている場合（例：[Adobe Experience Manager コネクタ &#x200B;](https://developer.adobe.com/ai-registry/#/connectors/adobe-experience-manager-connector)）、次の手順ではなく、その設定手順に従います。
 

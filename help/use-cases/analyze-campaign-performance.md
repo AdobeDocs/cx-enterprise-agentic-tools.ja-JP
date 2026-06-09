@@ -3,7 +3,7 @@ title: レポートを作成することなくキャンペーンのインサイ�
 description: CX Enterprise MCPを使用して、Customer Journey Analyticsのパフォーマンスに関する質問をわかりやすい言語で行い、レポートビルダーを移動することなく回答を得ることができます。
 last-substantial-update: 2026-06-09T00:00:00Z
 index: false
-source-git-commit: 94c7d3c6b0542b6e27d8775f78acf40a1b1cae91
+source-git-commit: ed47f1547e6949fc71417e7d99d83802ae3c2134
 workflow-type: tm+mt
 source-wordcount: '1036'
 ht-degree: 1%
@@ -21,10 +21,10 @@ ht-degree: 1%
 
 | シナリオの詳細 | |
 | --- | --- |
-| **CX エンタープライズ アプリケーション** | [Customer Journey Analytics （CJA） &#x200B;](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-overview/cja-overview) |
-| **エージェント ツール** | [CX エンタープライズ MCP](../tools/mcp-servers.md#cx-enterprise-mcp-servers) |
-| **オーディエンス** | アナリスト、キャンペーンマネージャー |
-| **前提条件** | MCP対応AI クライアント、CJAアクセス |
+| CX エンタープライズアプリケーション | [Customer Journey Analytics （CJA） &#x200B;](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-overview/cja-overview) |
+| エージェント型ツール | [CX エンタープライズ MCP](../tools/mcp-servers.md#cx-enterprise-mcp-servers) |
+| オーディエンス | アナリスト、キャンペーンマネージャー |
+| 前提条件 | MCP対応AI クライアント、CJAアクセス |
 
 各ステップは、代表的なプロンプトとAI応答の例を示しています。 同じセッションで追加の探索を行うために、**さらに達成できる**&#x200B;のセクションを次に示します。
 
