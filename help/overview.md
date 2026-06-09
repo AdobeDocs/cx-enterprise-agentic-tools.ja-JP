@@ -3,7 +3,7 @@ title: Adobe CX Enterprise Agentic Tools
 description: MCP サーバー、エージェントスキル、APIを使用して、AI エージェントと開発ツールをAdobe CX Enterpriseの機能に接続します。
 last-substantial-update: 2026-06-08T00:00:00Z
 index: false
-source-git-commit: 093448ea6a9840d1d2027b76e177b145400a9202
+source-git-commit: 270aed67540f7347850aece70cebddc9b40b9de8
 workflow-type: tm+mt
 source-wordcount: '630'
 ht-degree: 1%
@@ -15,7 +15,7 @@ ht-degree: 1%
 
 <!-- last-modified: 2026-06-08 -->
 
->[!VIDEO](https://video.tv.adobe.com/v/3491242/?captions=jpn&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3491235/?learn=on&enablevpops)
 
 Adobe CX EnterpriseのパートナーはAI。 AI クライアントをキャンペーン、オーディエンス、ジャーニー、コンテンツに結び付け、既に使用しているあらゆるツールから、わかりやすい言葉で操作できます。 新しいインターフェイスも、コンテキストの切り替えも、コーディングも必要ありません。
 
@@ -141,7 +141,7 @@ Agent Skillsは、AI クライアントが従うことのできる指示とし�
 
 [エージェントのスキルを見る](tools/agent-skills.md)
 
->[!TAB ビルダーの API]
+>ビルダー]の[!TAB API
 
 Adobe製品と同じAPIに、プログラムを利用して直接アクセスできます。 カスタムアプリケーションと統合機能を構築して、チームが特定の顧客体験企業ワークフローに集中して管理されたアクセスを得られるようにします。
 
@@ -206,7 +206,7 @@ CARDS
             <div class="card-image">
                 <figure class="image x-is-16by9">
                     <a href="use-cases/analyze-campaign-performance.md" title="キャンペーンのパフォーマンスを分析" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="https://placehold.co/1600x900?text=Analyze+Campaign+Performance" alt="キャンペーンのパフォーマンスを分析"
+                        <img class="is-bordered-r-small" src="assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step5-02-actions.png" alt="キャンペーンのパフォーマンスを分析"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -229,7 +229,7 @@ CARDS
             <div class="card-image">
                 <figure class="image x-is-16by9">
                     <a href="use-cases/manage-aem-content.md" title="AIを活用したAEMコンテンツの管理" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="https://placehold.co/1600x900?text=Manage+AEM+Content+with+AI" alt="AIを活用したAEMコンテンツの管理"
+                        <img class="is-bordered-r-small" src="assets/use-cases/manage-aem-content/manage-aem-content-step4-02-product.png" alt="AIを活用したAEMコンテンツの管理"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -256,9 +256,9 @@ CARDS
 
 | リソース | 見つかる内容 |
 | --- | --- |
-| [Adobe AI レジストリ &#x200B;](https://developer.adobe.com/ai-registry/?type=mcp) | MCP サーバーの完全カタログ |
+| [Adobe AI レジストリ ](https://developer.adobe.com/ai-registry/?type=mcp) | MCP サーバーの完全カタログ |
 | [Adobe Agent Skills](https://github.com/adobe/skills) | Adobeが監修したCX エンタープライズワークフロー向けのエージェントのスキル |
-| [Adobe API カタログ &#x200B;](https://developer.adobe.com/apis) | Adobe CX Enterprise API リファレンスの完全版 |
+| [Adobe API カタログ ](https://developer.adobe.com/apis) | Adobe CX Enterprise API リファレンスの完全版 |
 | [Adobe Developer Console](https://developer.adobe.com/developer-console/docs/guides/) | API プロジェクトの設定と認証 |
 | [Adobe Admin Console](https://adminconsole.adobe.com) | ユーザーと製品のアクセス管理 |
-| [Experience League](https://experienceleague.adobe.com/ja/docs/experience-cloud-ai/experience-cloud-ai/home) | Adobeのアプリケーションに関するドキュメントとチュートリアル |
+| [Experience League](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/home) | Adobeのアプリケーションに関するドキュメントとチュートリアル |
