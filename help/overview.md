@@ -3,7 +3,7 @@ title: Adobe CX Enterprise Agentic Tools
 description: MCP サーバー、エージェントスキル、APIを使用して、AI エージェントと開発ツールをAdobe CX Enterpriseの機能に接続します。
 last-substantial-update: 2026-06-08T00:00:00Z
 index: false
-source-git-commit: 093448ea6a9840d1d2027b76e177b145400a9202
+source-git-commit: 270aed67540f7347850aece70cebddc9b40b9de8
 workflow-type: tm+mt
 source-wordcount: '630'
 ht-degree: 1%
@@ -206,7 +206,7 @@ CARDS
             <div class="card-image">
                 <figure class="image x-is-16by9">
                     <a href="use-cases/analyze-campaign-performance.md" title="キャンペーンのパフォーマンスを分析" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="https://placehold.co/1600x900?text=Analyze+Campaign+Performance" alt="キャンペーンのパフォーマンスを分析"
+                        <img class="is-bordered-r-small" src="assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step5-02-actions.png" alt="キャンペーンのパフォーマンスを分析"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -229,7 +229,7 @@ CARDS
             <div class="card-image">
                 <figure class="image x-is-16by9">
                     <a href="use-cases/manage-aem-content.md" title="AIを活用したAEMコンテンツの管理" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="https://placehold.co/1600x900?text=Manage+AEM+Content+with+AI" alt="AIを活用したAEMコンテンツの管理"
+                        <img class="is-bordered-r-small" src="assets/use-cases/manage-aem-content/manage-aem-content-step4-02-product.png" alt="AIを活用したAEMコンテンツの管理"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>

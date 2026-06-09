@@ -3,10 +3,10 @@ title: MCP サーバー
 description: モデルコンテキストプロトコルサーバーを使用して、MCP互換のAI クライアントをAdobe CX Enterprise ワークフローに接続します。
 index: false
 last-substantial-update: 2026-06-09T00:00:00Z
-source-git-commit: 76242d3d26596139c0ea7c2e81b698a4ef891370
+source-git-commit: a580957c41e750578b03688bb7ef980103a97781
 workflow-type: tm+mt
-source-wordcount: '2296'
-ht-degree: 4%
+source-wordcount: '1965'
+ht-degree: 3%
 
 ---
 
@@ -21,11 +21,11 @@ Adobe CX Enterprise MCP サーバーは、互換性のあるAI クライアン�
 
 Adobe MCP サーバーは、オープン [&#x200B; モデル コンテキスト プロトコル &#x200B;](https://modelcontextprotocol.io/docs/getting-started/intro)標準に従います。 MCP対応のAI クライアントは、あらゆるAdobe MCP サーバーに接続できます。
 
-## Adobe MCP サーバー
+## CX Enterprise MCP サーバー
 
 ![CX Enterprise MCPは、AI クライアントをAdobe CX Enterprise スイート全体のツールに接続します](../assets/mcp-gateway-hero.gif)
 
-アプリケーションを選択して、エンドポイント、機能、使用可能なツールを表示します。
+エンドポイントと機能を表示するアプリケーションを選択します。
 
 >[!BEGINTABS]
 
@@ -39,36 +39,46 @@ Adobe MCP サーバーは、オープン [&#x200B; モデル コンテキスト 
 https://cx-enterprise.adobe.io/mcp
 ```
 
-| アプリケーション | 実行できること | ツール |
-| --- | --- | --- |
-| Adobe Journey Optimizer | ジャーニー、キャンペーン、チャネル設定の確認 | [&#x200B; ツールの表示](https://developer.adobe.com/ai-registry/#/mcp/ajo-mcp-server) |
-| Adobe Journey Optimizer B2B edition | B2B ジャーニー、アカウントプログラム、購買グループ、パーソナライゼーションの管理 | TODO：検証 |
-| Customer Journey Analytics | レポートのクエリ、データビューの確認、ワークスペースの作成 | [&#x200B; ツールの表示](https://developer.adobe.com/ai-registry/#/mcp/cja-mcp) |
-| Real-Time CDP | オーディエンスのアクティベーションステータス、宛先の健全性、データフローの健全性の確認 | [&#x200B; ツールの表示](https://experienceleague.adobe.com/ja/docs/experience-cloud-ai/experience-cloud-ai/mcp/rtcdp-mcp) |
-| Adobe Analytics | レポートスイートの検出、セグメントのオーサリング、ワークスペースの作成 | [&#x200B; ツールの表示](https://developer.adobe.com/ai-registry/#/mcp/adobe-analytics-mcp) |
-| Adobe Experience Platform | データセットの発見、スキーマの閲覧、サンドボックスの管理 | — |
+| CX Enterprise アプリケーション | 実行できること |
+| --- | --- |
+| Adobe Analytics | レポートスイートの検出、セグメントのオーサリング、ワークスペースの作成 |
+| Adobe Experience Platform | データセットの発見、スキーマの閲覧、サンドボックスの管理 |
+| Adobe Journey Optimizer | ジャーニー、キャンペーン、チャネル設定の確認 |
+| Adobe Journey Optimizer B2B edition | B2B ジャーニー、アカウントプログラム、購買グループ、パーソナライゼーションの管理 |
+| Customer Journey Analytics | レポートのクエリ、データビューの確認、ワークスペースの作成 |
+| Real-Time CDP | オーディエンスのアクティベーションステータス、宛先の健全性、データフローの健全性の確認 |
+
+>[!NOTE]
+>
+>各CX Enterprise アプリケーションへのアクセスは、組織の使用権限とAdobe Admin Consoleでのユーザーの権限に基づいています。
 
 >[!TAB Experience Manager]
 
 Adobe Experience Managerには、異なるワークフロー用に複数のMCP サーバーがあります。
 
-| MCP サーバー | エンドポイント | 実行できること | ツール |
-| --- | --- | --- | --- |
-| [AEM コンテンツ &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | `https://mcp.adobeaemcloud.com/adobe/mcp/content` | ページ、コンテンツフラグメント、アセット、ローンチの管理 | [&#x200B; ツールの表示](https://developer.adobe.com/ai-registry/#/mcp/aem-content-mcp) |
-| [AEM コンテンツ （読み取り専用） &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | `https://mcp.adobeaemcloud.com/adobe/mcp/content-readonly` | 書き込みアクセスなしで、ページ、コンテンツフラグメント、ローンチを発見、クエリできます | [&#x200B; ツールの表示](https://developer.adobe.com/ai-registry/#/mcp/aem-content-mcp-readonly) |
-| [AEM Cloud Manager](https://experienceleague.adobe.com/ja/docs/experience-manager-learn/cloud-service/ai/mcp-servers/cloud-manager) | `https://mcp.adobeaemcloud.com/adobe/mcp/cloudmanager` | プログラム、環境、パイプライン、リポジトリの管理 | [&#x200B; ツールの表示](https://developer.adobe.com/ai-registry/#/mcp/aem-cloud-manager-mcp) |
-| [AEM （コードモード） &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | `https://mcp.adobeaemcloud.com/adobe/mcp/aem` | 自然言語のルックアップ、読み取り、書き込み、削除により、AEMにREST API アクセスを直接実行できます | — |
-| [AEM Document Authoring] （TODO：検証） | `https://mcp.adobeaemcloud.com/adobe/mcp/da` | 文書オーサリングでのファイル、バージョン履歴、メディア参照の管理 | — |
-| [AEM Experience Governance](https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/ai/mcp-servers/experience-governance-mcp-server) | `https://mcp.adobeaemcloud.com/adobe/mcp/experience-governance` | ブランドガイドラインやコンプライアンスルールに照らしてコンテンツや画像を評価する | — |
-| [AEM Experience Production](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/ai-in-aem/agents/brand-experience/experience-production/overview) | `https://mcp.adobeaemcloud.com/adobe/mcp/experience-production` | AIを活用したコンテンツ概要により、AEMページを大規模に変革、作成できます | — |
+| MCP サーバー | エンドポイント | 実行できること |
+| --- | --- | --- |
+| [AEM （コードモード） &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | `https://mcp.adobeaemcloud.com/adobe/mcp/aem` | 自然言語のルックアップ、読み取り、書き込み、削除により、AEMにREST API アクセスを直接実行できます |
+| [AEM Cloud Manager](https://experienceleague.adobe.com/ja/docs/experience-manager-learn/cloud-service/ai/mcp-servers/cloud-manager) | `https://mcp.adobeaemcloud.com/adobe/mcp/cloudmanager` | プログラム、環境、パイプライン、リポジトリの管理 |
+| [AEM コンテンツ &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | `https://mcp.adobeaemcloud.com/adobe/mcp/content` | ページ、コンテンツフラグメント、アセット、ローンチの管理 |
+| [AEM コンテンツ （読み取り専用） &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | `https://mcp.adobeaemcloud.com/adobe/mcp/content-readonly` | 書き込みアクセスなしで、ページ、コンテンツフラグメント、ローンチを発見、クエリできます |
+| [AEM Document Authoring] （TODO：検証） | `https://mcp.adobeaemcloud.com/adobe/mcp/da` | 文書オーサリングでのファイル、バージョン履歴、メディア参照の管理 |
+| [AEM Experience Governance](https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/ai/mcp-servers/experience-governance-mcp-server) | `https://mcp.adobeaemcloud.com/adobe/mcp/experience-governance` | ブランドガイドラインやコンプライアンスルールに照らしてコンテンツや画像を評価する |
+| [AEM Experience Production](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/ai-in-aem/agents/brand-experience/experience-production/overview) | `https://mcp.adobeaemcloud.com/adobe/mcp/experience-production` | AIを活用したコンテンツ概要により、AEMページを大規模に変革、作成できます |
 
->[!TAB Target]
+>[!NOTE]
+>
+>各AEM環境へのアクセスは、組織のAEM Cloud Serviceの使用権限と、その環境でのユーザーの権限によって異なります。
 
-Adobe Target MCPはパブリックベータ版です。 現在利用可能なすべてのツールは読み取り専用です。 書き込みツールは、一般公開に向けて計画されています。
+>[!TAB Experience Platform]
 
-| MCP サーバー | エンドポイント | 実行できること | ツール |
-| --- | --- | --- | --- |
-| [Adobe Target](https://experienceleague.adobe.com/ja/docs/target/using/mcp/target-mcp) | `https://targetmcp.adobe.io/mcp` | アクティビティ、オファー、オーディエンス、mbox、パフォーマンスレポートの確認 | [&#x200B; ツールの表示](https://developer.adobe.com/ai-registry/#/mcp/target-mcp) |
+| MCP サーバー | エンドポイント | 実行できること |
+| --- | --- | --- |
+| [Adobe Marketing Agent] （TODO：検証） | `https://aep-ai-ama.adobe.io/mcp` | AEPアプリケーションをまたいで、オーディエンス分析、AEP診断、AJO B2B ジャーニーの構築を連携できます |
+
+>[!NOTE]
+>
+>アクセス権は、組織のAdobe Experience Platform使用権限とユーザーの権限によって異なります。
 
 >[!TAB Marketo Engage]
 
@@ -76,43 +86,37 @@ Adobe Target MCPはパブリックベータ版です。 現在利用可能なす
 >
 >Marketo Engage MCPは、Adobe IMSではなく、Marketoネイティブのサービス資格情報を使用します。 認証設定の手順については、[Marketo Engage MCP Server ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/marketo-developer/marketo/mcp-server)を参照してください。
 
-| MCP サーバー | エンドポイント | 実行できること | ツール |
-| --- | --- | --- | --- |
-| [Marketo Engage](https://experienceleague.adobe.com/ja/docs/marketo-developer/marketo/mcp-server) | `https://marketo-mcp.adobe.io/mcp` | プログラム、キャンペーン、リード、スマートリスト、メール、フォームを管理する | TODO：検証 |
+| MCP サーバー | エンドポイント | 実行できること |
+| --- | --- | --- |
+| [Marketo Engage](https://experienceleague.adobe.com/ja/docs/marketo-developer/marketo/mcp-server) | `https://marketo-mcp.adobe.io/mcp` | プログラム、キャンペーン、リード、スマートリスト、メール、フォームを管理する |
 
->[!TAB Experience Platform]
+>[!NOTE]
+>
+>アクセスは、Marketo Engage サブスクリプションとAPI ユーザーの権限によって異なります。
 
-| MCP サーバー | エンドポイント | 実行できること | ツール |
-| --- | --- | --- | --- |
-| [Adobe Marketing Agent] （TODO：検証） | `https://aep-ai-ama.adobe.io/mcp` | AEPアプリケーションをまたいで、オーディエンス分析、AEP診断、AJO B2B ジャーニーの構築を連携できます | TODO：検証 |
+>[!TAB Target]
+
+Adobe Target MCPはパブリックベータ版です。 現在利用可能なすべてのツールは読み取り専用です。 書き込みツールは、一般公開に向けて計画されています。
+
+| MCP サーバー | エンドポイント | 実行できること |
+| --- | --- | --- |
+| [Adobe Target](https://experienceleague.adobe.com/ja/docs/target/using/mcp/target-mcp) | `https://targetmcp.adobe.io/mcp` | アクティビティ、オファー、オーディエンス、mbox、パフォーマンスレポートの確認 |
+
+>[!NOTE]
+>
+>アクセスは、Adobe Targetの使用権限とユーザーの権限によって異なります。
 
 >[!TAB Workfront]
 
-| MCP サーバー | エンドポイント | 実行できること | ツール |
-| --- | --- | --- | --- |
-| [Adobe Workfront] （TODO：検証） | `https://mcp.prod.us-west-2.aws.wfk8s.com/mcp/v1/workfront` | 作業、プロジェクト、プランニングレコード、インサイト、コンテンツ承認を管理できます | TODO：検証 |
+| MCP サーバー | エンドポイント | 実行できること |
+| --- | --- | --- |
+| [Adobe Workfront] （TODO：検証） | `https://mcp.prod.us-west-2.aws.wfk8s.com/mcp/v1/workfront` | 作業、プロジェクト、プランニングレコード、インサイト、コンテンツ承認を管理できます |
+
+>[!NOTE]
+>
+>アクセス権は、Adobe Workfront ライセンスとユーザーの権限によって異なります。
 
 >[!ENDTABS]
-
-## MCP サーバーエンドポイント
-
-すべてのエンドポイントは、[Adobe AI レジストリ &#x200B;](https://developer.adobe.com/ai-registry/?type=connector)に一覧表示されます。 この表はクイックリファレンスです。エンドポイント URLを取得し、接続する前に利用可能なツールをスキャンします。
-
-| サーバー | エンドポイント | ツール |
-| --- | --- | --- |
-| [CX エンタープライズ MCP](#adobe-mcp-servers) | `https://cx-enterprise.adobe.io/mcp` | ・ [Adobe Journey Optimizer tools](https://developer.adobe.com/ai-registry/#/mcp/ajo-mcp-server)<br>・[Customer Journey Analytics tools](https://developer.adobe.com/ai-registry/#/mcp/cja-mcp)<br>・[Real-Time CDP tools](https://experienceleague.adobe.com/ja/docs/experience-cloud-ai/experience-cloud-ai/mcp/rtcdp-mcp)<br>・[Adobe Analytics tools](https://developer.adobe.com/ai-registry/#/mcp/adobe-analytics-mcp) |
-| [Adobe Analytics](https://developer.adobe.com/analytics-mcp/docs/aa/) | `https://aa-mcp.adobe.io/mcp` | [&#x200B; ツールの表示](https://developer.adobe.com/ai-registry/#/mcp/adobe-analytics-mcp) |
-| [AEM Cloud Manager](https://experienceleague.adobe.com/ja/docs/experience-manager-learn/cloud-service/ai/mcp-servers/cloud-manager) | `https://mcp.adobeaemcloud.com/adobe/mcp/cloudmanager` | [&#x200B; ツールの表示](https://developer.adobe.com/ai-registry/#/mcp/aem-cloud-manager-mcp) |
-| [AEM コンテンツ &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | `https://mcp.adobeaemcloud.com/adobe/mcp/content` | [&#x200B; ツールの表示](https://developer.adobe.com/ai-registry/#/mcp/aem-content-mcp) |
-| [AEM コンテンツ （読み取り専用） &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | `https://mcp.adobeaemcloud.com/adobe/mcp/content-readonly` | [&#x200B; ツールの表示](https://developer.adobe.com/ai-registry/#/mcp/aem-content-mcp-readonly) |
-| [AEM （コードモード） &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | `https://mcp.adobeaemcloud.com/adobe/mcp/aem` | — |
-| [AEM Document Authoring] （TODO：検証） | `https://mcp.adobeaemcloud.com/adobe/mcp/da` | — |
-| [AEM Experience Governance](https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/ai/mcp-servers/experience-governance-mcp-server) | `https://mcp.adobeaemcloud.com/adobe/mcp/experience-governance` | — |
-| [AEM Experience Production](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/ai-in-aem/agents/brand-experience/experience-production/overview) | `https://mcp.adobeaemcloud.com/adobe/mcp/experience-production` | — |
-| [Adobe Target](https://experienceleague.adobe.com/ja/docs/target/using/mcp/target-mcp) | `https://targetmcp.adobe.io/mcp` | [&#x200B; ツールの表示](https://developer.adobe.com/ai-registry/#/mcp/target-mcp) |
-| [Marketo Engage](https://experienceleague.adobe.com/ja/docs/marketo-developer/marketo/mcp-server) | `https://marketo-mcp.adobe.io/mcp` | TODO：検証 |
-| [Adobe Marketing Agent] （TODO：検証） | `https://aep-ai-ama.adobe.io/mcp` | TODO：検証 |
-| [Adobe Workfront] （TODO：検証） | `https://mcp.prod.us-west-2.aws.wfk8s.com/mcp/v1/workfront` | TODO：検証 |
 
 ## AI クライアントに接続します
 
@@ -257,42 +261,6 @@ Microsoft Copilot Studioは、Power Platform カスタムコネクタを自動�
 
 >[!ENDTABS]
 
-## トラブルシューティング
-
-+++Adobe組織の切り替え
-
-Adobe ユーザーが複数のIMS組織に属しており、間違った組織のツールやデータが表示されている場合は、MCP サーバーを切断し、ブラウザーでAdobe セッションからログアウトしてから、再接続します。 ログイン時に組織を選択するよう求められます。
-
-Adobe CX Enterprise MCP サーバーは、ユーザーアカウントが複数のアクセス権を持っている場合でも、一度に1つのIMS組織に対してのみ認証できます。
-
-+++
-
-+++サンドボックス、レポートスイート、環境、またはその他のセッションリソースの指定
-
-一部のAdobe CX Enterprise MCP サーバーでは、結果を返す前にリソースを指定する必要があります。 アプリケーションによっては、サンドボックス、プログラム、環境、レポートスイート、データビューなどがあります。
-
-アクセスできるリソースがわからない場合は、AI クライアントに問い合わせます。 例：「使用可能なサンドボックスのリスト」または「どのレポートスイートにアクセスできますか？」 Adobe CX Enterprise MCP サーバーは、多くの場合、ユーザーが利用できるリソースの完全なリストを返します。
-
-セッションリソースを設定したら、どのリソースを使用するかをAI クライアントに伝えることで、いつでも切り替えることができます。
-
-+++
-
-+++権限とアクセスのエラー
-
-AI クライアントは、OAuthを使用して、Adobeユーザーアカウントの代理として行動します。 Adobe アプリケーションにログインするときに適用される同じ権限とアクセス制御は、MCP サーバーを使用するときに適用されます。
-
-アクションが失敗するか、結果が返されない場合は、Adobe Admin Consoleおよび関連するCX Enterprise アプリケーションで、ユーザーが必要な権限を持っていることを確認します。 アクセス権を調整する必要がある場合は、Adobe システム管理者にお問い合わせください。
-
-+++
-
-+++セッションを失った後の再認証
-
-Adobe CX Enterprise MCP サーバーは、OAuthを使用してAdobe ユーザーアカウントを認証します。 認証状態が失われると、再認証するまで、それ以上のツール呼び出しは成功しません。
-
-再認証するには：AI クライアントのMCP サーバー設定を開き、Adobe CX Enterprise MCP サーバーエントリを選択して再接続します。 Adobe IDで再度ログインするよう求められます。
-
-+++
-
 ## エージェント型ツールの活用例
 
 実際のビジネスワークフローに適用されるAdobe CX Enterprise MCP サーバーを参照してください。
@@ -338,7 +306,7 @@ CARDS
             <div class="card-image">
                 <figure class="image x-is-16by9">
                     <a href="../use-cases/analyze-campaign-performance.md" title="キャンペーンのパフォーマンスを分析" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="https://placehold.co/1600x900?text=Analyze+Campaign+Performance" alt="キャンペーンのパフォーマンスを分析"
+                        <img class="is-bordered-r-small" src="../assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step5-02-actions.png" alt="キャンペーンのパフォーマンスを分析"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -361,7 +329,7 @@ CARDS
             <div class="card-image">
                 <figure class="image x-is-16by9">
                     <a href="../use-cases/query-audiences.md" title="オーディエンスの照会" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="https://placehold.co/1600x900?text=Query+Audiences" alt="オーディエンスの照会"
+                        <img class="is-bordered-r-small" src="../assets/use-cases/query-audiences/query-audiences-step4-02-summary.png" alt="オーディエンスの照会"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -384,7 +352,7 @@ CARDS
             <div class="card-image">
                 <figure class="image x-is-16by9">
                     <a href="../use-cases/manage-ajo-journeys.md" title="AJO ジャーニーのレビュー" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="https://placehold.co/1600x900?text=Review+AJO+Journeys" alt="AJO ジャーニーのレビュー"
+                        <img class="is-bordered-r-small" src="../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step5-02-exe-summary.png" alt="AJO ジャーニーのレビュー"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -407,7 +375,7 @@ CARDS
             <div class="card-image">
                 <figure class="image x-is-16by9">
                     <a href="../use-cases/manage-aem-content.md" title="AIを活用したAEMコンテンツの管理" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="https://placehold.co/1600x900?text=Manage+AEM+Content+with+AI" alt="AIを活用したAEMコンテンツの管理"
+                        <img class="is-bordered-r-small" src="../assets/use-cases/manage-aem-content/manage-aem-content-step4-02-product.png" alt="AIを活用したAEMコンテンツの管理"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -430,7 +398,7 @@ CARDS
             <div class="card-image">
                 <figure class="image x-is-16by9">
                     <a href="../use-cases/optimize-content-with-performance-data.md" title="パフォーマンスデータに基づくコンテンツの最適化" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="https://placehold.co/1600x900?text=Optimize+Content+Based+on+Performance+Data" alt="パフォーマンスデータに基づくコンテンツの最適化"
+                        <img class="is-bordered-r-small" src="../assets/use-cases/optimize-content-with-performance-data/optimize-content-with-performance-data-step5-03-page-compare.png" alt="パフォーマンスデータに基づくコンテンツの最適化"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -473,3 +441,39 @@ CARDS
     </div>
 </div>
 <!-- END CARDS HTML - DO NOT MODIFY BY HAND -->
+
+## トラブルシューティング
+
++++Adobe組織の切り替え
+
+Adobe ユーザーが複数のIMS組織に属しており、間違った組織のツールやデータが表示されている場合は、MCP サーバーを切断し、ブラウザーでAdobe セッションからログアウトしてから、再接続します。 ログイン時に組織を選択するよう求められます。
+
+Adobe CX Enterprise MCP サーバーは、ユーザーアカウントが複数のアクセス権を持っている場合でも、一度に1つのIMS組織に対してのみ認証できます。
+
++++
+
++++サンドボックス、レポートスイート、環境、またはその他のセッションリソースの指定
+
+一部のAdobe CX Enterprise MCP サーバーでは、結果を返す前にリソースを指定する必要があります。 アプリケーションによっては、サンドボックス、プログラム、環境、レポートスイート、データビューなどがあります。
+
+アクセスできるリソースがわからない場合は、AI クライアントに問い合わせます。 例：「使用可能なサンドボックスのリスト」または「どのレポートスイートにアクセスできますか？」 Adobe CX Enterprise MCP サーバーは、多くの場合、ユーザーが利用できるリソースの完全なリストを返します。
+
+セッションリソースを設定したら、どのリソースを使用するかをAI クライアントに伝えることで、いつでも切り替えることができます。
+
++++
+
++++権限とアクセスのエラー
+
+AI クライアントは、OAuthを使用して、Adobeユーザーアカウントの代理として行動します。 Adobe アプリケーションにログインするときに適用される同じ権限とアクセス制御は、MCP サーバーを使用するときに適用されます。
+
+アクションが失敗するか、結果が返されない場合は、Adobe Admin Consoleおよび関連するCX Enterprise アプリケーションで、ユーザーが必要な権限を持っていることを確認します。 アクセス権を調整する必要がある場合は、Adobe システム管理者にお問い合わせください。
+
++++
+
++++セッションを失った後の再認証
+
+Adobe CX Enterprise MCP サーバーは、OAuthを使用してAdobe ユーザーアカウントを認証します。 認証状態が失われると、再認証するまで、それ以上のツール呼び出しは成功しません。
+
+再認証するには：AI クライアントのMCP サーバー設定を開き、Adobe CX Enterprise MCP サーバーエントリを選択して再接続します。 Adobe IDで再度ログインするよう求められます。
+
++++

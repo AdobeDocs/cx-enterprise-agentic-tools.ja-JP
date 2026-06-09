@@ -3,9 +3,9 @@ title: オーディエンスとアクティベートされた場所を把握
 description: CX Enterprise MCP Gatewayを使用して、オーディエンスのアクティベーション状況を監視し、宛先の健全性をチェックし、キャンペーンに影響を与える前に問題を特定します。
 last-substantial-update: 2026-06-04T00:00:00Z
 index: false
-source-git-commit: 093448ea6a9840d1d2027b76e177b145400a9202
+source-git-commit: 270aed67540f7347850aece70cebddc9b40b9de8
 workflow-type: tm+mt
-source-wordcount: '899'
+source-wordcount: '898'
 ht-degree: 2%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 2%
 
 <!-- last-modified: 2026-06-04 -->
 
-![自然言語を使用したオーディエンスのクエリ &#x200B;](https://placehold.co/1600x900?text=Query+Audiences)
+![&#x200B; アクティベーションに関する推奨事項を含む、優先順位付けされたオーディエンス戦略を提供するAI クライアント &#x200B;](../assets/use-cases/query-audiences/query-audiences-step4-02-summary.png)
 
 どのオーディエンスがアクティベートされ、どこを流れているのか、配信先が健全かどうかを把握することは、通常、Real-Time CDPを開き、複数のスクリーンを操作することを意味します。 このチュートリアルでは、RTCDP MCP Serverを使用して、宛先設定、アクティベーションステータス、データフローの正常性を確認しながら、AI クライアントを通じて同じ回答を得る方法を説明します。
 

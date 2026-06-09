@@ -3,9 +3,9 @@ title: パフォーマンスデータに基づくコンテンツの最適化
 description: CJAとAEMを単一のAI セッションで連携することで、コンバージョンのギャップがあるキャンペーンを特定し、原因を診断して、ツールを切り替えることなくコンテンツを更新できます。
 last-substantial-update: 2026-06-08T00:00:00Z
 index: false
-source-git-commit: 093448ea6a9840d1d2027b76e177b145400a9202
+source-git-commit: 270aed67540f7347850aece70cebddc9b40b9de8
 workflow-type: tm+mt
-source-wordcount: '1093'
+source-wordcount: '1089'
 ht-degree: 1%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 1%
 # パフォーマンスデータに基づくコンテンツの最適化
 <!-- last-modified: 2026-06-08 -->
 
-![&#x200B; パフォーマンスデータに基づいてコンテンツを最適化](https://placehold.co/1600x900?text=Optimize+Content+Based+on+Performance+Data)
+![&#x200B; オリジナルと更新されたページコンテンツを並べて比較するAI クライアント &#x200B;](../assets/use-cases/optimize-content-with-performance-data/optimize-content-with-performance-data-step5-03-page-compare.png)
 
 施策のパフォーマンスデータとコンテンツの更新を連携させるには、通常、分析ツールとCMSを切り替える必要があります。 このチュートリアルでは、Adobe Customer Journey AnalyticsとAdobe AEMを同じAI セッションで連携する方法を紹介します。コンバージョンのギャップを埋めるキャンペーンを浮き彫りにし、何が原因で発生しているのかを診断し、コンテンツを調査して、ターゲットを絞ったレコメンデーションを取得し、変更を適用することができます。
 

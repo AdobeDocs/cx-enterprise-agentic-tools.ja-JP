@@ -3,7 +3,7 @@ title: レポートを作成することなくキャンペーンのインサイ�
 description: CX Enterprise MCP Gatewayを使用して、Customer Journey Analyticsのパフォーマンスに関する質問をわかりやすい言語で行い、レポートビルダーを操作することなく回答を得ることができます。
 last-substantial-update: 2026-06-02T00:00:00Z
 index: false
-source-git-commit: 093448ea6a9840d1d2027b76e177b145400a9202
+source-git-commit: 270aed67540f7347850aece70cebddc9b40b9de8
 workflow-type: tm+mt
 source-wordcount: '1031'
 ht-degree: 1%
@@ -15,7 +15,7 @@ ht-degree: 1%
 
 <!-- last-modified: 2026-06-02 -->
 
-![&#x200B; キャンペーンパフォーマンスの分析](https://placehold.co/1600x900?text=Analyze+Campaign+Performance)
+![&#x200B; キャンペーンのパフォーマンスを向上させるための次のステップを推奨するAI クライアント &#x200B;](../assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step5-02-actions.png)
 
 以前は別のツールでレポートを作成する必要があったキャンペーン分析も、今では会話になっています。 このチュートリアルでは、AI クライアントをCustomer Journey Analytics（CJA）に接続し、パフォーマンスに関する質問を平易な言葉で行う方法を説明します。 これにより、insightへの移行が迅速化され、手作業によるレポート作成は不要になります。
 
