@@ -14,13 +14,13 @@ ht-degree: 3%
 # 顧客に影響を与える前に、ジャーニーの問題を把握したい
 <!-- last-modified: 2026-06-08 -->
 
-![ エグゼクティブサマリーを使用してキャンペーンとジャーニー戦略を要約するAI クライアント ](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step5-02-exe-summary.png)
+![&#x200B; エグゼクティブサマリーを使用してキャンペーンとジャーニー戦略を要約するAI クライアント &#x200B;](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step5-02-exe-summary.png)
 
 どのジャーニーがアクティブで、どのような条件がそれらを促進しているか、キャンペーンが通常どのように設定されているかなどを明確に把握することは、Adobe Journey Optimizerを開き、そのインターフェイスをナビゲートすることを意味します。 このチュートリアルでは、CX Enterprise MCPを使用して、平易な言葉でAJOのジャーニーとキャンペーンのデータをクエリし、AI クライアントを通じて同じ可視性を取得する方法を示します。
 
 | シナリオの詳細 | |
 | --- | --- |
-| **CX エンタープライズ アプリケーション** | [Adobe Journey Optimizer （AJO） ](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/ajo-home) |
+| **CX エンタープライズ アプリケーション** | [Adobe Journey Optimizer （AJO） &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/ajo-home) |
 | **エージェント ツール** | [CX エンタープライズ MCP](../tools/mcp-servers.md#cx-enterprise-mcp-servers) |
 | **オーディエンス** | キャンペーンマネージャー，マーケター |
 | **前提条件** | MCP対応AI クライアント、AJOアクセス |
@@ -40,7 +40,7 @@ CX Enterprise MCPをカスタムコネクタとして接続して、Adobe Journe
 2. **カスタムコネクタを追加**&#x200B;を選択し、サーバーURLを入力します：`https://cx-enterprise.adobe.io/mcp`
 3. **Connect**&#x200B;を選択し、Adobe IDでログインします。
 
-完全なセットアップ：[Claude.ai カスタムコネクタのドキュメント ](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp)
+完全なセットアップ：[Claude.ai カスタムコネクタのドキュメント &#x200B;](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp)
 
 >[!TAB ChatGPT]
 
@@ -51,7 +51,7 @@ ChatGPT デベロッパーモードを使用してCX エンタープライズ MC
 3. サーバーURLを入力してください：`https://cx-enterprise.adobe.io/mcp`
 4. **Connect**&#x200B;を選択し、Adobe IDでログインします。
 
-完全なセットアップ：[ChatGPT MCP ドキュメント ](https://developers.openai.com/api/docs/guides/tools-connectors-mcp)
+完全なセットアップ：[ChatGPT MCP ドキュメント &#x200B;](https://developers.openai.com/api/docs/guides/tools-connectors-mcp)
 
 >[!TAB その他のAI クライアント ]
 
@@ -84,7 +84,7 @@ What customer journeys are currently available and what business objectives do t
 
 +++回答の例を見る
 
-![利用可能なカスタマージャーニーとビジネス目標を一覧表示するAI クライアント ](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step1.gif)
+![利用可能なカスタマージャーニーとビジネス目標を一覧表示するAI クライアント &#x200B;](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step1.gif)
 
 +++
 
@@ -100,7 +100,7 @@ Walk me through the [journey name] journey and explain the customer experience.
 
 +++回答の例を見る
 
-![新規顧客を歓迎するジャーニーの手順と顧客体験を説明するAI クライアント ](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step2-welcome-journey.png)
+![新規顧客を歓迎するジャーニーの手順と顧客体験を説明するAI クライアント &#x200B;](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step2-welcome-journey.png)
 
 +++
 
@@ -120,7 +120,7 @@ Show me our campaigns, the audiences they target, and the outcomes they're desig
 
 +++回答の例を見る
 
-![ アクティブなキャンペーンを、オーディエンスターゲティングおよび意図された結果と共に一覧表示するAI クライアント ](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step3.gif)
+![&#x200B; アクティブなキャンペーンを、オーディエンスターゲティングおよび意図された結果と共に一覧表示するAI クライアント &#x200B;](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step3.gif)
 
 +++
 
@@ -136,7 +136,7 @@ How do our campaigns and journeys work together to improve customer engagement?
 
 +++回答の例を見る
 
-![ キャンペーンとジャーニーの関係を説明するAI クライアント ](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step4-connection.png)
+![&#x200B; キャンペーンとジャーニーの関係を説明するAI クライアント &#x200B;](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step4-connection.png)
 
 +++
 
@@ -254,6 +254,6 @@ What channel configurations are set up in our AJO environment?
 | リソース | 見つかる内容 |
 | --- | --- |
 | [AI レジストリのAJO MCP Server](https://developer.adobe.com/ai-registry/#/mcp/ajo-mcp-server) | AJO MCP Serverのツールと機能 |
-| [AJO ドキュメント ](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/ajo-home) | Adobe AJOのドキュメント |
+| [AJO ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/ajo-home) | Adobe AJOのドキュメント |
 | [AJO API](https://developer.adobe.com/journey-optimizer-apis/) | カスタム統合のためのAJO API リファレンス |
-| [AJO チュートリアル ](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/tutorials/overview) | ビデオチュートリアルと学習パス |
+| [AJO チュートリアル &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/tutorials/overview) | ビデオチュートリアルと学習パス |
