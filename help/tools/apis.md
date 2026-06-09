@@ -3,7 +3,7 @@ title: ビルダー用API
 description: Adobe CX Enterprise APIを使用して、カスタムアプリケーションと統合を構築します。
 last-substantial-update: 2026-06-02T00:00:00Z
 index: false
-source-git-commit: a130fc470e97f2316e2ea72ebda47b9fc4ad9b33
+source-git-commit: 8f499ad7baf1b5d08dfac90511d0c76e8372c08b
 workflow-type: tm+mt
 source-wordcount: '747'
 ht-degree: 11%
@@ -107,15 +107,15 @@ API プロジェクトの設定、認証、資格情報管理。
 
 ![Adobe CX Enterprise APIに接続するIDE](../assets/hero-connect-apis.gif)
 
-Claude Code、Cursor、OpenAI Codexなどのコーディングエージェントは、Adobe CX Enterprise APIを使用した構築に適しています。プロジェクトにOpenAPI仕様を追加すると、エージェントは手作業での配線を必要とせずに、エンドポイントの発見、リクエストの作成、API動作の理由を確認できます。 まず、Adobe Developer Consoleの認証済み資格情報と、プロジェクトに追加されたAPI ドキュメントの2つが必要です。
+Claude Code、Cursor、OpenAI Codexなどのコーディングエージェントは、Adobe CX Enterprise APIを使用した構築に適しています。 プロジェクトにOpenAPI仕様を追加すると、エージェントは手動での配線なしでエンドポイントを発見し、リクエストを作成し、API動作の理由を確認できます。 まず、Adobe Developer Consoleの認証済み資格情報と、プロジェクトに追加されたAPI ドキュメントの2つが必要です。
 
 ### Adobe Developer ConsoleでのAPI資格情報の設定
 
 すべてのAdobe CX Enterprise API アクセスは[Adobe Developer Console](https://developer.adobe.com/developer-console/docs/guides/)を通じて管理されます。 プロジェクトを作成し、アプリケーションに必要なAPIを追加し、資格情報を生成します。
 
-1. ログインして[Adobe Developer Consoleでプロジェクト &#x200B;](https://developer.adobe.com/developer-console/docs/guides/projects/)を作成します。
+1. ログインして[Adobe Developer Consoleでプロジェクト ](https://developer.adobe.com/developer-console/docs/guides/projects/)を作成します。
 2. [必要なAdobe CX Enterprise アプリケーションのAPI](https://developer.adobe.com/developer-console/docs/guides/services/)を追加します。
-3. [認証タイプ &#x200B;](https://developer.adobe.com/developer-console/docs/guides/authentication/)を選択してください。 自動ワークフローには&#x200B;**OAuth サーバー間**&#x200B;を使用し、ユーザー向けアプリケーションには&#x200B;**OAuth Web App**&#x200B;を使用します。
+3. [認証タイプ ](https://developer.adobe.com/developer-console/docs/guides/authentication/)を選択してください。 自動ワークフローには&#x200B;**OAuth サーバー間**&#x200B;を使用し、ユーザー向けアプリケーションには&#x200B;**OAuth Web App**&#x200B;を使用します。
 4. 認証情報を生成。 アプリケーションで使用するクライアント ID、クライアント秘密鍵、およびトークンエンドポイントをメモします。
 
 ほとんどのAdobe CX Enterprise APIには、アプリケーションのライセンスが必要です。 Developer Console プロジェクトでAPIが使用できない場合は、Adobe担当者にお問い合わせください。
@@ -126,7 +126,7 @@ AI コーディングエージェントは、プロジェクトに適切な参�
 
 **1. API仕様を検索**
 
-上記の[Adobe CX Enterprise API](#adobe-cx-enterprise-apis)を参照するか、[Adobe Developer API カタログ &#x200B;](https://developer.adobe.com/apis)に直接移動します。
+上記の[Adobe CX Enterprise API](#adobe-cx-enterprise-apis)を参照するか、[Adobe Developer API カタログ ](https://developer.adobe.com/apis)に直接移動します。
 
 **2. OpenAPI仕様をダウンロード**
 
