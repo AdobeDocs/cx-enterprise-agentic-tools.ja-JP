@@ -3,9 +3,9 @@ title: Adobe CX Enterprise Agentic Tools
 description: MCP サーバー、エージェントスキル、APIを使用して、AI エージェントと開発ツールをAdobe CX Enterpriseの機能に接続します。
 last-substantial-update: 2026-06-08T00:00:00Z
 index: false
-source-git-commit: c88de99df4cabf47cce195de1a6a888f4f780fe9
+source-git-commit: da8d1eb1dcfef13af5d24ef1fe22ee9977c4e783
 workflow-type: tm+mt
-source-wordcount: '589'
+source-wordcount: '594'
 ht-degree: 1%
 
 ---
@@ -228,7 +228,7 @@ CARDS
 
 | リソース | 見つかる内容 |
 | --- | --- |
-| [Adobe AI レジストリ &#x200B;](https://developer.adobe.com/ai-registry/?type=mcp) | MCP サーバーの完全カタログ |
+| [Adobe AI レジストリ &#x200B;](https://developer.adobe.com/ai-registry/?type=mcp) | 一部のAdobe MCP サーバーのマネージドコネクタとサーバーの詳細 |
 | [Adobe Agent Skills](https://github.com/adobe/skills) | Adobeが監修したCX エンタープライズワークフロー向けのエージェントのスキル |
 | [Adobe API カタログ &#x200B;](https://developer.adobe.com/apis) | Adobe CX Enterprise API リファレンスの完全版 |
 | [Adobe Developer Console](https://developer.adobe.com/developer-console/docs/guides/) | API プロジェクトの設定と認証 |

@@ -3,9 +3,9 @@ title: オーディエンスとアクティベートされた場所を把握
 description: CX エンタープライズ MCPを使用して、オーディエンスのアクティベーションステータスを監視し、宛先の健全性をチェックし、キャンペーンに影響を与える前に問題を特定します。
 last-substantial-update: 2026-06-10T00:00:00Z
 index: false
-source-git-commit: 8735d40a6bee547608a3c0efea7f942b813f2d41
+source-git-commit: da8d1eb1dcfef13af5d24ef1fe22ee9977c4e783
 workflow-type: tm+mt
-source-wordcount: '864'
+source-wordcount: '869'
 ht-degree: 2%
 
 ---
@@ -230,5 +230,5 @@ Are there any audiences using a non-default merge policy that could cause profil
 
 | リソース | 見つかる内容 |
 | --- | --- |
-| [Adobe AI レジストリ &#x200B;](https://developer.adobe.com/ai-registry/?type=mcp){target="_blank"} | MCP サーバーのメタデータと可用性 |
+| [Adobe AI レジストリ &#x200B;](https://developer.adobe.com/ai-registry/?type=mcp){target="_blank"} | 一部のAdobe MCP サーバーのマネージドコネクタとサーバーの詳細 |
 | [Real-Time CDP ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/rtcdp/home){target="_blank"} | Adobe Real-Time CDPのドキュメント |

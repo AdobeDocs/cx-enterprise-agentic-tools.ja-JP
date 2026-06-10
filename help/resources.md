@@ -3,9 +3,9 @@ title: リソース
 description: Adobe CX Enterprise Agentic Toolsのドキュメント、レジストリ、API、開発者ガイドをすべて一元管理できます。
 last-substantial-update: 2026-05-08T00:00:00Z
 index: false
-source-git-commit: 8f499ad7baf1b5d08dfac90511d0c76e8372c08b
+source-git-commit: da8d1eb1dcfef13af5d24ef1fe22ee9977c4e783
 workflow-type: tm+mt
-source-wordcount: '554'
+source-wordcount: '552'
 ht-degree: 19%
 
 ---
@@ -23,8 +23,8 @@ Adobe CX Enterprise Agentic Toolsを使用するための主要なAdobeリソー
 
 | リソース | 見つかる内容 |
 |---|---|
-| [Adobe AI レジストリ : MCP サーバー](https://developer.adobe.com/ai-registry/?type=mcp) | メタデータ、エンドポイント、ステータスを含む、利用可能なMCP サーバーの完全カタログ |
-| [Adobe AI レジストリ：担当者のスキル &#x200B;](https://developer.adobe.com/ai-registry/?type=skill) | 利用可能なエージェントスキルの完全なカタログと、可用性と設定の詳細 |
+| [Adobe AI レジストリ : MCP サーバー](https://developer.adobe.com/ai-registry/?type=mcp) | 一部のAdobe MCP サーバーのマネージドコネクタとサーバーの詳細 |
+| [Adobe AI レジストリ：担当者のスキル &#x200B;](https://developer.adobe.com/ai-registry/?type=skill) | 選択したスキルの可用性と設定の詳細を含むエージェントのスキルリスト |
 | [Adobe API カタログ &#x200B;](https://developer.adobe.com/apis) | Adobe CX Enterprise API リファレンスの完全版 |
 
 ## MCP サーバー
@@ -40,7 +40,7 @@ Adobe CX Enterprise Agentic Toolsを使用するための主要なAdobeリソー
 | リソース | 見つかる内容 |
 |---|---|
 | [Adobe Skills Repository](https://github.com/adobe/skills) | すべてのエージェントスキル、インストール方法、実装の詳細に関する正規のソース |
-| [Adobe AI レジストリ：担当者のスキル &#x200B;](https://developer.adobe.com/ai-registry/?type=skill) | メタデータと可用性ステータスを含む、利用可能なエージェントスキルの完全カタログ |
+| [Adobe AI レジストリ：担当者のスキル &#x200B;](https://developer.adobe.com/ai-registry/?type=skill) | 選択したスキルの可用性とメタデータを含むエージェントのスキルリスト |
 
 ## ビルダー用API
 
