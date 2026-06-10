@@ -3,10 +3,10 @@ title: ビルダー用API
 description: Adobe CX Enterprise APIを使用して、カスタムアプリケーションと統合を構築します。
 last-substantial-update: 2026-06-02T00:00:00Z
 index: false
-source-git-commit: da8d1eb1dcfef13af5d24ef1fe22ee9977c4e783
+source-git-commit: f7ace53bd5988b5902659c89c6da16448398e0c0
 workflow-type: tm+mt
-source-wordcount: '850'
-ht-degree: 10%
+source-wordcount: '886'
+ht-degree: 9%
 
 ---
 
@@ -194,6 +194,8 @@ project/
 Adobeが新しいAPI バージョンを公開する場合：新しいスナップショットを`/specs`にダウンロードし、`README.md`で日付を更新し、インデックスと`AGENTS.md`を再生成します。
 
 ## APIの活用例
+
+開発チームは、APIを通じて完全なプログラマティック制御を実現し、特定の顧客体験向けエンタープライズワークフローを自動化するアプリケーションを構築できます。 これらのウォークスルーでは、資格情報の設定から組織が出荷できる作業コードまで、エンドツーエンドで構築された実際の統合を示しています。
 
 <!--
 CARDS

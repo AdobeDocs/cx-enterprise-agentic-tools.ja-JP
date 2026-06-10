@@ -3,9 +3,9 @@ title: MCP サーバー
 description: モデルコンテキストプロトコルサーバーを使用して、MCP互換のAI クライアントをAdobe CX Enterprise ワークフローに接続します。
 index: false
 last-substantial-update: 2026-06-10T00:00:00Z
-source-git-commit: c88de99df4cabf47cce195de1a6a888f4f780fe9
+source-git-commit: f7ace53bd5988b5902659c89c6da16448398e0c0
 workflow-type: tm+mt
-source-wordcount: '2140'
+source-wordcount: '2167'
 ht-degree: 3%
 
 ---
@@ -257,9 +257,9 @@ Microsoft Copilot Studioは、Power Platform カスタムコネクタを自動�
 
 >[!ENDTABS]
 
-## エージェント型ツールの活用例
+## MCP サーバーの実際
 
-実際のビジネスワークフローに適用されるAdobe CX Enterprise MCP サーバーを参照してください。
+実際のビジネス上の課題に取り組むAdobe CX Enterprise MCP サーバーの例を参照してください。 各チュートリアルは、真の運用上の課題から始まり、AI クライアントがツールを切り替えたりコードを記述したりすることなく、それをどのように平易な言語で解決するかを示しています。
 
 <!--
 CARDS

@@ -3,9 +3,9 @@ title: エージェントスキル
 description: Adobeが監修したワークフローと手引きを活用して、AI エージェントがCX Enterpriseのタスクを一貫して進められるようにします。
 last-substantial-update: 2026-05-19T00:00:00Z
 index: false
-source-git-commit: da8d1eb1dcfef13af5d24ef1fe22ee9977c4e783
+source-git-commit: f7ace53bd5988b5902659c89c6da16448398e0c0
 workflow-type: tm+mt
-source-wordcount: '535'
+source-wordcount: '574'
 ht-degree: 1%
 
 ---
@@ -84,6 +84,8 @@ Creative Cloudを使用した、一括写真編集、テンプレートからの
 - **GitHub CLI**: `gh upskill list`
 
 ## エージェントのスキル
+
+担当者のスキル :Adobeの専門知識を利用して、AI クライアント内で作業を進めることができます。これにより、担当者は即興で作業するのではなく、実績のあるワークフローに従うことができるようになります。 以下の各チュートリアルでは、Adobeのベストプラクティスに従って、最初から出力まで、確実に完了した特定のビジネスタスクを示します。
 
 <!--
 CARDS
