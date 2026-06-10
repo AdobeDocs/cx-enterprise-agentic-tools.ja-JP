@@ -3,10 +3,10 @@ user-guide-title: Adobe CX Enterprise Agentic Tools
 breadcrumb-title: エージェント型ツール
 user-guide-description: MCP サーバー、エージェントスキル、APIを使用して、AI エージェントと開発ツールをAdobe CX Enterpriseの機能に接続します。
 index: false
-source-git-commit: f0ced04b4676cd9f39c3f8797f90ca1fcbc8ce1e
+source-git-commit: 8735d40a6bee547608a3c0efea7f942b813f2d41
 workflow-type: tm+mt
-source-wordcount: '69'
-ht-degree: 7%
+source-wordcount: '74'
+ht-degree: 6%
 
 ---
 
@@ -23,9 +23,9 @@ ht-degree: 7%
    + [ビルダー用API](/help/tools/apis.md)
 + エージェント型ツールの活用例 {#in-action}
    + [概要](/help/use-cases/overview.md)
-   + [キャンペーンのパフォーマンスを分析](/help/use-cases/analyze-campaign-performance.md)
-   + [オーディエンスの照会](/help/use-cases/query-audiences.md)
-   + [AJO ジャーニーのレビュー](/help/use-cases/manage-ajo-journeys.md)
-   + [AEM コンテンツの管理](/help/use-cases/manage-aem-content.md)
-   + [パフォーマンスデータでコンテンツを最適化](/help/use-cases/optimize-content-with-performance-data.md)
-   + [AEM Cloud Serviceへのデプロイ](/help/use-cases/aem-cloud-manager-mcp.md)
+   + [レポートを使用しないキャンペーンインサイト](/help/use-cases/analyze-campaign-performance.md)
+   + [オーディエンスのアクティベーション概要](/help/use-cases/query-audiences.md)
+   + [ジャーニーの課題を早期に把握](/help/use-cases/manage-ajo-journeys.md)
+   + [コンテンツの更新をより迅速に配信](/help/use-cases/manage-aem-content.md)
+   + [コンテンツのパフォーマンスのギャップを埋める](/help/use-cases/optimize-content-with-performance-data.md)
+   + [AEMの変更を確実にデプロイ](/help/use-cases/aem-cloud-manager-mcp.md)
