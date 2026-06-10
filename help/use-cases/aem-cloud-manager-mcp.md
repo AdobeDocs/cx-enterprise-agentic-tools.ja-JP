@@ -1,11 +1,11 @@
 ---
 title: 確実なAEM as a Cloud Serviceへのデプロイ
 description: AI クライアントを離れることなく、環境の健全性を確認し、パイプラインの履歴を確認し、デプロイメントをトリガーまたは管理できます。
-last-substantial-update: 2026-06-09T00:00:00Z
+last-substantial-update: 2026-06-10T00:00:00Z
 index: false
-source-git-commit: 6a2b8b54eb9fe040f5f9defa9e6681e46a5e65cf
+source-git-commit: 8735d40a6bee547608a3c0efea7f942b813f2d41
 workflow-type: tm+mt
-source-wordcount: '954'
+source-wordcount: '938'
 ht-degree: 2%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 2%
 
 >[!VIDEO](https://video.tv.adobe.com/v/3480343/?captions=jpn&learn=on&enablevpops)
 
-Adobe Experience Manager環境の管理とは、通常、Cloud Managerにログインし、パイプラインと環境を移動し、デプロイメントステータスを追跡するためにコンテキストを切り替えることを意味します。 このチュートリアルでは、AEM Cloud Manager MCP Serverを使用してAI クライアントからこれらのオペレーションを処理する方法を示します。これにより、デベロッパーとオペレーション部門は、AI環境から離れることなく、ステータスの確認、パイプラインのレビュー、デプロイメントの詳細の処理を行うことができます。
+デプロイメントの信頼性は、プッシュする前に環境が健全であることを確認しておくことで得られます。 このチュートリアルでは、AEM MCP Serverを使用して、AI クライアントからAEM Cloud Manager環境のステータスを確認し、パイプライン履歴を確認し、トリガーのデプロイメントを行う方法を示します。これにより、可視性を損なうことなく、迅速に作業を進めることができます。
 
 | シナリオの詳細 | |
 | --- | --- |

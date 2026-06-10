@@ -1,11 +1,11 @@
 ---
 title: オーディエンスとアクティベートされた場所を把握
 description: CX エンタープライズ MCPを使用して、オーディエンスのアクティベーションステータスを監視し、宛先の健全性をチェックし、キャンペーンに影響を与える前に問題を特定します。
-last-substantial-update: 2026-06-09T00:00:00Z
+last-substantial-update: 2026-06-10T00:00:00Z
 index: false
-source-git-commit: 6a2b8b54eb9fe040f5f9defa9e6681e46a5e65cf
+source-git-commit: 8735d40a6bee547608a3c0efea7f942b813f2d41
 workflow-type: tm+mt
-source-wordcount: '862'
+source-wordcount: '864'
 ht-degree: 2%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 2%
 
 ![&#x200B; アクティベーションに関する推奨事項を含む、優先順位付けされたオーディエンス戦略を提供するAI クライアント &#x200B;](../assets/use-cases/query-audiences/query-audiences-step4-02-summary.png)
 
-どのオーディエンスがアクティベートされ、どこを流れているのか、配信先が健全かどうかを把握することは、通常、Real-Time CDPを開き、複数のスクリーンを操作することを意味します。 このチュートリアルでは、RTCDP MCP Serverを使用して、宛先設定、アクティベーションステータス、データフローの正常性を確認しながら、AI クライアントを通じて同じ回答を得る方法を説明します。
+どのオーディエンスがライブで、どこを流れているのか、宛先が健全であるかどうかを知ることは、キャンペーンが開始される前か、パフォーマンスが低下しているときに重要です。 このチュートリアルでは、CX Enterprise MCPを使用して、Real-Time CDPを開かずに、オーディエンスのステータスと宛先の健全性を数秒で確認し、AI クライアントを通じてアクティベーションの全体像を把握する方法を示します。
 
 | シナリオの詳細 | |
 | --- | --- |

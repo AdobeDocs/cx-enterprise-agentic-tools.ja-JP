@@ -1,11 +1,11 @@
 ---
 title: コンテンツを最新の状態に保ち、更新をすばやく配信できます
 description: AEM Content MCP Serverを使用して、ツールを切り替えることなく、AEM コンテンツを検索、レビュー、更新、公開します。
-last-substantial-update: 2026-06-09T00:00:00Z
+last-substantial-update: 2026-06-10T00:00:00Z
 index: false
-source-git-commit: 6a2b8b54eb9fe040f5f9defa9e6681e46a5e65cf
+source-git-commit: 8735d40a6bee547608a3c0efea7f942b813f2d41
 workflow-type: tm+mt
-source-wordcount: '991'
+source-wordcount: '986'
 ht-degree: 3%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 3%
 
 ![&#x200B; ページが公開されたことを確認し、ライブ URLを返すAI クライアント &#x200B;](../assets/use-cases/manage-aem-content/manage-aem-content-step4-02-product.png)
 
-ページの検索やコンテンツの確認から、更新や公開に至るまで、Adobe Experience Managerでコンテンツを操作するには、通常、AEMインターフェイスを直接操作する必要があります。 このチュートリアルでは、AEM Content MCP Serverを使用するAI クライアントを通じて、これらのオペレーションを処理する方法を説明します。これにより、ツール間でコンテキストを切り替えることなく、コンテンツチームはより迅速に作業できるようになります。
+web サイトのコンテンツを最新の状態に保つことは、常に運用におけるプレッシャーとなっています。 このチュートリアルでは、AEM Content MCP Serverを使用して、コンテンツチームがAI クライアントを通じてAEM ページとコンテンツフラグメントを検索、レビュー、更新、公開する方法を説明します。
 
 | シナリオの詳細 | |
 | --- | --- |

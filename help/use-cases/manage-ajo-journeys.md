@@ -1,11 +1,11 @@
 ---
 title: 顧客に影響を与える前に、ジャーニーの問題を把握したい
 description: CX Enterprise MCPを使用して、アクティブなAJOジャーニーをモニタリングし、キャンペーン設定をレビューし、オーディエンスにリーチする前に運用上の問題を確認します。
-last-substantial-update: 2026-06-08T00:00:00Z
+last-substantial-update: 2026-06-10T00:00:00Z
 index: false
-source-git-commit: 6a2b8b54eb9fe040f5f9defa9e6681e46a5e65cf
+source-git-commit: 8735d40a6bee547608a3c0efea7f942b813f2d41
 workflow-type: tm+mt
-source-wordcount: '984'
+source-wordcount: '979'
 ht-degree: 2%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 2%
 
 ![&#x200B; エグゼクティブサマリーを使用してキャンペーンとジャーニー戦略を要約するAI クライアント &#x200B;](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step5-02-exe-summary.png)
 
-どのジャーニーがアクティブで、どのような条件がそれらを促進しているか、キャンペーンが通常どのように設定されているかなどを明確に把握することは、Adobe Journey Optimizerを開き、そのインターフェイスをナビゲートすることを意味します。 このチュートリアルでは、CX Enterprise MCPを使用して、平易な言葉でAJOのジャーニーとキャンペーンのデータをクエリし、AI クライアントを通じて同じ可視性を取得する方法を示します。
+ジャーニーの問題が検出されなければ、誰にも気づかれないうちに顧客にリーチできます。 このチュートリアルでは、CX Enterprise MCPを使用して、Adobe Journey Optimizerを開かずに平易な言葉で回答を得ることで、アクティブなAJOのジャーニーを確認し、キャンペーン設定を確認し、AI クライアントを通じて運用上の問題を明らかにし、その一歩先を行く方法を説明します。
 
 | シナリオの詳細 | |
 | --- | --- |

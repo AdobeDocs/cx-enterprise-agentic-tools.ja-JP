@@ -3,9 +3,9 @@ title: エージェント型ツール
 description: MCP サーバー、エージェントスキル、ビルダー用APIを比較し、Adobe CX Enterprise ワークフローに適したエージェント型ツールを選択します。
 last-substantial-update: 2026-06-08T00:00:00Z
 index: false
-source-git-commit: 8f499ad7baf1b5d08dfac90511d0c76e8372c08b
+source-git-commit: c88de99df4cabf47cce195de1a6a888f4f780fe9
 workflow-type: tm+mt
-source-wordcount: '839'
+source-wordcount: '853'
 ht-degree: 0%
 
 ---
@@ -183,9 +183,9 @@ APIは構成要素です。 開発者は、Adobeの自社製品と同じAPIを�
 CARDS
 
 * ../use-cases/query-audiences.md
-  {title = Query audiences}
-  {description = Use CX Enterprise MCP to query Real-Time CDP audience and destination data using plain language prompts.}
-  {cta = Try with MCP}
+  {title = Audience activation at a glance}
+  {description = See which audiences are live, where they are flowing, and whether destinations are healthy, without navigating Real-Time CDP.}
+  {cta = Check audience activation}
 
 * https://experienceleague.adobe.com/ja/docs/experience-manager-learn/cloud-service/ai/ai-assisted-development/use-cases/component-development
   {title = Develop AEM components with AI}
@@ -202,12 +202,12 @@ CARDS
 -->
 <!-- START CARDS HTML - DO NOT MODIFY BY HAND -->
 <div class="columns">
-    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Query audiences">
+    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Audience activation at a glance">
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="../use-cases/query-audiences.md" title="オーディエンスの照会">
-                        <img class="is-bordered-r-small" src="../assets/use-cases/query-audiences/query-audiences-step4-02-summary.png" alt="オーディエンスの照会"
+                    <a href="../use-cases/query-audiences.md" title="オーディエンスのアクティベーション概要">
+                        <img class="is-bordered-r-small" src="../assets/use-cases/query-audiences/query-audiences-step4-02-summary.png" alt="オーディエンスのアクティベーション概要"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -215,12 +215,12 @@ CARDS
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="../use-cases/query-audiences.md" title="オーディエンスの照会"> オーディエンスのクエリ </a>
+                        <a href="../use-cases/query-audiences.md" title="オーディエンスのアクティベーション概要"> オーディエンスのアクティベーション概要</a>
                     </p>
-                    <p class="is-size-6">CX Enterprise MCPを使用して、平易な言語プロンプトを使用してReal-Time CDPのオーディエンスと宛先データをクエリします。</p>
+                    <p class="is-size-6">Real-Time CDPを使わずに、どのオーディエンスがライブなのか、どこを流れているのか、宛先が健全なのかを確認できます。</p>
                 </div>
                 <a href="../use-cases/query-audiences.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
-                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">MCPを試す</span>
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold"> オーディエンスのアクティブ化を確認</span>
                 </a>
             </div>
         </div>

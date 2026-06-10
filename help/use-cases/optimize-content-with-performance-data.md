@@ -1,22 +1,22 @@
 ---
-title: パフォーマンスデータに基づくコンテンツの最適化
+title: データ主導のアップデートでコンテンツのパフォーマンス不足を解消
 description: CJAとAEMを単一のAI セッションで連携することで、コンバージョンのギャップがあるキャンペーンを特定し、原因を診断して、ツールを切り替えることなくコンテンツを更新できます。
-last-substantial-update: 2026-06-08T00:00:00Z
+last-substantial-update: 2026-06-10T00:00:00Z
 index: false
-source-git-commit: 6a2b8b54eb9fe040f5f9defa9e6681e46a5e65cf
+source-git-commit: 8735d40a6bee547608a3c0efea7f942b813f2d41
 workflow-type: tm+mt
-source-wordcount: '1071'
+source-wordcount: '1072'
 ht-degree: 2%
 
 ---
 
 
-# パフォーマンスデータに基づくコンテンツの最適化
-<!-- last-modified: 2026-06-08 -->
+# データ主導のアップデートでコンテンツのパフォーマンス不足を解消
+<!-- last-modified: 2026-06-10 -->
 
 ![&#x200B; オリジナルと更新されたページコンテンツを並べて比較するAI クライアント &#x200B;](../assets/use-cases/optimize-content-with-performance-data/optimize-content-with-performance-data-step5-03-page-compare.png)
 
-施策のパフォーマンスデータとコンテンツの更新を連携させるには、通常、分析ツールとCMSを切り替える必要があります。 このチュートリアルでは、Customer Journey AnalyticsとAEMを同じAI セッションで連携する方法を示します。コンバージョンギャップを伴うキャンペーンを浮き彫りにし、何が原因かを診断し、コンテンツを調査し、ターゲットを絞ったレコメンデーションを取得し、変更を適用します。
+コンテンツパフォーマンスのギャップがコスト施策の結果を左右し、それを埋めるには、分析ツールとCMSを切り替える必要があります。 このチュートリアルでは、Customer Journey Analyticsでコンバージョンギャップのあるキャンペーンを特定し、原因を診断し、AEMでパフォーマンスの低いコンテンツを調査し、会話から離れることなく更新を適用するという、1つのAI セッションで行う方法を示します。
 
 | シナリオの詳細 | |
 | --- | --- |
