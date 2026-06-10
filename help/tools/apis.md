@@ -3,10 +3,10 @@ title: ビルダー用API
 description: Adobe CX Enterprise APIを使用して、カスタムアプリケーションと統合を構築します。
 last-substantial-update: 2026-06-02T00:00:00Z
 index: false
-source-git-commit: 8f499ad7baf1b5d08dfac90511d0c76e8372c08b
+source-git-commit: da8d1eb1dcfef13af5d24ef1fe22ee9977c4e783
 workflow-type: tm+mt
-source-wordcount: '747'
-ht-degree: 11%
+source-wordcount: '850'
+ht-degree: 10%
 
 ---
 
@@ -113,9 +113,9 @@ Claude Code、Cursor、OpenAI Codexなどのコーディングエージェント
 
 すべてのAdobe CX Enterprise API アクセスは[Adobe Developer Console](https://developer.adobe.com/developer-console/docs/guides/)を通じて管理されます。 プロジェクトを作成し、アプリケーションに必要なAPIを追加し、資格情報を生成します。
 
-1. ログインして[Adobe Developer Consoleでプロジェクト &#x200B;](https://developer.adobe.com/developer-console/docs/guides/projects/)を作成します。
+1. ログインして[Adobe Developer Consoleでプロジェクト ](https://developer.adobe.com/developer-console/docs/guides/projects/)を作成します。
 2. [必要なAdobe CX Enterprise アプリケーションのAPI](https://developer.adobe.com/developer-console/docs/guides/services/)を追加します。
-3. [認証タイプ &#x200B;](https://developer.adobe.com/developer-console/docs/guides/authentication/)を選択してください。 自動ワークフローには&#x200B;**OAuth サーバー間**&#x200B;を使用し、ユーザー向けアプリケーションには&#x200B;**OAuth Web App**&#x200B;を使用します。
+3. [認証タイプ ](https://developer.adobe.com/developer-console/docs/guides/authentication/)を選択してください。 自動ワークフローには&#x200B;**OAuth サーバー間**&#x200B;を使用し、ユーザー向けアプリケーションには&#x200B;**OAuth Web App**&#x200B;を使用します。
 4. 認証情報を生成。 アプリケーションで使用するクライアント ID、クライアント秘密鍵、およびトークンエンドポイントをメモします。
 
 ほとんどのAdobe CX Enterprise APIには、アプリケーションのライセンスが必要です。 Developer Console プロジェクトでAPIが使用できない場合は、Adobe担当者にお問い合わせください。
@@ -126,7 +126,7 @@ AI コーディングエージェントは、プロジェクトに適切な参�
 
 **1. API仕様を検索**
 
-上記の[Adobe CX Enterprise API](#adobe-cx-enterprise-apis)を参照するか、[Adobe Developer API カタログ &#x200B;](https://developer.adobe.com/apis)に直接移動します。
+上記の[Adobe CX Enterprise API](#adobe-cx-enterprise-apis)を参照するか、[Adobe Developer API カタログ ](https://developer.adobe.com/apis)に直接移動します。
 
 **2. OpenAPI仕様をダウンロード**
 
@@ -192,3 +192,43 @@ project/
 **スペックを最新の状態に保つ**
 
 Adobeが新しいAPI バージョンを公開する場合：新しいスナップショットを`/specs`にダウンロードし、`README.md`で日付を更新し、インデックスと`AGENTS.md`を再生成します。
+
+## APIの活用例
+
+<!--
+CARDS
+
+* https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/aem-apis/openapis/invoke-api-using-oauth-web-app
+  {title = Invoke AEM APIs from a web app}
+  {description = Build a web application that authenticates users and calls AEM OpenAPIs using OAuth to deliver governed, programmatic access.}
+  {cta = Try with APIs}
+  {image = ../assets/using-api-card.png}
+
+-->
+<!-- START CARDS HTML - DO NOT MODIFY BY HAND -->
+<div class="columns">
+    <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Invoke AEM APIs from a web app">
+        <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
+            <div class="card-image">
+                <figure class="image x-is-16by9">
+                    <a href="https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/aem-apis/openapis/invoke-api-using-oauth-web-app" title="Web アプリからのAEM APIの呼び出し" target="_blank" rel="referrer">
+                        <img class="is-bordered-r-small" src="../assets/using-api-card.png" alt="Web アプリからのAEM APIの呼び出し"
+                             style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
+                    </a>
+                </figure>
+            </div>
+            <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
+                <div class="top-card-content">
+                    <p class="headline is-size-6 has-text-weight-bold">
+                        <a href="https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/aem-apis/openapis/invoke-api-using-oauth-web-app" target="_blank" rel="referrer" title="Web アプリからのAEM APIの呼び出し">Web アプリからAEM APIを呼び出す</a>
+                    </p>
+                    <p class="is-size-6">OAuthを使用してユーザーを認証し、AEM OpenAPIを呼び出して、管理されたプログラマティックなアクセスを提供するweb アプリケーションを構築します。</p>
+                </div>
+                <a href="https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/aem-apis/openapis/invoke-api-using-oauth-web-app" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                    <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">APIで試す</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- END CARDS HTML - DO NOT MODIFY BY HAND -->
