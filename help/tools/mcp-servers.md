@@ -46,7 +46,7 @@ https://cx-enterprise.adobe.io/mcp
 | [Adobe Journey Optimizer](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/mcp/ajo-mcp) | ジャーニー、キャンペーン、チャネル設定の確認 |
 | Adobe Journey Optimizer B2B edition | B2B ジャーニー、アカウントプログラム、購買グループ、パーソナライゼーションの管理 |
 | [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/mcp/cja-mcp) | レポートのクエリ、データビューの確認、ワークスペースの作成 |
-| [Real-Time CDP](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/mcp/rtcdp-mcp) | オーディエンスのアクティベーションステータス、宛先の健全性、データフローの健全性の確認 |
+| [Real-Time CDP](https://experienceleague.adobe.com/ja/docs/experience-cloud-ai/experience-cloud-ai/mcp/rtcdp-mcp) | オーディエンスのアクティベーションステータス、宛先の健全性、データフローの健全性の確認 |
 
 完全なドキュメントについては、[CX Enterprise MCP](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/mcp/overview)を参照してください。
 
@@ -60,13 +60,13 @@ Adobe Experience Managerには、異なるワークフロー用に複数のMCP �
 
 | MCP サーバー | エンドポイント | 実行できること |
 | --- | --- | --- |
-| [AEM （コードモード） &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | `https://mcp.adobeaemcloud.com/adobe/mcp/aem` | 自然言語のルックアップ、読み取り、書き込み、削除により、AEMにREST API アクセスを直接実行できます |
+| [AEM （コードモード） &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | `https://mcp.adobeaemcloud.com/adobe/mcp/aem` | 自然言語のルックアップ、読み取り、書き込み、削除により、AEMにREST API アクセスを直接実行できます |
 | [AEM Cloud Manager](https://experienceleague.adobe.com/ja/docs/experience-manager-learn/cloud-service/ai/mcp-servers/cloud-manager) | `https://mcp.adobeaemcloud.com/adobe/mcp/cloudmanager` | プログラム、環境、パイプライン、リポジトリの管理 |
-| [AEM コンテンツ &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | `https://mcp.adobeaemcloud.com/adobe/mcp/content` | ページ、コンテンツフラグメント、アセット、ローンチの管理 |
-| [AEM コンテンツ （読み取り専用） &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | `https://mcp.adobeaemcloud.com/adobe/mcp/content-readonly` | 書き込みアクセスなしで、ページ、コンテンツフラグメント、ローンチを発見、クエリできます |
+| [AEM コンテンツ &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | `https://mcp.adobeaemcloud.com/adobe/mcp/content` | ページ、コンテンツフラグメント、アセット、ローンチの管理 |
+| [AEM コンテンツ （読み取り専用） &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | `https://mcp.adobeaemcloud.com/adobe/mcp/content-readonly` | 書き込みアクセスなしで、ページ、コンテンツフラグメント、ローンチを発見、クエリできます |
 | [AEM Document Authoring](https://docs.da.live/about/early-access/da-mcp) | `https://mcp.adobeaemcloud.com/adobe/mcp/da` | 文書オーサリングでのファイル、バージョン履歴、メディア参照の管理 |
 | [AEM Experience Governance](https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/ai/mcp-servers/experience-governance-mcp-server) | `https://mcp.adobeaemcloud.com/adobe/mcp/experience-governance` | ブランドガイドラインやコンプライアンスルールに照らしてコンテンツや画像を評価する |
-| [AEM Experience Production](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/agents/brand-experience/experience-production/overview) | `https://mcp.adobeaemcloud.com/adobe/mcp/experience-production` | AIを活用したコンテンツ概要により、AEMページを大規模に変革、作成できます |
+| [AEM Experience Production](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/ai-in-aem/agents/brand-experience/experience-production/overview) | `https://mcp.adobeaemcloud.com/adobe/mcp/experience-production` | AIを活用したコンテンツ概要により、AEMページを大規模に変革、作成できます |
 
 >[!NOTE]
 >
@@ -86,11 +86,11 @@ Adobe Experience Managerには、異なるワークフロー用に複数のMCP �
 
 | MCP サーバー | エンドポイント | 実行できること |
 | --- | --- | --- |
-| [Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo-developer/marketo/mcp-server) | `https://marketo-mcp.adobe.io/mcp` | プログラム、キャンペーン、リード、スマートリスト、メール、フォームを管理する |
+| [Marketo Engage](https://experienceleague.adobe.com/ja/docs/marketo-developer/marketo/mcp-server) | `https://marketo-mcp.adobe.io/mcp` | プログラム、キャンペーン、リード、スマートリスト、メール、フォームを管理する |
 
 >[!NOTE]
 >
->Marketo Engage MCPは、Adobe IMSではなく、Marketoネイティブのサービス資格情報を使用します。 認証設定については、[Marketo Engage MCP Server ドキュメント &#x200B;](https://experienceleague.adobe.com/en/docs/marketo-developer/marketo/mcp-server)を参照してください。 アクセスは、Marketo Engage サブスクリプションとAPI ユーザーの権限によって異なります。
+>Marketo Engage MCPは、Adobe IMSではなく、Marketoネイティブのサービス資格情報を使用します。 認証設定については、[Marketo Engage MCP Server ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/marketo-developer/marketo/mcp-server)を参照してください。 アクセスは、Marketo Engage サブスクリプションとAPI ユーザーの権限によって異なります。
 
 >[!TAB Target]
 
@@ -98,7 +98,7 @@ Adobe Target MCPはパブリックベータ版です。 現在利用可能なす
 
 | MCP サーバー | エンドポイント | 実行できること |
 | --- | --- | --- |
-| [Adobe Target](https://experienceleague.adobe.com/en/docs/target/using/mcp/target-mcp) | `https://targetmcp.adobe.io/mcp` | アクティビティ、オファー、オーディエンス、mbox、パフォーマンスレポートの確認 |
+| [Adobe Target](https://experienceleague.adobe.com/ja/docs/target/using/mcp/target-mcp) | `https://targetmcp.adobe.io/mcp` | アクティビティ、オファー、オーディエンス、mbox、パフォーマンスレポートの確認 |
 
 >[!NOTE]
 >
@@ -108,7 +108,7 @@ Adobe Target MCPはパブリックベータ版です。 現在利用可能なす
 
 | MCP サーバー | エンドポイント | 実行できること |
 | --- | --- | --- |
-| [Adobe Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview) | `https://mcp.prod.us-west-2.aws.wfk8s.com/mcp/v1/workfront` | 作業、プロジェクト、プランニングレコード、インサイト、コンテンツ承認を管理できます |
+| [Adobe Workfront](https://experienceleague.adobe.com/ja/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview) | `https://mcp.prod.us-west-2.aws.wfk8s.com/mcp/v1/workfront` | 作業、プロジェクト、プランニングレコード、インサイト、コンテンツ承認を管理できます |
 
 >[!NOTE]
 >
