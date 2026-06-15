@@ -2,10 +2,10 @@
 title: MCP サーバー
 description: モデルコンテキストプロトコルサーバーを使用して、MCP互換のAI クライアントをAdobe CX Enterprise ワークフローに接続します。
 index: false
-last-substantial-update: 2026-06-10T00:00:00Z
-source-git-commit: 2b270c439474350df61762753700d7a3919b0cb9
+last-substantial-update: 2026-06-15T00:00:00Z
+source-git-commit: 6140354d31e3c42d148be153227306d92c9f5f89
 workflow-type: tm+mt
-source-wordcount: '2174'
+source-wordcount: '2123'
 ht-degree: 3%
 
 ---
@@ -46,6 +46,7 @@ https://cx-enterprise.adobe.io/mcp
 | [Adobe Journey Optimizer](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/mcp/ajo-mcp) | ジャーニー、キャンペーン、チャネル設定の確認 |
 | Adobe Journey Optimizer B2B edition | B2B ジャーニー、アカウントプログラム、購買グループ、パーソナライゼーションの管理 |
 | [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/mcp/cja-mcp) | レポートのクエリ、データビューの確認、ワークスペースの作成 |
+| [Marketo Engage](https://experienceleague.adobe.com/ja/docs/marketo-developer/marketo/mcp-server) | プログラム、キャンペーン、リード、スマートリスト、メール、フォームを管理する |
 | [Real-Time CDP](https://experienceleague.adobe.com/ja/docs/experience-cloud-ai/experience-cloud-ai/mcp/rtcdp-mcp) | オーディエンスのアクティベーションステータス、宛先の健全性、データフローの健全性の確認 |
 
 完全なドキュメントについては、[CX Enterprise MCP](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/mcp/overview)を参照してください。
@@ -81,16 +82,6 @@ Adobe Experience Managerには、異なるワークフロー用に複数のMCP �
 >[!NOTE]
 >
 >アクセス権は、組織のAdobe Experience Platform使用権限とユーザーの権限によって異なります。
-
->[!TAB Marketo Engage]
-
-| MCP サーバー | エンドポイント | 実行できること |
-| --- | --- | --- |
-| [Marketo Engage](https://experienceleague.adobe.com/ja/docs/marketo-developer/marketo/mcp-server) | `https://marketo-mcp.adobe.io/mcp` | プログラム、キャンペーン、リード、スマートリスト、メール、フォームを管理する |
-
->[!NOTE]
->
->Marketo Engage MCPは、Adobe IMSではなく、Marketoネイティブのサービス資格情報を使用します。 認証設定については、[Marketo Engage MCP Server ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/marketo-developer/marketo/mcp-server)を参照してください。 アクセスは、Marketo Engage サブスクリプションとAPI ユーザーの権限によって異なります。
 
 >[!TAB Target]
 
