@@ -2,10 +2,10 @@
 title: MCP サーバー
 description: モデルコンテキストプロトコルサーバーを使用して、MCP互換のAI クライアントをAdobe CX Enterprise ワークフローに接続します。
 index: false
-last-substantial-update: 2026-06-15T00:00:00Z
-source-git-commit: 6140354d31e3c42d148be153227306d92c9f5f89
+last-substantial-update: 2026-06-17T00:00:00Z
+source-git-commit: 9dda1df512aea64703843cfb22603af5f239a490
 workflow-type: tm+mt
-source-wordcount: '2123'
+source-wordcount: '2074'
 ht-degree: 3%
 
 ---
@@ -21,7 +21,13 @@ Adobe CX Enterprise MCP サーバーは、互換性のあるAI クライアン�
 
 Adobe MCP サーバーは、オープン [&#x200B; モデル コンテキスト プロトコル &#x200B;](https://modelcontextprotocol.io/docs/getting-started/intro)標準に従います。 MCP対応のAI クライアントは、あらゆるAdobe MCP サーバーに接続できます。
 
-## CX Enterprise MCP サーバー
+## CX Enterprise MCP サーバー {#cx-enterprise-mcp-servers}
+
+>[!CONTEXTUALHELP]
+>id="cx-enterprise-agentic-tools_mcp_servers_cx-enterprise"
+>title="CX Enterprise MCP"
+>abstract="単一のMCP エンドポイントからアクセスできるCX エンタープライズアプリケーション。 AI クライアントに対して、平易な言葉で質問、分析、アクションを起こします。"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/mcp/overview" text="CX Enterprise MCP ドキュメント"
 
 ![CX Enterprise MCPは、AI クライアントをAdobe CX Enterprise スイート全体のツールに接続します](../assets/mcp-gateway-hero.gif)
 
@@ -61,13 +67,10 @@ Adobe Experience Managerには、異なるワークフロー用に複数のMCP �
 
 | MCP サーバー | エンドポイント | 実行できること |
 | --- | --- | --- |
-| [AEM （コードモード） &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | `https://mcp.adobeaemcloud.com/adobe/mcp/aem` | 自然言語のルックアップ、読み取り、書き込み、削除により、AEMにREST API アクセスを直接実行できます |
 | [AEM Cloud Manager](https://experienceleague.adobe.com/ja/docs/experience-manager-learn/cloud-service/ai/mcp-servers/cloud-manager) | `https://mcp.adobeaemcloud.com/adobe/mcp/cloudmanager` | プログラム、環境、パイプライン、リポジトリの管理 |
 | [AEM コンテンツ &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | `https://mcp.adobeaemcloud.com/adobe/mcp/content` | ページ、コンテンツフラグメント、アセット、ローンチの管理 |
 | [AEM コンテンツ （読み取り専用） &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | `https://mcp.adobeaemcloud.com/adobe/mcp/content-readonly` | 書き込みアクセスなしで、ページ、コンテンツフラグメント、ローンチを発見、クエリできます |
-| [AEM Document Authoring](https://docs.da.live/about/early-access/da-mcp) | `https://mcp.adobeaemcloud.com/adobe/mcp/da` | 文書オーサリングでのファイル、バージョン履歴、メディア参照の管理 |
 | [AEM Experience Governance](https://experienceleague.adobe.com/en/docs/experience-manager-learn/cloud-service/ai/mcp-servers/experience-governance-mcp-server) | `https://mcp.adobeaemcloud.com/adobe/mcp/experience-governance` | ブランドガイドラインやコンプライアンスルールに照らしてコンテンツや画像を評価する |
-| [AEM Experience Production](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/ai-in-aem/agents/brand-experience/experience-production/overview) | `https://mcp.adobeaemcloud.com/adobe/mcp/experience-production` | AIを活用したコンテンツ概要により、AEMページを大規模に変革、作成できます |
 
 >[!NOTE]
 >
