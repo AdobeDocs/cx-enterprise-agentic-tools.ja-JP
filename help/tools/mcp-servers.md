@@ -3,10 +3,10 @@ title: MCP サーバー
 description: モデルコンテキストプロトコルサーバーを使用して、MCP互換のAI クライアントをAdobe CX Enterprise ワークフローに接続します。
 index: false
 last-substantial-update: 2026-06-17T00:00:00Z
-source-git-commit: 9dda1df512aea64703843cfb22603af5f239a490
+source-git-commit: 9c5cbca16b2e40e8c3859d84dcb9a8330a3b7d83
 workflow-type: tm+mt
-source-wordcount: '2290'
-ht-degree: 5%
+source-wordcount: '2372'
+ht-degree: 6%
 
 ---
 
@@ -45,15 +45,19 @@ Adobe MCP サーバーは、オープン [&#x200B; モデル コンテキスト 
 https://cx-enterprise.adobe.io/mcp
 ```
 
-| CX Enterprise アプリケーション | 実行できること |
-| --- | --- |
-| [Adobe Analytics](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/mcp/analytics-mcp) | レポートスイートの検出、セグメントのオーサリング、ワークスペースの作成 |
-| [Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/mcp/aep-mcp) | データセットの発見、スキーマの閲覧、サンドボックスの管理 |
-| [Adobe Journey Optimizer](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/mcp/ajo-mcp) | ジャーニー、キャンペーン、チャネル設定の確認 |
-| Adobe Journey Optimizer B2B edition | B2B ジャーニー、アカウントプログラム、購買グループ、パーソナライゼーションの管理 |
-| [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/mcp/cja-mcp) | レポートのクエリ、データビューの確認、ワークスペースの作成 |
-| [Marketo Engage](https://experienceleague.adobe.com/ja/docs/marketo-developer/marketo/mcp-server) | プログラム、キャンペーン、リード、スマートリスト、メール、フォームを管理する |
-| [Real-Time CDP](https://experienceleague.adobe.com/ja/docs/experience-cloud-ai/experience-cloud-ai/mcp/rtcdp-mcp) | オーディエンスのアクティベーションステータス、宛先の健全性、データフローの健全性の確認 |
+| CX Enterprise アプリケーション | 実行できること | 追加の使用権限が必要です |
+| --- | --- | --- |
+| [Adobe Analytics](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/mcp/analytics-mcp) | レポートスイートの検出、セグメントのオーサリング、ワークスペースの作成 | × |
+| Campaign Classic | キャンペーンインスタンスの検出、スキーマの参照、クエリの実行、ワークフロー制御、SOAP/JSの実行 | ○ |
+| [Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/mcp/aep-mcp) | データセットの発見、スキーマの閲覧、サンドボックスの管理 | × |
+| 実験 | A/B、MVT、MABの実験レポート、指標、インサイト、機会、サンプルサイズ計画 | × |
+| GenStudio | Advertisingのインサイト（支出、CTR、キャンペーン、クリエイティブ、タグ、カスタム指標）と最近のExpress ドラフト | ○ |
+| [Adobe Journey Optimizer](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/mcp/ajo-mcp) | ジャーニー、キャンペーン、チャネル設定の確認 | × |
+| Adobe Journey Optimizer B2B edition | B2B ジャーニー、アカウントプログラム、購買グループ、パーソナライゼーションの管理 | × |
+| [Adobe Target](https://experienceleague.adobe.com/ja/docs/target/using/mcp/target-mcp) | アクティビティ、オファー、オーディエンス、mbox、パフォーマンスレポート、プレビューURLの確認 | ○ |
+| [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/mcp/cja-mcp) | レポートのクエリ、データビューの確認、ワークスペースの作成 | × |
+| [Marketo Engage](https://experienceleague.adobe.com/ja/docs/marketo-developer/marketo/mcp-server) | プログラム、キャンペーン、リード、スマートリスト、メール、フォームを管理する | ○ |
+| [Real-Time CDP](https://experienceleague.adobe.com/ja/docs/experience-cloud-ai/experience-cloud-ai/mcp/rtcdp-mcp) | オーディエンスのアクティベーションステータス、宛先の健全性、データフローの健全性の確認 | × |
 
 完全なドキュメントについては、[CX Enterprise MCP](https://experienceleague.adobe.com/ja/docs/experience-cloud-ai/experience-cloud-ai/mcp/overview)を参照してください。
 
@@ -92,7 +96,7 @@ Adobe Target MCPはパブリックベータ版です。 現在利用可能なす
 
 | MCP サーバー | エンドポイント | 実行できること |
 | --- | --- | --- |
-| [Adobe Target](https://experienceleague.adobe.com/ja/docs/target/using/mcp/target-mcp) | `https://targetmcp.adobe.io/mcp` | アクティビティ、オファー、オーディエンス、mbox、パフォーマンスレポートの確認 |
+| [Adobe Target](https://experienceleague.adobe.com/ja/docs/target/using/mcp/target-mcp) | `https://targetmcp.adobe.io/mcp` | アクティビティ、オファー、オーディエンス、mbox、パフォーマンスレポート、プレビューURLの確認 |
 
 >[!NOTE]
 >
