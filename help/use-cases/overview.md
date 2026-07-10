@@ -14,7 +14,7 @@ ht-degree: 0%
 
 <!-- last-modified: 2026-06-08 -->
 
-![ エージェント ツールの動作](../assets/hero-agentic-tools-in-action.png)
+![&#x200B; エージェント ツールの動作](../assets/hero-agentic-tools-in-action.png)
 
 Adobe CX Enterpriseの実際のワークフローをステップバイステップで解説します。 各ウォークスルーは、設定が終わる場所から始まり、ツールをつなぎ合わせ、実際のワークフローが完了します。
 
