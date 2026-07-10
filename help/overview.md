@@ -2,10 +2,9 @@
 title: Adobe CX Enterprise Agentic Tools
 description: MCP サーバー、エージェントスキル、APIを使用して、AI エージェントと開発ツールをAdobe CX Enterpriseの機能に接続します。
 last-substantial-update: 2026-06-08T00:00:00Z
-index: false
-source-git-commit: da8d1eb1dcfef13af5d24ef1fe22ee9977c4e783
+source-git-commit: 40d93f878ba9f48c9daffd3beccb4bf829113a36
 workflow-type: tm+mt
-source-wordcount: '594'
+source-wordcount: '803'
 ht-degree: 1%
 
 ---
@@ -15,7 +14,7 @@ ht-degree: 1%
 
 <!-- last-modified: 2026-06-08 -->
 
->[!VIDEO](https://video.tv.adobe.com/v/3491242/?captions=jpn&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3491235/?learn=on&enablevpops)
 
 AIを活用したAdobe CX エンタープライズ版。 キャンペーン、オーディエンス、ジャーニー、コンテンツにAI クライアントを接続します。 あらゆるツールから平易な言葉で顧客とやり取りできます。 新しいインターフェイスも、コンテキストの切り替えも、コーディングも必要ありません。
 
@@ -64,7 +63,7 @@ CARDS
                 </div>
                 <a href="tools/mcp-servers.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">MCP サーバーの探索</span>
-                </a>
+                
             </div>
         </div>
     </div>
@@ -87,7 +86,7 @@ CARDS
                 </div>
                 <a href="tools/agent-skills.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold"> エージェントのスキルを探る</span>
-                </a>
+                
             </div>
         </div>
     </div>
@@ -110,7 +109,7 @@ CARDS
                 </div>
                 <a href="tools/apis.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold"> ビルダー用APIの探索</span>
-                </a>
+                
             </div>
         </div>
     </div>
@@ -141,7 +140,7 @@ Agent Skillsは、AI クライアントが従うことのできる指示とし�
 
 [エージェントのスキルを見る](tools/agent-skills.md)
 
->[!TAB ビルダーの API]
+>ビルダー]の[!TAB API
 
 Adobe製品と同じAPIに、プログラムを利用して直接アクセスできます。 カスタムアプリケーションと統合機能を構築して、チームが特定の顧客体験企業ワークフローに集中して管理されたアクセスを得られるようにします。
 
@@ -192,7 +191,7 @@ CARDS
                 </div>
                 <a href="use-cases/analyze-campaign-performance.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold"> キャンペーンのインサイトを表示</span>
-                </a>
+                
             </div>
         </div>
     </div>
@@ -215,7 +214,7 @@ CARDS
                 </div>
                 <a href="use-cases/manage-aem-content.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold"> コンテンツの迅速な配信</span>
-                </a>
+                
             </div>
         </div>
     </div>
@@ -228,9 +227,9 @@ CARDS
 
 | リソース | 見つかる内容 |
 | --- | --- |
-| [Adobe AI レジストリ &#x200B;](https://developer.adobe.com/ai-registry/?type=mcp) | 一部のAdobe MCP サーバーのマネージドコネクタとサーバーの詳細 |
+| [Adobe AI レジストリ ](https://developer.adobe.com/ai-registry/?type=mcp) | 一部のAdobe MCP サーバーのマネージドコネクタとサーバーの詳細 |
 | [Adobe Agent Skills](https://github.com/adobe/skills) | Adobeが監修したCX エンタープライズワークフロー向けのエージェントのスキル |
-| [Adobe API カタログ &#x200B;](https://developer.adobe.com/apis) | Adobe CX Enterprise API リファレンスの完全版 |
+| [Adobe API カタログ ](https://developer.adobe.com/apis) | Adobe CX Enterprise API リファレンスの完全版 |
 | [Adobe Developer Console](https://developer.adobe.com/developer-console/docs/guides/) | API プロジェクトの設定と認証 |
 | [Adobe Admin Console](https://adminconsole.adobe.com) | ユーザーと製品のアクセス管理 |
-| [Experience League](https://experienceleague.adobe.com/ja/docs/experience-cloud-ai/experience-cloud-ai/home) | Adobeのアプリケーションに関するドキュメントとチュートリアル |
+| [Experience League](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/home) | Adobeのアプリケーションに関するドキュメントとチュートリアル |

@@ -2,8 +2,7 @@
 title: データ主導のアップデートでコンテンツのパフォーマンス不足を解消
 description: CJAとAEMを単一のAI セッションで連携することで、コンバージョンのギャップがあるキャンペーンを特定し、原因を診断して、ツールを切り替えることなくコンテンツを更新できます。
 last-substantial-update: 2026-06-10T00:00:00Z
-index: false
-source-git-commit: 8735d40a6bee547608a3c0efea7f942b813f2d41
+source-git-commit: 40d93f878ba9f48c9daffd3beccb4bf829113a36
 workflow-type: tm+mt
 source-wordcount: '1072'
 ht-degree: 2%
@@ -14,14 +13,14 @@ ht-degree: 2%
 # データ主導のアップデートでコンテンツのパフォーマンス不足を解消
 <!-- last-modified: 2026-06-10 -->
 
-![&#x200B; オリジナルと更新されたページコンテンツを並べて比較するAI クライアント &#x200B;](../assets/use-cases/optimize-content-with-performance-data/optimize-content-with-performance-data-step5-03-page-compare.png)
+![ オリジナルと更新されたページコンテンツを並べて比較するAI クライアント ](../assets/use-cases/optimize-content-with-performance-data/optimize-content-with-performance-data-step5-03-page-compare.png)
 
 コンテンツパフォーマンスのギャップがコスト施策の結果を左右し、それを埋めるには、分析ツールとCMSを切り替える必要があります。 このチュートリアルでは、Customer Journey Analyticsでコンバージョンギャップのあるキャンペーンを特定し、原因を診断し、AEMでパフォーマンスの低いコンテンツを調査し、会話から離れることなく更新を適用するという、1つのAI セッションで行う方法を示します。
 
 | シナリオの詳細 | |
 | --- | --- |
-| CX エンタープライズアプリケーション | [Customer Journey Analytics](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-overview/cja-overview)、[Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/overview/introduction) |
-| エージェント型ツール | [CX Enterprise MCP](../tools/mcp-servers.md#cx-enterprise-mcp-servers)、[AEM Content MCP Server](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) |
+| CX エンタープライズアプリケーション | [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview)、[Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/overview/introduction) |
+| エージェント型ツール | [CX Enterprise MCP](../tools/mcp-servers.md#cx-enterprise-mcp-servers)、[AEM Content MCP Server](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) |
 | オーディエンス | キャンペーンマネージャー，コンテンツストラテジスト，マーケティングオペレーション |
 | 前提条件 | MCP対応AI クライアント、CJAアクセス、AEM as a Cloud Serviceアクセス |
 
@@ -45,7 +44,7 @@ ht-degree: 2%
 | CX Enterprise MCP | `https://cx-enterprise.adobe.io/mcp` |
 | AEM Content MCP Server | `https://mcp.adobeaemcloud.com/adobe/mcp/content` |
 
-完全なセットアップ：[Claude.ai カスタムコネクタのドキュメント &#x200B;](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp)
+完全なセットアップ：[Claude.ai カスタムコネクタのドキュメント ](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp)
 
 >[!TAB ChatGPT]
 
@@ -61,7 +60,7 @@ ChatGPT デベロッパーモードを使用して両方のMCP サーバーを�
 | CX Enterprise MCP | `https://cx-enterprise.adobe.io/mcp` |
 | AEM Content MCP Server | `https://mcp.adobeaemcloud.com/adobe/mcp/content` |
 
-完全なセットアップ：[ChatGPT MCP ドキュメント &#x200B;](https://developers.openai.com/api/docs/guides/tools-connectors-mcp)
+完全なセットアップ：[ChatGPT MCP ドキュメント ](https://developers.openai.com/api/docs/guides/tools-connectors-mcp)
 
 >[!TAB その他のAI クライアント ]
 
@@ -95,7 +94,7 @@ Which campaigns have strong click-through but low conversion in the last 30 days
 
 +++回答の例を見る
 
-![CJAからのクリックスルー率は高いがコンバージョン率は低いAI クライアントサーフェスキャンペーン &#x200B;](../assets/use-cases/optimize-content-with-performance-data/optimize-content-step1-campaigns.png)
+![CJAからのクリックスルー率は高いがコンバージョン率は低いAI クライアントサーフェスキャンペーン ](../assets/use-cases/optimize-content-with-performance-data/optimize-content-step1-campaigns.png)
 
 +++
 
@@ -111,7 +110,7 @@ What's causing the conversion drop-off, is it device, segment, or content?
 
 +++回答の例を見る
 
-![&#x200B; デバイス、セグメント、コンテンツ要因ごとにコンバージョンの脱落を診断するAI クライアント &#x200B;](../assets/use-cases/optimize-content-with-performance-data/optimize-content-step2-diagnosis.png)
+![ デバイス、セグメント、コンテンツ要因ごとにコンバージョンの脱落を診断するAI クライアント ](../assets/use-cases/optimize-content-with-performance-data/optimize-content-step2-diagnosis.png)
 
 +++
 
@@ -127,7 +126,7 @@ Show me the Bali Surf Camp page.
 
 +++回答の例を見る
 
-AEMからのランディングページの現在のコンテンツを表示する![AI クライアント &#x200B;](../assets/use-cases/optimize-content-with-performance-data/optimize-content-step3-page-content.png)
+AEMからのランディングページの現在のコンテンツを表示する![AI クライアント ](../assets/use-cases/optimize-content-with-performance-data/optimize-content-step3-page-content.png)
 
 +++
 
@@ -143,7 +142,7 @@ Which content sections are underperforming, and what changes would you recommend
 
 +++回答の例を見る
 
-パフォーマンスの低いコンテンツセクションを特定し、特定の変更を推奨する![AI クライアント &#x200B;](../assets/use-cases/optimize-content-with-performance-data/optimize-content-with-performance-data-step4.gif)
+パフォーマンスの低いコンテンツセクションを特定し、特定の変更を推奨する![AI クライアント ](../assets/use-cases/optimize-content-with-performance-data/optimize-content-with-performance-data-step4.gif)
 
 +++
 
