@@ -20,7 +20,7 @@ ht-degree: 5%
 
 | シナリオの詳細 | |
 | --- | --- |
-| CX エンタープライズアプリケーション | [Adobe Journey Optimizer](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/ajo-home)、[Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview)、[Real-Time CDP](https://experienceleague.adobe.com/ja/docs/experience-platform/rtcdp/home) |
+| CX エンタープライズアプリケーション | [Adobe Journey Optimizer](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/ajo-home)、[Customer Journey Analytics](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-overview/cja-overview)、[Real-Time CDP](https://experienceleague.adobe.com/ja/docs/experience-platform/rtcdp/home) |
 | エージェント型ツール | [CX エンタープライズ MCP](../tools/mcp-servers.md#cx-enterprise-mcp-servers) |
 | オーディエンス | キャンペーンマネージャー，マーケティングオペレーション |
 | 前提条件 | MCP対応のAI クライアント、AJO、CJA、Real-Time CDPへのアクセス |
