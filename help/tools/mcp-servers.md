@@ -46,17 +46,17 @@ https://cx-enterprise.adobe.io/mcp
 
 | CX Enterprise アプリケーション | 実行できること | 追加の使用権限が必要です |
 | --- | --- | --- |
-| [Adobe Analytics](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/mcp/mcp-product-tools/analytics-mcp) | レポートスイートの検出、セグメントのオーサリング、ワークスペースの作成 | × |
+| [Adobe Analytics](https://experienceleague.adobe.com/ja/docs/experience-cloud-ai/experience-cloud-ai/mcp/mcp-product-tools/analytics-mcp) | レポートスイートの検出、セグメントのオーサリング、ワークスペースの作成 | × |
 | Campaign Classic | キャンペーンインスタンスの検出、スキーマの参照、クエリの実行、ワークフロー制御、SOAP/JSの実行 | ○ |
-| [Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/mcp/mcp-product-tools/aep-mcp) | データセットの発見、スキーマの閲覧、サンドボックスの管理 | × |
+| [Adobe Experience Platform](https://experienceleague.adobe.com/ja/docs/experience-cloud-ai/experience-cloud-ai/mcp/mcp-product-tools/aep-mcp) | データセットの発見、スキーマの閲覧、サンドボックスの管理 | × |
 | 実験 | A/B、MVT、MABの実験レポート、指標、インサイト、機会、サンプルサイズ計画 | × |
 | GenStudio | Advertisingのインサイト（支出、CTR、キャンペーン、クリエイティブ、タグ、カスタム指標）と最近のExpress ドラフト | ○ |
-| [Adobe Journey Optimizer](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/mcp/mcp-product-tools/ajo-mcp) | ジャーニー、キャンペーン、チャネル設定の確認 | × |
+| [Adobe Journey Optimizer](https://experienceleague.adobe.com/ja/docs/experience-cloud-ai/experience-cloud-ai/mcp/mcp-product-tools/ajo-mcp) | ジャーニー、キャンペーン、チャネル設定の確認 | × |
 | Adobe Journey Optimizer B2B edition | B2B ジャーニー、アカウントプログラム、購買グループ、パーソナライゼーションの管理 | × |
-| [Adobe Target](https://experienceleague.adobe.com/en/docs/target/using/mcp/target-mcp) | アクティビティ、オファー、オーディエンス、mbox、パフォーマンスレポート、プレビューURLの確認 | [○](https://experienceleague.adobe.com/en/docs/target/using/mcp/target-mcp-get-started#mcp-security) |
-| [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/mcp/mcp-product-tools/cja-mcp) | レポートのクエリ、データビューの確認、ワークスペースの作成 | × |
-| [Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo-developer/marketo/mcp-server) | プログラム、キャンペーン、リード、スマートリスト、メール、フォームを管理する | [○](https://experienceleague.adobe.com/en/docs/marketo-developer/marketo/mcp-server#get-marketo-credentials) |
-| [Real-Time CDP](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/mcp/mcp-product-tools/rtcdp-mcp) | オーディエンスのアクティベーションステータス、宛先の健全性、データフローの健全性の確認 | × |
+| [Adobe Target](https://experienceleague.adobe.com/ja/docs/target/using/mcp/target-mcp) | アクティビティ、オファー、オーディエンス、mbox、パフォーマンスレポート、プレビューURLの確認 | [○](https://experienceleague.adobe.com/ja/docs/target/using/mcp/target-mcp-get-started#mcp-security) |
+| [Customer Journey Analytics](https://experienceleague.adobe.com/ja/docs/experience-cloud-ai/experience-cloud-ai/mcp/mcp-product-tools/cja-mcp) | レポートのクエリ、データビューの確認、ワークスペースの作成 | × |
+| [Marketo Engage](https://experienceleague.adobe.com/ja/docs/marketo-developer/marketo/mcp-server) | プログラム、キャンペーン、リード、スマートリスト、メール、フォームを管理する | [○](https://experienceleague.adobe.com/ja/docs/marketo-developer/marketo/mcp-server#get-marketo-credentials) |
+| [Real-Time CDP](https://experienceleague.adobe.com/ja/docs/experience-cloud-ai/experience-cloud-ai/mcp/mcp-product-tools/rtcdp-mcp) | オーディエンスのアクティベーションステータス、宛先の健全性、データフローの健全性の確認 | × |
 
 完全なドキュメントについては、[CX Enterprise MCP](https://experienceleague.adobe.com/ja/docs/experience-cloud-ai/experience-cloud-ai/mcp/overview)を参照してください。
 
@@ -71,8 +71,8 @@ Adobe Experience Managerには、異なるワークフロー用に複数のMCP �
 | MCP サーバー | エンドポイント | 実行できること |
 | --- | --- | --- |
 | [AEM Cloud Manager](https://experienceleague.adobe.com/ja/docs/experience-manager-learn/cloud-service/ai/mcp-servers/cloud-manager) | `https://mcp.adobeaemcloud.com/adobe/mcp/cloudmanager` | プログラム、環境、パイプライン、リポジトリの管理 |
-| [AEM コンテンツ &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | `https://mcp.adobeaemcloud.com/adobe/mcp/content` | ページ、コンテンツフラグメント、アセット、ローンチの管理 |
-| [AEM コンテンツ （読み取り専用） &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | `https://mcp.adobeaemcloud.com/adobe/mcp/content-readonly` | 書き込みアクセスなしで、ページ、コンテンツフラグメント、ローンチを発見、クエリできます |
+| [AEM コンテンツ &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | `https://mcp.adobeaemcloud.com/adobe/mcp/content` | ページ、コンテンツフラグメント、アセット、ローンチの管理 |
+| [AEM コンテンツ （読み取り専用） &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) | `https://mcp.adobeaemcloud.com/adobe/mcp/content-readonly` | 書き込みアクセスなしで、ページ、コンテンツフラグメント、ローンチを発見、クエリできます |
 | [AEM Experience Governance](https://experienceleague.adobe.com/ja/docs/experience-manager-learn/cloud-service/ai/mcp-servers/experience-governance-mcp-server) | `https://mcp.adobeaemcloud.com/adobe/mcp/experience-governance` | ブランドガイドラインやコンプライアンスルールに照らしてコンテンツや画像を評価する |
 
 >[!NOTE]
@@ -95,7 +95,7 @@ Adobe Target MCPはパブリックベータ版です。 現在利用可能なす
 
 | MCP サーバー | エンドポイント | 実行できること |
 | --- | --- | --- |
-| [Adobe Target](https://experienceleague.adobe.com/en/docs/target/using/mcp/target-mcp) | `https://targetmcp.adobe.io/mcp` | アクティビティ、オファー、オーディエンス、mbox、パフォーマンスレポート、プレビューURLの確認 |
+| [Adobe Target](https://experienceleague.adobe.com/ja/docs/target/using/mcp/target-mcp) | `https://targetmcp.adobe.io/mcp` | アクティビティ、オファー、オーディエンス、mbox、パフォーマンスレポート、プレビューURLの確認 |
 
 >[!NOTE]
 >
@@ -105,7 +105,7 @@ Adobe Target MCPはパブリックベータ版です。 現在利用可能なす
 
 | MCP サーバー | エンドポイント | 実行できること |
 | --- | --- | --- |
-| [Adobe Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview) | `https://mcp.prod.us-west-2.aws.wfk8s.com/mcp/v1/workfront` | 作業、プロジェクト、プランニングレコード、インサイト、コンテンツ承認を管理できます |
+| [Adobe Workfront](https://experienceleague.adobe.com/ja/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview) | `https://mcp.prod.us-west-2.aws.wfk8s.com/mcp/v1/workfront` | 作業、プロジェクト、プランニングレコード、インサイト、コンテンツ承認を管理できます |
 
 >[!NOTE]
 >
