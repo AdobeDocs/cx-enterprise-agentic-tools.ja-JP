@@ -14,7 +14,7 @@ ht-degree: 2%
 
 <!-- last-modified: 2026-05-21 -->
 
->[!VIDEO](https://video.tv.adobe.com/v/3480340/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3480343/?captions=jpn&learn=on&enablevpops)
 
 デプロイメントの信頼性は、プッシュする前に環境が健全であることを確認しておくことで得られます。 このチュートリアルでは、AEM MCP Serverを使用して、AI クライアントからAEM Cloud Manager環境のステータスを確認し、パイプライン履歴を確認し、トリガーのデプロイメントを行う方法を示します。これにより、可視性を損なうことなく、迅速に作業を進めることができます。
 
