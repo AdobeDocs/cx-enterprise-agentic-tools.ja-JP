@@ -2,8 +2,7 @@
 title: オーディエンスとアクティベートされた場所を把握
 description: CX エンタープライズ MCPを使用して、オーディエンスのアクティベーションステータスを監視し、宛先の健全性をチェックし、キャンペーンに影響を与える前に問題を特定します。
 last-substantial-update: 2026-06-10T00:00:00Z
-index: false
-source-git-commit: da8d1eb1dcfef13af5d24ef1fe22ee9977c4e783
+source-git-commit: 40d93f878ba9f48c9daffd3beccb4bf829113a36
 workflow-type: tm+mt
 source-wordcount: '869'
 ht-degree: 2%

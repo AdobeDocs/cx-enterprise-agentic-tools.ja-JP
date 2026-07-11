@@ -2,10 +2,9 @@
 title: エージェント型ツールの活用例
 description: 実際のビジネスワークフローに適用されたAdobe CX Enterprise Agentic Toolsを示すステップバイステップのウォークスルー。
 last-substantial-update: 2026-06-08T00:00:00Z
-index: false
-source-git-commit: c88de99df4cabf47cce195de1a6a888f4f780fe9
+source-git-commit: 40d93f878ba9f48c9daffd3beccb4bf829113a36
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '508'
 ht-degree: 0%
 
 ---
@@ -74,7 +73,7 @@ CARDS
                 </div>
                 <a href="analyze-campaign-performance.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold"> キャンペーンのインサイトを表示</span>
-                </a>
+                
             </div>
         </div>
     </div>
@@ -97,7 +96,7 @@ CARDS
                 </div>
                 <a href="query-audiences.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold"> オーディエンスのアクティブ化を確認</span>
-                </a>
+                
             </div>
         </div>
     </div>
@@ -120,7 +119,7 @@ CARDS
                 </div>
                 <a href="manage-ajo-journeys.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold"> ジャーニーの監視</span>
-                </a>
+                
             </div>
         </div>
     </div>
@@ -143,7 +142,7 @@ CARDS
                 </div>
                 <a href="manage-aem-content.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold"> コンテンツの迅速な配信</span>
-                </a>
+                
             </div>
         </div>
     </div>
@@ -166,7 +165,7 @@ CARDS
                 </div>
                 <a href="optimize-content-with-performance-data.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold"> パフォーマンス ギャップを閉じる</span>
-                </a>
+                
             </div>
         </div>
     </div>
@@ -189,7 +188,7 @@ CARDS
                 </div>
                 <a href="aem-cloud-manager-mcp.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">自信を持ってデプロイ </span>
-                </a>
+                
             </div>
         </div>
     </div>

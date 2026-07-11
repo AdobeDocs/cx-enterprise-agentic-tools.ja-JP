@@ -2,11 +2,10 @@
 title: リソース
 description: Adobe CX Enterprise Agentic Toolsのドキュメント、レジストリ、API、開発者ガイドをすべて一元管理できます。
 last-substantial-update: 2026-05-08T00:00:00Z
-index: false
-source-git-commit: da8d1eb1dcfef13af5d24ef1fe22ee9977c4e783
+source-git-commit: 445fd18a2b5a18ec3dcc0ec8e73ec4c020e7b265
 workflow-type: tm+mt
-source-wordcount: '552'
-ht-degree: 19%
+source-wordcount: '555'
+ht-degree: 20%
 
 ---
 
@@ -33,7 +32,7 @@ Adobe CX Enterprise Agentic Toolsを使用するための主要なAdobeリソー
 |---|---|
 | [Analytics MCP ドキュメント &#x200B;](https://developer.adobe.com/analytics-mcp/docs/) | CJA MCP サーバー設定ガイドとツールリファレンス |
 | [Analytics MCP ガイド &#x200B;](https://developer.adobe.com/analytics-mcp/docs/guides/) | CJA MCP サーバーの詳細な使用ガイド |
-| [Real-Time CDP MCP ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-cloud-ai/experience-cloud-ai/mcp/rtcdp-mcp) | RTCDP MCP サーバー設定ガイド |
+| [Real-Time CDP MCP ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-cloud-ai/experience-cloud-ai/mcp/mcp-product-tools/rtcdp-mcp) | RTCDP MCP サーバー設定ガイド |
 
 ## エージェントのスキル
 

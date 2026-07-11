@@ -2,10 +2,9 @@
 title: Adobe CX Enterprise Agentic Tools
 description: MCP サーバー、エージェントスキル、APIを使用して、AI エージェントと開発ツールをAdobe CX Enterpriseの機能に接続します。
 last-substantial-update: 2026-06-08T00:00:00Z
-index: false
-source-git-commit: da8d1eb1dcfef13af5d24ef1fe22ee9977c4e783
+source-git-commit: 40d93f878ba9f48c9daffd3beccb4bf829113a36
 workflow-type: tm+mt
-source-wordcount: '594'
+source-wordcount: '803'
 ht-degree: 1%
 
 ---
@@ -64,7 +63,7 @@ CARDS
                 </div>
                 <a href="tools/mcp-servers.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">MCP サーバーの探索</span>
-                </a>
+                
             </div>
         </div>
     </div>
@@ -87,7 +86,7 @@ CARDS
                 </div>
                 <a href="tools/agent-skills.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold"> エージェントのスキルを探る</span>
-                </a>
+                
             </div>
         </div>
     </div>
@@ -110,7 +109,7 @@ CARDS
                 </div>
                 <a href="tools/apis.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold"> ビルダー用APIの探索</span>
-                </a>
+                
             </div>
         </div>
     </div>
@@ -192,7 +191,7 @@ CARDS
                 </div>
                 <a href="use-cases/analyze-campaign-performance.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold"> キャンペーンのインサイトを表示</span>
-                </a>
+                
             </div>
         </div>
     </div>
@@ -215,7 +214,7 @@ CARDS
                 </div>
                 <a href="use-cases/manage-aem-content.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold"> コンテンツの迅速な配信</span>
-                </a>
+                
             </div>
         </div>
     </div>
