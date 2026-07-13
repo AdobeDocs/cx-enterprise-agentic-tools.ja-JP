@@ -14,7 +14,7 @@ ht-degree: 2%
 
 <!-- last-modified: 2026-05-22 -->
 
-![ ページが公開されたことを確認し、ライブ URLを返すAI クライアント ](../assets/use-cases/manage-aem-content/manage-aem-content-step4-02-product.png){zoomable="yes"}
+![&#x200B; ページが公開されたことを確認し、ライブ URLを返すAI クライアント &#x200B;](../assets/use-cases/manage-aem-content/manage-aem-content-step4-02-product.png){zoomable="yes"}
 
 *選択してズームします。*
 
@@ -41,7 +41,7 @@ AEM Content MCP Serverをカスタムコネクタとして接続します。
 2. **カスタムコネクタを追加**&#x200B;を選択し、サーバーURLを入力します：`https://mcp.adobeaemcloud.com/adobe/mcp/content`
 3. **Connect**&#x200B;を選択し、Adobe IDでログインします。
 
-完全なセットアップ：[Claude.ai カスタムコネクタのドキュメント ](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp)
+完全なセットアップ：[Claude.ai カスタムコネクタのドキュメント &#x200B;](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp)
 
 >[!TAB ChatGPT]
 
@@ -52,7 +52,7 @@ ChatGPT Developer Modeを使用してAEM Content MCP Serverに接続します（
 3. サーバーURLを入力してください：`https://mcp.adobeaemcloud.com/adobe/mcp/content`
 4. **Connect**&#x200B;を選択し、Adobe IDでログインします。
 
-完全なセットアップ：[ChatGPT MCP ドキュメント ](https://developers.openai.com/api/docs/guides/tools-connectors-mcp)
+完全なセットアップ：[ChatGPT MCP ドキュメント &#x200B;](https://developers.openai.com/api/docs/guides/tools-connectors-mcp)
 
 >[!TAB その他のAI クライアント ]
 
@@ -86,7 +86,7 @@ From WKND Dev environment, find all ski related content.
 
 +++回答の例を見る
 
-![WKND Dev AEM環境からのスキーコンテンツの検索結果を表示するAI クライアント ](../assets/use-cases/manage-aem-content/manage-aem-content-step1-find-ski.png){zoomable="yes"}
+![WKND Dev AEM環境からのスキーコンテンツの検索結果を表示するAI クライアント &#x200B;](../assets/use-cases/manage-aem-content/manage-aem-content-step1-find-ski.png){zoomable="yes"}
 
 *選択してズームします。*
 
@@ -103,7 +103,7 @@ Show me the US English Home Page.
 
 +++回答の例を見る
 
-![AEMの米国英語ホームページのコンテンツ構造を表示するAI クライアント ](../assets/use-cases/manage-aem-content/manage-aem-content-step2-home-page.png){zoomable="yes"}
+![AEMの米国英語ホームページのコンテンツ構造を表示するAI クライアント &#x200B;](../assets/use-cases/manage-aem-content/manage-aem-content-step2-home-page.png){zoomable="yes"}
 
 *選択してズームします。*
 
@@ -120,7 +120,7 @@ Improve the Hero CTAs.
 
 +++回答の例を見る
 
-![変更を適用する前に、確認プロンプトを使用して改善されたHero CTA コピーを提案するAI クライアント ](../assets/use-cases/manage-aem-content/manage-aem-content-step3.gif){zoomable="yes"}
+![変更を適用する前に、確認プロンプトを使用して改善されたHero CTA コピーを提案するAI クライアント &#x200B;](../assets/use-cases/manage-aem-content/manage-aem-content-step3.gif){zoomable="yes"}
 
 *選択してズームします。*
 
@@ -141,7 +141,7 @@ Publish the changes and share the URL.
 
 +++回答の例を見る
 
-![ ページが公開されたことを確認し、ライブ URLを返すAI クライアント ](../assets/use-cases/manage-aem-content/manage-aem-content-step4.gif){zoomable="yes"}
+![&#x200B; ページが公開されたことを確認し、ライブ URLを返すAI クライアント &#x200B;](../assets/use-cases/manage-aem-content/manage-aem-content-step4.gif){zoomable="yes"}
 
 *選択してズームします。*
 
