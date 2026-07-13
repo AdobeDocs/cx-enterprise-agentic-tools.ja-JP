@@ -2,9 +2,9 @@
 title: オーディエンスとアクティベートされた場所を把握
 description: CX エンタープライズ MCPを使用して、オーディエンスのアクティベーションステータスを監視し、宛先の健全性をチェックし、キャンペーンに影響を与える前に問題を特定します。
 last-substantial-update: 2026-06-10T00:00:00Z
-source-git-commit: 40d93f878ba9f48c9daffd3beccb4bf829113a36
+source-git-commit: 937a3189965f3a3551c730bb27ee0592ae6fca92
 workflow-type: tm+mt
-source-wordcount: '869'
+source-wordcount: '884'
 ht-degree: 2%
 
 ---
@@ -14,13 +14,15 @@ ht-degree: 2%
 
 <!-- last-modified: 2026-06-04 -->
 
-![&#x200B; アクティベーションに関する推奨事項を含む、優先順位付けされたオーディエンス戦略を提供するAI クライアント &#x200B;](../assets/use-cases/query-audiences/query-audiences-step4-02-summary.png)
+![ アクティベーションに関する推奨事項を含む、優先順位付けされたオーディエンス戦略を提供するAI クライアント ](../assets/use-cases/query-audiences/query-audiences-step4-02-summary.png){zoomable="yes"}
+
+*選択してズームします。*
 
 どのオーディエンスがライブで、どこを流れているのか、宛先が健全であるかどうかを知ることは、キャンペーンが開始される前か、パフォーマンスが低下しているときに重要です。 このチュートリアルでは、CX Enterprise MCPを使用して、Real-Time CDPを開かずに、オーディエンスのステータスと宛先の健全性を数秒で確認し、AI クライアントを通じてアクティベーションの全体像を把握する方法を示します。
 
 | シナリオの詳細 | |
 | --- | --- |
-| CX エンタープライズアプリケーション | [Real-Time Customer Data Platform （Real-Time CDP） &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/rtcdp/home) |
+| CX エンタープライズアプリケーション | [Real-Time Customer Data Platform （Real-Time CDP） ](https://experienceleague.adobe.com/ja/docs/experience-platform/rtcdp/home) |
 | エージェント型ツール | [CX エンタープライズ MCP](../tools/mcp-servers.md#cx-enterprise-mcp-servers) |
 | オーディエンス | マーケター、アナリスト、オペレーター |
 | 前提条件 | MCP対応AI クライアント、Real-Time CDPアクセス |
@@ -39,7 +41,7 @@ CX Enterprise MCPをカスタムコネクタとして接続して、Real-Time CD
 2. **カスタムコネクタを追加**&#x200B;を選択し、サーバーURLを入力します：`https://cx-enterprise.adobe.io/mcp`
 3. **Connect**&#x200B;を選択し、Adobe IDでログインします。
 
-完全なセットアップ：[Claude.ai カスタムコネクタのドキュメント &#x200B;](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp)
+完全なセットアップ：[Claude.ai カスタムコネクタのドキュメント ](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp)
 
 >[!TAB ChatGPT]
 
@@ -50,7 +52,7 @@ ChatGPT デベロッパーモードを使用してCX エンタープライズ MC
 3. サーバーURLを入力してください：`https://cx-enterprise.adobe.io/mcp`
 4. **Connect**&#x200B;を選択し、Adobe IDでログインします。
 
-完全なセットアップ：[ChatGPT MCP ドキュメント &#x200B;](https://developers.openai.com/api/docs/guides/tools-connectors-mcp)
+完全なセットアップ：[ChatGPT MCP ドキュメント ](https://developers.openai.com/api/docs/guides/tools-connectors-mcp)
 
 >[!TAB その他のAI クライアント ]
 
@@ -78,7 +80,9 @@ What audiences are currently available and what customer behaviors do they repre
 
 +++回答の例を見る
 
-![利用可能なオーディエンスと、そのオーディエンスが表す顧客行動をリストするAI クライアント &#x200B;](../assets/use-cases/query-audiences/query-audiences-step1-audience-list.png)
+![利用可能なオーディエンスと、そのオーディエンスが表す顧客行動をリストするAI クライアント ](../assets/use-cases/query-audiences/query-audiences-step1-audience-list.png){zoomable="yes"}
+
+*選択してズームします。*
 
 +++
 
@@ -93,7 +97,9 @@ Which audiences are the largest and what makes them valuable?
 
 +++回答の例を見る
 
-![最大のオーディエンスを特定し、その価値を説明するAI クライアント &#x200B;](../assets/use-cases/query-audiences/query-audiences-step2.gif)
+![最大のオーディエンスを特定し、その価値を説明するAI クライアント ](../assets/use-cases/query-audiences/query-audiences-step2.gif){zoomable="yes"}
+
+*選択してズームします。*
 
 +++
 
@@ -108,7 +114,9 @@ Where are our audiences currently being activated and to which destinations?
 
 +++回答の例を見る
 
-オーディエンスのアクティブ化ステータスと宛先マッピングを表示する![AI クライアント &#x200B;](../assets/use-cases/query-audiences/query-audiences-step3.gif)
+オーディエンスのアクティブ化ステータスと宛先マッピングを表示する![AI クライアント ](../assets/use-cases/query-audiences/query-audiences-step3.gif){zoomable="yes"}
+
+*選択してズームします。*
 
 +++
 
@@ -123,7 +131,9 @@ If you were our audience strategist, what would you prioritize next and why?
 
 +++回答の例を見る
 
-![AI クライアントが優先的なオーディエンス戦略の推奨事項を提示](../assets/use-cases/query-audiences/query-audiences-step4.gif)
+![AI クライアントが優先的なオーディエンス戦略の推奨事項を提示](../assets/use-cases/query-audiences/query-audiences-step4.gif){zoomable="yes"}
+
+*選択してズームします。*
 
 +++
 
@@ -229,5 +239,5 @@ Are there any audiences using a non-default merge policy that could cause profil
 
 | リソース | 見つかる内容 |
 | --- | --- |
-| [Adobe AI レジストリ &#x200B;](https://developer.adobe.com/ai-registry/?type=mcp){target="_blank"} | 一部のAdobe MCP サーバーのマネージドコネクタとサーバーの詳細 |
-| [Real-Time CDP ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/rtcdp/home){target="_blank"} | Adobe Real-Time CDPのドキュメント |
+| [Adobe AI レジストリ ](https://developer.adobe.com/ai-registry/?type=mcp){target="_blank"} | 一部のAdobe MCP サーバーのマネージドコネクタとサーバーの詳細 |
+| [Real-Time CDP ドキュメント ](https://experienceleague.adobe.com/ja/docs/experience-platform/rtcdp/home){target="_blank"} | Adobe Real-Time CDPのドキュメント |
