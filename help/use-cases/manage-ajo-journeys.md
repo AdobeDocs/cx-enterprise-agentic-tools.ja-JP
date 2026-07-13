@@ -2,9 +2,9 @@
 title: 顧客に影響を与える前に、ジャーニーの問題を把握したい
 description: CX Enterprise MCPを使用して、アクティブなAJOジャーニーをモニタリングし、キャンペーン設定をレビューし、オーディエンスにリーチする前に運用上の問題を確認します。
 last-substantial-update: 2026-06-10T00:00:00Z
-source-git-commit: 40d93f878ba9f48c9daffd3beccb4bf829113a36
+source-git-commit: 937a3189965f3a3551c730bb27ee0592ae6fca92
 workflow-type: tm+mt
-source-wordcount: '979'
+source-wordcount: '997'
 ht-degree: 2%
 
 ---
@@ -13,7 +13,9 @@ ht-degree: 2%
 # 顧客に影響を与える前に、ジャーニーの問題を把握したい
 <!-- last-modified: 2026-06-08 -->
 
-![&#x200B; エグゼクティブサマリーを使用してキャンペーンとジャーニー戦略を要約するAI クライアント &#x200B;](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step5-02-exe-summary.png)
+![&#x200B; エグゼクティブサマリーを使用してキャンペーンとジャーニー戦略を要約するAI クライアント &#x200B;](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step5-02-exe-summary.png){zoomable="yes"}
+
+*選択してズームします。*
 
 ジャーニーの問題が検出されなければ、誰にも気づかれないうちに顧客にリーチできます。 このチュートリアルでは、CX Enterprise MCPを使用して、Adobe Journey Optimizerを開かずに平易な言葉で回答を得ることで、アクティブなAJOのジャーニーを確認し、キャンペーン設定を確認し、AI クライアントを通じて運用上の問題を明らかにし、その一歩先を行く方法を説明します。
 
@@ -83,7 +85,9 @@ What customer journeys are currently available and what business objectives do t
 
 +++回答の例を見る
 
-![利用可能なカスタマージャーニーとビジネス目標を一覧表示するAI クライアント &#x200B;](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step1.gif)
+![利用可能なカスタマージャーニーとビジネス目標を一覧表示するAI クライアント &#x200B;](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step1.gif){zoomable="yes"}
+
+*選択してズームします。*
 
 +++
 
@@ -99,7 +103,9 @@ Walk me through the [journey name] journey and explain the customer experience.
 
 +++回答の例を見る
 
-![新規顧客を歓迎するジャーニーの手順と顧客体験を説明するAI クライアント &#x200B;](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step2-welcome-journey.png)
+![新規顧客を歓迎するジャーニーの手順と顧客体験を説明するAI クライアント &#x200B;](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step2-welcome-journey.png){zoomable="yes"}
+
+*選択してズームします。*
 
 +++
 
@@ -119,7 +125,9 @@ Show me our campaigns, the audiences they target, and the outcomes they're desig
 
 +++回答の例を見る
 
-![&#x200B; アクティブなキャンペーンを、オーディエンスターゲティングおよび意図された結果と共に一覧表示するAI クライアント &#x200B;](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step3.gif)
+![&#x200B; アクティブなキャンペーンを、オーディエンスターゲティングおよび意図された結果と共に一覧表示するAI クライアント &#x200B;](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step3.gif){zoomable="yes"}
+
+*選択してズームします。*
 
 +++
 
@@ -135,7 +143,9 @@ How do our campaigns and journeys work together to improve customer engagement?
 
 +++回答の例を見る
 
-![&#x200B; キャンペーンとジャーニーの関係を説明するAI クライアント &#x200B;](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step4-connection.png)
+![&#x200B; キャンペーンとジャーニーの関係を説明するAI クライアント &#x200B;](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step4-connection.png){zoomable="yes"}
+
+*選択してズームします。*
 
 +++
 
@@ -151,7 +161,9 @@ If you were our lifecycle marketing manager, what would you prioritize next and 
 
 +++回答の例を見る
 
-![AI クライアントがライフサイクルマーケティングに関する推奨事項を優先的に提供](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step5.gif)
+![AI クライアントがライフサイクルマーケティングに関する推奨事項を優先的に提供](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step5.gif){zoomable="yes"}
+
+*選択してズームします。*
 
 +++
 

@@ -2,9 +2,9 @@
 title: 確実なAEM as a Cloud Serviceへのデプロイ
 description: AI クライアントを離れることなく、環境の健全性を確認し、パイプラインの履歴を確認し、デプロイメントをトリガーまたは管理できます。
 last-substantial-update: 2026-06-10T00:00:00Z
-source-git-commit: 40d93f878ba9f48c9daffd3beccb4bf829113a36
+source-git-commit: 937a3189965f3a3551c730bb27ee0592ae6fca92
 workflow-type: tm+mt
-source-wordcount: '938'
+source-wordcount: '950'
 ht-degree: 2%
 
 ---
@@ -126,7 +126,9 @@ What is the status of the production environment?
 
 +++回答の例を見る
 
-![Cloud Managerの本番環境のステータスを表示するAI クライアント &#x200B;](../assets/use-cases/aem-cloud-manager-mcp/aem-cloud-manager-mcp-step1-01-ai.png)
+![Cloud Managerの本番環境のステータスを表示するAI クライアント &#x200B;](../assets/use-cases/aem-cloud-manager-mcp/aem-cloud-manager-mcp-step1-01-ai.png){zoomable="yes"}
+
+*選択してズームします。*
 
 +++
 
@@ -141,7 +143,9 @@ Show me the last five pipeline runs for the production pipeline.
 
 +++回答の例を見る
 
-実稼動パイプラインの最後の5つのパイプライン実行を示す![AI クライアント &#x200B;](../assets/use-cases/aem-cloud-manager-mcp/aem-cloud-manager-mcp-step2-01-ai.png)
+実稼動パイプラインの最後の5つのパイプライン実行を示す![AI クライアント &#x200B;](../assets/use-cases/aem-cloud-manager-mcp/aem-cloud-manager-mcp-step2-01-ai.png){zoomable="yes"}
+
+*選択してズームします。*
 
 +++
 
@@ -156,7 +160,9 @@ Run the Fullstack pipeline against dev environment of WKND sandbox program.
 
 +++回答の例を見る
 
-![&#x200B; パイプラインのトリガー確認と、実行中のパイプラインを反映したCloud Manager UIを表示するAI クライアント &#x200B;](../assets/use-cases/aem-cloud-manager-mcp/aem-cloud-manager-mcp-step3.gif)
+![&#x200B; パイプラインのトリガー確認と、実行中のパイプラインを反映したCloud Manager UIを表示するAI クライアント &#x200B;](../assets/use-cases/aem-cloud-manager-mcp/aem-cloud-manager-mcp-step3.gif){zoomable="yes"}
+
+*選択してズームします。*
 
 +++
 
@@ -175,7 +181,9 @@ What is the status of the triggered pipeline?
 
 +++回答の例を見る
 
-![&#x200B; トリガーされたパイプライン実行のステータスを表示するAI クライアント &#x200B;](../assets/use-cases/aem-cloud-manager-mcp/aem-cloud-manager-mcp-step4-01-ai.png)
+![&#x200B; トリガーされたパイプライン実行のステータスを表示するAI クライアント &#x200B;](../assets/use-cases/aem-cloud-manager-mcp/aem-cloud-manager-mcp-step4-01-ai.png){zoomable="yes"}
+
+*選択してズームします。*
 
 +++
 
