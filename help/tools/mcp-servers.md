@@ -2,9 +2,9 @@
 title: MCP サーバー
 description: モデルコンテキストプロトコルサーバーを使用して、MCP互換のAI クライアントをAdobe CX Enterprise ワークフローに接続します。
 last-substantial-update: 2026-06-17T00:00:00Z
-source-git-commit: 445fd18a2b5a18ec3dcc0ec8e73ec4c020e7b265
+source-git-commit: 331736994515eb978ab9f24208d65f05ecd4c0b4
 workflow-type: tm+mt
-source-wordcount: '2412'
+source-wordcount: '2408'
 ht-degree: 6%
 
 ---
@@ -50,7 +50,7 @@ https://cx-enterprise.adobe.io/mcp
 | Campaign Classic | キャンペーンインスタンスの検出、スキーマの参照、クエリの実行、ワークフロー制御、SOAP/JSの実行 | ○ |
 | [Adobe Experience Platform](https://experienceleague.adobe.com/ja/docs/experience-cloud-ai/experience-cloud-ai/mcp/mcp-product-tools/aep-mcp) | データセットの発見、スキーマの閲覧、サンドボックスの管理 | × |
 | 実験 | A/B、MVT、MABの実験レポート、指標、インサイト、機会、サンプルサイズ計画 | × |
-| GenStudio | Advertisingのインサイト（支出、CTR、キャンペーン、クリエイティブ、タグ、カスタム指標）と最近のExpress ドラフト | ○ |
+| パフォーマンスマーケティング用の GenStudio | 広告パフォーマンスデータとクリエイティブインサイトへのアクセス | ○ |
 | [Adobe Journey Optimizer](https://experienceleague.adobe.com/ja/docs/experience-cloud-ai/experience-cloud-ai/mcp/mcp-product-tools/ajo-mcp) | ジャーニー、キャンペーン、チャネル設定の確認 | × |
 | Adobe Journey Optimizer B2B edition | B2B ジャーニー、アカウントプログラム、購買グループ、パーソナライゼーションの管理 | × |
 | [Adobe Target](https://experienceleague.adobe.com/ja/docs/target/using/mcp/target-mcp) | アクティビティ、オファー、オーディエンス、mbox、パフォーマンスレポート、プレビューURLの確認 | [○](https://experienceleague.adobe.com/ja/docs/target/using/mcp/target-mcp-get-started#mcp-security) |
