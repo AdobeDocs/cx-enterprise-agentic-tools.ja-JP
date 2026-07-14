@@ -2,9 +2,9 @@
 title: MCP サーバー
 description: モデルコンテキストプロトコルサーバーを使用して、MCP互換のAI クライアントをAdobe CX Enterprise ワークフローに接続します。
 last-substantial-update: 2026-06-17T00:00:00Z
-source-git-commit: 331736994515eb978ab9f24208d65f05ecd4c0b4
+source-git-commit: 49e3c0cdb77cca3ff39f3aea591cc0fe8d4be4c9
 workflow-type: tm+mt
-source-wordcount: '2408'
+source-wordcount: '2404'
 ht-degree: 6%
 
 ---
@@ -38,7 +38,7 @@ Adobe MCP サーバーは、オープン [&#x200B; モデル コンテキスト 
 
 **1つのエンドポイント。 複数のCX エンタープライズ アプリケーション。**
 
-接続すると、AI クライアントは、組織のライセンスに基づいてCX エンタープライズアプリケーションにアクセスできます。 組織を有効にするには、[cxo-mcp-feedback@adobe.com](mailto:cxo-mcp-feedback@adobe.com)にメールを送信してアクセスをリクエストしてください。
+接続すると、AI クライアントは、組織のライセンスに基づいてCX エンタープライズアプリケーションにアクセスできます。 組織を有効にするには、[adobecxmcp@adobe.com](mailto:adobecxmcp@adobe.com)にメールを送信してアクセスをリクエストしてください。
 
 ```
 https://cx-enterprise.adobe.io/mcp
@@ -62,7 +62,7 @@ https://cx-enterprise.adobe.io/mcp
 
 >[!NOTE]
 >
->各CX Enterprise アプリケーションへのアクセスは、組織の使用権限とAdobe Admin Consoleでのユーザーの権限に基づいています。 組織のCX Enterprise MCPを有効にするには、[cxo-mcp-feedback@adobe.com](mailto:cxo-mcp-feedback@adobe.com)に電子メールを送信します。
+>各CX Enterprise アプリケーションへのアクセスは、組織の使用権限とAdobe Admin Consoleでのユーザーの権限に基づいています。 組織のCX Enterprise MCPを有効にするには、[adobecxmcp@adobe.com](mailto:adobecxmcp@adobe.com)に電子メールを送信します。
 
 >[!TAB Experience Manager]
 
