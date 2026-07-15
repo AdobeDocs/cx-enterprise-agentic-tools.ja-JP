@@ -1,8 +1,8 @@
 ---
 title: Adobe CX Enterprise Agentic Tools
 description: MCP サーバー、エージェントスキル、APIを使用して、AI エージェントと開発ツールをAdobe CX Enterpriseの機能に接続します。
-last-substantial-update: 2026-06-08T00:00:00Z
-source-git-commit: 40d93f878ba9f48c9daffd3beccb4bf829113a36
+last-substantial-update: 2026-07-14T00:00:00Z
+source-git-commit: 4f557937701441bcc34878e3cd13423ce35487ba
 workflow-type: tm+mt
 source-wordcount: '803'
 ht-degree: 1%
@@ -19,7 +19,7 @@ ht-degree: 1%
 AIを活用したAdobe CX エンタープライズ版。 キャンペーン、オーディエンス、ジャーニー、コンテンツにAI クライアントを接続します。 あらゆるツールから平易な言葉で顧客とやり取りできます。 新しいインターフェイスも、コンテキストの切り替えも、コーディングも必要ありません。
 
 >[!TIP]
->**CX Enterprise MCPで始めます。** 1つの接続で、組織のライセンスに基づいて、AI クライアントはAdobe Journey Optimizer、Customer Journey Analytics、Real-Time CDPにアクセスできます。 [今すぐ接続](tools/mcp-servers.md#cx-enterprise-mcp-servers)
+>**CX Coworker Gatewayで開始します。** 1つの接続で、組織のライセンスに基づいて、AI クライアントはAdobe Journey Optimizer、Customer Journey Analytics、Real-Time CDPにアクセスできます。 [今すぐ接続](tools/mcp-servers.md#cx-coworker-gateway)
 
 <!--
 CARDS
@@ -122,7 +122,7 @@ CARDS
 
 >[!TAB MCP サーバー]
 
-互換性のある任意のAI クライアントを使用して、平易な言語で顧客体験エンタープライズアプリケーションにアクセスできます。 コーディングは必要ありません。 CX Enterprise MCPを使用して、AJO、CJA、Real-Time CDPに1回接続するか、AEMやその他のアプリケーションに直接接続できます。
+互換性のある任意のAI クライアントを使用して、平易な言語で顧客体験エンタープライズアプリケーションにアクセスできます。 コーディングは必要ありません。 CX Coworker GatewayからAJO、CJA、Real-Time CDPに1回接続するか、AEMやその他のアプリケーションに直接接続できます。
 
 - Claude、Cursor、ChatGPTなどのMCP互換クライアントから数分で接続できます
 - 自然言語を使用して、キャンペーン、オーディエンス、ジャーニーデータをクエリ

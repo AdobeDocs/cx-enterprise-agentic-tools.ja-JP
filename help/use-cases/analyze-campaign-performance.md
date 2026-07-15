@@ -1,8 +1,8 @@
 ---
 title: レポートを作成することなくキャンペーンのインサイトを可視化
-description: CX Enterprise MCPを使用して、Customer Journey Analyticsのパフォーマンスに関する質問をわかりやすい言語で行い、レポートビルダーを移動することなく回答を得ることができます。
-last-substantial-update: 2026-06-09T00:00:00Z
-source-git-commit: 937a3189965f3a3551c730bb27ee0592ae6fca92
+description: CX Coworker Gatewayを使用して、Customer Journey Analyticsのパフォーマンスに関する質問をわかりやすい言葉で入力し、レポートビルダーを操作することなく回答を得ることができます。
+last-substantial-update: 2026-07-14T00:00:00Z
+source-git-commit: 4f557937701441bcc34878e3cd13423ce35487ba
 workflow-type: tm+mt
 source-wordcount: '1025'
 ht-degree: 1%
@@ -23,7 +23,7 @@ ht-degree: 1%
 | シナリオの詳細 | |
 | --- | --- |
 | CX エンタープライズアプリケーション | [Customer Journey Analytics （CJA） &#x200B;](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-overview/cja-overview) |
-| エージェント型ツール | [CX エンタープライズ MCP](../tools/mcp-servers.md#cx-enterprise-mcp-servers) |
+| エージェント型ツール | [CX Coworker Gateway](../tools/mcp-servers.md#cx-coworker-gateway) |
 | オーディエンス | アナリスト、キャンペーンマネージャー |
 | 前提条件 | MCP対応AI クライアント、CJAアクセス |
 
@@ -35,31 +35,31 @@ ht-degree: 1%
 
 >[!TAB  クロード.ai]
 
-CX Enterprise MCPをカスタムコネクタとして接続して、Customer Journey Analytics ツールにアクセスします。
+CX Coworker Gatewayをカスタムコネクタとして接続して、Customer Journey Analytics ツールにアクセスします。
 
 1. Claude.aiの&#x200B;**設定/統合**&#x200B;に移動します。
-2. **カスタムコネクタを追加**&#x200B;を選択し、サーバーURLを入力します：`https://cx-enterprise.adobe.io/mcp`
+2. **カスタムコネクタを追加**&#x200B;を選択し、サーバーURLを入力します：`https://cx-coworker-gateway.adobe.io/mcp`
 3. **Connect**&#x200B;を選択し、Adobe IDでログインします。
 
 完全なセットアップ：[Claude.ai カスタムコネクタのドキュメント &#x200B;](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp)
 
 >[!TAB ChatGPT]
 
-ChatGPT デベロッパーモードを使用してCX エンタープライズ MCPを接続します（Pro、Plus、Business、Enterprise、またはEducation プランが必要）。
+ChatGPT開発者モードを使用してCX同僚ゲートウェイを接続します（Pro、Plus、Business、Enterprise、またはEducation プランが必要です）。
 
 1. **ChatGPT設定**&#x200B;で&#x200B;**開発者モード**&#x200B;を有効にします。
 2. **設定/統合**&#x200B;に移動し、**カスタムコネクタを追加/リモート MCP サーバー**&#x200B;を選択します。
-3. サーバーURLを入力してください：`https://cx-enterprise.adobe.io/mcp`
+3. サーバーURLを入力してください：`https://cx-coworker-gateway.adobe.io/mcp`
 4. **Connect**&#x200B;を選択し、Adobe IDでログインします。
 
 完全なセットアップ：[ChatGPT MCP ドキュメント &#x200B;](https://developers.openai.com/api/docs/guides/tools-connectors-mcp)
 
 >[!TAB その他のAI クライアント ]
 
-Gemini、Microsoft Copilot、Cursor、Claude CodeなどのMCP互換アプリケーションを使用している場合、 次のエンドポイントを使用してCX Enterprise MCPに接続します。
+Gemini、Microsoft Copilot、Cursor、Claude CodeなどのMCP互換アプリケーションを使用している場合、 次のエンドポイントを使用して、CX Workfront Gatewayに接続します。
 
 ```
-https://cx-enterprise.adobe.io/mcp
+https://cx-coworker-gateway.adobe.io/mcp
 ```
 
 サポートされているすべてのクライアントの完全なセットアップ手順：[AI クライアントに接続](../tools/mcp-servers.md)
@@ -165,7 +165,7 @@ Based on these findings, recommend the highest-impact actions to increase revenu
 
 >[!NOTE]
 >
->CX Enterprise MCPを通じてアクセスできるCJAツールは、同じセッションでCJA内で、セグメント、計算指標、Workspaceプロジェクトを作成できます。 他のアプリケーションのキャンペーン、ジャーニー、コンテンツを更新するには、関連するMCP サーバーを接続するか、アプリケーションに直接移動します。
+>CX Coworker GatewayからアクセスしたCJAツールは、CJA内で、セグメント、計算指標、Workspaceプロジェクトを同じセッションで作成できます。 他のアプリケーションのキャンペーン、ジャーニー、コンテンツを更新するには、関連するMCP サーバーを接続するか、アプリケーションに直接移動します。
 
 ## 達成したこと
 
@@ -173,7 +173,7 @@ AI クライアントとCustomer Journey Analyticsを接続し、5つのプロ�
 
 ## より多くのことを達成
 
-CX Enterprise MCPは、チュートリアルで紹介されているよりもはるかに多くのCustomer Journey Analytics インサイトを獲得できます。 以下のシナリオを展開すると、同じセッションで試すことができるプロンプトが表示されます。
+CX Coworker Gatewayでは、チュートリアルで紹介されているよりもはるかに多くのCustomer Journey Analytics インサイトを獲得できます。 以下のシナリオを展開すると、同じセッションで試すことができるプロンプトが表示されます。
 
 +++効果的なものと効果的でないものを見つける
 
@@ -257,7 +257,7 @@ What would have the biggest impact on revenue?
 
 +++「
 
-CX Enterprise MCPからアクセスできるCJAツールを利用すれば、AI セッションから離れることなく、CJAで直接、セグメント、オーディエンス、計算指標、Workspaceプロジェクトを構築できます。 これらのプロンプトを使用して、発見したことに基づいて行動します。
+CX Coworker GatewayからアクセスしたCJAのツールは、AI セッションから離れることなく、CJA内で直接、セグメント、オーディエンス、計算指標、Workspaceプロジェクトを作成できます。 これらのプロンプトを使用して、発見したことに基づいて行動します。
 
 **プロンプト**
 
