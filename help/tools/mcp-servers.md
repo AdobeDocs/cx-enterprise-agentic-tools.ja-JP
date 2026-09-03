@@ -4,7 +4,7 @@ description: モデルコンテキストプロトコルサーバーを使用し�
 last-substantial-update: 2026-07-14T00:00:00Z
 source-git-commit: a619c651d13834f53ecf1dd524aae3e7e5efcca5
 workflow-type: tm+mt
-source-wordcount: '2437'
+source-wordcount: '2422'
 ht-degree: 6%
 
 ---
@@ -20,13 +20,13 @@ Adobe MCP サーバーは、互換性のあるあらゆるAI クライアント�
 
 Adobe MCP サーバーは、オープン [&#x200B; モデル コンテキスト プロトコル &#x200B;](https://modelcontextprotocol.io/docs/getting-started/intro)標準に従います。 MCP対応のAI クライアントは、あらゆるAdobe MCP サーバーに接続できます。
 
-## CX Enterprise MCP Server {#cx-enterprise-mcp-servers}
+## CX Enterprise MCP サーバー {#cx-enterprise-mcp-servers}
 
 >[!CONTEXTUALHELP]
 >id="cx-enterprise-agentic-tools_mcp_servers_cx-enterprise"
->title="CX同僚のゲートウェイ"
+>title="CX Coworker Gateway"
 >abstract="単一の MCP エンドポイントを通じてアクセスできる CX Enterprise アプリケーション。 AI クライアントから平易な言葉で質問、分析、アクションを行います。"
->additional-url="https://experienceleague.adobe.com/ja/docs/experience-cloud-ai/experience-cloud-ai/mcp/overview" text="CX Coworker Gatewayのドキュメント"
+>additional-url="https://experienceleague.adobe.com/ja/docs/experience-cloud-ai/experience-cloud-ai/mcp/overview" text="CX Coworker Gateway ドキュメント"
 
 ![CX Coworker Gatewayは、AI クライアントをAdobe CX Enterprise スイート全体のツールに接続します](../assets/mcp-gateway-hero.gif)
 
