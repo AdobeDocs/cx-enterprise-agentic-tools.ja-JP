@@ -1,29 +1,27 @@
 ---
 title: クロスチャネルキャンペーンのレビューの実施
-description: CX Coworker Gatewayを単一のAI セッションで使用することで、ジャーニー、オーディエンス、パフォーマンスをまたいで、AJO、CJA、Real-Time CDPのキャンペーンの健全性を一元的に把握できます。
-last-substantial-update: 2026-07-14T00:00:00Z
-source-git-commit: 4f557937701441bcc34878e3cd13423ce35487ba
+description: 単一のAI セッションで、ジャーニー、オーディエンス、パフォーマンスをまたいで、AJO、CJA、Real-Time CDPのキャンペーンの健全性を一元的に把握できます。
+last-substantial-update: 2026-09-16
+source-git-commit: a70eede6e0efe0d1dbdc00c5d9de5aeb3b5d75de
 workflow-type: tm+mt
-source-wordcount: '1415'
-ht-degree: 5%
-
+source-wordcount: '1564'
+ht-degree: 8%
 ---
-
 
 # クロスチャネルキャンペーンのレビューの実施
 
 <!-- last-modified: 2026-05-21 -->
 
-![&#x200B; クロスチャネルキャンペーンレビューの実行](https://placehold.co/1600x900?text=Cross-Channel+Campaign+Review){zoomable="yes"}
+![ クロスチャネルキャンペーンレビューの実行](https://placehold.co/1600x900?text=Cross-Channel+Campaign+Review){zoomable="yes"}
 
 *選択してズームします。*
 
-キャンペーンの健全性を包括的に把握するには、複数のシステムからのデータが必要です。AJOのアクティブジャーニー、Real-Time CDPのオーディエンスアクティベーションステータス、CJAのパフォーマンス指標などです。 このチュートリアルでは、3つのAI セッションすべてを接続する方法を示します。これにより、3つの個別のツールではなく、1つの会話でジャーニーのステータスからオーディエンスの健全性、パフォーマンスのトレンドに移行できます。
+キャンペーンの健全性を包括的に把握するには、複数のシステムからのデータが必要です。AJOのアクティブジャーニー、Real-Time CDPのオーディエンスアクティベーションステータス、CJAのパフォーマンス指標などです。 このチュートリアルでは、これら3つの機能を単一のAI セッションに統合し、3つの個別のツールではなく、ひとつの会話でジャーニーのステータスからオーディエンスの健全性、パフォーマンスのトレンドに移行する方法を説明します。
 
 | シナリオの詳細 | |
 | --- | --- |
 | CX エンタープライズアプリケーション | [Adobe Journey Optimizer](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/ajo-home)、[Customer Journey Analytics](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-overview/cja-overview)、[Real-Time CDP](https://experienceleague.adobe.com/ja/docs/experience-platform/rtcdp/home) |
-| エージェント型ツール | [CX Coworker Gateway](../tools/mcp-servers.md#cx-coworker-gateway) |
+| エージェント型ツール | [CX Enterprise Coworker](https://experienceleague.adobe.com/ja/docs/cx-enterprise-coworker/content/home)または[Adobe Journey Optimizer](../tools/mcp-servers.md)、[Customer Journey Analytics](../tools/mcp-servers.md)、および[Real-Time CDP](../tools/mcp-servers.md) MCP サーバー |
 | オーディエンス | キャンペーンマネージャー，マーケティングオペレーション |
 | 前提条件 | MCP対応のAI クライアント、AJO、CJA、Real-Time CDPへのアクセス |
 
@@ -33,34 +31,54 @@ ht-degree: 5%
 
 >[!BEGINTABS]
 
+>[!TAB CX Enterprise Coworker]
+
+CX Enterprise Coworkerは、サーバーの設定やAI クライアントの設定を必要とせずに、AJO、CJA、Real-Time CDPに一元的に接続できます。 [CX Enterprise Coworkerを試す](https://experienceleague.adobe.com/ja/docs/cx-enterprise-coworker/content/home)
+
+独自のAI クライアントを直接接続する場合は、以下のタブを使用して3つのMCP サーバーをすべて接続します。 Real-Time CDP MCP Serverはパブリックベータ版で、組織の許可リストに加えるが必要です。
+
 >[!TAB  クロード.ai]
 
-CX Coworker Gatewayをカスタムコネクタとして接続します。 1つの接続からAJO、CJA、Real-Time CDP ツールにアクセスできます。
+3つのMCP サーバーをすべてカスタムコネクタとして接続します。 それぞれを別々に追加します。
 
 1. Claude.aiの&#x200B;**設定/統合**&#x200B;に移動します。
-2. **カスタムコネクタを追加**&#x200B;を選択し、サーバーURLを入力します：`https://cx-coworker-gateway.adobe.io/mcp`
-3. **Connect**&#x200B;を選択し、Adobe IDでログインします。
+2. **カスタムコネクタを追加**&#x200B;を選択し、サーバーURLを入力して、**接続**&#x200B;を選択します。
+3. Adobe IDでログインし、残りのサーバーについても繰り返します。
 
-完全なセットアップ：[Claude.ai カスタムコネクタのドキュメント &#x200B;](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp)
+| サーバー | エンドポイント |
+| --- | --- |
+| Adobe Journey Optimizer MCP Server | `https://ajo-mcp.adobe.io/mcp` |
+| Customer Journey Analytics MCP Server | `https://cja-mcp.adobe.io/mcp` |
+| Real-Time CDP MCP Server | `https://rtcdp-mcp.adobe.io/mcp` |
+
+完全なセットアップ：[Claude.ai カスタムコネクタのドキュメント ](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp)
 
 >[!TAB ChatGPT]
 
-ChatGPT開発者モードを使用してCX同僚ゲートウェイを接続します（Pro、Plus、Business、Enterprise、またはEducation プランが必要です）。
+ChatGPT デベロッパーモードを使用して3つのMCP サーバーをすべて接続します（Pro、Plus、Business、Enterprise、またはEducation プランが必要）。 各サーバーを個別に追加します。
 
 1. **ChatGPT設定**&#x200B;で&#x200B;**開発者モード**&#x200B;を有効にします。
 2. **設定/統合**&#x200B;に移動し、**カスタムコネクタを追加/リモート MCP サーバー**&#x200B;を選択します。
-3. サーバーURLを入力してください：`https://cx-coworker-gateway.adobe.io/mcp`
-4. **Connect**&#x200B;を選択し、Adobe IDでログインします。
+3. サーバーURLを入力し、**Connect**&#x200B;を選択して、Adobe IDでログインします。
+4. 残りのサーバーについても繰り返します。
 
-完全なセットアップ：[ChatGPT MCP ドキュメント &#x200B;](https://developers.openai.com/api/docs/guides/tools-connectors-mcp)
+| サーバー | エンドポイント |
+| --- | --- |
+| Adobe Journey Optimizer MCP Server | `https://ajo-mcp.adobe.io/mcp` |
+| Customer Journey Analytics MCP Server | `https://cja-mcp.adobe.io/mcp` |
+| Real-Time CDP MCP Server | `https://rtcdp-mcp.adobe.io/mcp` |
+
+完全なセットアップ：[ChatGPT MCP ドキュメント ](https://developers.openai.com/api/docs/guides/tools-connectors-mcp)
 
 >[!TAB その他のAI クライアント ]
 
-Gemini、Microsoft Copilot、Cursor、Claude CodeなどのMCP互換アプリケーションを使用している場合、 次のエンドポイントを使用して、CX Workfront Gatewayに接続します。
+Gemini、Microsoft Copilot、Cursor、Claude CodeなどのMCP互換アプリケーションを使用している場合、 次のエンドポイントを使用して、3つすべてのMCP サーバーに接続します。
 
-```
-https://cx-coworker-gateway.adobe.io/mcp
-```
+| サーバー | エンドポイント |
+| --- | --- |
+| Adobe Journey Optimizer MCP Server | `https://ajo-mcp.adobe.io/mcp` |
+| Customer Journey Analytics MCP Server | `https://cja-mcp.adobe.io/mcp` |
+| Real-Time CDP MCP Server | `https://rtcdp-mcp.adobe.io/mcp` |
 
 サポートされているすべてのクライアントの完全なセットアップ手順：[AI クライアントに接続](../tools/mcp-servers.md)
 
@@ -90,11 +108,11 @@ AJOで8つのアクティブなジャーニーが見つかりました。
 | --- | --- | --- |
 | ウェルカムシリーズ：新メンバー | 電子メール、プッシュ | 2026年5月18日（PT） |
 | 購入後のフォローアップ | 電子メール，SMS | 2026年5月14日（PT） |
-| ロイヤルティ再エンゲージメント | メール | 2026年5月20日（PT） |
+| ロイヤルティ再エンゲージメント | 電子メール | 2026年5月20日（PT） |
 | カート放棄：24時間 | 電子メール，SMS | 2026年5月10日（PT） |
 | 春プロモーション | 電子メール、プッシュ | 2026年5月19日（PT） |
-| ウィンバック：90日間の非アクティブ | メール | 2026年4月28日（PT） |
-| バースデイ・リワード | メール | 2026年4月15日（PT） |
+| ウィンバック：90日間の非アクティブ | 電子メール | 2026年4月28日（PT） |
+| バースデイ・リワード | 電子メール | 2026年4月15日（PT） |
 | リエンゲージメント：プッシュオプトアウト | SMS | 2026年5月12日（PT） |
 
 過去7日間に3つのジャーニーが変更されました。 これらのいずれかに関する詳細が必要ですか？
@@ -116,10 +134,10 @@ Show me the activation status for the high-value loyalty segment.
 
 | 宛先 | ステータス | 前回成功した実行 | オーディエンスサイズ |
 | --- | --- | --- | --- |
-| Google 広告 | アクティブ | 2026年5月21日午前02:14 | 48,320 |
-| Meta Ads | アクティブ | 2026年5月21日午前01:58 | 48,295 |
-| Salesforce Marketing Cloud | アクティブ | 2026年5月20日午後11:30 | 47,940 |
-| Adobe Target | アクティブ | 2026年5月21日午前12:00 | 48,320 |
+| Google 広告 | アクティブ | 2026年5月21日午前02時14分 | 48,320 |
+| Meta Ads | アクティブ | 2026年5月21日午前01時58分 | 48,295 |
+| Salesforce Marketing Cloud | アクティブ | 2026年5月20日午後11時30分 | 47,940 |
+| Adobe Target | アクティブ | 2026年5月21日午前12時） | 48,320 |
 
 データフローエラーが検出されませんでした。 すべてのアクティベーションは、過去3時間以内に完了しました。
 
@@ -141,7 +159,7 @@ Show me click-through and conversion rates for the [campaign name] campaign over
 
 | チャネル | 送信数 | CTR | コンバージョン数 | Conv. 割合 |
 | --- | --- | --- | --- | --- |
-| メール | 48,320 | 8.4% | 1,973 | 4.1% |
+| 電子メール | 48,320 | 8.4% | 1,973 | 4.1% |
 | プッシュ | 31,200 | 12.1% | 987 | 3.2% |
 
 コンバージョン率：3.8% メール CTRは、前の30日間に対して1.2%増加しました。 プッシュコンバージョンは横ばいです。
@@ -292,6 +310,6 @@ Which channel has the highest conversion rate across all active campaigns?
 
 | リソース | 見つかる内容 |
 | --- | --- |
-| [AJO ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/ajo-home){target="_blank"} | Adobe AJOのドキュメント |
+| [AJO ドキュメント ](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/ajo-home){target="_blank"} | Adobe AJOのドキュメント |
 | [AI レジストリのAJO MCP Server](https://developer.adobe.com/ai-registry/#/mcp/ajo-mcp-server){target="_blank"} | AJO MCP Serverのツールと機能 |
 | [AI レジストリのCJA MCP Server](https://developer.adobe.com/ai-registry/#/mcp/cja-mcp){target="_blank"} | CJA MCP Serverのツールと機能 |

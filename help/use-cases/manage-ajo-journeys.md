@@ -1,28 +1,26 @@
 ---
 title: 顧客に影響を与える前に、ジャーニーの問題を把握したい
-description: CX Coworker Gatewayを使用して、アクティブなAJOジャーニーをモニタリングし、キャンペーン設定をレビューし、オーディエンスにリーチする前に業務上の問題を明らかにします。
-last-substantial-update: 2026-07-14T00:00:00Z
-source-git-commit: 4f557937701441bcc34878e3cd13423ce35487ba
+description: Adobe Journey Optimizer MCP Serverを使用して、アクティブなAJOジャーニーをモニタリングし、キャンペーン設定をレビューし、オーディエンスにリーチする前に運用上の問題を特定します。
+last-substantial-update: 2026-09-16
+source-git-commit: a70eede6e0efe0d1dbdc00c5d9de5aeb3b5d75de
 workflow-type: tm+mt
-source-wordcount: '997'
-ht-degree: 2%
-
+source-wordcount: '1071'
+ht-degree: 4%
 ---
-
 
 # 顧客に影響を与える前に、ジャーニーの問題を把握したい
 <!-- last-modified: 2026-06-08 -->
 
-![&#x200B; エグゼクティブサマリーを使用してキャンペーンとジャーニー戦略を要約するAI クライアント &#x200B;](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step5-02-exe-summary.png){zoomable="yes"}
+![ エグゼクティブサマリーを使用してキャンペーンとジャーニー戦略を要約するAI クライアント ](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step5-02-exe-summary.png){zoomable="yes"}
 
 *選択してズームします。*
 
-ジャーニーの問題が検出されなければ、誰にも気づかれないうちに顧客にリーチできます。 このチュートリアルでは、CX Coworker Gatewayを使用して、Adobe Journey Optimizerを開かずに平易な言葉で回答を得ることで、アクティブなAJOのジャーニーを確認し、キャンペーン設定を確認し、AI クライアントを通じて運用上の問題を明らかにし、その一歩先を行く方法を示します。
+ジャーニーの問題が検出されなければ、誰にも気づかれないうちに顧客にリーチできます。 このチュートリアルでは、Adobe Journey Optimizer MCP Serverを使用して、Adobe Journey Optimizerを開かずに平易な言葉で回答を得ながら、アクティブなAJO ジャーニーの確認、キャンペーン設定の確認、AI クライアントを通じた運用上の問題の洗い出しなどにより、一歩先を行く方法を説明します。
 
 | シナリオの詳細 | |
 | --- | --- |
-| CX エンタープライズアプリケーション | [Adobe Journey Optimizer （AJO） &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/ajo-home) |
-| エージェント型ツール | [CX Coworker Gateway](../tools/mcp-servers.md#cx-coworker-gateway) |
+| CX エンタープライズアプリケーション | [Adobe Journey Optimizer （AJO） ](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/ajo-home) |
+| エージェント型ツール | [CX Enterprise Coworker](https://experienceleague.adobe.com/ja/docs/cx-enterprise-coworker/content/home)または[Adobe Journey Optimizer MCP Server](../tools/mcp-servers.md) |
 | オーディエンス | キャンペーンマネージャー，マーケター |
 | 前提条件 | MCP対応AI クライアント、AJOアクセス |
 
@@ -33,33 +31,39 @@ ht-degree: 2%
 
 >[!BEGINTABS]
 
+>[!TAB CX Enterprise Coworker]
+
+これらの質問に答える最も簡単な方法はCX Enterprise Coworkerです。では、サーバーのセットアップやAI クライアントの設定は必要ありません。 [CX Enterprise Coworkerを試す](https://experienceleague.adobe.com/ja/docs/cx-enterprise-coworker/content/home)
+
+独自のAI クライアントをAdobe Journey Optimizerに直接接続する場合は、以下のタブを参照してください。
+
 >[!TAB  クロード.ai]
 
-CX Coworker Gatewayをカスタムコネクタとして接続して、Adobe Journey Optimizer ツールにアクセスします。
+Adobe Journey Optimizer MCP Serverをカスタムコネクタとして接続します。
 
 1. Claude.aiの&#x200B;**設定/統合**&#x200B;に移動します。
-2. **カスタムコネクタを追加**&#x200B;を選択し、サーバーURLを入力します：`https://cx-coworker-gateway.adobe.io/mcp`
+2. **カスタムコネクタを追加**&#x200B;を選択し、サーバーURLを入力します：`https://ajo-mcp.adobe.io/mcp`
 3. **Connect**&#x200B;を選択し、Adobe IDでログインします。
 
-完全なセットアップ：[Claude.ai カスタムコネクタのドキュメント &#x200B;](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp)
+完全なセットアップ：[Claude.ai カスタムコネクタのドキュメント ](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp)
 
 >[!TAB ChatGPT]
 
-ChatGPT開発者モードを使用してCX同僚ゲートウェイを接続します（Pro、Plus、Business、Enterprise、またはEducation プランが必要です）。
+ChatGPT Developer Modeを使用してAdobe Journey Optimizer MCP Serverに接続します（Pro、Plus、Business、Enterprise、またはEducation プランが必要）。
 
 1. **ChatGPT設定**&#x200B;で&#x200B;**開発者モード**&#x200B;を有効にします。
 2. **設定/統合**&#x200B;に移動し、**カスタムコネクタを追加/リモート MCP サーバー**&#x200B;を選択します。
-3. サーバーURLを入力してください：`https://cx-coworker-gateway.adobe.io/mcp`
+3. サーバーURLを入力してください：`https://ajo-mcp.adobe.io/mcp`
 4. **Connect**&#x200B;を選択し、Adobe IDでログインします。
 
-完全なセットアップ：[ChatGPT MCP ドキュメント &#x200B;](https://developers.openai.com/api/docs/guides/tools-connectors-mcp)
+完全なセットアップ：[ChatGPT MCP ドキュメント ](https://developers.openai.com/api/docs/guides/tools-connectors-mcp)
 
 >[!TAB その他のAI クライアント ]
 
-Gemini、Microsoft Copilot、Cursor、Claude CodeなどのMCP互換アプリケーションを使用している場合、 次のエンドポイントを使用して、CX Workfront Gatewayに接続します。
+Gemini、Microsoft Copilot、Cursor、Claude CodeなどのMCP互換アプリケーションを使用している場合、 次のエンドポイントを使用してAdobe Journey Optimizer MCP Serverに接続します。
 
 ```
-https://cx-coworker-gateway.adobe.io/mcp
+https://ajo-mcp.adobe.io/mcp
 ```
 
 サポートされているすべてのクライアントの完全なセットアップ手順：[AI クライアントに接続](../tools/mcp-servers.md)
@@ -85,7 +89,7 @@ What customer journeys are currently available and what business objectives do t
 
 +++回答の例を見る
 
-![利用可能なカスタマージャーニーとビジネス目標を一覧表示するAI クライアント &#x200B;](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step1.gif){zoomable="yes"}
+![利用可能なカスタマージャーニーとビジネス目標を一覧表示するAI クライアント ](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step1.gif){zoomable="yes"}
 
 *選択してズームします。*
 
@@ -103,7 +107,7 @@ Walk me through the [journey name] journey and explain the customer experience.
 
 +++回答の例を見る
 
-![新規顧客を歓迎するジャーニーの手順と顧客体験を説明するAI クライアント &#x200B;](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step2-welcome-journey.png){zoomable="yes"}
+![新規顧客を歓迎するジャーニーの手順と顧客体験を説明するAI クライアント ](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step2-welcome-journey.png){zoomable="yes"}
 
 *選択してズームします。*
 
@@ -125,7 +129,7 @@ Show me our campaigns, the audiences they target, and the outcomes they're desig
 
 +++回答の例を見る
 
-![&#x200B; アクティブなキャンペーンを、オーディエンスターゲティングおよび意図された結果と共に一覧表示するAI クライアント &#x200B;](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step3.gif){zoomable="yes"}
+![ アクティブなキャンペーンを、オーディエンスターゲティングおよび意図された結果と共に一覧表示するAI クライアント ](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step3.gif){zoomable="yes"}
 
 *選択してズームします。*
 
@@ -143,7 +147,7 @@ How do our campaigns and journeys work together to improve customer engagement?
 
 +++回答の例を見る
 
-![&#x200B; キャンペーンとジャーニーの関係を説明するAI クライアント &#x200B;](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step4-connection.png){zoomable="yes"}
+![ キャンペーンとジャーニーの関係を説明するAI クライアント ](../assets/use-cases/manage-ajo-journeys/manage-ajo-journeys-step4-connection.png){zoomable="yes"}
 
 *選択してズームします。*
 
@@ -180,7 +184,7 @@ AI クライアントとAdobe Journey Optimizerを接続し、5つのプロン�
 
 ## より多くのことを達成
 
-CX Coworker Gatewayでは、AJOの様々なジャーニーとキャンペーンの詳細を確認できます。 以下のシナリオを展開すると、同じセッションで試すことができるプロンプトが表示されます。
+Adobe Journey Optimizer MCP Serverでは、AJOの様々なジャーニーとキャンペーンの詳細を確認できます。 以下のシナリオを展開すると、同じセッションで試すことができるプロンプトが表示されます。
 
 +++変更する前に公開されている情報を把握
 
@@ -265,4 +269,4 @@ What channel configurations are set up in our AJO environment?
 | リソース | 見つかる内容 |
 | --- | --- |
 | [AI レジストリのAJO MCP Server](https://developer.adobe.com/ai-registry/#/mcp/ajo-mcp-server){target="_blank"} | AJO MCP Serverのツールと機能 |
-| [AJO ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/ajo-home){target="_blank"} | Adobe AJOのドキュメント |
+| [AJO ドキュメント ](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/ajo-home){target="_blank"} | Adobe AJOのドキュメント |

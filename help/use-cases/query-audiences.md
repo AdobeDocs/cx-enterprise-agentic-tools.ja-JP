@@ -1,29 +1,31 @@
 ---
 title: オーディエンスとアクティベートされた場所を把握
-description: CX Coworker Gatewayを使用して、オーディエンスのアクティベーションステータスを監視し、宛先の健全性をチェックし、キャンペーンに影響を与える前に問題を特定します。
-last-substantial-update: 2026-07-14T00:00:00Z
-source-git-commit: 4f557937701441bcc34878e3cd13423ce35487ba
+description: Real-Time CDP MCP Serverを使用して、オーディエンスのアクティベーションステータスをモニタリングし、宛先の健全性をチェックし、キャンペーンに影響を与える前に問題を特定します。
+last-substantial-update: 2026-09-16
+source-git-commit: a70eede6e0efe0d1dbdc00c5d9de5aeb3b5d75de
 workflow-type: tm+mt
-source-wordcount: '884'
-ht-degree: 2%
-
+source-wordcount: '993'
+ht-degree: 4%
 ---
-
 
 # オーディエンスとアクティベートされた場所を把握
 
 <!-- last-modified: 2026-06-04 -->
 
-![&#x200B; アクティベーションに関する推奨事項を含む、優先順位付けされたオーディエンス戦略を提供するAI クライアント &#x200B;](../assets/use-cases/query-audiences/query-audiences-step4-02-summary.png){zoomable="yes"}
+![ アクティベーションに関する推奨事項を含む、優先順位付けされたオーディエンス戦略を提供するAI クライアント ](../assets/use-cases/query-audiences/query-audiences-step4-02-summary.png){zoomable="yes"}
 
 *選択してズームします。*
 
-どのオーディエンスがライブで、どこを流れているのか、宛先が健全であるかどうかを知ることは、キャンペーンが開始される前か、パフォーマンスが低下しているときに重要です。 このチュートリアルでは、CX Coworker Gatewayを使用して、Real-Time CDPを開かずに、オーディエンスのステータスと宛先の健全性を数秒で確認し、AI クライアントを通じてアクティベーションの全体像を把握する方法を説明します。
+どのオーディエンスがライブで、どこを流れているのか、宛先が健全であるかどうかを知ることは、キャンペーンが開始される前か、パフォーマンスが低下しているときに重要です。 このチュートリアルでは、Real-Time CDP MCP Serverを使用して、Real-Time CDPを開かずにオーディエンスのステータスと宛先の健全性を数秒で確認し、AI クライアントを通じて完全なアクティベーションの全体像を取得する方法を示します。
+
+>[!NOTE]
+>
+>Real-Time CDP MCP Serverはパブリックベータ版であり、アクセスを許可リストに加えるする必要があります。
 
 | シナリオの詳細 | |
 | --- | --- |
-| CX エンタープライズアプリケーション | [Real-Time Customer Data Platform （Real-Time CDP） &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/rtcdp/home) |
-| エージェント型ツール | [CX Coworker Gateway](../tools/mcp-servers.md#cx-coworker-gateway) |
+| CX エンタープライズアプリケーション | [Real-Time Customer Data Platform （Real-Time CDP） ](https://experienceleague.adobe.com/ja/docs/experience-platform/rtcdp/home) |
+| エージェント型ツール | [CX Enterprise Coworker](https://experienceleague.adobe.com/ja/docs/cx-enterprise-coworker/content/home)または[Real-Time CDP MCP Server](../tools/mcp-servers.md) |
 | オーディエンス | マーケター、アナリスト、オペレーター |
 | 前提条件 | MCP対応AI クライアント、Real-Time CDPアクセス |
 
@@ -33,33 +35,39 @@ ht-degree: 2%
 
 >[!BEGINTABS]
 
+>[!TAB CX Enterprise Coworker]
+
+このアクティベーションの全体像を把握する最速の方法は、CX Enterprise Coworkerです。この場合、サーバーのセットアップやAI クライアントの設定は必要ありません。 [CX Enterprise Coworkerを試す](https://experienceleague.adobe.com/ja/docs/cx-enterprise-coworker/content/home)
+
+独自のAI クライアントをReal-Time CDPに直接接続する場合は、以下のタブを参照してください。 Real-Time CDP MCP Serverはパブリックベータ版で、組織の許可リストに加えるが必要です。
+
 >[!TAB  クロード.ai]
 
-CX Coworker Gatewayをカスタムコネクタとして接続して、Real-Time CDP ツールにアクセスします。
+Real-Time CDP MCP Serverをカスタムコネクタとして接続します。
 
 1. Claude.aiの&#x200B;**設定/統合**&#x200B;に移動します。
-2. **カスタムコネクタを追加**&#x200B;を選択し、サーバーURLを入力します：`https://cx-coworker-gateway.adobe.io/mcp`
+2. **カスタムコネクタを追加**&#x200B;を選択し、サーバーURLを入力します：`https://rtcdp-mcp.adobe.io/mcp`
 3. **Connect**&#x200B;を選択し、Adobe IDでログインします。
 
-完全なセットアップ：[Claude.ai カスタムコネクタのドキュメント &#x200B;](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp)
+完全なセットアップ：[Claude.ai カスタムコネクタのドキュメント ](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp)
 
 >[!TAB ChatGPT]
 
-ChatGPT開発者モードを使用してCX同僚ゲートウェイを接続します（Pro、Plus、Business、Enterprise、またはEducation プランが必要です）。
+ChatGPT Developer Modeを使用してReal-Time CDP MCP Serverに接続します（Pro、Plus、Business、Enterprise、またはEducation プランが必要）。
 
 1. **ChatGPT設定**&#x200B;で&#x200B;**開発者モード**&#x200B;を有効にします。
 2. **設定/統合**&#x200B;に移動し、**カスタムコネクタを追加/リモート MCP サーバー**&#x200B;を選択します。
-3. サーバーURLを入力してください：`https://cx-coworker-gateway.adobe.io/mcp`
+3. サーバーURLを入力してください：`https://rtcdp-mcp.adobe.io/mcp`
 4. **Connect**&#x200B;を選択し、Adobe IDでログインします。
 
-完全なセットアップ：[ChatGPT MCP ドキュメント &#x200B;](https://developers.openai.com/api/docs/guides/tools-connectors-mcp)
+完全なセットアップ：[ChatGPT MCP ドキュメント ](https://developers.openai.com/api/docs/guides/tools-connectors-mcp)
 
 >[!TAB その他のAI クライアント ]
 
-Gemini、Microsoft Copilot、Cursor、Claude CodeなどのMCP互換アプリケーションを使用している場合、 次のエンドポイントを使用して、CX Workfront Gatewayに接続します。
+Gemini、Microsoft Copilot、Cursor、Claude CodeなどのMCP互換アプリケーションを使用している場合、 次のエンドポイントを使用してReal-Time CDP MCP Serverに接続します。
 
 ```
-https://cx-coworker-gateway.adobe.io/mcp
+https://rtcdp-mcp.adobe.io/mcp
 ```
 
 サポートされているすべてのクライアントの完全なセットアップ手順：[AI クライアントに接続](../tools/mcp-servers.md)
@@ -80,7 +88,7 @@ What audiences are currently available and what customer behaviors do they repre
 
 +++回答の例を見る
 
-![利用可能なオーディエンスと、そのオーディエンスが表す顧客行動をリストするAI クライアント &#x200B;](../assets/use-cases/query-audiences/query-audiences-step1-audience-list.png){zoomable="yes"}
+![利用可能なオーディエンスと、そのオーディエンスが表す顧客行動をリストするAI クライアント ](../assets/use-cases/query-audiences/query-audiences-step1-audience-list.png){zoomable="yes"}
 
 *選択してズームします。*
 
@@ -97,7 +105,7 @@ Which audiences are the largest and what makes them valuable?
 
 +++回答の例を見る
 
-![最大のオーディエンスを特定し、その価値を説明するAI クライアント &#x200B;](../assets/use-cases/query-audiences/query-audiences-step2.gif){zoomable="yes"}
+![最大のオーディエンスを特定し、その価値を説明するAI クライアント ](../assets/use-cases/query-audiences/query-audiences-step2.gif){zoomable="yes"}
 
 *選択してズームします。*
 
@@ -114,7 +122,7 @@ Where are our audiences currently being activated and to which destinations?
 
 +++回答の例を見る
 
-オーディエンスのアクティブ化ステータスと宛先マッピングを表示する![AI クライアント &#x200B;](../assets/use-cases/query-audiences/query-audiences-step3.gif){zoomable="yes"}
+オーディエンスのアクティブ化ステータスと宛先マッピングを表示する![AI クライアント ](../assets/use-cases/query-audiences/query-audiences-step3.gif){zoomable="yes"}
 
 *選択してズームします。*
 
@@ -123,7 +131,7 @@ Where are our audiences currently being activated and to which destinations?
 
 ## ステップ 4：戦略的な推奨事項を提案する
 
-CX Coworker GatewayのRTCDPツールは読み取り専用で、アクティベーションステータス、宛先の健全性、データフローのデータは表示されますが、設定は変更されません。 問題を特定すると、アプリケーションで修正が行われます。
+Real-Time CDP MCP Serverのツールは読み取り専用です。アクティベーションステータス、宛先の健全性、データフローのデータは表示されますが、設定は変更されません。 問題を特定すると、アプリケーションで修正が行われます。
 
 ```
 If you were our audience strategist, what would you prioritize next and why?
@@ -140,7 +148,7 @@ If you were our audience strategist, what would you prioritize next and why?
 
 >[!NOTE]
 >
->CX Coworker GatewayのRTCDP ツールは、宛先とアクティベーションのデータを表示しますが、宛先の設定、セグメント定義、データフロー設定を変更することはできません。 修正ステップは、Real-Time CDP アプリケーションで実行されます。
+>Real-Time CDP MCP Serverのツールは、宛先とアクティベーションのデータを表示しますが、宛先設定、セグメント定義、データフロー設定を変更することはできません。 修正ステップは、Real-Time CDP アプリケーションで実行されます。
 
 ## 達成したこと
 
@@ -148,7 +156,7 @@ AI クライアントとReal-Time CDPを接続し、4つのプロンプトでオ
 
 ## より多くのことを達成
 
-CX Coworker GatewayのReal-Time CDPツールは、幅広いオーディエンスとアクティベーションクエリをサポートしています。 以下のシナリオを展開すると、同じセッションで試すことができるプロンプトが表示されます。
+Real-Time CDP MCP Serverは、幅広いオーディエンスおよびアクティベーションクエリをサポートしています。 以下のシナリオを展開すると、同じセッションで試すことができるプロンプトが表示されます。
 
 +++キャンペーンの送信前に何が発生しているのかを正確に把握
 
@@ -239,5 +247,5 @@ Are there any audiences using a non-default merge policy that could cause profil
 
 | リソース | 見つかる内容 |
 | --- | --- |
-| [Adobe AI レジストリ &#x200B;](https://developer.adobe.com/ai-registry/?type=mcp){target="_blank"} | 一部のAdobe MCP サーバーのマネージドコネクタとサーバーの詳細 |
-| [Real-Time CDP ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/rtcdp/home){target="_blank"} | Adobe Real-Time CDPのドキュメント |
+| [Adobe AI レジストリ ](https://developer.adobe.com/ai-registry/?type=mcp){target="_blank"} | 一部のAdobe MCP サーバーのマネージドコネクタとサーバーの詳細 |
+| [Real-Time CDP ドキュメント ](https://experienceleague.adobe.com/ja/docs/experience-platform/rtcdp/home){target="_blank"} | Adobe Real-Time CDPのドキュメント |

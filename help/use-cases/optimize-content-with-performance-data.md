@@ -1,19 +1,17 @@
 ---
 title: データ主導のアップデートでコンテンツのパフォーマンス不足を解消
 description: CJAとAEMを単一のAI セッションで連携することで、コンバージョンのギャップがあるキャンペーンを特定し、原因を診断して、ツールを切り替えることなくコンテンツを更新できます。
-last-substantial-update: 2026-07-14T00:00:00Z
-source-git-commit: 4f557937701441bcc34878e3cd13423ce35487ba
+last-substantial-update: 2026-09-16
+source-git-commit: a70eede6e0efe0d1dbdc00c5d9de5aeb3b5d75de
 workflow-type: tm+mt
-source-wordcount: '1090'
-ht-degree: 2%
-
+source-wordcount: '1146'
+ht-degree: 7%
 ---
-
 
 # データ主導のアップデートでコンテンツのパフォーマンス不足を解消
 <!-- last-modified: 2026-06-10 -->
 
-![&#x200B; オリジナルと更新されたページコンテンツを並べて比較するAI クライアント &#x200B;](../assets/use-cases/optimize-content-with-performance-data/optimize-content-with-performance-data-step5-03-page-compare.png){zoomable="yes"}
+![ オリジナルと更新されたページコンテンツを並べて比較するAI クライアント ](../assets/use-cases/optimize-content-with-performance-data/optimize-content-with-performance-data-step5-03-page-compare.png){zoomable="yes"}
 
 *選択してズームします。*
 
@@ -22,7 +20,7 @@ ht-degree: 2%
 | シナリオの詳細 | |
 | --- | --- |
 | CX エンタープライズアプリケーション | [Customer Journey Analytics](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-overview/cja-overview)、[Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/overview/introduction) |
-| エージェント型ツール | [CX Coworker Gateway](../tools/mcp-servers.md#cx-coworker-gateway)、[AEM Content MCP Server](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/ai-in-aem/using-mcp-with-aem-as-a-cloud-service) |
+| エージェント型ツール | [CX Enterprise Coworker](https://experienceleague.adobe.com/ja/docs/cx-enterprise-coworker/content/home)または[Customer Journey Analytics MCP Server](../tools/mcp-servers.md)および[AEM MCP Server](https://experienceleague.adobe.com/ja/docs/experience-manager-learn/cloud-service/ai/mcp-servers/overview) |
 | オーディエンス | キャンペーンマネージャー，コンテンツストラテジスト，マーケティングオペレーション |
 | 前提条件 | MCP対応AI クライアント、CJAアクセス、AEM as a Cloud Serviceアクセス |
 
@@ -32,6 +30,12 @@ ht-degree: 2%
 ## 始める前に
 
 >[!BEGINTABS]
+
+>[!TAB CX Enterprise Coworker]
+
+CX Enterprise Coworkerはこのチュートリアル全体をカバーしており、サーバーの設定は必要ありません。 [CX Enterprise Coworkerを試す](https://experienceleague.adobe.com/ja/docs/cx-enterprise-coworker/content/home)
+
+独自のAI クライアントを直接接続する場合は、以下のタブを使用して両方のMCP サーバーを接続します。
 
 >[!TAB  クロード.ai]
 
@@ -43,10 +47,10 @@ ht-degree: 2%
 
 | サーバー | エンドポイント |
 | --- | --- |
-| CX同僚のゲートウェイ | `https://cx-coworker-gateway.adobe.io/mcp` |
-| AEM Content MCP Server | `https://mcp.adobeaemcloud.com/adobe/mcp/content` |
+| Customer Journey Analytics MCP Server | `https://cja-mcp.adobe.io/mcp` |
+| AEM MCP Server | `https://mcp.adobeaemcloud.com/adobe/mcp/aem` |
 
-完全なセットアップ：[Claude.ai カスタムコネクタのドキュメント &#x200B;](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp)
+完全なセットアップ：[Claude.ai カスタムコネクタのドキュメント ](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp)
 
 >[!TAB ChatGPT]
 
@@ -59,10 +63,10 @@ ChatGPT デベロッパーモードを使用して両方のMCP サーバーを�
 
 | サーバー | エンドポイント |
 | --- | --- |
-| CX同僚のゲートウェイ | `https://cx-coworker-gateway.adobe.io/mcp` |
-| AEM Content MCP Server | `https://mcp.adobeaemcloud.com/adobe/mcp/content` |
+| Customer Journey Analytics MCP Server | `https://cja-mcp.adobe.io/mcp` |
+| AEM MCP Server | `https://mcp.adobeaemcloud.com/adobe/mcp/aem` |
 
-完全なセットアップ：[ChatGPT MCP ドキュメント &#x200B;](https://developers.openai.com/api/docs/guides/tools-connectors-mcp)
+完全なセットアップ：[ChatGPT MCP ドキュメント ](https://developers.openai.com/api/docs/guides/tools-connectors-mcp)
 
 >[!TAB その他のAI クライアント ]
 
@@ -70,8 +74,8 @@ Gemini、Microsoft Copilot、Cursor、Claude CodeなどのMCP互換アプリケ�
 
 | サーバー | エンドポイント |
 | --- | --- |
-| CX同僚のゲートウェイ | `https://cx-coworker-gateway.adobe.io/mcp` |
-| AEM Content MCP Server | `https://mcp.adobeaemcloud.com/adobe/mcp/content` |
+| Customer Journey Analytics MCP Server | `https://cja-mcp.adobe.io/mcp` |
+| AEM MCP Server | `https://mcp.adobeaemcloud.com/adobe/mcp/aem` |
 
 サポートされているすべてのクライアントの完全なセットアップ手順：[AI クライアントに接続](../tools/mcp-servers.md)
 
@@ -96,7 +100,7 @@ Which campaigns have strong click-through but low conversion in the last 30 days
 
 +++回答の例を見る
 
-![CJAからのクリックスルー率は高いがコンバージョン率は低いAI クライアントサーフェスキャンペーン &#x200B;](../assets/use-cases/optimize-content-with-performance-data/optimize-content-step1-campaigns.png){zoomable="yes"}
+![CJAからのクリックスルー率は高いがコンバージョン率は低いAI クライアントサーフェスキャンペーン ](../assets/use-cases/optimize-content-with-performance-data/optimize-content-step1-campaigns.png){zoomable="yes"}
 
 *選択してズームします。*
 
@@ -114,7 +118,7 @@ What's causing the conversion drop-off, is it device, segment, or content?
 
 +++回答の例を見る
 
-![&#x200B; デバイス、セグメント、コンテンツ要因ごとにコンバージョンの脱落を診断するAI クライアント &#x200B;](../assets/use-cases/optimize-content-with-performance-data/optimize-content-step2-diagnosis.png){zoomable="yes"}
+![ デバイス、セグメント、コンテンツ要因ごとにコンバージョンの脱落を診断するAI クライアント ](../assets/use-cases/optimize-content-with-performance-data/optimize-content-step2-diagnosis.png){zoomable="yes"}
 
 *選択してズームします。*
 
@@ -132,7 +136,7 @@ Show me the Bali Surf Camp page.
 
 +++回答の例を見る
 
-AEMからのランディングページの現在のコンテンツを表示する![AI クライアント &#x200B;](../assets/use-cases/optimize-content-with-performance-data/optimize-content-step3-page-content.png){zoomable="yes"}
+AEMからのランディングページの現在のコンテンツを表示する![AI クライアント ](../assets/use-cases/optimize-content-with-performance-data/optimize-content-step3-page-content.png){zoomable="yes"}
 
 *選択してズームします。*
 
@@ -150,7 +154,7 @@ Which content sections are underperforming, and what changes would you recommend
 
 +++回答の例を見る
 
-パフォーマンスの低いコンテンツセクションを特定し、特定の変更を推奨する![AI クライアント &#x200B;](../assets/use-cases/optimize-content-with-performance-data/optimize-content-with-performance-data-step4.gif){zoomable="yes"}
+パフォーマンスの低いコンテンツセクションを特定し、特定の変更を推奨する![AI クライアント ](../assets/use-cases/optimize-content-with-performance-data/optimize-content-with-performance-data-step4.gif){zoomable="yes"}
 
 *選択してズームします。*
 
@@ -177,7 +181,7 @@ Create an optimized version of the Bali Surf Camp page and summarize the propose
 
 >[!CAUTION]
 >
->確認する前に、提案された変更の完全な概要を確認してください。 AEM Content MCP Serverは、AEM環境に変更内容を書き込みます。 ページは、明示的に再公開されるまで、公開状態のままになります。
+>確認する前に、提案された変更の完全な概要を確認してください。 AEM MCP Serverは、AEM環境に変更内容を書き込みます。 ページは、明示的に再公開されるまで、公開状態のままになります。
 
 
 ## 達成したこと
@@ -268,4 +272,4 @@ Publish all confirmed changes and share the updated URLs.
 | リソース | 見つかる内容 |
 | --- | --- |
 | [AI レジストリのCJA MCP Server](https://developer.adobe.com/ai-registry/#/mcp/cja-mcp){target="_blank"} | CJA MCP Serverのツールと機能 |
-| [AI レジストリのAEM Content MCP Server](https://developer.adobe.com/ai-registry/#/mcp/aem-content-mcp){target="_blank"} | AEM Content MCP Serverのツールと可用性 |
+| [AEM MCP Server ドキュメント ](https://experienceleague.adobe.com/ja/docs/experience-manager-learn/cloud-service/ai/mcp-servers/overview){target="_blank"} | AEM MCP Serverのツールと機能 |
