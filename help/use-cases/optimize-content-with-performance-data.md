@@ -11,7 +11,7 @@ ht-degree: 7%
 # データ主導のアップデートでコンテンツのパフォーマンス不足を解消
 <!-- last-modified: 2026-06-10 -->
 
-![ オリジナルと更新されたページコンテンツを並べて比較するAI クライアント ](../assets/use-cases/optimize-content-with-performance-data/optimize-content-with-performance-data-step5-03-page-compare.png){zoomable="yes"}
+![&#x200B; オリジナルと更新されたページコンテンツを並べて比較するAI クライアント &#x200B;](../assets/use-cases/optimize-content-with-performance-data/optimize-content-with-performance-data-step5-03-page-compare.png){zoomable="yes"}
 
 *選択してズームします。*
 
@@ -50,7 +50,7 @@ CX Enterprise Coworkerはこのチュートリアル全体をカバーしてお�
 | Customer Journey Analytics MCP Server | `https://cja-mcp.adobe.io/mcp` |
 | AEM MCP Server | `https://mcp.adobeaemcloud.com/adobe/mcp/aem` |
 
-完全なセットアップ：[Claude.ai カスタムコネクタのドキュメント ](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp)
+完全なセットアップ：[Claude.ai カスタムコネクタのドキュメント &#x200B;](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp)
 
 >[!TAB ChatGPT]
 
@@ -66,7 +66,7 @@ ChatGPT デベロッパーモードを使用して両方のMCP サーバーを�
 | Customer Journey Analytics MCP Server | `https://cja-mcp.adobe.io/mcp` |
 | AEM MCP Server | `https://mcp.adobeaemcloud.com/adobe/mcp/aem` |
 
-完全なセットアップ：[ChatGPT MCP ドキュメント ](https://developers.openai.com/api/docs/guides/tools-connectors-mcp)
+完全なセットアップ：[ChatGPT MCP ドキュメント &#x200B;](https://developers.openai.com/api/docs/guides/tools-connectors-mcp)
 
 >[!TAB その他のAI クライアント ]
 
@@ -100,7 +100,7 @@ Which campaigns have strong click-through but low conversion in the last 30 days
 
 +++回答の例を見る
 
-![CJAからのクリックスルー率は高いがコンバージョン率は低いAI クライアントサーフェスキャンペーン ](../assets/use-cases/optimize-content-with-performance-data/optimize-content-step1-campaigns.png){zoomable="yes"}
+![CJAからのクリックスルー率は高いがコンバージョン率は低いAI クライアントサーフェスキャンペーン &#x200B;](../assets/use-cases/optimize-content-with-performance-data/optimize-content-step1-campaigns.png){zoomable="yes"}
 
 *選択してズームします。*
 
@@ -118,7 +118,7 @@ What's causing the conversion drop-off, is it device, segment, or content?
 
 +++回答の例を見る
 
-![ デバイス、セグメント、コンテンツ要因ごとにコンバージョンの脱落を診断するAI クライアント ](../assets/use-cases/optimize-content-with-performance-data/optimize-content-step2-diagnosis.png){zoomable="yes"}
+![&#x200B; デバイス、セグメント、コンテンツ要因ごとにコンバージョンの脱落を診断するAI クライアント &#x200B;](../assets/use-cases/optimize-content-with-performance-data/optimize-content-step2-diagnosis.png){zoomable="yes"}
 
 *選択してズームします。*
 
@@ -136,7 +136,7 @@ Show me the Bali Surf Camp page.
 
 +++回答の例を見る
 
-AEMからのランディングページの現在のコンテンツを表示する![AI クライアント ](../assets/use-cases/optimize-content-with-performance-data/optimize-content-step3-page-content.png){zoomable="yes"}
+AEMからのランディングページの現在のコンテンツを表示する![AI クライアント &#x200B;](../assets/use-cases/optimize-content-with-performance-data/optimize-content-step3-page-content.png){zoomable="yes"}
 
 *選択してズームします。*
 
@@ -154,7 +154,7 @@ Which content sections are underperforming, and what changes would you recommend
 
 +++回答の例を見る
 
-パフォーマンスの低いコンテンツセクションを特定し、特定の変更を推奨する![AI クライアント ](../assets/use-cases/optimize-content-with-performance-data/optimize-content-with-performance-data-step4.gif){zoomable="yes"}
+パフォーマンスの低いコンテンツセクションを特定し、特定の変更を推奨する![AI クライアント &#x200B;](../assets/use-cases/optimize-content-with-performance-data/optimize-content-with-performance-data-step4.gif){zoomable="yes"}
 
 *選択してズームします。*
 
@@ -272,4 +272,4 @@ Publish all confirmed changes and share the updated URLs.
 | リソース | 見つかる内容 |
 | --- | --- |
 | [AI レジストリのCJA MCP Server](https://developer.adobe.com/ai-registry/#/mcp/cja-mcp){target="_blank"} | CJA MCP Serverのツールと機能 |
-| [AEM MCP Server ドキュメント ](https://experienceleague.adobe.com/ja/docs/experience-manager-learn/cloud-service/ai/mcp-servers/overview){target="_blank"} | AEM MCP Serverのツールと機能 |
+| [AEM MCP Server ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-learn/cloud-service/ai/mcp-servers/overview){target="_blank"} | AEM MCP Serverのツールと機能 |

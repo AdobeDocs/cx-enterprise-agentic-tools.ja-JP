@@ -12,7 +12,7 @@ ht-degree: 4%
 
 <!-- last-modified: 2026-06-02 -->
 
-![ キャンペーンのパフォーマンスを向上させるための次のステップを推奨するAI クライアント ](../assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step5-02-actions.png){zoomable="yes"}
+![&#x200B; キャンペーンのパフォーマンスを向上させるための次のステップを推奨するAI クライアント &#x200B;](../assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step5-02-actions.png){zoomable="yes"}
 
 *選択してズームします。*
 
@@ -20,7 +20,7 @@ ht-degree: 4%
 
 | シナリオの詳細 | |
 | --- | --- |
-| CX エンタープライズアプリケーション | [Customer Journey Analytics （CJA） ](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-overview/cja-overview) |
+| CX エンタープライズアプリケーション | [Customer Journey Analytics （CJA） &#x200B;](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-overview/cja-overview) |
 | エージェント型ツール | [CX Enterprise Coworker](https://experienceleague.adobe.com/ja/docs/cx-enterprise-coworker/content/home)または[Customer Journey Analytics MCP Server](../tools/mcp-servers.md) |
 | オーディエンス | アナリスト、キャンペーンマネージャー |
 | 前提条件 | MCP対応AI クライアント、CJAアクセス |
@@ -45,7 +45,7 @@ Customer Journey Analytics MCP Serverをカスタムコネクタとして接続�
 2. **カスタムコネクタを追加**&#x200B;を選択し、サーバーURLを入力します：`https://cja-mcp.adobe.io/mcp`
 3. **Connect**&#x200B;を選択し、Adobe IDでログインします。
 
-完全なセットアップ：[Claude.ai カスタムコネクタのドキュメント ](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp)
+完全なセットアップ：[Claude.ai カスタムコネクタのドキュメント &#x200B;](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp)
 
 >[!TAB ChatGPT]
 
@@ -56,7 +56,7 @@ ChatGPT Developer Modeを使用してCustomer Journey Analytics MCP Serverに接
 3. サーバーURLを入力してください：`https://cja-mcp.adobe.io/mcp`
 4. **Connect**&#x200B;を選択し、Adobe IDでログインします。
 
-完全なセットアップ：[ChatGPT MCP ドキュメント ](https://developers.openai.com/api/docs/guides/tools-connectors-mcp)
+完全なセットアップ：[ChatGPT MCP ドキュメント &#x200B;](https://developers.openai.com/api/docs/guides/tools-connectors-mcp)
 
 >[!TAB その他のAI クライアント ]
 
@@ -88,7 +88,7 @@ What data views are available in my CJA account?
 
 +++回答の例を見る
 
-![使用可能なCJA データビューのAI クライアントリスト ](../assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step1-data-views.png){zoomable="yes"}
+![使用可能なCJA データビューのAI クライアントリスト &#x200B;](../assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step1-data-views.png){zoomable="yes"}
 
 *選択してズームします。*
 
@@ -105,7 +105,7 @@ For '[data view name]', show me the top campaigns by revenue and conversion rate
 
 +++回答の例を見る
 
-オムニチャネルのマルチインダストリーデータビューから収益とコンバージョン率で上位キャンペーンを表示する![AI クライアント ](../assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step2.gif){zoomable="yes"}
+オムニチャネルのマルチインダストリーデータビューから収益とコンバージョン率で上位キャンペーンを表示する![AI クライアント &#x200B;](../assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step2.gif){zoomable="yes"}
 
 *選択してズームします。*
 
@@ -126,7 +126,7 @@ What factors are driving the results for these campaign groups?
 
 +++回答の例を見る
 
-![ キャンペーングループのパフォーマンスを促進する要因を説明するAI クライアント ](../assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step3.gif){zoomable="yes"}
+![&#x200B; キャンペーングループのパフォーマンスを促進する要因を説明するAI クライアント &#x200B;](../assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step3.gif){zoomable="yes"}
 
 *選択してズームします。*
 
@@ -160,7 +160,7 @@ Based on these findings, recommend the highest-impact actions to increase revenu
 
 +++回答の例を見る
 
-![ ビジネス価値の見積もりで優先順位付けされたアクションを推奨するAI クライアント ](../assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step5.gif){zoomable="yes"}
+![&#x200B; ビジネス価値の見積もりで優先順位付けされたアクションを推奨するAI クライアント &#x200B;](../assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step5.gif){zoomable="yes"}
 
 *選択してズームします。*
 
@@ -289,4 +289,4 @@ Save this analysis as a Workspace project for executive reporting.
 | リソース | 見つかる内容 |
 | --- | --- |
 | [AI レジストリのCJA MCP Server](https://developer.adobe.com/ai-registry/#/mcp/cja-mcp){target="_blank"} | CJA MCP Serverのツールと機能 |
-| [Customer Journey Analytics ドキュメント ](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-landing){target="_blank"} | Adobe CJAのドキュメント |
+| [Customer Journey Analytics ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-landing){target="_blank"} | Adobe CJAのドキュメント |
