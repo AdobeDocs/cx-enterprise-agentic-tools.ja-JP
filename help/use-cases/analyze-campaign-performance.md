@@ -1,14 +1,12 @@
 ---
 title: レポートを作成することなくキャンペーンのインサイトを可視化
-description: CX Coworker Gatewayを使用して、Customer Journey Analyticsのパフォーマンスに関する質問をわかりやすい言葉で入力し、レポートビルダーを操作することなく回答を得ることができます。
-last-substantial-update: 2026-07-14T00:00:00Z
-source-git-commit: 4f557937701441bcc34878e3cd13423ce35487ba
+description: Customer Journey Analytics MCP Serverを使用して、簡単な言葉でパフォーマンスに関する質問をおこない、レポートビルダーを移動することなく回答を得ることができます。
+last-substantial-update: 2026-09-16
+source-git-commit: a70eede6e0efe0d1dbdc00c5d9de5aeb3b5d75de
 workflow-type: tm+mt
-source-wordcount: '1025'
-ht-degree: 1%
-
+source-wordcount: '1079'
+ht-degree: 4%
 ---
-
 
 # レポートを作成することなくキャンペーンのインサイトを可視化
 
@@ -23,7 +21,7 @@ ht-degree: 1%
 | シナリオの詳細 | |
 | --- | --- |
 | CX エンタープライズアプリケーション | [Customer Journey Analytics （CJA） &#x200B;](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-overview/cja-overview) |
-| エージェント型ツール | [CX Coworker Gateway](../tools/mcp-servers.md#cx-coworker-gateway) |
+| エージェント型ツール | [CX Enterprise Coworker](https://experienceleague.adobe.com/ja/docs/cx-enterprise-coworker/content/home)または[Customer Journey Analytics MCP Server](../tools/mcp-servers.md) |
 | オーディエンス | アナリスト、キャンペーンマネージャー |
 | 前提条件 | MCP対応AI クライアント、CJAアクセス |
 
@@ -33,33 +31,39 @@ ht-degree: 1%
 
 >[!BEGINTABS]
 
+>[!TAB CX Enterprise Coworker]
+
+これらの質問に答える最も簡単な方法はCX Enterprise Coworkerです。では、サーバーのセットアップやAI クライアントの設定は必要ありません。 [CX Enterprise Coworkerを試す](https://experienceleague.adobe.com/ja/docs/cx-enterprise-coworker/content/home)
+
+独自のAI クライアントをCustomer Journey Analyticsに直接接続する場合は、以下のタブを参照してください。
+
 >[!TAB  クロード.ai]
 
-CX Coworker Gatewayをカスタムコネクタとして接続して、Customer Journey Analytics ツールにアクセスします。
+Customer Journey Analytics MCP Serverをカスタムコネクタとして接続します。
 
 1. Claude.aiの&#x200B;**設定/統合**&#x200B;に移動します。
-2. **カスタムコネクタを追加**&#x200B;を選択し、サーバーURLを入力します：`https://cx-coworker-gateway.adobe.io/mcp`
+2. **カスタムコネクタを追加**&#x200B;を選択し、サーバーURLを入力します：`https://cja-mcp.adobe.io/mcp`
 3. **Connect**&#x200B;を選択し、Adobe IDでログインします。
 
 完全なセットアップ：[Claude.ai カスタムコネクタのドキュメント &#x200B;](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp)
 
 >[!TAB ChatGPT]
 
-ChatGPT開発者モードを使用してCX同僚ゲートウェイを接続します（Pro、Plus、Business、Enterprise、またはEducation プランが必要です）。
+ChatGPT Developer Modeを使用してCustomer Journey Analytics MCP Serverに接続します（Pro、Plus、Business、Enterprise、またはEducation プランが必要）。
 
 1. **ChatGPT設定**&#x200B;で&#x200B;**開発者モード**&#x200B;を有効にします。
 2. **設定/統合**&#x200B;に移動し、**カスタムコネクタを追加/リモート MCP サーバー**&#x200B;を選択します。
-3. サーバーURLを入力してください：`https://cx-coworker-gateway.adobe.io/mcp`
+3. サーバーURLを入力してください：`https://cja-mcp.adobe.io/mcp`
 4. **Connect**&#x200B;を選択し、Adobe IDでログインします。
 
 完全なセットアップ：[ChatGPT MCP ドキュメント &#x200B;](https://developers.openai.com/api/docs/guides/tools-connectors-mcp)
 
 >[!TAB その他のAI クライアント ]
 
-Gemini、Microsoft Copilot、Cursor、Claude CodeなどのMCP互換アプリケーションを使用している場合、 次のエンドポイントを使用して、CX Workfront Gatewayに接続します。
+Gemini、Microsoft Copilot、Cursor、Claude CodeなどのMCP互換アプリケーションを使用している場合、 次のエンドポイントを使用してCustomer Journey Analytics MCP Serverに接続します。
 
 ```
-https://cx-coworker-gateway.adobe.io/mcp
+https://cja-mcp.adobe.io/mcp
 ```
 
 サポートされているすべてのクライアントの完全なセットアップ手順：[AI クライアントに接続](../tools/mcp-servers.md)
@@ -165,7 +169,7 @@ Based on these findings, recommend the highest-impact actions to increase revenu
 
 >[!NOTE]
 >
->CX Coworker GatewayからアクセスしたCJAツールは、CJA内で、セグメント、計算指標、Workspaceプロジェクトを同じセッションで作成できます。 他のアプリケーションのキャンペーン、ジャーニー、コンテンツを更新するには、関連するMCP サーバーを接続するか、アプリケーションに直接移動します。
+>CJAのツールは、CJA内で、セグメント、計算指標、Workspaceプロジェクトを同じセッションで作成できます。 他のアプリケーションのキャンペーン、ジャーニー、コンテンツを更新するには、関連するMCP サーバーを接続するか、アプリケーションに直接移動します。
 
 ## 達成したこと
 
@@ -173,7 +177,7 @@ AI クライアントとCustomer Journey Analyticsを接続し、5つのプロ�
 
 ## より多くのことを達成
 
-CX Coworker Gatewayでは、チュートリアルで紹介されているよりもはるかに多くのCustomer Journey Analytics インサイトを獲得できます。 以下のシナリオを展開すると、同じセッションで試すことができるプロンプトが表示されます。
+Customer Journey Analytics MCP Serverは、チュートリアルで学ぶよりもはるかに多くのインサイトを獲得することができます。 以下のシナリオを展開すると、同じセッションで試すことができるプロンプトが表示されます。
 
 +++効果的なものと効果的でないものを見つける
 
@@ -257,7 +261,7 @@ What would have the biggest impact on revenue?
 
 +++「
 
-CX Coworker GatewayからアクセスしたCJAのツールは、AI セッションから離れることなく、CJA内で直接、セグメント、オーディエンス、計算指標、Workspaceプロジェクトを作成できます。 これらのプロンプトを使用して、発見したことに基づいて行動します。
+CJAを利用すれば、AIのセッションから離れることなく、CJAでセグメント、オーディエンス、計算指標、Workspaceプロジェクトを直接作成できます。 これらのプロンプトを使用して、発見したことに基づいて行動します。
 
 **プロンプト**
 
