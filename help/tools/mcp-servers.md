@@ -5,7 +5,7 @@ last-substantial-update: 2026-09-16
 source-git-commit: a70eede6e0efe0d1dbdc00c5d9de5aeb3b5d75de
 workflow-type: tm+mt
 source-wordcount: '2400'
-ht-degree: 6%
+ht-degree: 8%
 ---
 
 # MCP サーバー
@@ -21,7 +21,7 @@ Adobe MCP サーバーは、オープン [&#x200B; モデル コンテキスト 
 >[!CONTEXTUALHELP]
 >id="cx-enterprise-agentic-tools_mcp_servers_cx-enterprise"
 >title="CX Enterprise Coworker"
->abstract="サーバーをセットアップすることなく、さまざまな顧客体験エンタープライズアプリケーションに平易な言語で質問、分析、アクションを実施できます。 独自のMCP サーバーを持つ個々のアプリケーションの場合は、代わりに直接接続します。"
+>abstract="サーバーの設定を行わずに、さまざまな CX Enterprise アプリケーションをまたいで平易な言語でアクションを実施できます。 独自の MCP サーバーを持つ個々のアプリケーションの場合は、代わりに直接接続します。"
 >additional-url="https://experienceleague.adobe.com/ja/docs/cx-enterprise-coworker/content/home" text="CX Enterprise Coworker ドキュメント"
 
 ![AI クライアントをCX Enterprise アプリケーションに接続するCX Enterprise Coworker](../assets/mcp-sub-hero.gif)
