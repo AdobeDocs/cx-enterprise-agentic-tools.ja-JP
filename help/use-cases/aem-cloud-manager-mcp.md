@@ -52,7 +52,7 @@ claude mcp add --transport http adobe-cloud-manager https://mcp.adobeaemcloud.co
 
 Claude Codeを再起動します。 Cloud Managerのツールは、次回のセッションで利用できます。
 
-完全なセットアップ：[Claude Code MCP ドキュメント ](https://docs.anthropic.com/en/docs/claude-code/mcp)
+完全なセットアップ：[Claude Code MCP ドキュメント &#x200B;](https://docs.anthropic.com/en/docs/claude-code/mcp)
 
 >[!TAB  カーソル ]
 
@@ -71,7 +71,7 @@ Cloud Manager MCP Serverをプロジェクトルートの`~/.cursor/mcp.json` �
 
 **Settings > MCP**&#x200B;を開き、サーバーの横にある&#x200B;**Connect**&#x200B;を選択し、Adobe IDでログインします。
 
-完全なセットアップ：[ カーソル MCP ドキュメント ](https://cursor.com/docs/mcp)
+完全なセットアップ：[&#x200B; カーソル MCP ドキュメント &#x200B;](https://cursor.com/docs/mcp)
 
 >[!TAB GitHub コパイロット ]
 
@@ -92,7 +92,7 @@ Cloud Manager MCP Serverをプロジェクトルートの`~/.cursor/mcp.json` �
 
 **GitHub Copilot Chat** パネルを開き、**エージェントモード**&#x200B;に切り替え、サーバーの横にある&#x200B;**Connect**&#x200B;を選択します。 MCP ツールは、エージェントモードでのみ使用できます。
 
-完全なセットアップ：[VS Code MCP サーバーのドキュメント ](https://code.visualstudio.com/docs/copilot/customization/mcp-servers)
+完全なセットアップ：[VS Code MCP サーバーのドキュメント &#x200B;](https://code.visualstudio.com/docs/copilot/customization/mcp-servers)
 
 >[!TAB その他のAI プラットフォーム ]
 
@@ -124,7 +124,7 @@ What is the status of the production environment?
 
 +++回答の例を見る
 
-![Cloud Managerの本番環境のステータスを表示するAI プラットフォーム ](../assets/use-cases/aem-cloud-manager-mcp/aem-cloud-manager-mcp-step1-01-ai.png){zoomable="yes"}
+![Cloud Managerの本番環境のステータスを表示するAI プラットフォーム &#x200B;](../assets/use-cases/aem-cloud-manager-mcp/aem-cloud-manager-mcp-step1-01-ai.png){zoomable="yes"}
 
 *選択してズームします。*
 
@@ -141,7 +141,7 @@ Show me the last five pipeline runs for the production pipeline.
 
 +++回答の例を見る
 
-実稼動パイプラインの最後の5つのパイプライン実行を示す![AI プラットフォーム ](../assets/use-cases/aem-cloud-manager-mcp/aem-cloud-manager-mcp-step2-01-ai.png){zoomable="yes"}
+実稼動パイプラインの最後の5つのパイプライン実行を示す![AI プラットフォーム &#x200B;](../assets/use-cases/aem-cloud-manager-mcp/aem-cloud-manager-mcp-step2-01-ai.png){zoomable="yes"}
 
 *選択してズームします。*
 
@@ -158,7 +158,7 @@ Run the Fullstack pipeline against dev environment of WKND sandbox program.
 
 +++回答の例を見る
 
-![ パイプラインのトリガー確認と、実行中のパイプラインを反映したCloud Manager UIを表示するAI プラットフォーム ](../assets/use-cases/aem-cloud-manager-mcp/aem-cloud-manager-mcp-step3.gif){zoomable="yes"}
+![&#x200B; パイプラインのトリガー確認と、実行中のパイプラインを反映したCloud Manager UIを表示するAI プラットフォーム &#x200B;](../assets/use-cases/aem-cloud-manager-mcp/aem-cloud-manager-mcp-step3.gif){zoomable="yes"}
 
 *選択してズームします。*
 
@@ -179,7 +179,7 @@ What is the status of the triggered pipeline?
 
 +++回答の例を見る
 
-![ トリガーされたパイプライン実行のステータスを表示するAI プラットフォーム ](../assets/use-cases/aem-cloud-manager-mcp/aem-cloud-manager-mcp-step4-01-ai.png){zoomable="yes"}
+![&#x200B; トリガーされたパイプライン実行のステータスを表示するAI プラットフォーム &#x200B;](../assets/use-cases/aem-cloud-manager-mcp/aem-cloud-manager-mcp-step4-01-ai.png){zoomable="yes"}
 
 *選択してズームします。*
 
