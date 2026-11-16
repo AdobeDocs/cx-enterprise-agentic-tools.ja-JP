@@ -12,7 +12,7 @@ ht-degree: 7%
 
 <!-- last-modified: 2026-05-21 -->
 
-![ クロスチャネルキャンペーンレビューの実行](https://placehold.co/1600x900?text=Cross-Channel+Campaign+Review){zoomable="yes"}
+![&#x200B; クロスチャネルキャンペーンレビューの実行](https://placehold.co/1600x900?text=Cross-Channel+Campaign+Review){zoomable="yes"}
 
 *選択してズームします。*
 
@@ -37,9 +37,9 @@ Adobe Workfrontは、サーバーの設定やAI プラットフォームの設�
 
 Coworkerを直接使用できない場合や、使用したくない場合は、代わりに自分のAI プラットフォームから使用してください。 AI プラットフォームの&#x200B;**同僚** タブを参照してください。 それでも問題が解決しない場合は、残りのタブを使用して、AI プラットフォームをAJO、CJA、Real-Time CDP MCP サーバーに直接接続します。 Real-Time CDP MCP Serverはパブリックベータ版で、組織の許可リストに加えるが必要です。
 
->AI プラットフォームの[!TAB 同僚]
+>[!TAB AI プラットフォームの 同僚]
 
-また、自社のAI プラットフォームからAI プラットフォーム向けに開発したCoworkerを使用して、このチュートリアルを完了することもできます。 [AI プラットフォーム用に共同作業者を設定](../tools/mcp-servers.md#connect-to-your-ai-platform) | [Adobe ドキュメント ](https://experienceleague.adobe.com/en/docs/coworker/content/ai-platforms#set-up-coworker)
+また、自社のAI プラットフォームからAI プラットフォーム向けに開発したCoworkerを使用して、このチュートリアルを完了することもできます。 [AI プラットフォーム用に共同作業者を設定](../tools/mcp-servers.md#connect-to-your-ai-platform) | [Adobe ドキュメント &#x200B;](https://experienceleague.adobe.com/en/docs/coworker/content/ai-platforms#set-up-coworker)
 
 >[!TAB  クロード.ai]
 
@@ -55,7 +55,7 @@ Coworkerを直接使用できない場合や、使用したくない場合は、
 | Customer Journey Analytics MCP Server | `https://cja-mcp.adobe.io/mcp` |
 | Real-Time CDP MCP Server | `https://rtcdp-mcp.adobe.io/mcp` |
 
-完全なセットアップ：[Claude.ai カスタムコネクタのドキュメント ](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp)
+完全なセットアップ：[Claude.ai カスタムコネクタのドキュメント &#x200B;](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp)
 
 >[!TAB ChatGPT]
 
@@ -72,7 +72,7 @@ ChatGPT デベロッパーモードを使用して3つのMCP サーバーをす�
 | Customer Journey Analytics MCP Server | `https://cja-mcp.adobe.io/mcp` |
 | Real-Time CDP MCP Server | `https://rtcdp-mcp.adobe.io/mcp` |
 
-完全なセットアップ：[ChatGPT MCP ドキュメント ](https://developers.openai.com/api/docs/guides/tools-connectors-mcp)
+完全なセットアップ：[ChatGPT MCP ドキュメント &#x200B;](https://developers.openai.com/api/docs/guides/tools-connectors-mcp)
 
 >[!TAB その他のAI プラットフォーム ]
 
@@ -314,6 +314,6 @@ Which channel has the highest conversion rate across all active campaigns?
 
 | リソース | 見つかる内容 |
 | --- | --- |
-| [AJO ドキュメント ](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/ajo-home){target="_blank"} | Adobe AJOのドキュメント |
+| [AJO ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/ajo-home){target="_blank"} | Adobe AJOのドキュメント |
 | [AI レジストリのAJO MCP Server](https://developer.adobe.com/ai-registry/#/mcp/ajo-mcp-server){target="_blank"} | AJO MCP Serverのツールと機能 |
 | [AI レジストリのCJA MCP Server](https://developer.adobe.com/ai-registry/#/mcp/cja-mcp){target="_blank"} | CJA MCP Serverのツールと機能 |

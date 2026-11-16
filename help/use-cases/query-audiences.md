@@ -12,7 +12,7 @@ ht-degree: 3%
 
 <!-- last-modified: 2026-06-04 -->
 
-![ アクティベーションに関する推奨事項を含む、優先順位付けされたオーディエンス戦略を提供するAI プラットフォーム ](../assets/use-cases/query-audiences/query-audiences-step4-02-summary.png){zoomable="yes"}
+![&#x200B; アクティベーションに関する推奨事項を含む、優先順位付けされたオーディエンス戦略を提供するAI プラットフォーム &#x200B;](../assets/use-cases/query-audiences/query-audiences-step4-02-summary.png){zoomable="yes"}
 
 *選択してズームします。*
 
@@ -24,7 +24,7 @@ ht-degree: 3%
 
 | シナリオの詳細 | |
 | --- | --- |
-| CX Enterprise製品 | [Real-Time Customer Data Platform （Real-Time CDP） ](https://experienceleague.adobe.com/ja/docs/experience-platform/rtcdp/home) |
+| CX Enterprise製品 | [Real-Time Customer Data Platform （Real-Time CDP） &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/rtcdp/home) |
 | エージェント型ツール | [Adobe CX Enterprise Coworker](https://experienceleague.adobe.com/ja/docs/cx-enterprise-coworker/content/home)、[Adobe CX Enterprise Coworker for AI Platforms](../tools/mcp-servers.md#connect-to-your-ai-platform)または[Real-Time CDP MCP Server](../tools/mcp-servers.md) |
 | オーディエンス | マーケター、アナリスト、オペレーター |
 | 前提条件 | Real-Time CDPへのアクセス、Coworker、AI プラットフォーム用のCoworker付きAI プラットフォーム、MCP対応AI プラットフォーム |
@@ -41,9 +41,9 @@ ht-degree: 3%
 
 Coworkerを直接使用できない場合や、使用したくない場合は、代わりに自分のAI プラットフォームから使用してください。 AI プラットフォームの&#x200B;**同僚** タブを参照してください。 それでも問題が解決しない場合は、残りのタブを使用して、AI プラットフォームをReal-Time CDP MCP Serverに直接接続します。 Real-Time CDP MCP Serverはパブリックベータ版で、組織の許可リストに加えるが必要です。
 
->AI プラットフォームの[!TAB 同僚]
+>[!TAB AI プラットフォームの 同僚]
 
-また、自社のAI プラットフォームからAI プラットフォーム向けに開発したCoworkerを使用して、このチュートリアルを完了することもできます。 [AI プラットフォーム用に共同作業者を設定](../tools/mcp-servers.md#connect-to-your-ai-platform) | [Adobe ドキュメント ](https://experienceleague.adobe.com/en/docs/coworker/content/ai-platforms#set-up-coworker)
+また、自社のAI プラットフォームからAI プラットフォーム向けに開発したCoworkerを使用して、このチュートリアルを完了することもできます。 [AI プラットフォーム用に共同作業者を設定](../tools/mcp-servers.md#connect-to-your-ai-platform) | [Adobe ドキュメント &#x200B;](https://experienceleague.adobe.com/en/docs/coworker/content/ai-platforms#set-up-coworker)
 
 >[!TAB  クロード.ai]
 
@@ -53,7 +53,7 @@ Real-Time CDP MCP Serverをカスタムコネクタとして接続します。
 2. **カスタムコネクタを追加**&#x200B;を選択し、サーバーURLを入力します：`https://rtcdp-mcp.adobe.io/mcp`
 3. **Connect**&#x200B;を選択し、Adobe IDでログインします。
 
-完全なセットアップ：[Claude.ai カスタムコネクタのドキュメント ](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp)
+完全なセットアップ：[Claude.ai カスタムコネクタのドキュメント &#x200B;](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp)
 
 >[!TAB ChatGPT]
 
@@ -64,7 +64,7 @@ ChatGPT Developer Modeを使用してReal-Time CDP MCP Serverに接続します�
 3. サーバーURLを入力してください：`https://rtcdp-mcp.adobe.io/mcp`
 4. **Connect**&#x200B;を選択し、Adobe IDでログインします。
 
-完全なセットアップ：[ChatGPT MCP ドキュメント ](https://developers.openai.com/api/docs/guides/tools-connectors-mcp)
+完全なセットアップ：[ChatGPT MCP ドキュメント &#x200B;](https://developers.openai.com/api/docs/guides/tools-connectors-mcp)
 
 >[!TAB その他のAI プラットフォーム ]
 
@@ -92,7 +92,7 @@ What audiences are currently available and what customer behaviors do they repre
 
 +++回答の例を見る
 
-![利用可能なオーディエンスと、そのオーディエンスが表す顧客行動を一覧表示するAI プラットフォーム ](../assets/use-cases/query-audiences/query-audiences-step1-audience-list.png){zoomable="yes"}
+![利用可能なオーディエンスと、そのオーディエンスが表す顧客行動を一覧表示するAI プラットフォーム &#x200B;](../assets/use-cases/query-audiences/query-audiences-step1-audience-list.png){zoomable="yes"}
 
 *選択してズームします。*
 
@@ -109,7 +109,7 @@ Which audiences are the largest and what makes them valuable?
 
 +++回答の例を見る
 
-![最大のオーディエンスを特定し、その価値を説明するAI プラットフォーム ](../assets/use-cases/query-audiences/query-audiences-step2.gif){zoomable="yes"}
+![最大のオーディエンスを特定し、その価値を説明するAI プラットフォーム &#x200B;](../assets/use-cases/query-audiences/query-audiences-step2.gif){zoomable="yes"}
 
 *選択してズームします。*
 
@@ -126,7 +126,7 @@ Where are our audiences currently being activated and to which destinations?
 
 +++回答の例を見る
 
-![ オーディエンスのアクティブ化ステータスと宛先マッピングを表示するAI プラットフォーム ](../assets/use-cases/query-audiences/query-audiences-step3.gif){zoomable="yes"}
+![&#x200B; オーディエンスのアクティブ化ステータスと宛先マッピングを表示するAI プラットフォーム &#x200B;](../assets/use-cases/query-audiences/query-audiences-step3.gif){zoomable="yes"}
 
 *選択してズームします。*
 
@@ -251,5 +251,5 @@ Are there any audiences using a non-default merge policy that could cause profil
 
 | リソース | 見つかる内容 |
 | --- | --- |
-| [Adobe AI レジストリ ](https://developer.adobe.com/ai-registry/?type=mcp){target="_blank"} | 一部のAdobe MCP サーバーのマネージドコネクタとサーバーの詳細 |
-| [Real-Time CDP ドキュメント ](https://experienceleague.adobe.com/ja/docs/experience-platform/rtcdp/home){target="_blank"} | Adobe Real-Time CDPのドキュメント |
+| [Adobe AI レジストリ &#x200B;](https://developer.adobe.com/ai-registry/?type=mcp){target="_blank"} | 一部のAdobe MCP サーバーのマネージドコネクタとサーバーの詳細 |
+| [Real-Time CDP ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/rtcdp/home){target="_blank"} | Adobe Real-Time CDPのドキュメント |

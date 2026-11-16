@@ -12,7 +12,7 @@ ht-degree: 7%
 
 <!-- last-modified: 2026-05-22 -->
 
-![ ページが公開されたことを確認し、ライブ URLを返すAI プラットフォーム ](../assets/use-cases/manage-aem-content/manage-aem-content-step4-02-product.png){zoomable="yes"}
+![&#x200B; ページが公開されたことを確認し、ライブ URLを返すAI プラットフォーム &#x200B;](../assets/use-cases/manage-aem-content/manage-aem-content-step4-02-product.png){zoomable="yes"}
 
 *選択してズームします。*
 
@@ -37,9 +37,9 @@ web サイトのコンテンツを最新の状態に保つことは、常に運�
 
 Coworkerを直接使用できない場合や、使用したくない場合は、代わりに自分のAI プラットフォームから使用してください。 AI プラットフォームの&#x200B;**同僚** タブを参照してください。 それでも問題が解決しない場合は、残りのタブを使用して、AI プラットフォームをAEM MCP Serverに直接接続します。
 
->AI プラットフォームの[!TAB 同僚]
+>[!TAB AI プラットフォームの 同僚]
 
-また、自社のAI プラットフォームからAI プラットフォーム向けに開発したCoworkerを使用して、このチュートリアルを完了することもできます。 [AI プラットフォーム用に共同作業者を設定](../tools/mcp-servers.md#connect-to-your-ai-platform) | [Adobe ドキュメント ](https://experienceleague.adobe.com/en/docs/coworker/content/ai-platforms#set-up-coworker)
+また、自社のAI プラットフォームからAI プラットフォーム向けに開発したCoworkerを使用して、このチュートリアルを完了することもできます。 [AI プラットフォーム用に共同作業者を設定](../tools/mcp-servers.md#connect-to-your-ai-platform) | [Adobe ドキュメント &#x200B;](https://experienceleague.adobe.com/en/docs/coworker/content/ai-platforms#set-up-coworker)
 
 >[!TAB  クロード.ai]
 
@@ -49,7 +49,7 @@ AEM MCP Serverをカスタムコネクタとして接続します。
 2. **カスタムコネクタを追加**&#x200B;を選択し、サーバーURLを入力します：`https://mcp.adobeaemcloud.com/adobe/mcp/aem`
 3. **Connect**&#x200B;を選択し、Adobe IDでログインします。
 
-完全なセットアップ：[Claude.ai カスタムコネクタのドキュメント ](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp)
+完全なセットアップ：[Claude.ai カスタムコネクタのドキュメント &#x200B;](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp)
 
 >[!TAB ChatGPT]
 
@@ -60,7 +60,7 @@ ChatGPT Developer Modeを使用してAEM MCP Serverに接続します（Pro、Pl
 3. サーバーURLを入力してください：`https://mcp.adobeaemcloud.com/adobe/mcp/aem`
 4. **Connect**&#x200B;を選択し、Adobe IDでログインします。
 
-完全なセットアップ：[ChatGPT MCP ドキュメント ](https://developers.openai.com/api/docs/guides/tools-connectors-mcp)
+完全なセットアップ：[ChatGPT MCP ドキュメント &#x200B;](https://developers.openai.com/api/docs/guides/tools-connectors-mcp)
 
 >[!TAB その他のAI プラットフォーム ]
 
@@ -92,7 +92,7 @@ From WKND Dev environment, find all ski related content.
 
 +++回答の例を見る
 
-![WKND Dev AEM環境からのスキーコンテンツの検索結果を表示するAI プラットフォーム ](../assets/use-cases/manage-aem-content/manage-aem-content-step1-find-ski.png){zoomable="yes"}
+![WKND Dev AEM環境からのスキーコンテンツの検索結果を表示するAI プラットフォーム &#x200B;](../assets/use-cases/manage-aem-content/manage-aem-content-step1-find-ski.png){zoomable="yes"}
 
 *選択してズームします。*
 
@@ -109,7 +109,7 @@ Show me the US English Home Page.
 
 +++回答の例を見る
 
-![AEMの米国英語ホームページのコンテンツ構造を表示するAI プラットフォーム ](../assets/use-cases/manage-aem-content/manage-aem-content-step2-home-page.png){zoomable="yes"}
+![AEMの米国英語ホームページのコンテンツ構造を表示するAI プラットフォーム &#x200B;](../assets/use-cases/manage-aem-content/manage-aem-content-step2-home-page.png){zoomable="yes"}
 
 *選択してズームします。*
 
@@ -126,7 +126,7 @@ Improve the Hero CTAs.
 
 +++回答の例を見る
 
-![変更を適用する前に、確認プロンプトを使用して改善されたHero CTA コピーを提案するAI プラットフォーム ](../assets/use-cases/manage-aem-content/manage-aem-content-step3.gif){zoomable="yes"}
+![変更を適用する前に、確認プロンプトを使用して改善されたHero CTA コピーを提案するAI プラットフォーム &#x200B;](../assets/use-cases/manage-aem-content/manage-aem-content-step3.gif){zoomable="yes"}
 
 *選択してズームします。*
 
@@ -147,7 +147,7 @@ Publish the changes and share the URL.
 
 +++回答の例を見る
 
-![ ページが公開されたことを確認し、ライブ URLを返すAI プラットフォーム ](../assets/use-cases/manage-aem-content/manage-aem-content-step4.gif){zoomable="yes"}
+![&#x200B; ページが公開されたことを確認し、ライブ URLを返すAI プラットフォーム &#x200B;](../assets/use-cases/manage-aem-content/manage-aem-content-step4.gif){zoomable="yes"}
 
 *選択してズームします。*
 
@@ -279,5 +279,5 @@ Promote the May Updates launch to production.
 
 | リソース | 見つかる内容 |
 | --- | --- |
-| [AEM MCP Server ドキュメント ](https://experienceleague.adobe.com/ja/docs/experience-manager-learn/cloud-service/ai/mcp-servers/overview){target="_blank"} | ツールリストと可用性 |
+| [AEM MCP Server ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-learn/cloud-service/ai/mcp-servers/overview){target="_blank"} | ツールリストと可用性 |
 | [AEM as a Cloud Service のドキュメント](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service){target="_blank"} | Adobe AEMのドキュメント |

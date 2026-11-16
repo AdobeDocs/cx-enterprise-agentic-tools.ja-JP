@@ -14,7 +14,7 @@ ht-degree: 6%
 
 Adobe MCP サーバーは、互換性のあるあらゆるAI プラットフォームに、Adobeのデータとワークフローへの直接的で管理されたアクセスを提供します。 接続すれば、AI環境から直接、キャンペーンのパフォーマンスのクエリ、オーディエンスのアクティベーション、ジャーニーのレビュー、コンテンツの管理などをおわかりやすい言葉で行うことができます。 MCP サーバーは、企業のAI基盤とAdobeの基盤システムの間に配置されているため、企業のアクセス制御やデータガバナンスを維持しながら、自然言語による柔軟性を実現できます。
 
-Adobe MCP サーバーは、オープン [ モデル コンテキスト プロトコル ](https://modelcontextprotocol.io/docs/getting-started/intro)標準に従います。 MCP対応のAI基盤は、あらゆるAdobe MCP サーバーに接続できます。
+Adobe MCP サーバーは、オープン [&#x200B; モデル コンテキスト プロトコル &#x200B;](https://modelcontextprotocol.io/docs/getting-started/intro)標準に従います。 MCP対応のAI基盤は、あらゆるAdobe MCP サーバーに接続できます。
 
 >[!TIP]
 >
@@ -72,7 +72,7 @@ AIを活用してCX Enterprise アプリケーションを操作する方法は3
 
 ほとんどのAdobe MCP サーバーは、Adobe Identity Management サービス（IMS）でOAuthを使用します。 プロンプトが表示されたら、正しいIMS組織を選択します。 間違ったものを選択することは、認証エラーの最も一般的な原因です。
 
-![Adobe MCP サーバーに接続しているAI エージェント ](../assets/hero-connect-mcp-servers.gif)
+![Adobe MCP サーバーに接続しているAI エージェント &#x200B;](../assets/hero-connect-mcp-servers.gif)
 
 Coworkerを直接使用する場合、以下は適用されません。 独自のAI プラットフォームからCoworkerを使用するには、「**Coworker for AI platforms**」タブから始めます。 残りのタブは、独自のAI プラットフォームをAdobe MCP Serverに直接接続するためのタブで、AEM MCP Server エンドポイントを例として使用します。 同じプロセスがAdobe MCP サーバーにも適用されます。接続するサーバーのエンドポイント URLをスワップします。
 
@@ -82,9 +82,9 @@ Coworkerを直接使用する場合、以下は適用されません。 独自�
 
 Adobe Workfrontの多くの機能は既に備わっています。 追加するサーバーも、登録するエンドポイントも、設定するAI プラットフォームもありません。 Coworkerにログインすると、使用できるようになります。
 
-完全なドキュメント：[同僚のドキュメント ](https://experienceleague.adobe.com/ja/docs/cx-enterprise-coworker/content/home)
+完全なドキュメント：[同僚のドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/cx-enterprise-coworker/content/home)
 
->AI プラットフォームの[!TAB 同僚]
+>[!TAB AI プラットフォームの 同僚]
 
 Coworker for AI platformsは、AI プラットフォームをCoworkerに接続するMCP サーバーです。 Coworkerで利用できるすべてのものは、それを通じて利用できます。 チャットインターフェイスとして、Claude、ChatGPT、Microsoft 365 Copilot、Gemini EnterpriseなどのAI プラットフォームを使用し、Coworkerがバックグラウンドで作業を行います。Coworkerを直接使用する場合と同じです。
 
@@ -102,7 +102,7 @@ Adobeの資格情報を使用してログインすると、Adobe IDに関連付�
 
 ### <img src="../assets/icons/star.svg" width="24" height="24" alt="推奨"> マネージド コネクタを使用
 
-[Adobe AI レジストリ ](https://developer.adobe.com/ai-registry/?type=connector)に移動し、Adobe アプリケーションを検索します。 Claude コネクタが一覧表示されている場合（例：[Adobe Experience Manager コネクタ ](https://developer.adobe.com/ai-registry/#/connectors/adobe-experience-manager-connector)）、次の手順ではなく、その設定手順に従います。
+[Adobe AI レジストリ &#x200B;](https://developer.adobe.com/ai-registry/?type=connector)に移動し、Adobe アプリケーションを検索します。 Claude コネクタが一覧表示されている場合（例：[Adobe Experience Manager コネクタ &#x200B;](https://developer.adobe.com/ai-registry/#/connectors/adobe-experience-manager-connector)）、次の手順ではなく、その設定手順に従います。
 
 ### カスタムコネクタを使用した接続
 
@@ -113,7 +113,7 @@ Claude.aiは、アカウント設定のカスタムコネクタを介してリ�
 3. サーバーエンドポイントをURL （AEM MCP Serverの場合は`https://mcp.adobeaemcloud.com/adobe/mcp/aem`など）として入力し、任意の表示名を入力します。
 4. **Connect**&#x200B;をクリックし、Adobe IDでログインします。 適切なIMS組織を選択します。
 
-完全なセットアップ：[Claude.ai カスタムコネクタのドキュメント ](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp)
+完全なセットアップ：[Claude.ai カスタムコネクタのドキュメント &#x200B;](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp)
 
 >[!TAB  クロード コード ]
 
@@ -142,7 +142,7 @@ claude mcp add --transport http adobe-aem https://mcp.adobeaemcloud.com/adobe/mc
 
 Adobe MCP サーバーはOAuthを使用します。 Claude Codeは、ツールを初めて呼び出したときに、Adobe IDでの認証を求めるプロンプトを表示します。 プロンプトが表示されたら、正しいIMS組織を選択します。
 
-完全なセットアップ：[Claude Code MCP ドキュメント ](https://docs.anthropic.com/en/docs/claude-code/mcp)
+完全なセットアップ：[Claude Code MCP ドキュメント &#x200B;](https://docs.anthropic.com/en/docs/claude-code/mcp)
 
 >[!TAB  カーソル ]
 
@@ -164,15 +164,15 @@ Adobe MCP サーバーをCursor `mcp.json`設定ファイルに追加し、**Set
 
 追加すると、カーソル設定の&#x200B;**インストール済みMCP サーバー**&#x200B;の下にMCP サーバーが表示されます。 **認証が必要**&#x200B;と表示されているサーバーの横にある&#x200B;**Connect**&#x200B;を選択し、Adobe IDでログインします。 アプリケーションにアクセスできるIMS組織を選択します。
 
-![ インストール済みのAdobe MCP サーバーとmcp.json](../assets/screenshots/cursor-mcp-server-configuration.jpg)を示すCursor MCP サーバー設定
+![&#x200B; インストール済みのAdobe MCP サーバーとmcp.json](../assets/screenshots/cursor-mcp-server-configuration.jpg)を示すCursor MCP サーバー設定
 
-完全なセットアップ：[ カーソル MCP ドキュメント ](https://cursor.com/docs/mcp)
+完全なセットアップ：[&#x200B; カーソル MCP ドキュメント &#x200B;](https://cursor.com/docs/mcp)
 
 >[!TAB ChatGPT]
 
 ### <img src="../assets/icons/star.svg" width="24" height="24" alt="推奨"> マネージド コネクタを使用
 
-[Adobe AI レジストリ ](https://developer.adobe.com/ai-registry/?type=connector)に移動し、Adobe アプリケーションを検索します。 ChatGPT コネクタがリストされている場合は、以下の手順ではなく、その設定手順に従います。
+[Adobe AI レジストリ &#x200B;](https://developer.adobe.com/ai-registry/?type=connector)に移動し、Adobe アプリケーションを検索します。 ChatGPT コネクタがリストされている場合は、以下の手順ではなく、その設定手順に従います。
 
 ### リモート MCP サーバーを使用した接続
 
@@ -198,7 +198,7 @@ ChatGPT管理者に、組織のMCP サーバーを追加するように依頼し
 9. 「**作成**」を選択します。
 10. MCP サーバーが接続するCX Enterprise アプリケーションにアクセスできるAdobe アカウントでログインします。
 
-完全なセットアップ：[ChatGPT MCP ドキュメント ](https://developers.openai.com/api/docs/guides/tools-connectors-mcp)
+完全なセットアップ：[ChatGPT MCP ドキュメント &#x200B;](https://developers.openai.com/api/docs/guides/tools-connectors-mcp)
 
 >[!TAB OpenAI Codex CLI]
 
@@ -219,7 +219,7 @@ enabled = true
 
 Adobe MCP サーバーはOAuthを使用します。 Codex CLIは、初回使用時にOAuth フローを自動的に処理します。 プロンプトが表示されたら、正しいIMS組織を選択します。
 
-完全なセットアップ：[OpenAI Codex CLI MCP ドキュメント ](https://developers.openai.com/codex/mcp)
+完全なセットアップ：[OpenAI Codex CLI MCP ドキュメント &#x200B;](https://developers.openai.com/codex/mcp)
 
 >[!TAB  コパイロット スタジオ ]
 
@@ -238,7 +238,7 @@ Microsoft Copilot Studioは、Power Platform カスタムコネクタを自動�
 >
 >Copilot StudioのMCP サーバー接続は、Power Platformを介して行われます。 組織のデータ損失防止（DLP）ポリシーが適用されます。
 
-完全なセットアップ：[Copilot Studio MCP ドキュメント ](https://learn.microsoft.com/microsoft-copilot-studio/mcp-add-existing-server-to-agent)
+完全なセットアップ：[Copilot Studio MCP ドキュメント &#x200B;](https://learn.microsoft.com/microsoft-copilot-studio/mcp-add-existing-server-to-agent)
 
 >[!ENDTABS]
 

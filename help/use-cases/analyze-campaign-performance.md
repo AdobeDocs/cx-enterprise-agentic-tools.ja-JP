@@ -12,7 +12,7 @@ ht-degree: 4%
 
 <!-- last-modified: 2026-06-02 -->
 
-キャンペーンのパフォーマンスを向上させるための次のステップを示す![AI プラットフォーム ](../assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step5-02-actions.png){zoomable="yes"}
+キャンペーンのパフォーマンスを向上させるための次のステップを示す![AI プラットフォーム &#x200B;](../assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step5-02-actions.png){zoomable="yes"}
 
 *選択してズームします。*
 
@@ -20,7 +20,7 @@ ht-degree: 4%
 
 | シナリオの詳細 | |
 | --- | --- |
-| CX Enterprise製品 | [Customer Journey Analytics （CJA） ](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-overview/cja-overview) |
+| CX Enterprise製品 | [Customer Journey Analytics （CJA） &#x200B;](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-overview/cja-overview) |
 | エージェント型ツール | [Adobe CX Enterprise Coworker](https://experienceleague.adobe.com/ja/docs/cx-enterprise-coworker/content/home)、[Adobe CX Enterprise Coworker for AI Platforms](../tools/mcp-servers.md#connect-to-your-ai-platform)または[Customer Journey Analytics MCP Server](../tools/mcp-servers.md) |
 | オーディエンス | アナリスト、キャンペーンマネージャー |
 | 前提条件 | CJAへのアクセス、Coworker、AI プラットフォーム用のCoworker付きAI プラットフォーム、MCP対応AI プラットフォーム |
@@ -37,9 +37,9 @@ ht-degree: 4%
 
 Coworkerを直接使用できない場合や、使用したくない場合は、代わりに自分のAI プラットフォームから使用してください。 AI プラットフォームの&#x200B;**同僚** タブを参照してください。 それでも問題が解決しない場合は、残りのタブを使用して、AI プラットフォームをCustomer Journey Analytics MCP Serverに直接接続します。
 
->AI プラットフォームの[!TAB 同僚]
+>[!TAB AI プラットフォームの 同僚]
 
-また、自社のAI プラットフォームからAI プラットフォーム向けに開発したCoworkerを使用して、このチュートリアルを完了することもできます。 [AI プラットフォーム用に共同作業者を設定](../tools/mcp-servers.md#connect-to-your-ai-platform) | [Adobe ドキュメント ](https://experienceleague.adobe.com/en/docs/coworker/content/ai-platforms#set-up-coworker)
+また、自社のAI プラットフォームからAI プラットフォーム向けに開発したCoworkerを使用して、このチュートリアルを完了することもできます。 [AI プラットフォーム用に共同作業者を設定](../tools/mcp-servers.md#connect-to-your-ai-platform) | [Adobe ドキュメント &#x200B;](https://experienceleague.adobe.com/en/docs/coworker/content/ai-platforms#set-up-coworker)
 
 >[!TAB  クロード.ai]
 
@@ -49,7 +49,7 @@ Customer Journey Analytics MCP Serverをカスタムコネクタとして接続�
 2. **カスタムコネクタを追加**&#x200B;を選択し、サーバーURLを入力します：`https://cja-mcp.adobe.io/mcp`
 3. **Connect**&#x200B;を選択し、Adobe IDでログインします。
 
-完全なセットアップ：[Claude.ai カスタムコネクタのドキュメント ](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp)
+完全なセットアップ：[Claude.ai カスタムコネクタのドキュメント &#x200B;](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp)
 
 >[!TAB ChatGPT]
 
@@ -60,7 +60,7 @@ ChatGPT Developer Modeを使用してCustomer Journey Analytics MCP Serverに接
 3. サーバーURLを入力してください：`https://cja-mcp.adobe.io/mcp`
 4. **Connect**&#x200B;を選択し、Adobe IDでログインします。
 
-完全なセットアップ：[ChatGPT MCP ドキュメント ](https://developers.openai.com/api/docs/guides/tools-connectors-mcp)
+完全なセットアップ：[ChatGPT MCP ドキュメント &#x200B;](https://developers.openai.com/api/docs/guides/tools-connectors-mcp)
 
 >[!TAB その他のAI プラットフォーム ]
 
@@ -92,7 +92,7 @@ What data views are available in my CJA account?
 
 +++回答の例を見る
 
-![利用可能なCJA データビューを一覧表示するAI プラットフォーム ](../assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step1-data-views.png){zoomable="yes"}
+![利用可能なCJA データビューを一覧表示するAI プラットフォーム &#x200B;](../assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step1-data-views.png){zoomable="yes"}
 
 *選択してズームします。*
 
@@ -109,7 +109,7 @@ For '[data view name]', show me the top campaigns by revenue and conversion rate
 
 +++回答の例を見る
 
-![ オムニチャネルからの収益とコンバージョン率で上位のキャンペーンを表示するAI プラットフォーム – マルチインダストリーデータビュー](../assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step2.gif){zoomable="yes"}
+![&#x200B; オムニチャネルからの収益とコンバージョン率で上位のキャンペーンを表示するAI プラットフォーム – マルチインダストリーデータビュー](../assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step2.gif){zoomable="yes"}
 
 *選択してズームします。*
 
@@ -130,7 +130,7 @@ What factors are driving the results for these campaign groups?
 
 +++回答の例を見る
 
-![ キャンペーングループのパフォーマンスを促進する要因を説明するAI プラットフォーム ](../assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step3.gif){zoomable="yes"}
+![&#x200B; キャンペーングループのパフォーマンスを促進する要因を説明するAI プラットフォーム &#x200B;](../assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step3.gif){zoomable="yes"}
 
 *選択してズームします。*
 
@@ -147,7 +147,7 @@ Break down Promotional Email Campaigns by Customer Segment and explain what's dr
 
 +++回答の例を見る
 
-![顧客セグメント別のプロモーションメールキャンペーンのパフォーマンスを分析するAI プラットフォーム ](../assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step4-segment-breakdown.png){zoomable="yes"}
+![顧客セグメント別のプロモーションメールキャンペーンのパフォーマンスを分析するAI プラットフォーム &#x200B;](../assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step4-segment-breakdown.png){zoomable="yes"}
 
 *選択してズームします。*
 
@@ -164,7 +164,7 @@ Based on these findings, recommend the highest-impact actions to increase revenu
 
 +++回答の例を見る
 
-![ ビジネス価値を見積もり、優先順位付けされたアクションを推奨するAI プラットフォーム ](../assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step5.gif){zoomable="yes"}
+![&#x200B; ビジネス価値を見積もり、優先順位付けされたアクションを推奨するAI プラットフォーム &#x200B;](../assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step5.gif){zoomable="yes"}
 
 *選択してズームします。*
 
@@ -293,4 +293,4 @@ Save this analysis as a Workspace project for executive reporting.
 | リソース | 見つかる内容 |
 | --- | --- |
 | [AI レジストリのCJA MCP Server](https://developer.adobe.com/ai-registry/#/mcp/cja-mcp){target="_blank"} | CJA MCP Serverのツールと機能 |
-| [Customer Journey Analytics ドキュメント ](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-landing){target="_blank"} | Adobe CJAのドキュメント |
+| [Customer Journey Analytics ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-landing){target="_blank"} | Adobe CJAのドキュメント |
