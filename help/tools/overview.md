@@ -1,14 +1,12 @@
 ---
 title: エージェント型ツール
-description: MCP サーバー、エージェントスキル、ビルダー用APIを比較し、Adobe CX Enterprise ワークフローに適したエージェント型ツールを選択します。
-last-substantial-update: 2026-06-08T00:00:00Z
-source-git-commit: 40d93f878ba9f48c9daffd3beccb4bf829113a36
+description: MCP サーバー、エージェントスキル、ビルダー用APIを比較し、Adobe CX Enterpriseワークフローに適したエージェント型ツールを選択します。
+last-substantial-update: 2026-11-16
+source-git-commit: a75d5f3af3077b259da796bd381d605ae826585d
 workflow-type: tm+mt
-source-wordcount: '1100'
-ht-degree: 0%
-
+source-wordcount: '1129'
+ht-degree: 2%
 ---
-
 
 # エージェント型ツール
 
@@ -21,7 +19,7 @@ CARDS
 
 * mcp-servers.md
   {title = MCP Servers}
-  {description = Connect any compatible AI client to Adobe CX Enterprise data and workflows. No coding required.}
+  {description = Connect any compatible AI platform to Adobe CX Enterprise data and workflows. No coding required.}
   {cta = Explore MCP Servers}
   {image = ../assets/mcp-servers-card.png}
 
@@ -55,11 +53,11 @@ CARDS
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="mcp-servers.md" title="MCP サーバー">MCP サーバー</a>
                     </p>
-                    <p class="is-size-6">互換性のあるあらゆるAI クライアントを、Adobe CX Enterpriseのデータおよびワークフローに接続できます。 コーディングは必要ありません。</p>
+                    <p class="is-size-6">互換性のあるあらゆるAI基盤を、Adobe CX Enterpriseのデータおよびワークフローに接続。 コーディングは必要ありません。</p>
                 </div>
                 <a href="mcp-servers.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">MCP サーバーの探索</span>
-                
+                </a>
             </div>
         </div>
     </div>
@@ -78,11 +76,11 @@ CARDS
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="agent-skills.md" title="エージェントスキル"> エージェントのスキル </a>
                     </p>
-                    <p class="is-size-6">Adobeが監修したワークフロー手順により、一貫してCX エンタープライズのタスクをガイドします。</p>
+                    <p class="is-size-6">Adobeがキュレートしたワークフロー手順により、エージェントは一貫してCX Enterpriseのタスクを進めることができます。</p>
                 </div>
                 <a href="agent-skills.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold"> エージェントのスキルを探る</span>
-                
+                </a>
             </div>
         </div>
     </div>
@@ -105,7 +103,7 @@ CARDS
                 </div>
                 <a href="apis.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold"> ビルダー用APIの探索</span>
-                
+                </a>
             </div>
         </div>
     </div>
@@ -117,27 +115,27 @@ CARDS
 
 | | MCP サーバー | エージェントスキル | ビルダー用API |
 | --- | --- | --- | --- |
-| 最適な用途 | CX Enterprise アプリケーションユーザー | CX Enterprise アプリケーションのユーザーと開発者 | デベロッパー |
+| 最適な用途 | CX Enterprise アプリケーションユーザー | CX Enterprise アプリケーションユーザーと開発者 | デベロッパー |
 | コーディングが必要 | × | × | ○ |
 | 設定時間 | Minutes | Minutes | 時間から日 |
-| 得られるもの | AI クライアントからのCX エンタープライズアプリケーションへのアクセス | ガイド付きの反復可能なワークフロー | 完全なプログラム制御 |
+| 得られるもの | AI基盤からCX Enterpriseアプリケーションにアクセスし | ガイド付きの反復可能なワークフロー | 完全なプログラム制御 |
 
-## どこから始めてよいかわからないものは、
+## どこから始めてよいかわからない方は、
 
-- AIを使用してCX エンタープライズ アプリケーションと対話する（アクションを実行し、データを照会し、AIが自然会話を通じて次に何をすべきかを見つけられるようにする）には、[MCP サーバー](mcp-servers.md)が最も柔軟な出発点となります。
+- AIを使用してCX Enterprise アプリケーションと対話する（アクションを実行し、データを照会し、AIが自然な会話を通じて次に何をすべきかを発見できるようにする）には、[MCP サーバー](mcp-servers.md)が最も柔軟な出発点となります。
 - エージェントがCX Enterprise ワークフローに関するAdobeのベストプラクティスに即興で従えるように、[&#x200B; エージェントスキル &#x200B;](agent-skills.md)はそのドメインの専門知識を再利用可能な手順にエンコードします。
-- ユーザー向けの特定のCX エンタープライズ ワークフローを合理化または自動化する集中型アプリケーションを構築するには、[&#x200B; ビルダー向けAPI](apis.md)を使用すると、何が起こるかを正確に制御してプログラム可能な直接の制御が可能になります。
+- CX Enterpriseの特定のワークフローを合理化または自動化する専用アプリケーションを構築するには、[&#x200B; ビルダー用API](apis.md)を使用すると、何が起こるかを正確に制御できます。
 
 >[!BEGINTABS]
 
 >[!TAB MCP サーバー]
 
-MCP サーバーは、AI クライアントとCX エンタープライズアプリケーション間のライブワイヤーだと考えてください。 AIを活用すれば、キャンペーンのクエリ、オーディエンスの取得、ジャーニーのステータスの確認などを平易な言語で実行できます。コードを記述する必要はありません。
+MCP サーバーは、AI プラットフォームとCX Enterpriseアプリケーションを接続するライブワイヤーだと考えてください。 [Adobe CX Enterprise Coworker for AI Platforms](mcp-servers.md#connect-to-your-ai-platform)から始めます。一度つながると、AI基盤でAdobe CX Enterprise Coworkerを使用して、キャンペーンのクエリ、オーディエンスの取得、ジャーニーのステータスの確認などを簡単な言葉で実行できます。コードは必要ありません。 機能しない場合は、[製品MCP サーバー](mcp-servers.md#connect-to-your-ai-platform)に直接接続してください。
 
 **次の場合にMCP サーバーを使用：**
 
-- AIをCX企業ワークフローに直接統合し
-- 顧客体験に関する企業データは、すでに使用しているAI クライアント内に保持する必要があります
+- AIをCX Enterpriseのワークフローに直接統合し
+- 既存のAI基盤にCX Enterpriseのデータを組み込むことで
 - 探索分析や高度なデータ取得を行っている場合
 - プロジェクトを立ち上げることなく、すばやく成果を達成
 
@@ -145,11 +143,11 @@ MCP サーバーは、AI クライアントとCX エンタープライズアプ�
 
 >[!TAB  エージェントのスキル ]
 
-担当者のスキルは、Adobeのドメインの専門知識であり、担当者が従うことのできる指示としてエンコードされます。 担当者が適切なステップを見つけるのを期待する代わりに、スキルがCX Enterpriseのワークフローに対して、何をすべきか、確実に、繰り返し、既に調整されているかを正確に伝えます。
+担当者のスキルは、Adobeのドメインの専門知識であり、担当者が従うことのできる指示としてエンコードされます。 担当者が適切なステップを見つけられることを期待するのではなく、CX Enterpriseのワークフローに合わせて何をすべきか、確実に、繰り返し、事前に調整すべきことを正確に指示できます。
 
 **次の場合にエージェントのスキルを使用：**
 
-- AI クライアントを介してCX Enterprise アプリで作業を実行する場合は、Adobeのベストプラクティスに従います
+- AIを利用してCX Enterprise アプリケーションで作業する場合は、Adobeのベストプラクティスに従ってください
 - 同じタスクを毎回同じように実行する必要があります
 - 反復可能なコンテンツやメディア制作ワークフローを運用している
 
@@ -164,7 +162,7 @@ APIは構成要素です。 開発者は、Adobeの自社製品と同じAPIを�
 - 特定のビジネスユースケース向けに、カスタムアプリケーションや統合を構築する場合
 - 特定のガードレールとコントロールにより、ワークフローを最適化または自動化する必要があります
 - クロードコードまたはカーソルを使用して、完全なアプリケーションを生成します
-- CX企業データを別のシステムに統合する必要があります
+- CX Enterpriseのデータを
 
 [ビルダー用APIの確認](apis.md)
 
@@ -172,11 +170,11 @@ APIは構成要素です。 開発者は、Adobeの自社製品と同じAPIを�
 
 ## それらを一緒に使用
 
-これらのツールは連携するように設計されています。 それらを組み合わせることで、Adobe AIを最大限に活用できます。 エージェントスキルは、AI クライアントがMCP サーバーをどのように使用するかを導き、エージェントをCX エンタープライズワークフローに適切な軌道に乗せます。 また、スキルは、APIを呼び出す方法とタイミングを判断し、Adobeのベストプラクティスのガードレールをカスタムビルドの自動化に追加することもできます。 ひとつのチャネルだけを選択する必要はありません。
+これらのツールは連携するように設計されています。 それらを組み合わせることで、Adobe AIを最大限に活用できます。 エージェントスキルは、AI プラットフォームがMCP サーバーをどのように使用するかを導き、エージェントをCX Enterpriseワークフローに適切な軌道に乗せます。 また、スキルは、APIを呼び出す方法とタイミングを判断し、Adobeのベストプラクティスのガードレールをカスタムビルドの自動化に追加することもできます。 ひとつのチャネルだけを選択する必要はありません。
 
 ## エージェント型ツールの活用例
 
-実際の顧客体験エンタープライズワークフローに適用されたツールをご覧ください。
+CX Enterpriseのワークフローに適したツールをご覧ください。
 
 <!--
 CARDS
@@ -220,7 +218,7 @@ CARDS
                 </div>
                 <a href="../use-cases/query-audiences.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold"> オーディエンスのアクティブ化を確認</span>
-                
+                </a>
             </div>
         </div>
     </div>
@@ -243,7 +241,7 @@ CARDS
                 </div>
                 <a href="https://experienceleague.adobe.com/ja/docs/experience-manager-learn/cloud-service/ai/ai-assisted-development/use-cases/component-development" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold"> エージェントのスキルを試す</span>
-                
+                </a>
             </div>
         </div>
     </div>
@@ -266,7 +264,7 @@ CARDS
                 </div>
                 <a href="https://experienceleague.adobe.com/ja/docs/experience-manager-learn/cloud-service/aem-apis/openapis/invoke-api-using-oauth-web-app" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">APIで試す</span>
-                
+                </a>
             </div>
         </div>
     </div>

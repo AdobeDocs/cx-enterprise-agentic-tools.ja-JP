@@ -1,22 +1,22 @@
 ---
 title: オーディエンスとアクティベートされた場所を把握
 description: Real-Time CDP MCP Serverを使用して、オーディエンスのアクティベーションステータスをモニタリングし、宛先の健全性をチェックし、キャンペーンに影響を与える前に問題を特定します。
-last-substantial-update: 2026-09-16
-source-git-commit: a70eede6e0efe0d1dbdc00c5d9de5aeb3b5d75de
+last-substantial-update: 2026-11-16
+source-git-commit: a75d5f3af3077b259da796bd381d605ae826585d
 workflow-type: tm+mt
-source-wordcount: '993'
-ht-degree: 4%
+source-wordcount: '1080'
+ht-degree: 3%
 ---
 
 # オーディエンスとアクティベートされた場所を把握
 
 <!-- last-modified: 2026-06-04 -->
 
-![&#x200B; アクティベーションに関する推奨事項を含む、優先順位付けされたオーディエンス戦略を提供するAI クライアント &#x200B;](../assets/use-cases/query-audiences/query-audiences-step4-02-summary.png){zoomable="yes"}
+![&#x200B; アクティベーションに関する推奨事項を含む、優先順位付けされたオーディエンス戦略を提供するAI プラットフォーム &#x200B;](../assets/use-cases/query-audiences/query-audiences-step4-02-summary.png){zoomable="yes"}
 
 *選択してズームします。*
 
-どのオーディエンスがライブで、どこを流れているのか、宛先が健全であるかどうかを知ることは、キャンペーンが開始される前か、パフォーマンスが低下しているときに重要です。 このチュートリアルでは、Real-Time CDP MCP Serverを使用して、Real-Time CDPを開かずにオーディエンスのステータスと宛先の健全性を数秒で確認し、AI クライアントを通じて完全なアクティベーションの全体像を取得する方法を示します。
+どのオーディエンスがライブで、どこを流れているのか、宛先が健全であるかどうかを知ることは、キャンペーンが開始される前か、パフォーマンスが低下しているときに重要です。 このチュートリアルでは、Real-Time CDP MCP Serverを使用して、Real-Time CDPを開かずにオーディエンスのステータスと宛先の健全性を数秒で確認し、AI プラットフォームを通じてアクティベーションの全体像を把握する方法を説明します。
 
 >[!NOTE]
 >
@@ -24,10 +24,10 @@ ht-degree: 4%
 
 | シナリオの詳細 | |
 | --- | --- |
-| CX エンタープライズアプリケーション | [Real-Time Customer Data Platform （Real-Time CDP） &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/rtcdp/home) |
-| エージェント型ツール | [CX Enterprise Coworker](https://experienceleague.adobe.com/ja/docs/cx-enterprise-coworker/content/home)または[Real-Time CDP MCP Server](../tools/mcp-servers.md) |
+| CX Enterprise製品 | [Real-Time Customer Data Platform （Real-Time CDP） &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/rtcdp/home) |
+| エージェント型ツール | [Adobe CX Enterprise Coworker](https://experienceleague.adobe.com/ja/docs/cx-enterprise-coworker/content/home)、[Adobe CX Enterprise Coworker for AI Platforms](../tools/mcp-servers.md#connect-to-your-ai-platform)または[Real-Time CDP MCP Server](../tools/mcp-servers.md) |
 | オーディエンス | マーケター、アナリスト、オペレーター |
-| 前提条件 | MCP対応AI クライアント、Real-Time CDPアクセス |
+| 前提条件 | Real-Time CDPへのアクセス、Coworker、AI プラットフォーム用のCoworker付きAI プラットフォーム、MCP対応AI プラットフォーム |
 
 各ステップは、代表的なプロンプトとAI応答の例を示しています。 同じセッションで追加の探索を行うために、**さらに達成できる**&#x200B;のセクションを次に示します。
 
@@ -35,11 +35,15 @@ ht-degree: 4%
 
 >[!BEGINTABS]
 
->[!TAB CX Enterprise Coworker]
+>[!TAB Coworker]
 
-このアクティベーションの全体像を把握する最速の方法は、CX Enterprise Coworkerです。この場合、サーバーのセットアップやAI クライアントの設定は必要ありません。 [CX Enterprise Coworkerを試す](https://experienceleague.adobe.com/ja/docs/cx-enterprise-coworker/content/home)
+このアクティベーションの全体像を把握する最も速い方法はCoworkerです。Coworkerでは、サーバーのセットアップやAI プラットフォームの設定は必要ありません。 [同僚を試す](https://experienceleague.adobe.com/ja/docs/cx-enterprise-coworker/content/home)
 
-独自のAI クライアントをReal-Time CDPに直接接続する場合は、以下のタブを参照してください。 Real-Time CDP MCP Serverはパブリックベータ版で、組織の許可リストに加えるが必要です。
+Coworkerを直接使用できない場合や、使用したくない場合は、代わりに自分のAI プラットフォームから使用してください。 AI プラットフォームの&#x200B;**同僚** タブを参照してください。 それでも問題が解決しない場合は、残りのタブを使用して、AI プラットフォームをReal-Time CDP MCP Serverに直接接続します。 Real-Time CDP MCP Serverはパブリックベータ版で、組織の許可リストに加えるが必要です。
+
+>[!TAB AI プラットフォームの 同僚]
+
+また、自社のAI プラットフォームからAI プラットフォーム向けに開発したCoworkerを使用して、このチュートリアルを完了することもできます。 [AI プラットフォーム用に共同作業者を設定](../tools/mcp-servers.md#connect-to-your-ai-platform) | [Adobe ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/coworker/content/ai-platforms#set-up-coworker)
 
 >[!TAB  クロード.ai]
 
@@ -62,7 +66,7 @@ ChatGPT Developer Modeを使用してReal-Time CDP MCP Serverに接続します�
 
 完全なセットアップ：[ChatGPT MCP ドキュメント &#x200B;](https://developers.openai.com/api/docs/guides/tools-connectors-mcp)
 
->[!TAB その他のAI クライアント ]
+>[!TAB その他のAI プラットフォーム ]
 
 Gemini、Microsoft Copilot、Cursor、Claude CodeなどのMCP互換アプリケーションを使用している場合、 次のエンドポイントを使用してReal-Time CDP MCP Serverに接続します。
 
@@ -70,7 +74,7 @@ Gemini、Microsoft Copilot、Cursor、Claude CodeなどのMCP互換アプリケ�
 https://rtcdp-mcp.adobe.io/mcp
 ```
 
-サポートされているすべてのクライアントの完全なセットアップ手順：[AI クライアントに接続](../tools/mcp-servers.md)
+サポートされているすべてのAI プラットフォームの完全なセットアップ手順：[AI プラットフォームに接続](../tools/mcp-servers.md)
 
 >[!ENDTABS]
 
@@ -88,7 +92,7 @@ What audiences are currently available and what customer behaviors do they repre
 
 +++回答の例を見る
 
-![利用可能なオーディエンスと、そのオーディエンスが表す顧客行動をリストするAI クライアント &#x200B;](../assets/use-cases/query-audiences/query-audiences-step1-audience-list.png){zoomable="yes"}
+![利用可能なオーディエンスと、そのオーディエンスが表す顧客行動を一覧表示するAI プラットフォーム &#x200B;](../assets/use-cases/query-audiences/query-audiences-step1-audience-list.png){zoomable="yes"}
 
 *選択してズームします。*
 
@@ -105,7 +109,7 @@ Which audiences are the largest and what makes them valuable?
 
 +++回答の例を見る
 
-![最大のオーディエンスを特定し、その価値を説明するAI クライアント &#x200B;](../assets/use-cases/query-audiences/query-audiences-step2.gif){zoomable="yes"}
+![最大のオーディエンスを特定し、その価値を説明するAI プラットフォーム &#x200B;](../assets/use-cases/query-audiences/query-audiences-step2.gif){zoomable="yes"}
 
 *選択してズームします。*
 
@@ -122,7 +126,7 @@ Where are our audiences currently being activated and to which destinations?
 
 +++回答の例を見る
 
-オーディエンスのアクティブ化ステータスと宛先マッピングを表示する![AI クライアント &#x200B;](../assets/use-cases/query-audiences/query-audiences-step3.gif){zoomable="yes"}
+![&#x200B; オーディエンスのアクティブ化ステータスと宛先マッピングを表示するAI プラットフォーム &#x200B;](../assets/use-cases/query-audiences/query-audiences-step3.gif){zoomable="yes"}
 
 *選択してズームします。*
 
@@ -139,7 +143,7 @@ If you were our audience strategist, what would you prioritize next and why?
 
 +++回答の例を見る
 
-![AI クライアントが優先的なオーディエンス戦略の推奨事項を提示](../assets/use-cases/query-audiences/query-audiences-step4.gif){zoomable="yes"}
+![AI プラットフォームが優先的なオーディエンス戦略のレコメンデーションを提供](../assets/use-cases/query-audiences/query-audiences-step4.gif){zoomable="yes"}
 
 *選択してズームします。*
 
@@ -152,7 +156,7 @@ If you were our audience strategist, what would you prioritize next and why?
 
 ## 達成したこと
 
-AI クライアントとReal-Time CDPを接続し、4つのプロンプトでオーディエンスポートフォリオの戦略的像を構築しました。 利用可能なオーディエンスを、獲得した顧客行動にマッピングし、最大で最も価値のあるセグメントを特定し、各オーディエンスがどこへ向かっているのか、どの宛先に向かっているのかを確認し、次のアクティベーションに関する優先順位のレコメンデーションを受け取りました。 これにより、複数のReal-Time CDP画面を移動する代わりに、直接的かつ戦略的なやり取りが可能になります。
+Adobe WorkfrontやAI基盤とReal-Time CDPを連携させて、4つのプロンプトでオーディエンスポートフォリオの戦略的な全体像を構築しました。 利用可能なオーディエンスを、獲得した顧客行動にマッピングし、最大で最も価値のあるセグメントを特定し、各オーディエンスがどこへ向かっているのか、どの宛先に向かっているのかを確認し、次のアクティベーションに関する優先順位のレコメンデーションを受け取りました。 これにより、複数のReal-Time CDP画面を移動する代わりに、直接的かつ戦略的なやり取りが可能になります。
 
 ## より多くのことを達成
 

@@ -1,10 +1,10 @@
 ---
 title: レポートを作成することなくキャンペーンのインサイトを可視化
 description: Customer Journey Analytics MCP Serverを使用して、簡単な言葉でパフォーマンスに関する質問をおこない、レポートビルダーを移動することなく回答を得ることができます。
-last-substantial-update: 2026-09-16
-source-git-commit: a70eede6e0efe0d1dbdc00c5d9de5aeb3b5d75de
+last-substantial-update: 2026-11-16
+source-git-commit: a75d5f3af3077b259da796bd381d605ae826585d
 workflow-type: tm+mt
-source-wordcount: '1079'
+source-wordcount: '1169'
 ht-degree: 4%
 ---
 
@@ -12,18 +12,18 @@ ht-degree: 4%
 
 <!-- last-modified: 2026-06-02 -->
 
-![&#x200B; キャンペーンのパフォーマンスを向上させるための次のステップを推奨するAI クライアント &#x200B;](../assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step5-02-actions.png){zoomable="yes"}
+キャンペーンのパフォーマンスを向上させるための次のステップを示す![AI プラットフォーム &#x200B;](../assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step5-02-actions.png){zoomable="yes"}
 
 *選択してズームします。*
 
-以前は別のツールでレポートを作成する必要があったキャンペーン分析も、今では会話になっています。 このチュートリアルでは、AI クライアントをCustomer Journey Analytics（CJA）に接続し、パフォーマンスに関する質問を平易な言葉で行う方法を説明します。 これにより、insightへの移行が迅速化され、手作業によるレポート作成は不要になります。
+以前は別のツールでレポートを作成する必要があったキャンペーン分析も、今では会話になっています。 このチュートリアルでは、Customer Journey Analytics（CJA）を使用して、Coworkerまたは独自のAI基盤を使用し、パフォーマンスに関する質問を簡単な言葉で質問する方法を説明します。 これにより、insightへの移行が迅速化され、手作業によるレポート作成は不要になります。
 
 | シナリオの詳細 | |
 | --- | --- |
-| CX エンタープライズアプリケーション | [Customer Journey Analytics （CJA） &#x200B;](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-overview/cja-overview) |
-| エージェント型ツール | [CX Enterprise Coworker](https://experienceleague.adobe.com/ja/docs/cx-enterprise-coworker/content/home)または[Customer Journey Analytics MCP Server](../tools/mcp-servers.md) |
+| CX Enterprise製品 | [Customer Journey Analytics （CJA） &#x200B;](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-overview/cja-overview) |
+| エージェント型ツール | [Adobe CX Enterprise Coworker](https://experienceleague.adobe.com/ja/docs/cx-enterprise-coworker/content/home)、[Adobe CX Enterprise Coworker for AI Platforms](../tools/mcp-servers.md#connect-to-your-ai-platform)または[Customer Journey Analytics MCP Server](../tools/mcp-servers.md) |
 | オーディエンス | アナリスト、キャンペーンマネージャー |
-| 前提条件 | MCP対応AI クライアント、CJAアクセス |
+| 前提条件 | CJAへのアクセス、Coworker、AI プラットフォーム用のCoworker付きAI プラットフォーム、MCP対応AI プラットフォーム |
 
 各ステップは、代表的なプロンプトとAI応答の例を示しています。 同じセッションで追加の探索を行うために、**さらに達成できる**&#x200B;のセクションを次に示します。
 
@@ -31,11 +31,15 @@ ht-degree: 4%
 
 >[!BEGINTABS]
 
->[!TAB CX Enterprise Coworker]
+>[!TAB Coworker]
 
-これらの質問に答える最も簡単な方法はCX Enterprise Coworkerです。では、サーバーのセットアップやAI クライアントの設定は必要ありません。 [CX Enterprise Coworkerを試す](https://experienceleague.adobe.com/ja/docs/cx-enterprise-coworker/content/home)
+これらの回答を最も早く得るには、Coworkerを使用します。Coworkerでは、サーバーのセットアップやAI プラットフォームの設定は必要ありません。 [同僚を試す](https://experienceleague.adobe.com/ja/docs/cx-enterprise-coworker/content/home)
 
-独自のAI クライアントをCustomer Journey Analyticsに直接接続する場合は、以下のタブを参照してください。
+Coworkerを直接使用できない場合や、使用したくない場合は、代わりに自分のAI プラットフォームから使用してください。 AI プラットフォームの&#x200B;**同僚** タブを参照してください。 それでも問題が解決しない場合は、残りのタブを使用して、AI プラットフォームをCustomer Journey Analytics MCP Serverに直接接続します。
+
+>[!TAB AI プラットフォームの 同僚]
+
+また、自社のAI プラットフォームからAI プラットフォーム向けに開発したCoworkerを使用して、このチュートリアルを完了することもできます。 [AI プラットフォーム用に共同作業者を設定](../tools/mcp-servers.md#connect-to-your-ai-platform) | [Adobe ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/coworker/content/ai-platforms#set-up-coworker)
 
 >[!TAB  クロード.ai]
 
@@ -58,7 +62,7 @@ ChatGPT Developer Modeを使用してCustomer Journey Analytics MCP Serverに接
 
 完全なセットアップ：[ChatGPT MCP ドキュメント &#x200B;](https://developers.openai.com/api/docs/guides/tools-connectors-mcp)
 
->[!TAB その他のAI クライアント ]
+>[!TAB その他のAI プラットフォーム ]
 
 Gemini、Microsoft Copilot、Cursor、Claude CodeなどのMCP互換アプリケーションを使用している場合、 次のエンドポイントを使用してCustomer Journey Analytics MCP Serverに接続します。
 
@@ -66,7 +70,7 @@ Gemini、Microsoft Copilot、Cursor、Claude CodeなどのMCP互換アプリケ�
 https://cja-mcp.adobe.io/mcp
 ```
 
-サポートされているすべてのクライアントの完全なセットアップ手順：[AI クライアントに接続](../tools/mcp-servers.md)
+サポートされているすべてのAI プラットフォームの完全なセットアップ手順：[AI プラットフォームに接続](../tools/mcp-servers.md)
 
 >[!ENDTABS]
 
@@ -74,13 +78,13 @@ https://cja-mcp.adobe.io/mcp
 >
 >プロンプトが表示されたらAdobe IDでログインし、CJA データビューにリンクされているIMS組織を選択します。 間違った組織を選択することは、認証エラーの最も一般的な原因です。
 >
->最初の接続時に、AI クライアントからIMS組織の選択またはサンドボックスの指定を求められる場合があります。 そのコンテキストが設定されると、MCP サーバーは残りのセッションにコンテキストを使用します。
+>最初に接続すると、AI プラットフォームからIMS組織の選択やサンドボックスの指定を求められる場合があります。 そのコンテキストが設定されると、MCP サーバーは残りのセッションにコンテキストを使用します。
 >
 >一部のツールは、実行前に承認を求めます。 リクエストを確認して承認または辞退します。 確認なしにアクションは実行されません。
 
 ## 手順1：利用可能なデータビューの確認
 
-まず、AI クライアントに、CJAアカウントで利用可能なデータビューのリストを依頼します。 レポートを実行する前にクエリできるデータセットを示します。
+まず、AI プラットフォームにCJAアカウントで利用可能なデータビューのリストを依頼します。 レポートを実行する前にクエリできるデータセットを示します。
 
 ```
 What data views are available in my CJA account?
@@ -88,7 +92,7 @@ What data views are available in my CJA account?
 
 +++回答の例を見る
 
-![使用可能なCJA データビューのAI クライアントリスト &#x200B;](../assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step1-data-views.png){zoomable="yes"}
+![利用可能なCJA データビューを一覧表示するAI プラットフォーム &#x200B;](../assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step1-data-views.png){zoomable="yes"}
 
 *選択してズームします。*
 
@@ -105,7 +109,7 @@ For '[data view name]', show me the top campaigns by revenue and conversion rate
 
 +++回答の例を見る
 
-オムニチャネルのマルチインダストリーデータビューから収益とコンバージョン率で上位キャンペーンを表示する![AI クライアント &#x200B;](../assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step2.gif){zoomable="yes"}
+![&#x200B; オムニチャネルからの収益とコンバージョン率で上位のキャンペーンを表示するAI プラットフォーム – マルチインダストリーデータビュー](../assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step2.gif){zoomable="yes"}
 
 *選択してズームします。*
 
@@ -118,7 +122,7 @@ For '[data view name]', show me the top campaigns by revenue and conversion rate
 
 ## ステップ 3：パフォーマンスを促進する要因を特定する
 
-AI クライアントに、キャンペーングループ間のパフォーマンスの違いを何が促しているのかを説明してもらいます。 見出し番号から下の変数に移動します。
+AI プラットフォームに、キャンペーングループ間のパフォーマンスの違いを促している要因を説明してもらいましょう。 見出し番号から下の変数に移動します。
 
 ```
 What factors are driving the results for these campaign groups?
@@ -126,7 +130,7 @@ What factors are driving the results for these campaign groups?
 
 +++回答の例を見る
 
-![&#x200B; キャンペーングループのパフォーマンスを促進する要因を説明するAI クライアント &#x200B;](../assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step3.gif){zoomable="yes"}
+![&#x200B; キャンペーングループのパフォーマンスを促進する要因を説明するAI プラットフォーム &#x200B;](../assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step3.gif){zoomable="yes"}
 
 *選択してズームします。*
 
@@ -143,7 +147,7 @@ Break down Promotional Email Campaigns by Customer Segment and explain what's dr
 
 +++回答の例を見る
 
-![AI クライアントが顧客セグメント別のプロモーションメールキャンペーンのパフォーマンスを分析](../assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step4-segment-breakdown.png){zoomable="yes"}
+![顧客セグメント別のプロモーションメールキャンペーンのパフォーマンスを分析するAI プラットフォーム &#x200B;](../assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step4-segment-breakdown.png){zoomable="yes"}
 
 *選択してズームします。*
 
@@ -160,7 +164,7 @@ Based on these findings, recommend the highest-impact actions to increase revenu
 
 +++回答の例を見る
 
-![&#x200B; ビジネス価値の見積もりで優先順位付けされたアクションを推奨するAI クライアント &#x200B;](../assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step5.gif){zoomable="yes"}
+![&#x200B; ビジネス価値を見積もり、優先順位付けされたアクションを推奨するAI プラットフォーム &#x200B;](../assets/use-cases/analyze-campaign-performance/analyze-campaign-performance-step5.gif){zoomable="yes"}
 
 *選択してズームします。*
 
@@ -173,7 +177,7 @@ Based on these findings, recommend the highest-impact actions to increase revenu
 
 ## 達成したこと
 
-AI クライアントとCustomer Journey Analyticsを接続し、5つのプロンプトでデータビューの発見からビジネスのレコメンデーションの優先順位付けへと移行しました。 収益とコンバージョン率によって上位のキャンペーンを特定し、キャンペーングループ間のパフォーマンスを促進する要因を明らかにして、特定のキャンペーンタイプに関するセグメントレベルの詳細をドリルダウンし、予想上昇率のランク付きレコメンデーションを受け取りました。 このアプローチにより、レポート作成は、直接的な会話に置き換わり、ビジネス上の質問とデータにもとづいた行動計画との間の時間を短縮できます。
+Adobe Customer Journey AnalyticsでCoworkerやAI プラットフォームを使用し、5つのプロンプトでデータビューの発見からビジネスのレコメンデーションの優先順位付けへと移行しました。 収益とコンバージョン率によって上位のキャンペーンを特定し、キャンペーングループ間のパフォーマンスを促進する要因を明らかにして、特定のキャンペーンタイプに関するセグメントレベルの詳細をドリルダウンし、予想上昇率のランク付きレコメンデーションを受け取りました。 このアプローチにより、レポート作成は、直接的な会話に置き換わり、ビジネス上の質問とデータにもとづいた行動計画との間の時間を短縮できます。
 
 ## より多くのことを達成
 

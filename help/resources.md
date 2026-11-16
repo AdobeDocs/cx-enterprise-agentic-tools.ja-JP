@@ -1,14 +1,12 @@
 ---
 title: リソース
 description: Adobe CX Enterprise Agentic Toolsのドキュメント、レジストリ、API、開発者ガイドをすべて一元管理できます。
-last-substantial-update: 2026-05-08T00:00:00Z
-source-git-commit: 445fd18a2b5a18ec3dcc0ec8e73ec4c020e7b265
+last-substantial-update: 2026-11-16
+source-git-commit: 9a2fe3165e49fd57c9a76741a77956850b0c0e3b
 workflow-type: tm+mt
-source-wordcount: '555'
+source-wordcount: '591'
 ht-degree: 20%
-
 ---
-
 
 # リソース
 
@@ -16,7 +14,7 @@ ht-degree: 20%
 
 ![&#x200B; リソース &#x200B;](https://placehold.co/1600x900?text=Adobe+CX+Enterprise+Resources)
 
-Adobe CX Enterprise Agentic Toolsを使用するための主要なAdobeリソースを一元化します。
+Adobe CX Enterprise Agentic Toolsを使用するための主要なAdobeリソースを一元管理。
 
 ## レジストリとカタログ
 
@@ -30,6 +28,7 @@ Adobe CX Enterprise Agentic Toolsを使用するための主要なAdobeリソー
 
 | リソース | 見つかる内容 |
 |---|---|
+| [AI プラットフォーム向けAdobe CX Enterprise Coworker](https://experienceleague.adobe.com/ja/docs/coworker/content/ai-platforms#set-up-coworker) | Claude、ChatGPT、Microsoft 365 Copilot、Gemini EnterpriseなどのAI基盤でCoworkerを使用するための前提条件と設定 |
 | [Analytics MCP ドキュメント &#x200B;](https://developer.adobe.com/analytics-mcp/docs/) | CJA MCP サーバー設定ガイドとツールリファレンス |
 | [Analytics MCP ガイド &#x200B;](https://developer.adobe.com/analytics-mcp/docs/guides/) | CJA MCP サーバーの詳細な使用ガイド |
 | [Real-Time CDP MCP ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-cloud-ai/experience-cloud-ai/mcp/mcp-product-tools/rtcdp-mcp) | RTCDP MCP サーバー設定ガイド |
@@ -62,7 +61,7 @@ Adobe CX Enterprise Agentic Toolsを使用するための主要なAdobeリソー
 | [Adobe Developer Console](https://developer.adobe.com/developer-console/docs/guides/) | API プロジェクトの設定、認証、資格情報管理 |
 | [開発者向け基本ガイド &#x200B;](https://developer.adobe.com/dep/) | Adobe APIによる構築の概要 |
 
-## AI クライアント設定
+## AI プラットフォームの設定
 
 | リソース | 見つかる内容 |
 |---|---|

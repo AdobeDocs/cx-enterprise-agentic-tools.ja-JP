@@ -1,17 +1,17 @@
 ---
 title: データ主導のアップデートでコンテンツのパフォーマンス不足を解消
 description: CJAとAEMを単一のAI セッションで連携することで、コンバージョンのギャップがあるキャンペーンを特定し、原因を診断して、ツールを切り替えることなくコンテンツを更新できます。
-last-substantial-update: 2026-09-16
-source-git-commit: a70eede6e0efe0d1dbdc00c5d9de5aeb3b5d75de
+last-substantial-update: 2026-11-16
+source-git-commit: a75d5f3af3077b259da796bd381d605ae826585d
 workflow-type: tm+mt
-source-wordcount: '1146'
-ht-degree: 7%
+source-wordcount: '1233'
+ht-degree: 6%
 ---
 
 # データ主導のアップデートでコンテンツのパフォーマンス不足を解消
 <!-- last-modified: 2026-06-10 -->
 
-![&#x200B; オリジナルと更新されたページコンテンツを並べて比較するAI クライアント &#x200B;](../assets/use-cases/optimize-content-with-performance-data/optimize-content-with-performance-data-step5-03-page-compare.png){zoomable="yes"}
+![&#x200B; オリジナルと更新されたページコンテンツを並べて比較するAI プラットフォーム &#x200B;](../assets/use-cases/optimize-content-with-performance-data/optimize-content-with-performance-data-step5-03-page-compare.png){zoomable="yes"}
 
 *選択してズームします。*
 
@@ -19,10 +19,10 @@ ht-degree: 7%
 
 | シナリオの詳細 | |
 | --- | --- |
-| CX エンタープライズアプリケーション | [Customer Journey Analytics](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-overview/cja-overview)、[Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/overview/introduction) |
-| エージェント型ツール | [CX Enterprise Coworker](https://experienceleague.adobe.com/ja/docs/cx-enterprise-coworker/content/home)または[Customer Journey Analytics MCP Server](../tools/mcp-servers.md)および[AEM MCP Server](https://experienceleague.adobe.com/ja/docs/experience-manager-learn/cloud-service/ai/mcp-servers/overview) |
+| CX Enterprise製品 | [Customer Journey Analytics](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-overview/cja-overview)、[Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/overview/introduction) |
+| エージェント型ツール | [Adobe CX Enterprise Coworker](https://experienceleague.adobe.com/ja/docs/cx-enterprise-coworker/content/home)、[Adobe CX Enterprise Coworker for AI Platforms](../tools/mcp-servers.md#connect-to-your-ai-platform)、または[Customer Journey Analytics MCP Server](../tools/mcp-servers.md)および[AEM MCP Server](https://experienceleague.adobe.com/ja/docs/experience-manager-learn/cloud-service/ai/mcp-servers/overview) |
 | オーディエンス | キャンペーンマネージャー，コンテンツストラテジスト，マーケティングオペレーション |
-| 前提条件 | MCP対応AI クライアント、CJAアクセス、AEM as a Cloud Serviceアクセス |
+| 前提条件 | CJAへのアクセス、AEM as a Cloud Serviceへのアクセス、Coworker、AI プラットフォーム向けCoworker付きAI プラットフォーム、MCP対応AI プラットフォーム |
 
 各ステップは、代表的なプロンプトとAI応答の例を示しています。 同じセッションで追加の探索を行うために、**さらに達成できる**&#x200B;のセクションを次に示します。
 
@@ -31,11 +31,15 @@ ht-degree: 7%
 
 >[!BEGINTABS]
 
->[!TAB CX Enterprise Coworker]
+>[!TAB Coworker]
 
-CX Enterprise Coworkerはこのチュートリアル全体をカバーしており、サーバーの設定は必要ありません。 [CX Enterprise Coworkerを試す](https://experienceleague.adobe.com/ja/docs/cx-enterprise-coworker/content/home)
+Coworkerはこのチュートリアル全体をカバーしており、サーバーの設定は必要ありません。 [同僚を試す](https://experienceleague.adobe.com/ja/docs/cx-enterprise-coworker/content/home)
 
-独自のAI クライアントを直接接続する場合は、以下のタブを使用して両方のMCP サーバーを接続します。
+Coworkerを直接使用できない場合や、使用したくない場合は、代わりに自分のAI プラットフォームから使用してください。 AI プラットフォームの&#x200B;**同僚** タブを参照してください。 それでも問題が解決しない場合は、残りのタブを使用して、AI プラットフォームをCustomer Journey AnalyticsおよびAEM MCP サーバーに直接接続します。
+
+>[!TAB AI プラットフォームの 同僚]
+
+また、自社のAI プラットフォームからAI プラットフォーム向けに開発したCoworkerを使用して、このチュートリアルを完了することもできます。 [AI プラットフォーム用に共同作業者を設定](../tools/mcp-servers.md#connect-to-your-ai-platform) | [Adobe ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/coworker/content/ai-platforms#set-up-coworker)
 
 >[!TAB  クロード.ai]
 
@@ -68,7 +72,7 @@ ChatGPT デベロッパーモードを使用して両方のMCP サーバーを�
 
 完全なセットアップ：[ChatGPT MCP ドキュメント &#x200B;](https://developers.openai.com/api/docs/guides/tools-connectors-mcp)
 
->[!TAB その他のAI クライアント ]
+>[!TAB その他のAI プラットフォーム ]
 
 Gemini、Microsoft Copilot、Cursor、Claude CodeなどのMCP互換アプリケーションを使用している場合、 以下のエンドポイントを使用して、両方のMCP サーバーに接続します。
 
@@ -77,7 +81,7 @@ Gemini、Microsoft Copilot、Cursor、Claude CodeなどのMCP互換アプリケ�
 | Customer Journey Analytics MCP Server | `https://cja-mcp.adobe.io/mcp` |
 | AEM MCP Server | `https://mcp.adobeaemcloud.com/adobe/mcp/aem` |
 
-サポートされているすべてのクライアントの完全なセットアップ手順：[AI クライアントに接続](../tools/mcp-servers.md)
+サポートされているすべてのAI プラットフォームの完全なセットアップ手順：[AI プラットフォームに接続](../tools/mcp-servers.md)
 
 >[!ENDTABS]
 
@@ -85,7 +89,7 @@ Gemini、Microsoft Copilot、Cursor、Claude CodeなどのMCP互換アプリケ�
 >
 >プロンプトが表示されたらAdobe IDでログインし、CJAおよびAEM環境にリンクされているIMS組織を選択します。 間違った組織を選択することは、認証エラーの最も一般的な原因です。
 >
->最初の接続時に、AI クライアントからIMS組織の選択またはサンドボックスの指定を求められる場合があります。 そのコンテキストが設定されると、MCP サーバーは残りのセッションにコンテキストを使用します。
+>最初に接続すると、AI プラットフォームからIMS組織の選択やサンドボックスの指定を求められる場合があります。 そのコンテキストが設定されると、MCP サーバーは残りのセッションにコンテキストを使用します。
 >
 >一部のツールは、実行前に承認を求めます。 リクエストを確認して承認または辞退します。 確認なしにアクションは実行されません。
 
@@ -100,7 +104,7 @@ Which campaigns have strong click-through but low conversion in the last 30 days
 
 +++回答の例を見る
 
-![CJAからのクリックスルー率は高いがコンバージョン率は低いAI クライアントサーフェスキャンペーン &#x200B;](../assets/use-cases/optimize-content-with-performance-data/optimize-content-step1-campaigns.png){zoomable="yes"}
+![CJAからのクリックスルー率は高いがコンバージョン率は低いAI プラットフォームの表面化キャンペーン &#x200B;](../assets/use-cases/optimize-content-with-performance-data/optimize-content-step1-campaigns.png){zoomable="yes"}
 
 *選択してズームします。*
 
@@ -118,7 +122,7 @@ What's causing the conversion drop-off, is it device, segment, or content?
 
 +++回答の例を見る
 
-![&#x200B; デバイス、セグメント、コンテンツ要因ごとにコンバージョンの脱落を診断するAI クライアント &#x200B;](../assets/use-cases/optimize-content-with-performance-data/optimize-content-step2-diagnosis.png){zoomable="yes"}
+![&#x200B; デバイス、セグメント、コンテンツ要因ごとにコンバージョンの脱落を診断するAI プラットフォーム &#x200B;](../assets/use-cases/optimize-content-with-performance-data/optimize-content-step2-diagnosis.png){zoomable="yes"}
 
 *選択してズームします。*
 
@@ -136,7 +140,7 @@ Show me the Bali Surf Camp page.
 
 +++回答の例を見る
 
-AEMからのランディングページの現在のコンテンツを表示する![AI クライアント &#x200B;](../assets/use-cases/optimize-content-with-performance-data/optimize-content-step3-page-content.png){zoomable="yes"}
+![AEMのランディングページの現在のコンテンツを表示するAI プラットフォーム &#x200B;](../assets/use-cases/optimize-content-with-performance-data/optimize-content-step3-page-content.png){zoomable="yes"}
 
 *選択してズームします。*
 
@@ -146,7 +150,7 @@ AEMからのランディングページの現在のコンテンツを表示す�
 
 ## ステップ 4：的を絞ったレコメンデーションの提供
 
-AI クライアントに、データが示したものとページ上のものを結びつけるように依頼します。 両方のソースでAIを利用する理由により、どのコンテンツセクションが脱落の原因になり、何を変更すべきかを特定できます。
+AI プラットフォームに、表示されたデータとページ上のデータを結びつけるように依頼します。 両方のソースでAIを利用する理由により、どのコンテンツセクションが脱落の原因になり、何を変更すべきかを特定できます。
 
 ```
 Which content sections are underperforming, and what changes would you recommend?
@@ -154,7 +158,7 @@ Which content sections are underperforming, and what changes would you recommend
 
 +++回答の例を見る
 
-パフォーマンスの低いコンテンツセクションを特定し、特定の変更を推奨する![AI クライアント &#x200B;](../assets/use-cases/optimize-content-with-performance-data/optimize-content-with-performance-data-step4.gif){zoomable="yes"}
+![&#x200B; パフォーマンスの低いコンテンツセクションを特定し、特定の変更を推奨するAI プラットフォーム &#x200B;](../assets/use-cases/optimize-content-with-performance-data/optimize-content-with-performance-data-step4.gif){zoomable="yes"}
 
 *選択してズームします。*
 
@@ -164,7 +168,7 @@ Which content sections are underperforming, and what changes would you recommend
 
 ## 手順5：変更を適用して確認する
 
-AI クライアントに、レコメンデーションに基づいて最適化されたページのバージョンを作成してもらい、何が変更され、なぜ変更されたかを要約します。
+AI プラットフォームに、レコメンデーションに基づいて最適化されたページを作成するように依頼し、何が変更されたのか、そしてその理由を要約します。
 
 ```
 Create an optimized version of the Bali Surf Camp page and summarize the proposed changes.
@@ -172,7 +176,7 @@ Create an optimized version of the Bali Surf Camp page and summarize the propose
 
 +++回答の例を見る
 
-![AI クライアントが最適化されたバージョンのページを作成し、変更を要約](../assets/use-cases/optimize-content-with-performance-data/optimize-content-with-performance-data-step5.gif){zoomable="yes"}
+![AI プラットフォームが最適化バージョンのページを作成し、変更を要約](../assets/use-cases/optimize-content-with-performance-data/optimize-content-with-performance-data-step5.gif){zoomable="yes"}
 
 *選択してズームします。*
 

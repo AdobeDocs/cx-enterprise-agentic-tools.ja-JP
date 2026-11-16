@@ -1,14 +1,12 @@
 ---
 title: 確実なAEM as a Cloud Serviceへのデプロイ
-description: AI クライアントを離れることなく、環境の健全性を確認し、パイプラインの履歴を確認し、デプロイメントをトリガーまたは管理できます。
-last-substantial-update: 2026-06-10T00:00:00Z
-source-git-commit: 937a3189965f3a3551c730bb27ee0592ae6fca92
+description: AI基盤から直接、環境の状態を確認し、パイプラインの履歴を確認して、デプロイメントのトリガーや管理をおこなうことができます。
+last-substantial-update: 2026-06-10
+source-git-commit: 9a2fe3165e49fd57c9a76741a77956850b0c0e3b
 workflow-type: tm+mt
-source-wordcount: '950'
-ht-degree: 2%
-
+source-wordcount: '951'
+ht-degree: 3%
 ---
-
 
 # 確実なAEM as a Cloud Serviceへのデプロイ
 
@@ -16,14 +14,14 @@ ht-degree: 2%
 
 >[!VIDEO](https://video.tv.adobe.com/v/3480343/?captions=jpn&learn=on&enablevpops)
 
-デプロイメントの信頼性は、プッシュする前に環境が健全であることを確認しておくことで得られます。 このチュートリアルでは、AEM MCP Serverを使用して、AI クライアントからAEM Cloud Manager環境のステータスを確認し、パイプライン履歴を確認し、トリガーのデプロイメントを行う方法を示します。これにより、可視性を損なうことなく、迅速に作業を進めることができます。
+デプロイメントの信頼性は、プッシュする前に環境が健全であることを確認しておくことで得られます。 このチュートリアルでは、AEM MCP Serverを使用して、AI プラットフォームからAEM Cloud Manager環境のステータスを確認し、パイプライン履歴を確認し、トリガーのデプロイメントを行う方法を示します。これにより、可視性を損なうことなく、迅速に作業を進めることができます。
 
 | シナリオの詳細 | |
 | --- | --- |
-| CX エンタープライズアプリケーション | [Adobe Experience Manager Cloud Manager](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/introduction-to-cloud-manager) |
+| CX Enterprise製品 | [Adobe Experience Manager Cloud Manager](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/introduction-to-cloud-manager) |
 | エージェント型ツール | [AEM Cloud Manager MCP Server](https://experienceleague.adobe.com/ja/docs/experience-manager-learn/cloud-service/ai/mcp-servers/cloud-manager) |
 | オーディエンス | 開発、DevOps、運用チーム |
-| 前提条件 | MCP対応AI クライアント、AEM Cloud Managerアクセス |
+| 前提条件 | MCP対応AI基盤、AEM Cloud Managerへのアクセス |
 
 各ステップは、代表的なプロンプトとAI応答の例を示しています。 同じセッションで追加の探索を行うために、**さらに**&#x200B;個のセクションを試すよう求めるプロンプトが表示されます。
 
@@ -96,7 +94,7 @@ Cloud Manager MCP Serverをプロジェクトルートの`~/.cursor/mcp.json` �
 
 完全なセットアップ：[VS Code MCP サーバーのドキュメント &#x200B;](https://code.visualstudio.com/docs/copilot/customization/mcp-servers)
 
->[!TAB その他のAI クライアント ]
+>[!TAB その他のAI プラットフォーム ]
 
 別のMCP互換の環境を使用していますか？ 次のエンドポイントを使用してCloud Manager MCP Serverに接続します。
 
@@ -104,15 +102,15 @@ Cloud Manager MCP Serverをプロジェクトルートの`~/.cursor/mcp.json` �
 https://mcp.adobeaemcloud.com/adobe/mcp/cloudmanager
 ```
 
-サポートされているすべてのクライアントの完全なセットアップ手順：[AI クライアントに接続](../tools/mcp-servers.md)
+サポートされているすべてのAI プラットフォームの完全なセットアップ手順：[AI プラットフォームに接続](../tools/mcp-servers.md)
 
 >[!ENDTABS]
 
 >[!NOTE]
 >
->プロンプトが表示されたらAdobe IDでログインし、AEM as a Cloud Service プログラムにリンクされているIMS組織を選択します。 権限はCloud Manager レベルで適用されます。 AI クライアントは、アカウントが承認した操作のみを実行できます。
+>プロンプトが表示されたらAdobe IDでログインし、AEM as a Cloud Service プログラムにリンクされているIMS組織を選択します。 権限はCloud Manager レベルで適用されます。 AI プラットフォームは、アカウントが承認した操作のみを実行できます。
 >
->最初の接続時に、AI クライアントから組織またはAEM プログラムの確認を求められる場合があります。 そのコンテキストが設定されると、MCP サーバーは残りのセッションにコンテキストを使用します。
+>最初の連携で、AI プラットフォームから組織またはAEMプログラムの確認を求められる場合があります。 そのコンテキストが設定されると、MCP サーバーは残りのセッションにコンテキストを使用します。
 >
 >一部のツールは、実行前に承認を求めます。 提案されたアクションを確認し、承認または辞退します。 確認なしにアクションは実行されません。
 
@@ -126,7 +124,7 @@ What is the status of the production environment?
 
 +++回答の例を見る
 
-![Cloud Managerの本番環境のステータスを表示するAI クライアント &#x200B;](../assets/use-cases/aem-cloud-manager-mcp/aem-cloud-manager-mcp-step1-01-ai.png){zoomable="yes"}
+![Cloud Managerの本番環境のステータスを表示するAI プラットフォーム &#x200B;](../assets/use-cases/aem-cloud-manager-mcp/aem-cloud-manager-mcp-step1-01-ai.png){zoomable="yes"}
 
 *選択してズームします。*
 
@@ -143,7 +141,7 @@ Show me the last five pipeline runs for the production pipeline.
 
 +++回答の例を見る
 
-実稼動パイプラインの最後の5つのパイプライン実行を示す![AI クライアント &#x200B;](../assets/use-cases/aem-cloud-manager-mcp/aem-cloud-manager-mcp-step2-01-ai.png){zoomable="yes"}
+実稼動パイプラインの最後の5つのパイプライン実行を示す![AI プラットフォーム &#x200B;](../assets/use-cases/aem-cloud-manager-mcp/aem-cloud-manager-mcp-step2-01-ai.png){zoomable="yes"}
 
 *選択してズームします。*
 
@@ -152,7 +150,7 @@ Show me the last five pipeline runs for the production pipeline.
 
 ## ステップ 3: パイプラインのトリガー
 
-AI クライアントから直接パイプラインを開始します。 サーバーはターゲット環境を確認し、開始する前に承認を求めます。
+AI プラットフォームから直接パイプラインを開始します。 サーバーはターゲット環境を確認し、開始する前に承認を求めます。
 
 ```
 Run the Fullstack pipeline against dev environment of WKND sandbox program.
@@ -160,7 +158,7 @@ Run the Fullstack pipeline against dev environment of WKND sandbox program.
 
 +++回答の例を見る
 
-![&#x200B; パイプラインのトリガー確認と、実行中のパイプラインを反映したCloud Manager UIを表示するAI クライアント &#x200B;](../assets/use-cases/aem-cloud-manager-mcp/aem-cloud-manager-mcp-step3.gif){zoomable="yes"}
+![&#x200B; パイプラインのトリガー確認と、実行中のパイプラインを反映したCloud Manager UIを表示するAI プラットフォーム &#x200B;](../assets/use-cases/aem-cloud-manager-mcp/aem-cloud-manager-mcp-step3.gif){zoomable="yes"}
 
 *選択してズームします。*
 
@@ -169,11 +167,11 @@ Run the Fullstack pipeline against dev environment of WKND sandbox program.
 
 >[!CAUTION]
 >
->AI クライアントは、実行をトリガーする前に、パイプライン名の確認を求めます。 正確なパイプライン名を入力して続行します。 確認する前に、特に実稼動環境にデプロイするパイプラインについて、ターゲット環境を慎重に確認します。
+>AI プラットフォームは、実行をトリガーする前に、パイプライン名の確認を求めます。 正確なパイプライン名を入力して続行します。 確認する前に、特に実稼動環境にデプロイするパイプラインについて、ターゲット環境を慎重に確認します。
 
 ## 手順4：パイプラインステータスの確認
 
-実行をトリガーした後、Cloud Manager インターフェイスに切り替えずに、AI クライアントにステータスの更新を依頼します。
+実行をトリガーした後、Cloud Manager インターフェイスに切り替えずに、AI プラットフォームにステータスの更新を依頼します。
 
 ```
 What is the status of the triggered pipeline?
@@ -181,7 +179,7 @@ What is the status of the triggered pipeline?
 
 +++回答の例を見る
 
-![&#x200B; トリガーされたパイプライン実行のステータスを表示するAI クライアント &#x200B;](../assets/use-cases/aem-cloud-manager-mcp/aem-cloud-manager-mcp-step4-01-ai.png){zoomable="yes"}
+![&#x200B; トリガーされたパイプライン実行のステータスを表示するAI プラットフォーム &#x200B;](../assets/use-cases/aem-cloud-manager-mcp/aem-cloud-manager-mcp-step4-01-ai.png){zoomable="yes"}
 
 *選択してズームします。*
 

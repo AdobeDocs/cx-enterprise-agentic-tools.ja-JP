@@ -1,14 +1,12 @@
 ---
 title: エージェントスキル
-description: Adobeが監修したワークフローと手引きを活用して、AI エージェントがCX Enterpriseのタスクを一貫して進められるようにします。
-last-substantial-update: 2026-05-19T00:00:00Z
-source-git-commit: 40d93f878ba9f48c9daffd3beccb4bf829113a36
+description: Adobeがキュレートしたワークフローと指示により、AI エージェントは一貫してCX Enterpriseのタスクを進めることができます。
+last-substantial-update: 2026-11-16
+source-git-commit: 9a2fe3165e49fd57c9a76741a77956850b0c0e3b
 workflow-type: tm+mt
-source-wordcount: '617'
+source-wordcount: '619'
 ht-degree: 1%
-
 ---
-
 
 # エージェントのスキル
 
@@ -16,9 +14,9 @@ ht-degree: 1%
 
 Adobe CX Enterpriseの![担当者のスキル &#x200B;](../assets/hero-agent-skills.png)
 
-エージェントスキルは、Adobeがキュレートしたワークフローで、AI エージェントがAdobe CX Enterpriseのタスクを確実に完了するためのステップバイステップの手順を提供します。 各エージェントスキルは、ドメインの専門知識とベストプラクティスをエンコードすることで、エージェントが改善を必要とせずに、一貫した検証済みの結果を生成できるようにします。 エージェントのスキルは、会話をまたいで繰り返し可能なガイド付きの行動を求めるときに理にかなっています。特に、毎回詳細なプロンプトが必要になるタスクでは、これが重要になります。 これらはMCP サーバーとAPIを補完します。エージェントスキルはエージェントの仕組みを定義し、MCP サーバーとAPIは基礎となるアクセスを提供します。
+エージェントスキルは、Adobeがキュレートしたワークフローで、AI エージェントがAdobe CX Enterpriseのタスクを確実に完了するためのステップバイステップの指示を提供します。 各エージェントスキルは、ドメインの専門知識とベストプラクティスをエンコードすることで、エージェントが改善を必要とせずに、一貫した検証済みの結果を生成できるようにします。 エージェントのスキルは、会話をまたいで繰り返し可能なガイド付きの行動を求めるときに理にかなっています。特に、毎回詳細なプロンプトが必要になるタスクでは、これが重要になります。 これらはMCP サーバーとAPIを補完します。エージェントスキルはエージェントの仕組みを定義し、MCP サーバーとAPIは基礎となるアクセスを提供します。
 
-## Adobe CX Enterpriseの担当者のスキル
+## Adobe CX Enterprise エージェントのスキル
 
 そのワークフローのスキルを探るには、以下の機能領域を選択してください。
 
@@ -64,19 +62,19 @@ Creative Cloudを使用した、一括写真編集、テンプレートからの
 
 ### エージェントのスキルのインストール
 
-エージェントスキルは、使用しているAI クライアントに基づいてインストールされます。 一部のクライアントは、コマンドラインからの直接インストールをサポートしています。
+エージェントスキルは、使用しているAI プラットフォームに基づいてインストールされます。 一部のAI プラットフォームは、コマンドラインからの直接インストールをサポートしています。
 
 - **クロード コード**: `/plugin install adobe/skills`
 - **ノード環境**: `npx skills add adobe/skills`
 - **GitHub CLI**: `gh upskill adobe/skills`
 
-他のクライアントでは、スキルファイルをダウンロードしてAI クライアントに直接追加する必要があります。 クライアントによる完全なインストール手順については、GitHub[&#128279;](https://github.com/adobe/skills#installation)のAdobe Skills READMEを参照してください。
+その他のAI プラットフォームでは、スキルファイルをダウンロードしてAI プラットフォームに直接追加する必要があります。 クライアントによる完全なインストール手順については、GitHub[&#128279;](https://github.com/adobe/skills#installation)のAdobe Skills READMEを参照してください。
 
 ### エージェントのスキルを見つける
 
 利用可能なスキルの完全なリストについては、[Adobe Skills GitHub リポジトリ &#x200B;](https://github.com/adobe/skills)を参照してください。 各エージェントスキルには、詳細なガイダンス、参照、例を含む`SKILL.md` ファイルが含まれています。
 
-`adobe/skills` パッケージをインストールまたは追加した後、一部のAI クライアントでは、利用可能なすべてのスキルを直接一覧表示できます。
+`adobe/skills` パッケージのインストールまたは追加後、一部のAI プラットフォームでは、利用可能なすべてのスキルを直接一覧表示できます。
 
 - **クロード コード**: `claude /plugin list`
 - **ノード環境**: `npx skills list`
@@ -84,7 +82,7 @@ Creative Cloudを使用した、一括写真編集、テンプレートからの
 
 ## エージェントのスキル
 
-担当者のスキル :Adobeの専門知識を利用して、AI クライアント内で作業を進めることができます。これにより、担当者は即興で作業するのではなく、実績のあるワークフローに従うことができるようになります。 以下の各チュートリアルでは、Adobeのベストプラクティスに従って、最初から出力まで、確実に完了した特定のビジネスタスクを示します。
+担当者のスキル :Adobeの専門知識を利用して、AI プラットフォームで作業できるようにします。これにより、担当者は即興ではなく、実績のあるワークフローに従って作業できるようになります。 以下の各チュートリアルでは、Adobeのベストプラクティスに従って、最初から出力まで、確実に完了した特定のビジネスタスクを示します。
 
 <!--
 CARDS
@@ -117,7 +115,7 @@ CARDS
                 </div>
                 <a href="https://experienceleague.adobe.com/ja/docs/experience-manager-learn/cloud-service/ai/ai-assisted-development/use-cases/component-development" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold"> エージェントのスキルを試す</span>
-                
+                </a>
             </div>
         </div>
     </div>

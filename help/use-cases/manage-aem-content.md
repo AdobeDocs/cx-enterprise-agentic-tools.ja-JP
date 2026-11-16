@@ -1,29 +1,29 @@
 ---
 title: コンテンツを最新の状態に保ち、更新をすばやく配信できます
 description: AEM MCP Serverを使用して、ツールを切り替えることなく、AEM コンテンツを検索、レビュー、更新、公開します。
-last-substantial-update: 2026-09-16
-source-git-commit: a70eede6e0efe0d1dbdc00c5d9de5aeb3b5d75de
+last-substantial-update: 2026-11-16
+source-git-commit: a75d5f3af3077b259da796bd381d605ae826585d
 workflow-type: tm+mt
-source-wordcount: '1019'
-ht-degree: 8%
+source-wordcount: '1104'
+ht-degree: 7%
 ---
 
 # コンテンツを最新の状態に保ち、更新をすばやく配信できます
 
 <!-- last-modified: 2026-05-22 -->
 
-![&#x200B; ページが公開されたことを確認し、ライブ URLを返すAI クライアント &#x200B;](../assets/use-cases/manage-aem-content/manage-aem-content-step4-02-product.png){zoomable="yes"}
+![&#x200B; ページが公開されたことを確認し、ライブ URLを返すAI プラットフォーム &#x200B;](../assets/use-cases/manage-aem-content/manage-aem-content-step4-02-product.png){zoomable="yes"}
 
 *選択してズームします。*
 
-web サイトのコンテンツを最新の状態に保つことは、常に運用におけるプレッシャーとなっています。 このチュートリアルでは、AEM MCP Serverを使用して、コンテンツチームがAI クライアントを通じてAEM ページとコンテンツフラグメントを検索、レビュー、更新、公開する方法を示し、コンテンツの決定からライブアップデートまでの時間を短縮します。
+web サイトのコンテンツを最新の状態に保つことは、常に運用におけるプレッシャーとなっています。 このチュートリアルでは、AEM MCP Serverを使用して、コンテンツチームがAI プラットフォームを通じてAEMページとコンテンツフラグメントを検索、レビュー、更新、公開する方法を説明します。
 
 | シナリオの詳細 | |
 | --- | --- |
-| CX エンタープライズアプリケーション | [Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/overview/introduction) |
-| エージェント型ツール | [CX Enterprise Coworker](https://experienceleague.adobe.com/ja/docs/cx-enterprise-coworker/content/home)または[AEM MCP Server](https://experienceleague.adobe.com/ja/docs/experience-manager-learn/cloud-service/ai/mcp-servers/overview) |
+| CX Enterprise製品 | [Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/overview/introduction) |
+| エージェント型ツール | [Adobe CX Enterprise Coworker](https://experienceleague.adobe.com/ja/docs/cx-enterprise-coworker/content/home)、[Adobe CX Enterprise Coworker for AI Platforms](../tools/mcp-servers.md#connect-to-your-ai-platform)または[AEM MCP Server](https://experienceleague.adobe.com/ja/docs/experience-manager-learn/cloud-service/ai/mcp-servers/overview) |
 | オーディエンス | コンテンツマネージャー，マーケティングチーム |
-| 前提条件 | MCP対応AI クライアント、AEM as a Cloud Serviceアクセス |
+| 前提条件 | AEM as a Cloud Serviceへのアクセス、Coworker、AI プラットフォーム用のCoworker付きAI プラットフォーム、MCP対応AI プラットフォーム |
 
 各ステップは、代表的なプロンプトとAI応答の例を示しています。 同じセッションで追加の探索を行うために、**さらに達成できる**&#x200B;のセクションを次に示します。
 
@@ -31,11 +31,15 @@ web サイトのコンテンツを最新の状態に保つことは、常に運�
 
 >[!BEGINTABS]
 
->[!TAB CX Enterprise Coworker]
+>[!TAB Coworker]
 
-最速の方法はCX Enterprise Coworkerで、サーバーのセットアップやAI クライアントの設定は必要ありません。 [CX Enterprise Coworkerを試す](https://experienceleague.adobe.com/ja/docs/cx-enterprise-coworker/content/home)
+最も簡単な方法はCoworkerです。Coworkerでは、サーバーのセットアップやAI プラットフォームの設定は必要ありません。 [同僚を試す](https://experienceleague.adobe.com/ja/docs/cx-enterprise-coworker/content/home)
 
-独自のAI クライアントをAEMに直接接続する場合は、以下のタブを参照してください。
+Coworkerを直接使用できない場合や、使用したくない場合は、代わりに自分のAI プラットフォームから使用してください。 AI プラットフォームの&#x200B;**同僚** タブを参照してください。 それでも問題が解決しない場合は、残りのタブを使用して、AI プラットフォームをAEM MCP Serverに直接接続します。
+
+>[!TAB AI プラットフォームの 同僚]
+
+また、自社のAI プラットフォームからAI プラットフォーム向けに開発したCoworkerを使用して、このチュートリアルを完了することもできます。 [AI プラットフォーム用に共同作業者を設定](../tools/mcp-servers.md#connect-to-your-ai-platform) | [Adobe ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/coworker/content/ai-platforms#set-up-coworker)
 
 >[!TAB  クロード.ai]
 
@@ -58,7 +62,7 @@ ChatGPT Developer Modeを使用してAEM MCP Serverに接続します（Pro、Pl
 
 完全なセットアップ：[ChatGPT MCP ドキュメント &#x200B;](https://developers.openai.com/api/docs/guides/tools-connectors-mcp)
 
->[!TAB その他のAI クライアント ]
+>[!TAB その他のAI プラットフォーム ]
 
 Gemini、Microsoft Copilot、Cursor、Claude CodeなどのMCP互換アプリケーションを使用している場合、 次のエンドポイントを使用してAEM MCP Serverに接続します。
 
@@ -66,21 +70,21 @@ Gemini、Microsoft Copilot、Cursor、Claude CodeなどのMCP互換アプリケ�
 https://mcp.adobeaemcloud.com/adobe/mcp/aem
 ```
 
-サポートされているすべてのクライアントの完全なセットアップ手順：[AI クライアントに接続](../tools/mcp-servers.md)
+サポートされているすべてのAI プラットフォームの完全なセットアップ手順：[AI プラットフォームに接続](../tools/mcp-servers.md)
 
 >[!ENDTABS]
 
 >[!NOTE]
 >
->プロンプトが表示されたらAdobe IDでログインし、AEM as a Cloud Service環境にリンクされているIMS組織を選択します。 権限はAEM レベルで適用されます。 AI クライアントは、アカウントが承認した操作のみを実行できます。
+>プロンプトが表示されたらAdobe IDでログインし、AEM as a Cloud Service環境にリンクされているIMS組織を選択します。 権限はAEM レベルで適用されます。 AI プラットフォームは、アカウントが承認した操作のみを実行できます。
 >
->最初の接続時に、AI クライアントから組織またはAEM環境の確認を求められる場合があります。 そのコンテキストが設定されると、MCP サーバーは残りのセッションにコンテキストを使用します。
+>最初に接続すると、AI プラットフォームから組織またはAEM環境の確認を求められる場合があります。 そのコンテキストが設定されると、MCP サーバーは残りのセッションにコンテキストを使用します。
 >
 >一部のツールは、実行前に承認を求めます。 提案されたアクションを確認し、承認または辞退します。 変更は確認なしには行われません。
 
 ## ステップ 1:AEM環境全体のコンテンツを検索する
 
-まず、AI クライアントにAEM環境を検索してもらい、コンテンツを検索してもらいます。 正確なパスを知らなくても、トピック、キーワード、コンテンツタイプで検索できます。
+まず、AI プラットフォームにAEM環境を確認してコンテンツを検索するように依頼します。 正確なパスを知らなくても、トピック、キーワード、コンテンツタイプで検索できます。
 
 ```
 From WKND Dev environment, find all ski related content.
@@ -88,7 +92,7 @@ From WKND Dev environment, find all ski related content.
 
 +++回答の例を見る
 
-![WKND Dev AEM環境からのスキーコンテンツの検索結果を表示するAI クライアント &#x200B;](../assets/use-cases/manage-aem-content/manage-aem-content-step1-find-ski.png){zoomable="yes"}
+![WKND Dev AEM環境からのスキーコンテンツの検索結果を表示するAI プラットフォーム &#x200B;](../assets/use-cases/manage-aem-content/manage-aem-content-step1-find-ski.png){zoomable="yes"}
 
 *選択してズームします。*
 
@@ -97,7 +101,7 @@ From WKND Dev environment, find all ski related content.
 
 ## 手順2：特定のページの確認
 
-関連コンテンツを見つけたら、AI クライアントに特定のページを表示するように依頼します。 ページは名前またはパスで参照できます。 MCP サーバーは参照を解決し、コンテンツ構造を返します。
+適切なコンテンツを見つけたら、AI プラットフォームに特定のページを表示するように依頼します。 ページは名前またはパスで参照できます。 MCP サーバーは参照を解決し、コンテンツ構造を返します。
 
 ```
 Show me the US English Home Page.
@@ -105,7 +109,7 @@ Show me the US English Home Page.
 
 +++回答の例を見る
 
-![AEMの米国英語ホームページのコンテンツ構造を表示するAI クライアント &#x200B;](../assets/use-cases/manage-aem-content/manage-aem-content-step2-home-page.png){zoomable="yes"}
+![AEMの米国英語ホームページのコンテンツ構造を表示するAI プラットフォーム &#x200B;](../assets/use-cases/manage-aem-content/manage-aem-content-step2-home-page.png){zoomable="yes"}
 
 *選択してズームします。*
 
@@ -114,7 +118,7 @@ Show me the US English Home Page.
 
 ## ステップ 3：コンテンツの改善
 
-ページコンテンツを表示して、AI クライアントに改善点の提案や適用を依頼します。 AIは、ページの現在の内容に基づいてコピーの変更を提案し、何かを書く前に確認を求めることができます。
+ページコンテンツを表示したら、AI プラットフォームに改善点の提案や適用を依頼します。 AIは、ページの現在の内容に基づいてコピーの変更を提案し、何かを書く前に確認を求めることができます。
 
 ```
 Improve the Hero CTAs.
@@ -122,7 +126,7 @@ Improve the Hero CTAs.
 
 +++回答の例を見る
 
-![変更を適用する前に、確認プロンプトを使用して改善されたHero CTA コピーを提案するAI クライアント &#x200B;](../assets/use-cases/manage-aem-content/manage-aem-content-step3.gif){zoomable="yes"}
+![変更を適用する前に、確認プロンプトを使用して改善されたHero CTA コピーを提案するAI プラットフォーム &#x200B;](../assets/use-cases/manage-aem-content/manage-aem-content-step3.gif){zoomable="yes"}
 
 *選択してズームします。*
 
@@ -143,7 +147,7 @@ Publish the changes and share the URL.
 
 +++回答の例を見る
 
-![&#x200B; ページが公開されたことを確認し、ライブ URLを返すAI クライアント &#x200B;](../assets/use-cases/manage-aem-content/manage-aem-content-step4.gif){zoomable="yes"}
+![&#x200B; ページが公開されたことを確認し、ライブ URLを返すAI プラットフォーム &#x200B;](../assets/use-cases/manage-aem-content/manage-aem-content-step4.gif){zoomable="yes"}
 
 *選択してズームします。*
 
