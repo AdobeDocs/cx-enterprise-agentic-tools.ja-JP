@@ -43,7 +43,7 @@ Coworkerを直接使用できない場合や、使用したくない場合は、
 
 >[!TAB AI プラットフォームの 同僚]
 
-また、自社のAI プラットフォームからAI プラットフォーム向けに開発したCoworkerを使用して、このチュートリアルを完了することもできます。 [AI プラットフォーム用に共同作業者を設定](../tools/mcp-servers.md#connect-to-your-ai-platform) | [Adobe ドキュメント &#x200B;](https://experienceleague.adobe.com/en/docs/coworker/content/ai-platforms#set-up-coworker)
+また、自社のAI プラットフォームからAI プラットフォーム向けに開発したCoworkerを使用して、このチュートリアルを完了することもできます。 [AI プラットフォーム用に共同作業者を設定](../tools/mcp-servers.md#connect-to-your-ai-platform) | [Adobe ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/coworker/content/ai-platforms#set-up-coworker)
 
 >[!TAB  クロード.ai]
 

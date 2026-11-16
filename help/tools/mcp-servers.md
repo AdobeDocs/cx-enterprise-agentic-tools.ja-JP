@@ -22,7 +22,7 @@ Adobe MCP サーバーは、オープン [&#x200B; モデル コンテキスト 
 >
 >* **1つの接続が多くありません。** 各Adobe アプリケーションを個別に接続する代わりに、1つのMCP サーバーを設定します。
 >* **あなたのアクセスは引き継ぎました。** Adobeの資格情報を使用してログインすると、Coworkerは既に持っているアクセス権を使用します。 個別の権限の設定はありません。
->* **安全でデザインによって管理されています。** Coworkerは、各ユーザーにその背後にあるCX Enterprise アプリケーションへのアクセスを制御します。 ユーザーの設定方法や付与されたアクセスに応じて、特定のコンテンツやデータに対する読み取り専用アクセス権を持つユーザーもいれば、読み取りと書き込みのアクセス権を持つユーザーもいます。 [Workfrontでのアクセス制御の詳細](https://experienceleague.adobe.com/en/docs/coworker/content/administration/access-control)。
+>* **安全でデザインによって管理されています。** Coworkerは、各ユーザーにその背後にあるCX Enterprise アプリケーションへのアクセスを制御します。 ユーザーの設定方法や付与されたアクセスに応じて、特定のコンテンツやデータに対する読み取り専用アクセス権を持つユーザーもいれば、読み取りと書き込みのアクセス権を持つユーザーもいます。 [Workfrontでのアクセス制御の詳細](https://experienceleague.adobe.com/ja/docs/coworker/content/administration/access-control)。
 >
 >他のAI プラットフォームに取り組んでおり、その周りにワークフローを構築していますか？ そうしたプラットフォームから、作業方法を変更することなくCoworkerの機能にアクセスすることもできます。 [AI プラットフォームの共同作業者の設定](#connect-to-your-ai-platform)
 >
@@ -48,16 +48,16 @@ AIを活用してCX Enterprise アプリケーションを操作する方法は3
 
 | MCP サーバー | エンドポイント | 実行できること | Coworker経由 |
 | --- | --- | --- | --- |
-| [Adobe Journey Optimizer](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/mcp/mcp-product-tools/ajo-mcp) | `https://ajo-mcp.adobe.io/mcp` | ジャーニー、キャンペーン、チャネル設定の確認 | はい |
-| [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/mcp/mcp-product-tools/cja-mcp) | `https://cja-mcp.adobe.io/mcp` | レポートのクエリ、データビューの確認、ワークスペースの作成 | はい |
-| [Adobe Analytics](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/mcp/mcp-product-tools/analytics-mcp) | `https://aa-mcp.adobe.io/mcp` | レポートスイートの検出、セグメントのオーサリング、ワークスペースの作成 | はい |
-| [Adobe Target](https://experienceleague.adobe.com/en/docs/target/using/mcp/target-mcp) | `https://targetmcp.adobe.io/mcp` | アクティビティ、オファー、オーディエンス、mbox、パフォーマンスレポート、プレビューURLの確認（公開ベータ版：ツールは読み取り専用、書き込みツールは一般公開用に計画されています） | はい |
-| [Real-Time CDP](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdp-mcp) | `https://rtcdp-mcp.adobe.io/mcp` | オーディエンス、宛先、ソース、フロー実行を検索し、ID名前空間と結合ポリシーを調べます（パブリックベータ版：必須、すべてのツールは読み取り専用） | はい |
+| [Adobe Journey Optimizer](https://experienceleague.adobe.com/ja/docs/experience-cloud-ai/experience-cloud-ai/mcp/mcp-product-tools/ajo-mcp) | `https://ajo-mcp.adobe.io/mcp` | ジャーニー、キャンペーン、チャネル設定の確認 | はい |
+| [Customer Journey Analytics](https://experienceleague.adobe.com/ja/docs/experience-cloud-ai/experience-cloud-ai/mcp/mcp-product-tools/cja-mcp) | `https://cja-mcp.adobe.io/mcp` | レポートのクエリ、データビューの確認、ワークスペースの作成 | はい |
+| [Adobe Analytics](https://experienceleague.adobe.com/ja/docs/experience-cloud-ai/experience-cloud-ai/mcp/mcp-product-tools/analytics-mcp) | `https://aa-mcp.adobe.io/mcp` | レポートスイートの検出、セグメントのオーサリング、ワークスペースの作成 | はい |
+| [Adobe Target](https://experienceleague.adobe.com/ja/docs/target/using/mcp/target-mcp) | `https://targetmcp.adobe.io/mcp` | アクティビティ、オファー、オーディエンス、mbox、パフォーマンスレポート、プレビューURLの確認（公開ベータ版：ツールは読み取り専用、書き込みツールは一般公開用に計画されています） | はい |
+| [Real-Time CDP](https://experienceleague.adobe.com/ja/docs/experience-platform/rtcdp/intro/rtcdp-mcp) | `https://rtcdp-mcp.adobe.io/mcp` | オーディエンス、宛先、ソース、フロー実行を検索し、ID名前空間と結合ポリシーを調べます（パブリックベータ版：必須、すべてのツールは読み取り専用） | はい |
 | [AEM MCP Server](https://experienceleague.adobe.com/ja/docs/experience-manager-learn/cloud-service/ai/mcp-servers/overview) | `https://mcp.adobeaemcloud.com/adobe/mcp/aem` | ページ、コンテンツフラグメント、アセット、ローンチを管理し、ブランドガイドラインやコンプライアンスルールに照らし合わせてコンテンツや画像を評価できます | はい |
 | [AEM Cloud Manager](https://experienceleague.adobe.com/ja/docs/experience-manager-learn/cloud-service/ai/mcp-servers/cloud-manager) | `https://mcp.adobeaemcloud.com/adobe/mcp/cloudmanager` | プログラム、環境、パイプライン、リポジトリの管理 | × |
 | Adobe Marketing Agent | `https://aep-ai-ama.adobe.io/mcp` | AEPアプリケーションをまたいで、オーディエンス分析、AEP診断、AJO B2B ジャーニーの構築を連携できます | × |
-| [Adobe Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview) | `https://mcp.prod.us-west-2.aws.wfk8s.com/mcp/v1/workfront` | 作業、プロジェクト、プランニングレコード、インサイト、コンテンツ承認を管理できます | × |
-| [Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo-developer/marketo/mcp-server) | `https://marketo-mcp.adobe.io/mcp` | フォーム、スマートキャンペーン、リード、リスト、プログラム、メール、一括処理を管理します | はい |
+| [Adobe Workfront](https://experienceleague.adobe.com/ja/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview) | `https://mcp.prod.us-west-2.aws.wfk8s.com/mcp/v1/workfront` | 作業、プロジェクト、プランニングレコード、インサイト、コンテンツ承認を管理できます | × |
+| [Marketo Engage](https://experienceleague.adobe.com/ja/docs/marketo-developer/marketo/mcp-server) | `https://marketo-mcp.adobe.io/mcp` | フォーム、スマートキャンペーン、リード、リスト、プログラム、メール、一括処理を管理します | はい |
 | Adobe Experience Platform | [同僚](https://experienceleague.adobe.com/ja/docs/cx-enterprise-coworker/content/home)経由 | データセットの発見、スキーマの閲覧、サンドボックスの管理 | 該当なし |
 | Campaign Classic | [同僚](https://experienceleague.adobe.com/ja/docs/cx-enterprise-coworker/content/home)経由 | キャンペーンインスタンスの検出、スキーマの参照、クエリの実行、ワークフロー制御、SOAP/JSの実行 | 該当なし |
 | 実験 | [同僚](https://experienceleague.adobe.com/ja/docs/cx-enterprise-coworker/content/home)経由 | A/B、MVT、MABの実験レポート、指標、インサイト、機会、サンプルサイズ計画 | 該当なし |
@@ -88,7 +88,7 @@ Adobe Workfrontの多くの機能は既に備わっています。 追加する�
 
 Coworker for AI platformsは、AI プラットフォームをCoworkerに接続するMCP サーバーです。 Coworkerで利用できるすべてのものは、それを通じて利用できます。 チャットインターフェイスとして、Claude、ChatGPT、Microsoft 365 Copilot、Gemini EnterpriseなどのAI プラットフォームを使用し、Coworkerがバックグラウンドで作業を行います。Coworkerを直接使用する場合と同じです。
 
-Adobeの資格情報を使用してログインすると、Adobe IDに関連付けられたアクセス権がCoworkerによって使用されます。 従業員は安全で、設計によって管理されています。 読み取りまたは変更できる内容は、ユーザーの設定方法、Coworkerでユーザーに付与されたアクセス、およびCoworkerがユーザーに代わって使用するアプリケーションで付与されたアクセスによって異なります。 詳しくは、[同僚のアクセス制御](https://experienceleague.adobe.com/en/docs/coworker/content/administration/access-control)を参照してください。
+Adobeの資格情報を使用してログインすると、Adobe IDに関連付けられたアクセス権がCoworkerによって使用されます。 従業員は安全で、設計によって管理されています。 読み取りまたは変更できる内容は、ユーザーの設定方法、Coworkerでユーザーに付与されたアクセス、およびCoworkerがユーザーに代わって使用するアプリケーションで付与されたアクセスによって異なります。 詳しくは、[同僚のアクセス制御](https://experienceleague.adobe.com/ja/docs/coworker/content/administration/access-control)を参照してください。
 
 開始する前に、次のことを確認します。
 
@@ -96,7 +96,7 @@ Adobeの資格情報を使用してログインすると、Adobe IDに関連付�
 * 組織にAdobe Experience Platformがあり、Adobe Real-Time CDP、Adobe Journey Optimizer、またはAdobe Customer Journey Analyticsの少なくとも1つが含まれています。
 * 対応しているAI プラットフォームにアクセスできます。
 
-サーバーエンドポイントは`https://mcp.coworker.experience.adobe.io`です。 設定はAI プラットフォームによって異なり、通常はAdobe CX Enterprise Coworkerの導入を承認する管理者から始めます。 [AI プラットフォームの共同作業者の設定](https://experienceleague.adobe.com/en/docs/coworker/content/ai-platforms#set-up-coworker)
+サーバーエンドポイントは`https://mcp.coworker.experience.adobe.io`です。 設定はAI プラットフォームによって異なり、通常はAdobe CX Enterprise Coworkerの導入を承認する管理者から始めます。 [AI プラットフォームの共同作業者の設定](https://experienceleague.adobe.com/ja/docs/coworker/content/ai-platforms#set-up-coworker)
 
 >[!TAB  クロード.ai]
 
