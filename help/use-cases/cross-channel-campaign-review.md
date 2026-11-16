@@ -1,18 +1,18 @@
 ---
 title: クロスチャネルキャンペーンのレビューの実施
 description: 単一のAI セッションで、ジャーニー、オーディエンス、パフォーマンスをまたいで、AJO、CJA、Real-Time CDPのキャンペーンの健全性を一元的に把握できます。
-last-substantial-update: 2026-09-16
-source-git-commit: a70eede6e0efe0d1dbdc00c5d9de5aeb3b5d75de
+last-substantial-update: 2026-11-16
+source-git-commit: a75d5f3af3077b259da796bd381d605ae826585d
 workflow-type: tm+mt
-source-wordcount: '1564'
-ht-degree: 8%
+source-wordcount: '1651'
+ht-degree: 7%
 ---
 
 # クロスチャネルキャンペーンのレビューの実施
 
 <!-- last-modified: 2026-05-21 -->
 
-![&#x200B; クロスチャネルキャンペーンレビューの実行](https://placehold.co/1600x900?text=Cross-Channel+Campaign+Review){zoomable="yes"}
+![ クロスチャネルキャンペーンレビューの実行](https://placehold.co/1600x900?text=Cross-Channel+Campaign+Review){zoomable="yes"}
 
 *選択してズームします。*
 
@@ -20,10 +20,10 @@ ht-degree: 8%
 
 | シナリオの詳細 | |
 | --- | --- |
-| CX エンタープライズアプリケーション | [Adobe Journey Optimizer](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/ajo-home)、[Customer Journey Analytics](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-overview/cja-overview)、[Real-Time CDP](https://experienceleague.adobe.com/ja/docs/experience-platform/rtcdp/home) |
-| エージェント型ツール | [CX Enterprise Coworker](https://experienceleague.adobe.com/ja/docs/cx-enterprise-coworker/content/home)または[Adobe Journey Optimizer](../tools/mcp-servers.md)、[Customer Journey Analytics](../tools/mcp-servers.md)、および[Real-Time CDP](../tools/mcp-servers.md) MCP サーバー |
+| CX Enterprise製品 | [Adobe Journey Optimizer](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/ajo-home)、[Customer Journey Analytics](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-overview/cja-overview)、[Real-Time CDP](https://experienceleague.adobe.com/ja/docs/experience-platform/rtcdp/home) |
+| エージェント型ツール | [Adobe CX Enterprise Coworker](https://experienceleague.adobe.com/ja/docs/cx-enterprise-coworker/content/home)、[Adobe CX Enterprise Coworker for AI Platforms](../tools/mcp-servers.md#connect-to-your-ai-platform)、または[Adobe Journey Optimizer](../tools/mcp-servers.md)、[Customer Journey Analytics](../tools/mcp-servers.md)、および[Real-Time CDP](../tools/mcp-servers.md) MCP サーバー |
 | オーディエンス | キャンペーンマネージャー，マーケティングオペレーション |
-| 前提条件 | MCP対応のAI クライアント、AJO、CJA、Real-Time CDPへのアクセス |
+| 前提条件 | AJO、CJA、Real-Time CDPに加え、AI基盤を対象としたCoworkerによるAI基盤、MCP対応AI基盤を利用できます |
 
 各ステップは、代表的なプロンプトとAI応答の例を示しています。 同じセッションで追加の探索を行うために、**さらに達成できる**&#x200B;のセクションを次に示します。
 
@@ -31,11 +31,15 @@ ht-degree: 8%
 
 >[!BEGINTABS]
 
->[!TAB CX Enterprise Coworker]
+>[!TAB Coworker]
 
-CX Enterprise Coworkerは、サーバーの設定やAI クライアントの設定を必要とせずに、AJO、CJA、Real-Time CDPに一元的に接続できます。 [CX Enterprise Coworkerを試す](https://experienceleague.adobe.com/ja/docs/cx-enterprise-coworker/content/home)
+Adobe Workfrontは、サーバーの設定やAI プラットフォームの設定をおこなうことなく、AJO、CJA、Real-Time CDPに一元的に接続できます。 [同僚を試す](https://experienceleague.adobe.com/ja/docs/cx-enterprise-coworker/content/home)
 
-独自のAI クライアントを直接接続する場合は、以下のタブを使用して3つのMCP サーバーをすべて接続します。 Real-Time CDP MCP Serverはパブリックベータ版で、組織の許可リストに加えるが必要です。
+Coworkerを直接使用できない場合や、使用したくない場合は、代わりに自分のAI プラットフォームから使用してください。 AI プラットフォームの&#x200B;**同僚** タブを参照してください。 それでも問題が解決しない場合は、残りのタブを使用して、AI プラットフォームをAJO、CJA、Real-Time CDP MCP サーバーに直接接続します。 Real-Time CDP MCP Serverはパブリックベータ版で、組織の許可リストに加えるが必要です。
+
+>AI プラットフォームの[!TAB 同僚]
+
+また、自社のAI プラットフォームからAI プラットフォーム向けに開発したCoworkerを使用して、このチュートリアルを完了することもできます。 [AI プラットフォーム用に共同作業者を設定](../tools/mcp-servers.md#connect-to-your-ai-platform) | [Adobe ドキュメント ](https://experienceleague.adobe.com/en/docs/coworker/content/ai-platforms#set-up-coworker)
 
 >[!TAB  クロード.ai]
 
@@ -51,7 +55,7 @@ CX Enterprise Coworkerは、サーバーの設定やAI クライアントの設�
 | Customer Journey Analytics MCP Server | `https://cja-mcp.adobe.io/mcp` |
 | Real-Time CDP MCP Server | `https://rtcdp-mcp.adobe.io/mcp` |
 
-完全なセットアップ：[Claude.ai カスタムコネクタのドキュメント &#x200B;](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp)
+完全なセットアップ：[Claude.ai カスタムコネクタのドキュメント ](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp)
 
 >[!TAB ChatGPT]
 
@@ -68,9 +72,9 @@ ChatGPT デベロッパーモードを使用して3つのMCP サーバーをす�
 | Customer Journey Analytics MCP Server | `https://cja-mcp.adobe.io/mcp` |
 | Real-Time CDP MCP Server | `https://rtcdp-mcp.adobe.io/mcp` |
 
-完全なセットアップ：[ChatGPT MCP ドキュメント &#x200B;](https://developers.openai.com/api/docs/guides/tools-connectors-mcp)
+完全なセットアップ：[ChatGPT MCP ドキュメント ](https://developers.openai.com/api/docs/guides/tools-connectors-mcp)
 
->[!TAB その他のAI クライアント ]
+>[!TAB その他のAI プラットフォーム ]
 
 Gemini、Microsoft Copilot、Cursor、Claude CodeなどのMCP互換アプリケーションを使用している場合、 次のエンドポイントを使用して、3つすべてのMCP サーバーに接続します。
 
@@ -80,7 +84,7 @@ Gemini、Microsoft Copilot、Cursor、Claude CodeなどのMCP互換アプリケ�
 | Customer Journey Analytics MCP Server | `https://cja-mcp.adobe.io/mcp` |
 | Real-Time CDP MCP Server | `https://rtcdp-mcp.adobe.io/mcp` |
 
-サポートされているすべてのクライアントの完全なセットアップ手順：[AI クライアントに接続](../tools/mcp-servers.md)
+サポートされているすべてのAI プラットフォームの完全なセットアップ手順：[AI プラットフォームに接続](../tools/mcp-servers.md)
 
 >[!ENDTABS]
 
@@ -88,7 +92,7 @@ Gemini、Microsoft Copilot、Cursor、Claude CodeなどのMCP互換アプリケ�
 >
 >プロンプトが表示されたらAdobe IDでログインし、AJO、CJAおよびReal-Time CDP環境にリンクされているIMS組織を選択します。 間違った組織を選択することは、認証エラーの最も一般的な原因です。
 >
->最初の接続時に、AI クライアントからIMS組織の選択またはサンドボックスの指定を求められる場合があります。 そのコンテキストが設定されると、MCP サーバーは残りのセッションにコンテキストを使用します。
+>最初に接続すると、AI プラットフォームからIMS組織の選択やサンドボックスの指定を求められる場合があります。 そのコンテキストが設定されると、MCP サーバーは残りのセッションにコンテキストを使用します。
 >
 >一部のツールは、実行前に承認を求めます。 リクエストを確認して承認または辞退します。 確認なしにアクションは実行されません。
 
@@ -106,13 +110,13 @@ AJOで8つのアクティブなジャーニーが見つかりました。
 
 | ジャーニー | チャネル | 最終変更日 |
 | --- | --- | --- |
-| ウェルカムシリーズ：新メンバー | 電子メール、プッシュ | 2026年5月18日（PT） |
+| ウェルカムシリーズ：新メンバー | メール、プッシュ | 2026年5月18日（PT） |
 | 購入後のフォローアップ | 電子メール，SMS | 2026年5月14日（PT） |
-| ロイヤルティ再エンゲージメント | 電子メール | 2026年5月20日（PT） |
+| ロイヤルティ再エンゲージメント | メール | 2026年5月20日（PT） |
 | カート放棄：24時間 | 電子メール，SMS | 2026年5月10日（PT） |
-| 春プロモーション | 電子メール、プッシュ | 2026年5月19日（PT） |
-| ウィンバック：90日間の非アクティブ | 電子メール | 2026年4月28日（PT） |
-| バースデイ・リワード | 電子メール | 2026年4月15日（PT） |
+| 春プロモーション | メール、プッシュ | 2026年5月19日（PT） |
+| ウィンバック：90日間の非アクティブ | メール | 2026年4月28日（PT） |
+| バースデイ・リワード | メール | 2026年4月15日（PT） |
 | リエンゲージメント：プッシュオプトアウト | SMS | 2026年5月12日（PT） |
 
 過去7日間に3つのジャーニーが変更されました。 これらのいずれかに関する詳細が必要ですか？
@@ -159,7 +163,7 @@ Show me click-through and conversion rates for the [campaign name] campaign over
 
 | チャネル | 送信数 | CTR | コンバージョン数 | Conv. 割合 |
 | --- | --- | --- | --- | --- |
-| 電子メール | 48,320 | 8.4% | 1,973 | 4.1% |
+| メール | 48,320 | 8.4% | 1,973 | 4.1% |
 | プッシュ | 31,200 | 12.1% | 987 | 3.2% |
 
 コンバージョン率：3.8% メール CTRは、前の30日間に対して1.2%増加しました。 プッシュコンバージョンは横ばいです。
@@ -169,7 +173,7 @@ Show me click-through and conversion rates for the [campaign name] campaign over
 
 ## ステップ 4: キャンペーンのヘルスサマリーの合成
 
-AI クライアントに、3つのソースすべてで画像を統合し、注意が必要なものを表示するように依頼します。
+AI プラットフォームに、3つのソース全体の画像を集め、注意が必要なものを表示させるように依頼します。
 
 ```
 Give me a summary of our campaign health: what is running, which audiences are activated, and how performance looks against last month.
@@ -195,11 +199,11 @@ Give me a summary of our campaign health: what is running, which audiences are a
 +++
 
 
-ここで、マルチサーバーアプローチの出番です。AI クライアントの理由を、ジャーニーの設定、オーディエンスステータス、パフォーマンスデータをまたいで1回の会話で確認できます。
+ここで、マルチサーバーアプローチの出番です。AI プラットフォームの理由を、ジャーニーの設定、オーディエンスステータス、パフォーマンスデータをまたいで単一会話で確認できます。
 
 ## ステップ 5：発見したことに対して行動する
 
-審査には2つの項目がありました。 AI クライアントに、それぞれの優先順位とルーティングを支援してもらいましょう。
+審査には2つの項目がありました。 AI プラットフォームに、それぞれの優先順位と方法を尋ねましょう。
 
 ```
 For each flag you identified, what should I do and where should I go to do it?
@@ -310,6 +314,6 @@ Which channel has the highest conversion rate across all active campaigns?
 
 | リソース | 見つかる内容 |
 | --- | --- |
-| [AJO ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/ajo-home){target="_blank"} | Adobe AJOのドキュメント |
+| [AJO ドキュメント ](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/ajo-home){target="_blank"} | Adobe AJOのドキュメント |
 | [AI レジストリのAJO MCP Server](https://developer.adobe.com/ai-registry/#/mcp/ajo-mcp-server){target="_blank"} | AJO MCP Serverのツールと機能 |
 | [AI レジストリのCJA MCP Server](https://developer.adobe.com/ai-registry/#/mcp/cja-mcp){target="_blank"} | CJA MCP Serverのツールと機能 |

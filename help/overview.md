@@ -1,10 +1,10 @@
 ---
 title: Adobe CX Enterprise Agentic Tools
 description: MCP サーバー、エージェントのスキル、API を使用して、AI エージェントと開発ツールを Adobe CX Enterprise 機能に接続します。
-last-substantial-update: 2026-09-16
-source-git-commit: a70eede6e0efe0d1dbdc00c5d9de5aeb3b5d75de
+last-substantial-update: 2026-11-16
+source-git-commit: a75d5f3af3077b259da796bd381d605ae826585d
 workflow-type: tm+mt
-source-wordcount: '809'
+source-wordcount: '863'
 ht-degree: 5%
 ---
 
@@ -12,19 +12,21 @@ ht-degree: 5%
 
 <!-- last-modified: 2026-06-08 -->
 
->[!VIDEO](https://video.tv.adobe.com/v/3491242/?captions=jpn&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3491235/?learn=on&enablevpops)
 
-AIを活用したAdobe CX エンタープライズ版。 キャンペーン、オーディエンス、ジャーニー、コンテンツにAI クライアントを接続します。 あらゆるツールから平易な言葉で顧客とやり取りできます。 新しいインターフェイスも、コンテキストの切り替えも、コーディングも必要ありません。
+AIを活用したAdobe CX Enterpriseの共同作業。 AI プラットフォームをキャンペーン、オーディエンス、ジャーニー、コンテンツに接続します。 あらゆるツールから平易な言葉で顧客とやり取りできます。 新しいインターフェイスも、コンテキストの切り替えも、コーディングも必要ありません。
 
 >[!TIP]
->**CX Enterprise Coworkerで開始します。** サーバーの設定やAI クライアントの設定を必要とせずに、顧客体験エンタープライズアプリケーションに接続できます。 [CX Enterprise Coworkerを試す](https://experienceleague.adobe.com/ja/docs/cx-enterprise-coworker/content/home)
+>**Adobe CX Enterprise Coworkerで開始します。** お使いのCX Enterpriseアプリケーションと互換性があり、サーバーの設定やAI プラットフォームの設定は必要ありません。 [同僚を試す](https://experienceleague.adobe.com/ja/docs/cx-enterprise-coworker/content/home)
+>
+>Claude、ChatGPT、Microsoft 365 Copilot、その他のAI プラットフォームに滞在することを好みますか？ AI プラットフォームに[Adobe CX Enterprise Coworkerを使用](tools/mcp-servers.md#connect-to-your-ai-platform)。 どちらの機能も使用できない場合は、AI プラットフォームを[製品MCP サーバー](tools/mcp-servers.md#connect-to-your-ai-platform)に接続します。
 
 <!--
 CARDS
 
 * tools/mcp-servers.md
   {title = MCP Servers}
-  {description = Connect any MCP-compatible AI client to Adobe CX Enterprise workflows. Query data, analyze campaigns, and access audiences without leaving your AI tool.}
+  {description = Connect any MCP-compatible AI platform to Adobe CX Enterprise workflows. Query data, analyze campaigns, and access audiences without leaving your AI tool.}
   {cta = Explore MCP Servers}
   {image = assets/mcp-servers-card.png}
 
@@ -57,7 +59,7 @@ CARDS
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="tools/mcp-servers.md" title="MCP サーバー">MCP サーバー</a>
                     </p>
-                    <p class="is-size-6">MCP対応のあらゆるAI クライアントとAdobe CX Enterpriseのワークフローを接続。 AI ツールから直接、データのクエリ、キャンペーンの分析、オーディエンスのアクセスを実行できます。</p>
+                    <p class="is-size-6">MCP対応のあらゆるAI基盤をAdobe CX Enterpriseワークフローに接続。 AI ツールから直接、データのクエリ、キャンペーンの分析、オーディエンスのアクセスを実行できます。</p>
                 </div>
                 <a href="tools/mcp-servers.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">MCP サーバーの探索</span>
@@ -80,7 +82,7 @@ CARDS
                     <p class="headline is-size-6 has-text-weight-bold">
                         <a href="tools/agent-skills.md" title="エージェントスキル"> エージェントのスキル </a>
                     </p>
-                    <p class="is-size-6">Adobeがキュレートしたワークフローにより、エージェントはCX エンタープライズタスクを進めることができます。 一度符号化されたドメインの専門知識は、一貫して適用されます。</p>
+                    <p class="is-size-6">Adobeがキュレートしたワークフローにより、エージェントはCX Enterpriseのタスクを進めることができます。 一度符号化されたドメインの専門知識は、一貫して適用されます。</p>
                 </div>
                 <a href="tools/agent-skills.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold"> エージェントのスキルを探る</span>
@@ -103,7 +105,7 @@ CARDS
                     <p class="headline is-size-6 has-text-weight-bold">
                         ビルダー</a>の<a href="tools/apis.md" title="ビルダー用API">API
                     </p>
-                    <p class="is-size-6">Claude CodeやCursorなどのエージェント型コーディングツールを使用して、カスタムのAdobe CX エンタープライズアプリケーションを構築できます。</p>
+                    <p class="is-size-6">Claude CodeやCursorなどのエージェント型コーディングツールを使用して、カスタムAdobe CX Enterpriseアプリケーションを構築します。</p>
                 </div>
                 <a href="tools/apis.md" class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold"> ビルダー用APIの探索</span>
@@ -120,9 +122,9 @@ CARDS
 
 >[!TAB MCP サーバー]
 
-互換性のある任意のAI クライアントを使用して、平易な言語で顧客体験エンタープライズアプリケーションにアクセスできます。 コーディングは必要ありません。 CX Enterprise Coworkerを利用すれば、アプリケーションをまたいで迅速にエクスペリエンスを構築したり、AJOやCJA、AEMなどのアプリケーションと独自のMCP サーバーを直接接続したりできます。
+互換性のある任意のAI プラットフォームを使用して、CX Enterpriseアプリケーションに平易な言語でアクセスできます。 コーディングは必要ありません。 アプリケーションをまたいで最速のパスを得るために、Adobe Workfrontを導入する。 自社のAI プラットフォームの利用を続けるには、AI プラットフォームにCoworkerを利用します。 どちらも機能しない場合は、AJO、CJA、AEMなどのアプリケーションに、独自のMCP サーバーで直接接続します。
 
-- Claude、Cursor、ChatGPTなどのMCP互換クライアントから数分で接続できます
+- Claude、Cursor、ChatGPTなどのMCP対応AI プラットフォームから数分で接続できます
 - 自然言語を使用して、キャンペーン、オーディエンス、ジャーニーデータをクエリ
 - 新しいインターフェイスやトレーニングは必要ありません
 
@@ -130,17 +132,17 @@ CARDS
 
 >[!TAB  エージェントのスキル ]
 
-Agent Skillsは、AI クライアントが従うことのできる指示として、Adobeドメインの専門知識をエンコードします。 担当者は助言を入れるのではなく、何をすべきかを正確に把握し、Adobeのベストプラクティスに従って、信頼性の高い反復的な作業を行います。
+Agent Skillsは、AI プラットフォームが従うことのできる指示として、Adobeドメインの専門知識をエンコードします。 担当者は助言を入れるのではなく、何をすべきかを正確に把握し、Adobeのベストプラクティスに従って、信頼性の高い反復的な作業を行います。
 
-- 反復可能な顧客体験の大規模なワークフローにおける一貫した結果
+- 繰り返し利用できるCX Enterpriseワークフローで一貫した結果を得る
 - 担当者にAdobeについて説明する必要はありません。担当者が対応します
-- エージェントのスキルをサポートするAI クライアント全体で動作
+- エージェントのスキルをサポートするAI プラットフォーム全体で動作
 
 [エージェントのスキルを見る](tools/agent-skills.md)
 
->[!TAB ビルダーの API]
+>ビルダー]の[!TAB API
 
-Adobe製品と同じAPIに、プログラムを利用して直接アクセスできます。 カスタムアプリケーションと統合機能を構築して、チームが特定の顧客体験企業ワークフローに集中して管理されたアクセスを得られるようにします。
+Adobe製品と同じAPIに、プログラムを利用して直接アクセスできます。 カスタムアプリケーションと統合機能を構築して、部門全体で特定のCX Enterpriseワークフローに集中してアクセスできるようにします。
 
 - 一度構築すれば、組織全体に展開
 - チームが必要とするガードレール、承認、カスタムロジックの追加
@@ -152,7 +154,7 @@ Adobe製品と同じAPIに、プログラムを利用して直接アクセスで
 
 ## エージェント型ツールの活用例
 
-Adobe CX Enterpriseのエージェント型ツールの実際をご覧ください。 各チュートリアルでは、設定から成果までの実際のビジネスシナリオを取り上げ、AI クライアントの接続方法、求めるべき事項、そして返される結果を正確に提示します。
+Adobe CX Enterpriseのエージェント型ツールの実際。 各ウォークスルーでは、設定から結果までの実際のビジネスシナリオを取り上げ、CoworkerやAI プラットフォームの使い始め方、質問すべき点、そして取り戻すべき点を正確に示します。
 
 <!--
 CARDS
@@ -225,9 +227,9 @@ CARDS
 
 | リソース | 見つかる内容 |
 | --- | --- |
-| [Adobe AI レジストリ &#x200B;](https://developer.adobe.com/ai-registry/?type=mcp) | 一部のAdobe MCP サーバーのマネージドコネクタとサーバーの詳細 |
-| [Adobe Agent Skills](https://github.com/adobe/skills) | Adobeが監修したCX エンタープライズワークフロー向けのエージェントのスキル |
-| [Adobe API カタログ &#x200B;](https://developer.adobe.com/apis) | Adobe CX Enterprise API リファレンスの完全版 |
+| [Adobe AI レジストリ ](https://developer.adobe.com/ai-registry/?type=mcp) | 一部のAdobe MCP サーバーのマネージドコネクタとサーバーの詳細 |
+| [Adobe Agent Skills](https://github.com/adobe/skills) | CX Enterpriseワークフロー用にAdobeが監修した担当者のスキル |
+| [Adobe API カタログ ](https://developer.adobe.com/apis) | Adobe CX Enterprise API リファレンスの完全版 |
 | [Adobe Developer Console](https://developer.adobe.com/developer-console/docs/guides/) | API プロジェクトの設定と認証 |
 | [Adobe Admin Console](https://adminconsole.adobe.com) | ユーザーと製品のアクセス管理 |
-| [Experience League](https://experienceleague.adobe.com/ja/docs/experience-cloud-ai/experience-cloud-ai/home) | Adobeのアプリケーションに関するドキュメントとチュートリアル |
+| [Experience League](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/home) | Adobeのアプリケーションに関するドキュメントとチュートリアル |
