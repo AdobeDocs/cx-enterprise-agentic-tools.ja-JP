@@ -28,10 +28,10 @@ Adobe CX Enterprise Agentic Toolsを使用するための主要なAdobeリソー
 
 | リソース | 見つかる内容 |
 |---|---|
-| [AI プラットフォーム向けAdobe CX Enterprise Coworker](https://experienceleague.adobe.com/en/docs/coworker/content/ai-platforms#set-up-coworker) | Claude、ChatGPT、Microsoft 365 Copilot、Gemini EnterpriseなどのAI基盤でCoworkerを使用するための前提条件と設定 |
+| [AI プラットフォーム向けAdobe CX Enterprise Coworker](https://experienceleague.adobe.com/ja/docs/coworker/content/ai-platforms#set-up-coworker) | Claude、ChatGPT、Microsoft 365 Copilot、Gemini EnterpriseなどのAI基盤でCoworkerを使用するための前提条件と設定 |
 | [Analytics MCP ドキュメント &#x200B;](https://developer.adobe.com/analytics-mcp/docs/) | CJA MCP サーバー設定ガイドとツールリファレンス |
 | [Analytics MCP ガイド &#x200B;](https://developer.adobe.com/analytics-mcp/docs/guides/) | CJA MCP サーバーの詳細な使用ガイド |
-| [Real-Time CDP MCP ドキュメント &#x200B;](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/mcp/mcp-product-tools/rtcdp-mcp) | RTCDP MCP サーバー設定ガイド |
+| [Real-Time CDP MCP ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-cloud-ai/experience-cloud-ai/mcp/mcp-product-tools/rtcdp-mcp) | RTCDP MCP サーバー設定ガイド |
 
 ## エージェントのスキル
 
