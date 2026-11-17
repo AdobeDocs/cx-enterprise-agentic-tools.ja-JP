@@ -88,7 +88,7 @@ Adobe Workfrontの多くの機能は既に備わっています。 追加する�
 
 Coworker for AI platformsは、AI プラットフォームをCoworkerに接続するMCP サーバーです。 Coworkerで利用できるすべてのものは、それを通じて利用できます。 チャットインターフェイスとして、Claude、ChatGPT、Microsoft 365 Copilot、Gemini EnterpriseなどのAI プラットフォームを使用し、Coworkerがバックグラウンドで作業を行います。Coworkerを直接使用する場合と同じです。
 
->[!VIDEO](https://video.tv.adobe.com/v/3508455/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3508456/?captions=jpn&learn=on&enablevpops)
 
 Adobeの資格情報を使用してログインすると、Adobe IDに関連付けられたアクセス権がCoworkerによって使用されます。 従業員は安全で、設計によって管理されています。 読み取りまたは変更できる内容は、ユーザーの設定方法、Coworkerでユーザーに付与されたアクセス、およびCoworkerがユーザーに代わって使用するアプリケーションで付与されたアクセスによって異なります。 詳しくは、[同僚のアクセス制御](https://experienceleague.adobe.com/ja/docs/coworker/content/administration/access-control)を参照してください。
 
